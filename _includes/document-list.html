@@ -1,0 +1,29 @@
+<!-- This code builds lists of linked text documents based on files that are
+contained in a given folder within a Jekyll collection -->
+
+<ul>
+  {% for coll in site.collections %}
+    {% if coll.label == include.label %}
+      {% assign files = coll.files | sort: 'name' %}
+      {% for file in files %}
+        {% if file.extname == '.pdf' or
+          file.extname == '.docx' or
+          file.extname == '.doc' or
+          file.extname == '.csv' or
+          file.extname == '.xlxs' %}
+          {% if file.path contains include.folder %}
+            {% assign filename = file.name |
+              replace: "-", " " |
+              replace: "_", " - " |
+              replace: file.extname, "" %}
+            <li>
+              <a href = "{{ site.baseurl }}/{{ coll.label }}/{{ include.folder }}/{{ file.name }}" title = "{{ filename }}">
+                <span>{{ filename }} ({{ file.extname | upcase | replace: ".", "" }})</span>
+              </a>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

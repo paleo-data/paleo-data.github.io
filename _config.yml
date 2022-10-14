@@ -1,1 +1,40 @@
+# Site settings
+title: Paleo Data Working Group
+description: This website is a public-facing front for the [Paleo Data Working Group organization on Github](https://github.com/paleo-data).
+domain: paleo-data.github.io
+url: "https://paleo-data.github.io"
+github_path: "https://github.com/paleo-data/paleo-data.github.io/tree/master"
+# google_analytics:
+
+header_pages:
+  - about.md
+
+# Build settings
+markdown: kramdown
 theme: minima
+plugins:
+  - jekyll-feed
+
+# Define collections
+# collections:
+#  happy-hours:
+#    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "resource"
+      order: 0
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
