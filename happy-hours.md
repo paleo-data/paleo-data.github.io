@@ -7,13 +7,13 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend any happy hour.
 
 ### 2022 - Upcoming
-- 2022-10-20, Conference catch-up: BioDigiCon, GSA, TDWG, SVP ([notes](https://docs.google.com/document/d/18wsX6jS5btjjz9W5uAEpsFLOpukZMUUs-wCC8wnzJ30/edit?usp=sharing))
-- 2022-11-03, Extending the conversation: Extinct Taxa in an Extant World ([notes](https://docs.google.com/document/d/1DfOtHpSmEj7ibEmWvtZyaMVYptgcvhdXnll3nWKLRZk/edit?usp=sharing))
 - 2022-11-17, Taxonomic identifications ([notes](https://docs.google.com/document/d/1U9L8tidWy1h_qbp18bcJj-5GxfW12zie4MWjOcusXUg/edit?usp=sharing))
 - 2022-12-01, TBD ([notes](https://docs.google.com/document/d/1hIolLPmAblWHF7692DnNmwXTvjV5sdL26Ep9KIJtVPk/edit?usp=sharing))
 - 2022-12-15, Holiday social hour
 
 ### 2022 - Past
+- 2022-11-03, Extending the conversation: Extinct Taxa in an Extant World ([notes](https://docs.google.com/document/d/1DfOtHpSmEj7ibEmWvtZyaMVYptgcvhdXnll3nWKLRZk/edit?usp=sharing))([recording](https://drive.google.com/file/d/163nZ2lz_qwqO1aJylU2RpIXtOFSkBZD1/view?usp=share_link))
+- 2022-10-20, Conference catch-up: BioDigiCon, GSA, TDWG, SVP ([notes](https://docs.google.com/document/d/18wsX6jS5btjjz9W5uAEpsFLOpukZMUUs-wCC8wnzJ30/edit?usp=sharing))([recording](https://drive.google.com/file/d/15RQBJv1m098UoP8NJ9UwrpvxnGqJFufW/view?usp=share_link))
 - 2022-10-06, Wrap up from Wikidata workshop part II ([notes](https://docs.google.com/document/d/1qkCbBwvJAxMe60TBePvamVlAGvWF2QkLKb10UAOvbsM/edit?usp=sharing))([recording](https://drive.google.com/file/d/15G9u8H-NRasgjxuUsqklIs_bPdUVMHDc/view?usp=sharing))
 - 2022-09-22, Drafting data models for paleo collecting sites and expeditions ([notes](https://docs.google.com/document/d/1obBaJ0frwVnew3JfXxTZ8a-B10V7JmeKNINOF6q0qfc/edit?usp=sharing))([recording](https://drive.google.com/file/d/14NrPcC5zQkck0V9HNRwYM8w2hktHjbEw/view?usp=sharing))
 - 2022-09-08, Regrouping and looking ahead to the rest of 2022 ([notes](https://docs.google.com/document/d/1x4vh34Kwm2eS1BCvgx6Cz7qH5UZkL9IQ39MBF70v5mw/edit?usp=sharing))([recording](https://drive.google.com/file/d/14NOzGjKG1A7fRFk0r_CFNtmQ-D8PoRFu/view?usp=sharing))
