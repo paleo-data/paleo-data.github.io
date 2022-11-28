@@ -7,7 +7,7 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend any happy hour.
 
 ### 2022 - Upcoming
-- 2022-12-01, TBD ([notes](https://docs.google.com/document/d/1hIolLPmAblWHF7692DnNmwXTvjV5sdL26Ep9KIJtVPk/edit?usp=sharing))
+- 2022-12-01, Working group feedback on new website ([notes](https://docs.google.com/document/d/15sUJ2il2OL3TmDcsTsWgY61GXXYmZJ8dT8T99lMm4js/edit?usp=sharing))
 - 2022-12-15, Holiday social hour
 
 ### 2022 - Past
