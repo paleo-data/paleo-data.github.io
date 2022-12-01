@@ -7,10 +7,10 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend any happy hour.
 
 ### 2022 - Upcoming
-- 2022-12-01, Working group feedback on new website ([notes](https://docs.google.com/document/d/15sUJ2il2OL3TmDcsTsWgY61GXXYmZJ8dT8T99lMm4js/edit?usp=sharing))
 - 2022-12-15, Holiday social hour
 
 ### 2022 - Past
+- 2022-12-01, Working group feedback on new website ([notes](https://docs.google.com/document/d/15sUJ2il2OL3TmDcsTsWgY61GXXYmZJ8dT8T99lMm4js/edit?usp=sharing))([recording](https://drive.google.com/file/d/16Hae0zzT1JKBxGIDtPJ-wbDVgCOpKayc/view?usp=share_link))
 - 2022-11-17, Taxonomic identifications ([notes](https://docs.google.com/document/d/1U9L8tidWy1h_qbp18bcJj-5GxfW12zie4MWjOcusXUg/edit?usp=sharing))([recording](https://drive.google.com/file/d/169GYW3wP87U8Ags5B-Z2X0IPZnrWYmvo/view?usp=share_link))
 - 2022-11-03, Extending the conversation: Extinct Taxa in an Extant World ([notes](https://docs.google.com/document/d/1DfOtHpSmEj7ibEmWvtZyaMVYptgcvhdXnll3nWKLRZk/edit?usp=sharing))([recording](https://drive.google.com/file/d/163nZ2lz_qwqO1aJylU2RpIXtOFSkBZD1/view?usp=share_link))
 - 2022-10-20, Conference catch-up: BioDigiCon, GSA, TDWG, SVP ([notes](https://docs.google.com/document/d/18wsX6jS5btjjz9W5uAEpsFLOpukZMUUs-wCC8wnzJ30/edit?usp=sharing))([recording](https://drive.google.com/file/d/15RQBJv1m098UoP8NJ9UwrpvxnGqJFufW/view?usp=share_link))
