@@ -24,7 +24,7 @@ Members of the Paleo Data Working Group regularly participate in contributing ta
 ## How to get involved
 Any and all paleontology collections professionals are encouraged to join. Many members have long professional memberships, but newer, early career professionals are more than welcome to join. We use the following tools for this community of practice:
 
-<i class='fa fa-slack fa-lg'></i> __Slack__: Our primary tool for asynchronous conversations/discussions about topics or ask questions on anything digitization- or collections management-related. [To join the Slack workspace click here](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw).  If you are unfamiliar with Slack, see this [3-minute video overview](https://vimeo.com/434234678) of how to use it up for the Paleo Data workspace.
+<i class='fa fa-slack fa-lg'></i> __Slack__: Our primary tool for asynchronous conversations/discussions about topics or ask questions on anything digitization- or collections management-related. [To join the Slack workspace click here](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg).  If you are unfamiliar with Slack, see this [3-minute video overview](https://vimeo.com/434234678) of how to use it up for the Paleo Data workspace.
 
 <i class='fa fa-envelope fa-lg'></i> __Google Group__: A listserv where we post announcements about upcoming happy hours, workshops, or other events of interest. [Request to join the Google Group here](https://groups.google.com/g/paleo-data/about).
 
