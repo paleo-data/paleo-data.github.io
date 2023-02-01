@@ -8,7 +8,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2023 - Upcoming
 - 2023-01-26, Taxonomy ([notes](https://docs.google.com/document/d/11Fbnq1-vcRgorB0EmZDQW1M_Ih809p9zU7cz6uhyRQc/edit?usp=sharing))
-- 2023-02-09, MorphoSource ([notes](https://docs.google.com/document/d/1CJ3-THyUKNFblMzBgCbLj_b5c2-ddF8dzsQ73vy3XiE/edit?usp=sharing)
+- 2023-02-09, MorphoSource ([notes](https://docs.google.com/document/d/1CJ3-THyUKNFblMzBgCbLj_b5c2-ddF8dzsQ73vy3XiE/edit?usp=sharing))
 - 2023-02-23, Taxonomy
 
 ### 2023 - Upcoming
