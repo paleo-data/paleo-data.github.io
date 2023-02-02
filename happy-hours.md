@@ -11,7 +11,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2023-02-23, Taxonomy ([notes](https://docs.google.com/document/d/1IV2B4BU7oWt4jcIpLxZvIk1-UoxGXGp7leHD78o1-WM/edit?usp=share_link))
 - 2023-03-09, Latimer Core ([notes](https://docs.google.com/document/d/1Sz0LdG6hH5FYv6BSrDAnWYQfu7dKiGDRSOyEmbK8CAg/edit))
 
-### 2023 - Upcoming
+### 2023 - Past
 - 2023-01-26, Taxonomy ([notes](https://docs.google.com/document/d/11Fbnq1-vcRgorB0EmZDQW1M_Ih809p9zU7cz6uhyRQc/edit?usp=sharing))([recording](https://drive.google.com/file/d/1cb3Vo7MYUUN4_l4pvxMbJd05qNnyvukh/view?usp=share_link))
 - 2023-01-12, Check-in about happy hour topics and goals for 2023 ([notes](https://docs.google.com/document/d/1ZJnpaSil5g9aehNqtfwxOFtgtS56k6rsv7t5xJgAmhc/edit?usp=sharing))([recording](https://drive.google.com/file/d/1mBY1kH5f42tz75LWKZcrY5z4NCprsZnw/view?usp=share_link))
 
