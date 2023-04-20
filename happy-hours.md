@@ -9,6 +9,10 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 ### 2023 - Upcoming
 - 2023-04-20, Digital assets - 3D([notes](https://docs.google.com/document/d/1V-cDof9R2n4laawjxOKXNTGVpV0q-ecdb-NTTPd9Wgo/edit?usp=sharing))
 - 2023-05-04, Digital assets - 2D ([notes](https://docs.google.com/document/d/1oNunMZzqe-X1moWHFTLaxEhWSqrvQP4UVXmfr8GqrSE/edit?usp=sharing))
+- 2023-05-18, TBD
+- 2023-06-02, TBD
+- 2023-06-15, Update from the SPNHC Federal Collections Committee
+- 2023-06-29, TBD
 
 ### 2023 - Past
 - 2023-04-06, IGSN IDs with Rorie Edmunds from DataCite ([notes](https://docs.google.com/document/d/1GE_x5vTbfHNwQpFqk4b9nuXT5fS5ReeNH25Cu4hGfNA/edit?usp=sharing))([recording](https://drive.google.com/file/d/1TK-HVNHQH0-kbEtGjPMuzd8MEKwWm2hf/view?usp=share_link))
