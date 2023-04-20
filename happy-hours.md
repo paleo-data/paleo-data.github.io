@@ -7,12 +7,13 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2023 - Upcoming
-- 2023-04-06, IGSN IDs with Rorie Edmunds from DataCite _** this Happy Hour will be at 10am Eastern (UTC-5) **_ ([notes](https://docs.google.com/document/d/1GE_x5vTbfHNwQpFqk4b9nuXT5fS5ReeNH25Cu4hGfNA/edit?usp=sharing))
-- 2023-04-20, Digital assets
+- 2023-04-20, Digital assets - 3D([notes](https://docs.google.com/document/d/1V-cDof9R2n4laawjxOKXNTGVpV0q-ecdb-NTTPd9Wgo/edit?usp=sharing))
+- 2023-05-04, Digital assets - 2D ([notes](https://docs.google.com/document/d/1oNunMZzqe-X1moWHFTLaxEhWSqrvQP4UVXmfr8GqrSE/edit?usp=sharing))
 
 ### 2023 - Past
+- 2023-04-06, IGSN IDs with Rorie Edmunds from DataCite ([notes](https://docs.google.com/document/d/1GE_x5vTbfHNwQpFqk4b9nuXT5fS5ReeNH25Cu4hGfNA/edit?usp=sharing))([recording](https://drive.google.com/file/d/1TK-HVNHQH0-kbEtGjPMuzd8MEKwWm2hf/view?usp=share_link))
 - 2023-03-23, Taxonomy ([notes](https://docs.google.com/document/d/1Elp7-OVNKiJ5vd0Cls1io25qatJb5Ca58oG822V0VGQ/edit?usp=sharing))([recording]())
-- 2023-03-09, Latimer Core ([notes](https://docs.google.com/document/d/1Sz0LdG6hH5FYv6BSrDAnWYQfu7dKiGDRSOyEmbK8CAg/edit))([recording]())
+- 2023-03-09, Latimer Core ([notes](https://docs.google.com/document/d/1Sz0LdG6hH5FYv6BSrDAnWYQfu7dKiGDRSOyEmbK8CAg/edit))([recording](https://drive.google.com/file/d/1Zuwcy6sXg5HpArVt7dJp9EXb3oZi5mE-/view?usp=share_link))
 - 2023-02-23, Taxonomy ([notes](https://docs.google.com/document/d/1IV2B4BU7oWt4jcIpLxZvIk1-UoxGXGp7leHD78o1-WM/edit?usp=share_link))([recording](https://drive.google.com/file/d/1vKCsHKnR_msc846sAUB-zLDgXvNLz8iw/view?usp=share_link))
 - 2023-02-09, MorphoSource ([notes](https://docs.google.com/document/d/1CJ3-THyUKNFblMzBgCbLj_b5c2-ddF8dzsQ73vy3XiE/edit?usp=sharing))([recording](https://drive.google.com/file/d/1E3AqBgE7Ji0ZFgBrENcqfYxc0ZpKkObc/view?usp=share_link))
 - 2023-01-26, Taxonomy ([notes](https://docs.google.com/document/d/11Fbnq1-vcRgorB0EmZDQW1M_Ih809p9zU7cz6uhyRQc/edit?usp=sharing))([recording](https://drive.google.com/file/d/1cb3Vo7MYUUN4_l4pvxMbJd05qNnyvukh/view?usp=share_link))
