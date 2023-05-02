@@ -8,6 +8,12 @@ The Paleo Data Working Group was launched in May 2020 as a driving force for bro
 
 This group formed as a result of a decade of increasing collaboration between paleontology professionals digitizing their collections, including as part of an earlier [Paleo Digitization Working Group](https://www.idigbio.org/wiki/index.php/Paleo_Digitization_Working_Group) hosted by iDigBio. Members of the group come from a wide range of institutions, including independent museums to university collections to representatives from US federal agencies. Currently members of this group are largely US-based, though with some international (and very welcome) participation.
 
+### List of institutions and people involved
+
+- University of Colorado Museum of Natural History (CUMNH) - [Talia Karim](https://orcid.org/0000-0001-6514-963X), Jacob Van Veldhuizen
+- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), Amanda Millhouse, Jessie Nakano, Kathy Hollis
+- Symbiota Support Hub - [Lindsay Walker](https://orcid.org/0000-0002-2162-6593)
+
 ### What is your logo??
 <img src="about/trilocorn.png" alt="trilocorn mascot" width="10%" style="float: left; margin: 0px 15px 15px 0px;">
 
