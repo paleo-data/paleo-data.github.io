@@ -14,7 +14,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2023-06-29, TBD
 
 ### 2023 - Past
-- 2023-04-20, Digital assets - 3D([notes](https://docs.google.com/document/d/1V-cDof9R2n4laawjxOKXNTGVpV0q-ecdb-NTTPd9Wgo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1Acz-gHbLlXF-9vWqVJYNmkYwlbiO8fkx/view?usp=share_link))
+- 2023-04-20, Digital assets - 3D ([notes](https://docs.google.com/document/d/1V-cDof9R2n4laawjxOKXNTGVpV0q-ecdb-NTTPd9Wgo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1Acz-gHbLlXF-9vWqVJYNmkYwlbiO8fkx/view?usp=share_link))
 - 2023-04-06, IGSN IDs with Rorie Edmunds from DataCite ([notes](https://docs.google.com/document/d/1GE_x5vTbfHNwQpFqk4b9nuXT5fS5ReeNH25Cu4hGfNA/edit?usp=sharing))([recording](https://drive.google.com/file/d/1TK-HVNHQH0-kbEtGjPMuzd8MEKwWm2hf/view?usp=share_link))
 - 2023-03-23, Taxonomy ([notes](https://docs.google.com/document/d/1Elp7-OVNKiJ5vd0Cls1io25qatJb5Ca58oG822V0VGQ/edit?usp=sharing))([recording](https://drive.google.com/file/d/1rpVe9oJQXGnerIc5T1Q-cUT8xed30Z8z/view?usp=share_link))
 - 2023-03-09, Latimer Core ([notes](https://docs.google.com/document/d/1Sz0LdG6hH5FYv6BSrDAnWYQfu7dKiGDRSOyEmbK8CAg/edit))([recording](https://drive.google.com/file/d/1Zuwcy6sXg5HpArVt7dJp9EXb3oZi5mE-/view?usp=share_link))
