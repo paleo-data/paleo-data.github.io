@@ -10,9 +10,15 @@ This group formed as a result of a decade of increasing collaboration between pa
 
 ### List of institutions and people involved
 
+- Arizona State University, Symbiota Support Hub (ASU) - [Lindsay Walker](https://orcid.org/0000-0002-2162-6593)
+- Museum of Comparative Zoology, Harvard University (MCZ) – [Christina Byrd](https://orcid.org/0000-0001-7963-6092)
+- North Carolina Museum of Natural Sciences (NCMNS) – [Ben Norton](https://orcid.org/0000-0002-5819-9134), Susan Edelstein
+- Paleontological Research Institute (PRI) – Vicky Wang
 - University of Colorado Museum of Natural History (CUMNH) - [Talia Karim](https://orcid.org/0000-0001-6514-963X), Jacob Van Veldhuizen
-- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), Amanda Millhouse, Jessie Nakano, Kathy Hollis
-- Symbiota Support Hub - [Lindsay Walker](https://orcid.org/0000-0002-2162-6593)
+- Sam Noble Oklahoma Museum of Natural History (SNOMNH) – [Margaret Landis](https://orcid.org/0000-0002-3297-9888), [Roger Burkhalter](https://orcid.org/0000-0001-5518-5661)
+- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), Amanda Millhouse, Jessie Nakano, [Kathy Hollis](https://orcid.org/0000-0002-4875-0594), Matt Miller
+- University of Wisconsin Geology Museum (UWGM) – [Carrie Eaton](https://orcid.org/0000-0001-6647-1751)
+- independent, [Erica Krimmel](https://orcid.org/0000-0003-3192-0080)
 
 ### What is your logo??
 <img src="about/trilocorn.png" alt="trilocorn mascot" width="10%" style="float: left; margin: 0px 15px 15px 0px;">
