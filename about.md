@@ -18,6 +18,7 @@ This group formed as a result of a decade of increasing collaboration between pa
 - Sam Noble Oklahoma Museum of Natural History (SNOMNH) – [Margaret Landis](https://orcid.org/0000-0002-3297-9888), [Roger Burkhalter](https://orcid.org/0000-0001-5518-5661)
 - Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), Amanda Millhouse, Jessie Nakano, [Kathy Hollis](https://orcid.org/0000-0002-4875-0594), Matt Miller
 - University of Wisconsin Geology Museum (UWGM) – [Carrie Eaton](https://orcid.org/0000-0001-6647-1751)
+- Yale Peabody Museum (YPM) – [Jessica Utrup](https://orcid.org/0000-0001-5201-8235)
 - independent, [Erica Krimmel](https://orcid.org/0000-0003-3192-0080)
 
 ### What is your logo??
