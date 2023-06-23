@@ -10,8 +10,9 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2023-05-04, Open discussion ([notes](https://docs.google.com/document/d/1oNunMZzqe-X1moWHFTLaxEhWSqrvQP4UVXmfr8GqrSE/edit?usp=sharing))
 - 2023-05-18, Digital assets - 2D ([notes](https://docs.google.com/document/d/1pUeDlw7FYHkbB1-u8ANfxs93YZGiIUTu2bPg7EMmHuk/edit?usp=sharing))
 - 2023-06-02, ~~SPNHC conference - no Happy Hour!~~
-- 2023-06-15, Update from the SPNHC Federal Collections Committee
+- 2023-06-15, Update from the SPNHC Federal Collections Committee ([notes](https://docs.google.com/document/d/1tYTsEY-Mz7j5zbhv4jXzG8zAiQGYbbhDllbkZpTo-G4/edit?usp=sharing))
 - 2023-06-29, TBD
+- 2023-07-13, TBD
 
 ### 2023 - Past
 - 2023-04-20, Digital assets - 3D ([notes](https://docs.google.com/document/d/1V-cDof9R2n4laawjxOKXNTGVpV0q-ecdb-NTTPd9Wgo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1Acz-gHbLlXF-9vWqVJYNmkYwlbiO8fkx/view?usp=share_link))
