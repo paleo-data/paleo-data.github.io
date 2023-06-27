@@ -7,14 +7,14 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2023 - Upcoming
-- 2023-05-04, Open discussion ([notes](https://docs.google.com/document/d/1oNunMZzqe-X1moWHFTLaxEhWSqrvQP4UVXmfr8GqrSE/edit?usp=sharing))
-- 2023-05-18, Digital assets - 2D ([notes](https://docs.google.com/document/d/1pUeDlw7FYHkbB1-u8ANfxs93YZGiIUTu2bPg7EMmHuk/edit?usp=sharing))
-- 2023-06-02, ~~SPNHC conference - no Happy Hour!~~
-- 2023-06-15, Update from the SPNHC Federal Collections Committee ([notes](https://docs.google.com/document/d/1tYTsEY-Mz7j5zbhv4jXzG8zAiQGYbbhDllbkZpTo-G4/edit?usp=sharing))
 - 2023-06-29, The Compound Specimen ([notes](https://docs.google.com/document/d/1KCK5ADYhxOBI23fB9VA-CDXq8MbcDH6gsAJ4sqQqELs/edit?usp=sharing))
 - 2023-07-13, TBD
 
 ### 2023 - Past
+- 2023-05-04, Open discussion ([notes](https://docs.google.com/document/d/1oNunMZzqe-X1moWHFTLaxEhWSqrvQP4UVXmfr8GqrSE/edit?usp=sharing))
+- 2023-05-18, Digital assets - 2D ([notes](https://docs.google.com/document/d/1pUeDlw7FYHkbB1-u8ANfxs93YZGiIUTu2bPg7EMmHuk/edit?usp=sharing))
+- 2023-06-02, ~~SPNHC conference - no Happy Hour!~~
+- 2023-06-15, Update from the SPNHC Federal Collections Committee ([notes](https://docs.google.com/document/d/1tYTsEY-Mz7j5zbhv4jXzG8zAiQGYbbhDllbkZpTo-G4/edit?usp=sharing))
 - 2023-04-20, Digital assets - 3D ([notes](https://docs.google.com/document/d/1V-cDof9R2n4laawjxOKXNTGVpV0q-ecdb-NTTPd9Wgo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1Acz-gHbLlXF-9vWqVJYNmkYwlbiO8fkx/view?usp=share_link))
 - 2023-04-06, IGSN IDs with Rorie Edmunds from DataCite ([notes](https://docs.google.com/document/d/1GE_x5vTbfHNwQpFqk4b9nuXT5fS5ReeNH25Cu4hGfNA/edit?usp=sharing))([recording](https://drive.google.com/file/d/1TK-HVNHQH0-kbEtGjPMuzd8MEKwWm2hf/view?usp=share_link))
 - 2023-03-23, Taxonomy ([notes](https://docs.google.com/document/d/1Elp7-OVNKiJ5vd0Cls1io25qatJb5Ca58oG822V0VGQ/edit?usp=sharing))([recording](https://drive.google.com/file/d/1rpVe9oJQXGnerIc5T1Q-cUT8xed30Z8z/view?usp=share_link))
