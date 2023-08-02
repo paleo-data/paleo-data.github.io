@@ -9,11 +9,11 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 ### 2023 - Upcoming
 - ~2023-08-10 break, no Happy Hour~
 - ~2023-08-24 break, no Happy Hour~
-- 2023-09-07 TBD
-- 2023-09-21 TBD
+- 2023-09-07, TBD
+- 2023-09-21, TBD
 
 ### 2023 - Past
-- 2023-07-27 Revisiting people data ([notes](https://docs.google.com/document/d/1wkjHNq9itfMUhaeECtaMxXpoBL_IoHkqZvYOI4GEYEM/edit?usp=sharing))([recording](https://drive.google.com/file/d/1_Qkrq-tAW6mUpqygdrJQnsy6QXVU7pYg/view?usp=drive_link))
+- 2023-07-27, Revisiting people data ([notes](https://docs.google.com/document/d/1wkjHNq9itfMUhaeECtaMxXpoBL_IoHkqZvYOI4GEYEM/edit?usp=sharing))([recording](https://drive.google.com/file/d/1_Qkrq-tAW6mUpqygdrJQnsy6QXVU7pYg/view?usp=drive_link))
 - 2023-07-13, GBIF Unified Data Model for paleo (and geo) specimens ([notes](https://docs.google.com/document/d/1wMVWklQl5Y7VTfufB79Iljs-qsspuSmJslRnsofD3uQ/edit?usp=sharing))([recording](https://drive.google.com/file/d/1OfBO62zZasYNqyXzEIhdVZYRflTg-lnT/view?usp=drive_link))
 - 2023-06-29, The Compound Specimen ([notes](https://docs.google.com/document/d/1KCK5ADYhxOBI23fB9VA-CDXq8MbcDH6gsAJ4sqQqELs/edit?usp=sharing))([recording](https://drive.google.com/file/d/1jK3-u1D6ZuKbWsJYSpG-6BrxZlgo5xn4/view?usp=drive_link))
 - 2023-06-15, Update from the SPNHC Federal Collections Committee ([notes](https://docs.google.com/document/d/1tYTsEY-Mz7j5zbhv4jXzG8zAiQGYbbhDllbkZpTo-G4/edit?usp=sharing))([recording](https://drive.google.com/file/d/1h5H2-U35jUG6_w7Xndh20vBeTZ2cM0Lz/view?usp=drive_link))
