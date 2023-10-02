@@ -7,15 +7,15 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2023 - Upcoming
-- 2023-09-21, Open discussion ([notes](https://docs.google.com/document/d/1Jr_vPZlbKCGhUd4UHtwS0Mc01Arhl9hgWh3TxIp0DoE/edit?usp=sharing))
-- 2023-10-05, TBD
-- 2023-10-19, TBD
+- 2023-10-05, Paleo digitization workflows ([notes](https://docs.google.com/document/d/1-1wFrlS_Bk8DYYmbsJKud1C5gdOxJZMndu8on0-q040/edit?usp=sharing))
+- 2023-10-19, Conference season recap ([notes](https://docs.google.com/document/d/1TgPOx5jKMRb0iQpyIVeFTR0tpCQ9bilR9Kp6eYnEiEA/edit?usp=sharing))
 - 2023-11-02, TBD
 - 2023-11-16, TBD
 - 2023-11-30, TBD
 - 2023-12-14, Holiday social hour
 
 ### 2023 - Past
+- 2023-09-21, Open discussion ([notes](https://docs.google.com/document/d/1Jr_vPZlbKCGhUd4UHtwS0Mc01Arhl9hgWh3TxIp0DoE/edit?usp=sharing))
 - 2023-09-07, GeoCASe ([notes](https://docs.google.com/document/d/1QwuK-I-1_mjk8KWoWlp4XxgfgKq7YuI8UDtIakQ1nqo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1iuj2ZiA0Faqe77nfKzZUgUjUkupNgEIQ/view?usp=drive_link))
 - 2023-07-27, Revisiting people data ([notes](https://docs.google.com/document/d/1wkjHNq9itfMUhaeECtaMxXpoBL_IoHkqZvYOI4GEYEM/edit?usp=sharing))([recording](https://drive.google.com/file/d/1_Qkrq-tAW6mUpqygdrJQnsy6QXVU7pYg/view?usp=drive_link))
 - 2023-07-13, GBIF Unified Data Model for paleo (and geo) specimens ([notes](https://docs.google.com/document/d/1wMVWklQl5Y7VTfufB79Iljs-qsspuSmJslRnsofD3uQ/edit?usp=sharing))([recording](https://drive.google.com/file/d/1OfBO62zZasYNqyXzEIhdVZYRflTg-lnT/view?usp=drive_link))
