@@ -9,7 +9,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 ### 2023 - Upcoming
 - 2023-10-26, Conference season recap ([notes](https://docs.google.com/document/d/1TgPOx5jKMRb0iQpyIVeFTR0tpCQ9bilR9Kp6eYnEiEA/edit?usp=sharing)) *rescheduled from 10/19 so as not to conflict with conferences*
 - 2023-11-02, TBD
-- 2023-11-16, Stratigraphy in the Specify geo model
+- 2023-11-16, Stratigraphy in the Geo Compound Specimen Model
 - 2023-11-30, TBD
 - 2023-12-14, Holiday social hour
 
