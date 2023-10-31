@@ -8,9 +8,9 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2023 - Upcoming
 
-- 2023-11-02, TBD
-- 2023-11-16, Stratigraphy in the Geo Compound Specimen Model
-- 2023-11-30, Brainstorming session on inventorying and sharing collector label information
+- 2023-11-02, Reconciling taxonomy in OpenRefine with GlobalNames ([notes](https://docs.google.com/document/d/1c0cLKei6rP5BUjnCi3DwUSkZ886dsLIIOZmurtvYYkg/edit?usp=sharing))
+- 2023-11-16, Stratigraphy in the Geo Compound Specimen Model ([notes](https://docs.google.com/document/d/1WBq_v1FYBGlRGFU8iyVFtkw_nkA4ysG7aVIRPoE_J8U/edit?usp=sharing))
+- 2023-11-30, Brainstorming session on inventorying and sharing collector label information ([notes](https://docs.google.com/document/d/1WBq_v1FYBGlRGFU8iyVFtkw_nkA4ysG7aVIRPoE_J8U/edit?usp=sharing))
 - 2023-12-14, Holiday social hour
 
 ### 2023 - Past
