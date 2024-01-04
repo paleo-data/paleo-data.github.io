@@ -6,10 +6,16 @@ order: 1
 
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
-### 2023 - Upcoming
-- 2023-12-14, Holiday social hour
+### 2024 - Upcoming
+- 2024-01-11, Welcome to PDWG 2024!
+- 2024-01-25
+- 2024-02-08
+- 2024-02-22
+
+### 2024 - Past
 
 ### 2023 - Past
+- 2023-12-14, Holiday social hour
 - 2023-11-30, Brainstorming session on inventorying and sharing collector label information ([notes](https://docs.google.com/document/d/1WBq_v1FYBGlRGFU8iyVFtkw_nkA4ysG7aVIRPoE_J8U/edit?usp=sharing))([recording](https://drive.google.com/file/d/1-3iNUdFWnSiFhaYDFHoKCA0PDZnHDjiv/view?usp=drive_link))
 - 2023-11-16, Stratigraphy in the Geo Compound Specimen Model ([notes](https://docs.google.com/document/d/1jJdalnz6Ekp-g_sIheseOLHqWmKjW41eZbtuwnjP0uU/edit?usp=sharing))([recording](https://drive.google.com/file/d/1xg4Rx6oELt_6dkzyvlKO4F1PUQb6TPdw/view?usp=drive_link))
 - 2023-11-02, Reconciling taxonomy in OpenRefine with GlobalNames ([notes](https://docs.google.com/document/d/1c0cLKei6rP5BUjnCi3DwUSkZ886dsLIIOZmurtvYYkg/edit?usp=sharing))([recording](https://drive.google.com/file/d/17it1_7gLWoHZQC2Nb_eGT9TO8bDquMyZ/view?usp=drive_link))
