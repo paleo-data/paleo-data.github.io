@@ -13,11 +13,13 @@ This group formed as a result of a decade of increasing collaboration between pa
 - Arizona State University, Symbiota Support Hub (ASU) - [Lindsay Walker](https://orcid.org/0000-0002-2162-6593)
 - Indiana University, Bloomington (IUB) – [Jess Miller-Camp](https://orcid.org/0000-0003-4143-9514)
 - Museum of Comparative Zoology, Harvard University (MCZ) – [Christina Byrd](https://orcid.org/0000-0001-7963-6092)
+- Natural History Museum of Los Angeles County (NHMLA / LACM ) - [Juliet Hook](https://orcid.org/0000-0003-0485-1112)
 - North Carolina Museum of Natural Sciences (NCMNS) – [Ben Norton](https://orcid.org/0000-0002-5819-9134), Susan Edelstein
 - Paleontological Research Institute (PRI) – Vicky Wang
 - University of Colorado Museum of Natural History (CUMNH) - [Talia Karim](https://orcid.org/0000-0001-6514-963X), [Jacob Van Veldhuizen](https://orcid.org/0000-0001-6770-0181)
 - Sam Noble Oklahoma Museum of Natural History (SNOMNH) – [Margaret Landis](https://orcid.org/0000-0002-3297-9888), [Roger Burkhalter](https://orcid.org/0000-0001-5518-5661)
-- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), [Amanda Millhouse](https://orcid.org/0000-0002-8679-4774), Jessie Nakano, [Kathy Hollis](https://orcid.org/0000-0002-4875-0594), Matt Miller
+- Santa Cruz Museum of Natural History (SCMNH) - [Wayne Thompson](https://orcid.org/0000-0002-2603-0510)
+- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), [Amanda Millhouse](https://orcid.org/0000-0002-8679-4774), [Jessie Nakano](https://orcid.org/0000-0002-7652-3663), [Kathy Hollis](https://orcid.org/0000-0002-4875-0594), Matt Miller
 - Stanford University (LSJU) – [Chrissy Garcia](https://orcid.org/0000-0002-9728-3670)
 - University of Wisconsin Geology Museum (UWGM) – [Carrie Eaton](https://orcid.org/0000-0001-6647-1751)
 - Yale Peabody Museum (YPM) – [Jessica Utrup](https://orcid.org/0000-0001-5201-8235)
