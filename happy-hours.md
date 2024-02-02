@@ -8,7 +8,26 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2024 - Upcoming
 - 2024-02-08, Extended Specimen ([notes](https://docs.google.com/document/d/1wcbvYXDDDwpDV058NNwEYxkH8IxOA0DAx-R2P4F_IU8/edit?usp=sharing))
-- 2024-02-22
+- 2024-02-22, TBD
+- 2024-03-07, TBD
+- 2024-03-21, Ichnotaxonomy
+- 2024-04-04, Microfossils
+- 2024-04-18, Revisiting morphology and anatomy data
+- 2024-05-02, Recap from meeting with Catalog of Life (COL) and GBIF
+- 2024-05-16, TBD
+- 2024-05-30, TBD
+- 2024-06-13, Revisiting preparations data, Part I
+- 2024-06-27, Revisiting preparations data, Part II
+- 2024-07-11, TBD
+- 2024-07-25, TBD
+- 2024-08-08, TBD
+- 2024-08-22, TBD
+- 2024-09-05, TBD
+- 2024-09-19, TBD
+- 2024-10-03, TBD
+- 2024-10-17, TBD
+- 2024-10-31, TBD
+- 2024-11-14, TBD
 
 ### 2024 - Past
 - 2024-01-11, Welcome to PDWG 2024! ([notes](https://docs.google.com/document/d/1QGyeH9nM9AtjTfeMDneHwTx7ecWWrNGX-kOIuJvuEAI/edit))([recording](https://drive.google.com/file/d/1Y84VSMGkv9H4emJ-WJImlAMwPF0oqfo6/view?usp=drive_link))
