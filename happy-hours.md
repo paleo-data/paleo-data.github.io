@@ -7,7 +7,7 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2024 - Upcoming
-- 2024-03-07, Extended Specimen, Part II
+- 2024-03-07, Extended Specimen, Part II ([notes](https://docs.google.com/document/d/1MXyF5kPqauiHn3owfvv1LbVAwoKELnmjIPbpscXXeU8/edit?usp=sharing))
 - 2024-03-21, Ichnotaxonomy
 - 2024-04-04, Microfossils
 - 2024-04-18, Revisiting morphology and anatomy data
@@ -28,7 +28,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2024-11-14, TBD
 
 ### 2024 - Past
-- 2024-02-22, Shared data stewardship ([notes](https://docs.google.com/document/d/1KtE2V34j0zzEhhT9sELBrAwnlIX-Bp-9a04wCG7G5vM/edit?usp=sharing))
+- 2024-02-22, Shared data stewardship ([notes](https://docs.google.com/document/d/1KtE2V34j0zzEhhT9sELBrAwnlIX-Bp-9a04wCG7G5vM/edit?usp=sharing))([recording](https://drive.google.com/file/d/1_aiohrB3LZWnS3q_zvZpu-wva1gKX4aF/view?usp=drive_link))
 - 2024-02-08, Extended Specimen, Part I ([notes](https://docs.google.com/document/d/1wcbvYXDDDwpDV058NNwEYxkH8IxOA0DAx-R2P4F_IU8/edit?usp=sharing))([recording](https://drive.google.com/file/d/1XgWgt2KXiUIahyHz-Jop28WVRjB-JZep/view?usp=drive_link))
 - 2024-01-11, Welcome to PDWG 2024! ([notes](https://docs.google.com/document/d/1QGyeH9nM9AtjTfeMDneHwTx7ecWWrNGX-kOIuJvuEAI/edit))([recording](https://drive.google.com/file/d/1Y84VSMGkv9H4emJ-WJImlAMwPF0oqfo6/view?usp=drive_link))
 - 2024-01-25, What are you working on this year? ([notes](https://docs.google.com/document/d/1Y7wcxImJaYAfdq9SduUFui-3SdnZgPNn0kJSL_v5h94/edit?usp=sharing))([recording](https://drive.google.com/file/d/1efkmKau_1mjkQj2VMFAftz7owEXyYyvl/view?usp=drive_link))
