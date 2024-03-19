@@ -27,7 +27,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2024-11-14, TBD
 
 ### 2024 - Past
-- 2024-03-07, Extended Specimen, Part II ([notes](https://docs.google.com/document/d/1MXyF5kPqauiHn3owfvv1LbVAwoKELnmjIPbpscXXeU8/edit?usp=sharing))
+- 2024-03-07, Extended Specimen, Part II ([notes](https://docs.google.com/document/d/1MXyF5kPqauiHn3owfvv1LbVAwoKELnmjIPbpscXXeU8/edit?usp=sharing)) ([recording](https://drive.google.com/file/d/18GfDFn9VDHvHzuGZHXk4NR7pVt9DldP_/view?usp=sharing))
 - 2024-02-22, Shared data stewardship ([notes](https://docs.google.com/document/d/1KtE2V34j0zzEhhT9sELBrAwnlIX-Bp-9a04wCG7G5vM/edit?usp=sharing))([recording](https://drive.google.com/file/d/1_aiohrB3LZWnS3q_zvZpu-wva1gKX4aF/view?usp=drive_link))
 - 2024-02-08, Extended Specimen, Part I ([notes](https://docs.google.com/document/d/1wcbvYXDDDwpDV058NNwEYxkH8IxOA0DAx-R2P4F_IU8/edit?usp=sharing))([recording](https://drive.google.com/file/d/1XgWgt2KXiUIahyHz-Jop28WVRjB-JZep/view?usp=drive_link))
 - 2024-01-11, Welcome to PDWG 2024! ([notes](https://docs.google.com/document/d/1QGyeH9nM9AtjTfeMDneHwTx7ecWWrNGX-kOIuJvuEAI/edit))([recording](https://drive.google.com/file/d/1Y84VSMGkv9H4emJ-WJImlAMwPF0oqfo6/view?usp=drive_link))
