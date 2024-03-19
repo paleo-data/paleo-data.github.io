@@ -8,7 +8,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2024 - Upcoming
 - 2024-03-21, Ichnotaxonomy ([notes](https://docs.google.com/document/d/17QTAhA5JuJqTMDl7gnV2obKgHqxj8ZAxOnPjdLS8AU8/edit?usp=sharing)) 
-- 2024-04-04, Microfossils
+- 2024-04-04, Microfossils ([notes](https://docs.google.com/document/d/1Pf5wOKDWgTNihRFJ2OlVqD2MfoTrXRjfn-fDAvfyi_g/edit?usp=sharing))
 - 2024-04-18, Revisiting morphology and anatomy data
 - 2024-05-02, Recap from meeting with Catalog of Life (COL) and GBIF
 - 2024-05-16, TBD
