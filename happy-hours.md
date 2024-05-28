@@ -7,10 +7,9 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2024 - Upcoming
-- 2024-05-16, Casts ([notes](https://docs.google.com/document/d/13nK54Bw6stZ7MWWPAMQ8MXuOA85rc_GT6E56xasGbQo/edit?usp=drive_link))
-- 2024-05-30, TBD
-- 2024-06-13, Revisiting preparations data, Part I
-- 2024-06-27, Revisiting preparations data, Part II
+- 2024-05-30, Open discussion ([notes](https://docs.google.com/document/d/19d1v0EwPj1JsEbzewZh3oo-NlWwOocC0opRPCJS0OVQ/edit?usp=sharing))
+- 2024-06-13, Revisiting preparations data, Part I ([notes](https://docs.google.com/document/d/15jgyqK-2EV5GQ4ULab2NuntQvf467e0_m6GF9A3I3Aw/edit?usp=sharing))
+- 2024-06-27, Revisiting preparations data, Part II ([notes](https://docs.google.com/document/d/1Dycap7RIK6C_JErCStf2hMcdCgIdz-n7N0TMAJebSn4/edit?usp=sharing))
 - 2024-07-11, TBD
 - 2024-07-25, TBD
 - 2024-08-08, TBD
@@ -23,6 +22,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2024-11-14, TBD
 
 ### 2024 - Past
+- 2024-05-16, Casts ([notes](https://docs.google.com/document/d/13nK54Bw6stZ7MWWPAMQ8MXuOA85rc_GT6E56xasGbQo/edit?usp=drive_link))([recording](https://drive.google.com/file/d/1uU0kxRQVNtQm3pmdUBA1C6fTzIAZl_NH/view?usp=drive_link))
 - 2024-05-02, Recap from meeting with Catalog of Life (COL) and GBIF ([notes](https://docs.google.com/document/d/1cyCjEycg6c_b-Qfg0E1DeX8FIuE1jfkqKdZfK-quw8w/edit?usp=sharing))([recording](https://drive.google.com/file/d/1hTHtvqdv1ZKcrhD0Pzf3gAx0r9Lre3Ky/view?usp=drive_link))
 - 2024-04-18, Revisiting morphology and anatomy data ([notes](https://docs.google.com/document/d/1X1Hm7JDeYuMdIHJIYPJPB6RJPgJDbsmacuuOOZjuzys/edit?usp=sharing))([recording](https://drive.google.com/file/d/1OPWgyw5TU5jkJUaIKmvVq63Mie5yjbiS/view?usp=sharing))
 - 2024-04-04, Microfossils ([notes](https://docs.google.com/document/d/1Pf5wOKDWgTNihRFJ2OlVqD2MfoTrXRjfn-fDAvfyi_g/edit?usp=sharing))([recording](https://drive.google.com/file/d/1GhU2qCs2P-mm6unENAvbkgDPvqbPc54j/view?usp=sharing))
