@@ -8,7 +8,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2024 - Upcoming
 - 2024-06-13, Revisiting preparations data, Part I ([notes](https://docs.google.com/document/d/15jgyqK-2EV5GQ4ULab2NuntQvf467e0_m6GF9A3I3Aw/edit?usp=sharing))
-- 2024-06-27, Revisiting preparations data, Part II ([notes](https://docs.google.com/document/d/1Dycap7RIK6C_JErCStf2hMcdCgIdz-n7N0TMAJebSn4/edit?usp=sharing))
+- 2024-06-27, Recap from the North American Paleontological Convention (NAPC) ([notes](https://docs.google.com/document/d/1Dycap7RIK6C_JErCStf2hMcdCgIdz-n7N0TMAJebSn4/edit?usp=sharing))
 - 2024-07-11, TBD
 - 2024-07-25, TBD
 - 2024-08-08, TBD
