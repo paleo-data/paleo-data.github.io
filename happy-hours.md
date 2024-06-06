@@ -12,7 +12,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2024-07-11, TBD
 - 2024-07-25, TBD
 - 2024-08-08, TBD
-- 2024-08-22, TBD
+- 2024-08-22, Archival-grade materials and conservation resources ([notes](https://docs.google.com/document/d/1_JLBELiYmszfVDZs7IhphwE3WzLfvfx73Kac28-TtRE/edit?usp=sharing))
 - 2024-09-05, TBD
 - 2024-09-19, TBD
 - 2024-10-03, TBD
