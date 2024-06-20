@@ -5,8 +5,16 @@ title:  "Global Registry of Scientific Collections (GRSciColl)"
 ## Please join us for a hands-on editing session of GRSciColl records!
 
 ### When & where
-[Thursday, 11 July 2024 at 2:00-3:00pm Eastern](https://www.timeanddate.com/worldclock/fixedtime.html?msg=PDWG+GRSciColl+Editing+Session&iso=20240711T12&p1=1243&ah=1)
+Thursday, 11 July 2024, 2:00-3:00pm Eastern.
 
-Please check back for a Zoom link closer to the event.
+[Register here](https://us06web.zoom.us/meeting/register/tZUkcOmrqTwtHNEA4XJNfabsr-oq2Wl7MWSu) for the Zoom link to this event.
 
 ### What to expect
+This session will begin with a brief overview of what the [Global Registry of Scientific Collections (GRSciColl)](https://scientific-collections.gbif.org/) is and how it can help you make information about your paleontological (or other) collection discoverable. Participants will then spend the majority of the hour looking up existing information about their collection and updating it, if necessary. We will have experts on hand to answer questions and to help you make the best use possible of this tool.
+
+### Background information
+- [GRSciColl](https://scientific-collections.gbif.org/) home page
+- [GRSciColl search for collections](https://scientific-collections.gbif.org/collection/search)
+    - example record for the [Invertebrate Paleontology collection](https://scientific-collections.gbif.org/collection/948e3641-75ca-4550-91a1-45d834bb47f7) at the University of Colorado Museum of Natural History
+- [Learn more](https://scientific-collections.gbif.org/about) about GRSciColl
+- [How to add or edit entries to GRSciColl](https://scientific-collections.gbif.org/how-to), including several helpful videos
