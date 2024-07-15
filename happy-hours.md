@@ -7,8 +7,7 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2024 - Upcoming
-- 2024-07-11, Minimum Information about a Digital Specimen - MIDS ([notes](https://docs.google.com/document/d/1cbT-4nISkOSNHKy0aSuAZGxO1QIXUVefNNTaP7qXmNk/edit?usp=drive_link))
-- 2024-07-25, TBD
+- 2024-07-25, TBD ([notes](https://docs.google.com/document/d/1ZM60ZH8ZDkPxx0_VW1HuA9c6dRB1aHolCp4--aykjgE/edit?usp=sharing))
 - 2024-08-08, TBD
 - 2024-08-22, Archival-grade materials and conservation resources ([notes](https://docs.google.com/document/d/1_JLBELiYmszfVDZs7IhphwE3WzLfvfx73Kac28-TtRE/edit?usp=sharing))
 - 2024-09-05, TBD
@@ -19,6 +18,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2024-11-14, TBD
 
 ### 2024 - Past
+- 2024-07-11, Minimum Information about a Digital Specimen - MIDS ([notes](https://docs.google.com/document/d/1cbT-4nISkOSNHKy0aSuAZGxO1QIXUVefNNTaP7qXmNk/edit?usp=drive_link))([recording](https://drive.google.com/file/d/1UzNBsLa3G3cy8Ab1WU4tZ6H_IfwAwNOF/view?usp=drive_link))
 - 2024-06-27, Recap from the North American Paleontological Convention (NAPC) ([notes](https://docs.google.com/document/d/1Dycap7RIK6C_JErCStf2hMcdCgIdz-n7N0TMAJebSn4/edit?usp=sharing))([recording](https://drive.google.com/file/d/186IWtZpyt0i9VHf8Tpxi-g3Y-YDwpPtK/view?usp=drive_link))
 - 2024-06-13, Revisiting preparations data, Part I ([notes](https://docs.google.com/document/d/15jgyqK-2EV5GQ4ULab2NuntQvf467e0_m6GF9A3I3Aw/edit?usp=sharing))([recording](https://drive.google.com/file/d/1Du36zlYy50UsWY2LTERfspYq98CNbK97/view?usp=drive_link))
 - 2024-05-30, Open discussion ([notes](https://docs.google.com/document/d/19d1v0EwPj1JsEbzewZh3oo-NlWwOocC0opRPCJS0OVQ/edit?usp=sharing))([recording](https://drive.google.com/file/d/1vdcM-To35Bo5Ik8Gs-r9NqkQHZ7R95Vp/view?usp=drive_link))
