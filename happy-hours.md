@@ -17,7 +17,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2024-11-14, TBD
 
 ### 2024 - Past
-- 2024-07-25, Open discussion ([notes](https://docs.google.com/document/d/1ZM60ZH8ZDkPxx0_VW1HuA9c6dRB1aHolCp4--aykjgE/edit?usp=sharing))([recording](https://drive.google.com/file/d/1KQZMZllqAquIpTof1hDsutB-2NXn7kXn/view?usp=sharing)
+- 2024-07-25, Open discussion ([notes](https://docs.google.com/document/d/1ZM60ZH8ZDkPxx0_VW1HuA9c6dRB1aHolCp4--aykjgE/edit?usp=sharing))([recording](https://drive.google.com/file/d/1KQZMZllqAquIpTof1hDsutB-2NXn7kXn/view?usp=sharing))
 - 2024-07-11, Minimum Information about a Digital Specimen - MIDS ([notes](https://docs.google.com/document/d/1cbT-4nISkOSNHKy0aSuAZGxO1QIXUVefNNTaP7qXmNk/edit?usp=drive_link))([recording](https://drive.google.com/file/d/1UzNBsLa3G3cy8Ab1WU4tZ6H_IfwAwNOF/view?usp=drive_link))
 - 2024-06-27, Recap from the North American Paleontological Convention (NAPC) ([notes](https://docs.google.com/document/d/1Dycap7RIK6C_JErCStf2hMcdCgIdz-n7N0TMAJebSn4/edit?usp=sharing))([recording](https://drive.google.com/file/d/186IWtZpyt0i9VHf8Tpxi-g3Y-YDwpPtK/view?usp=drive_link))
 - 2024-06-13, Revisiting preparations data, Part I ([notes](https://docs.google.com/document/d/15jgyqK-2EV5GQ4ULab2NuntQvf467e0_m6GF9A3I3Aw/edit?usp=sharing))([recording](https://drive.google.com/file/d/1Du36zlYy50UsWY2LTERfspYq98CNbK97/view?usp=drive_link))
