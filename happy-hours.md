@@ -7,15 +7,15 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2024 - Upcoming
-- 2024-08-22, Archival-grade materials and conservation resources ([notes](https://docs.google.com/document/d/1_JLBELiYmszfVDZs7IhphwE3WzLfvfx73Kac28-TtRE/edit?usp=sharing))
-- 2024-09-05, TBD
-- 2024-09-19, TBD
+- 2024-09-05, CANCELLED due to many people being at [SPNHC TDWG](https://www.tdwg.org/conferences/2024/) in Japan - contact Erica if you would like to volunteer to host (and thus uncancel) this happy hour
+- 2024-09-19, Darwin Core Chronometric Age Extension ([notes](https://docs.google.com/document/d/1HtrB2jrWEgsqTOQKRyh97Q-hvU7WxIRty-gmB6dBU-I/edit?usp=sharing))
 - 2024-10-03, TBD
 - 2024-10-17, TBD
 - 2024-10-31, TBD
 - 2024-11-14, TBD
 
 ### 2024 - Past
+- 2024-08-22, Archival-grade materials and conservation resources ([notes](https://docs.google.com/document/d/1_JLBELiYmszfVDZs7IhphwE3WzLfvfx73Kac28-TtRE/edit?usp=sharing))([recording](https://drive.google.com/file/d/108AovuIvNKQ1xKRITH1RGA8z_EB1k9Wz/view?usp=drive_link))
 - 2024-08-08, Open discussion ([notes](https://docs.google.com/document/d/1XDCU3LdEoQH7XfZVP7byjDyI3INkpMaOkaen-RLwB44/edit?usp=sharing))([recording](https://drive.google.com/file/d/1SofdtHENt58-SCg4SCPE0gAX_RnSOiXY/view?usp=drive_link))
 - 2024-07-25, Open discussion ([notes](https://docs.google.com/document/d/1ZM60ZH8ZDkPxx0_VW1HuA9c6dRB1aHolCp4--aykjgE/edit?usp=sharing))([recording](https://drive.google.com/file/d/1KQZMZllqAquIpTof1hDsutB-2NXn7kXn/view?usp=sharing))
 - 2024-07-11, Minimum Information about a Digital Specimen - MIDS ([notes](https://docs.google.com/document/d/1cbT-4nISkOSNHKy0aSuAZGxO1QIXUVefNNTaP7qXmNk/edit?usp=drive_link))([recording](https://drive.google.com/file/d/1UzNBsLa3G3cy8Ab1WU4tZ6H_IfwAwNOF/view?usp=drive_link))
