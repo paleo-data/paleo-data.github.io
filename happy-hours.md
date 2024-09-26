@@ -8,7 +8,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2024 - Upcoming
 - 2024-10-03, TBD ([notes](https://docs.google.com/document/d/1xcbYirMh8B0Vni1k4_jHNb84poSektTpVcMSfKnFFmk/edit?usp=drive_link))
-- 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part I ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing))
+- 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing))
 - 2024-10-31, TBD
 - 2024-11-14, TBD
 
