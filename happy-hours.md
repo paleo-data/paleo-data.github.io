@@ -7,11 +7,11 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2024 - Upcoming
-- 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing))
 - 2024-10-31, GEO OSE Project Updates ([notes](https://docs.google.com/document/d/1UOkjN7VRSgwGMUUO0qitzCyAER5nmj6MF767V-W3Am0/edit?usp=sharing))
 - 2024-11-14, TBD
 
 ### 2024 - Past
+- 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing)) ([recording](https://drive.google.com/file/d/1ELGAhm7eWs1ybtpa4ssB76yKoSsaDRiM/view?usp=drive_link))
 - 2024-10-03, Open discussion ([notes](https://docs.google.com/document/d/1xcbYirMh8B0Vni1k4_jHNb84poSektTpVcMSfKnFFmk/edit?usp=drive_link)), ([recording](https://drive.google.com/file/d/10efAD9y9qYwcuJC81PsHwHjDjlsSW1vB/view?usp=drive_link))
 - 2024-09-19, Fossil dating standards for identification, reproduction and CAREful data management, Part I ([notes](https://docs.google.com/document/d/1HtrB2jrWEgsqTOQKRyh97Q-hvU7WxIRty-gmB6dBU-I/edit?usp=sharing))([recording](https://drive.google.com/file/d/1kzNt2NHjga4I2YS49OviIDsIw9NxWUv-/view?usp=sharing))
 - 2024-08-22, Archival-grade materials and conservation resources ([notes](https://docs.google.com/document/d/1_JLBELiYmszfVDZs7IhphwE3WzLfvfx73Kac28-TtRE/edit?usp=sharing))([recording](https://drive.google.com/file/d/108AovuIvNKQ1xKRITH1RGA8z_EB1k9Wz/view?usp=drive_link))
