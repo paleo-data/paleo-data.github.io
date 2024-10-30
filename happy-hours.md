@@ -8,15 +8,14 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2024 - Upcoming
 - 2024-10-31, GEO OSE Project Updates ([notes](https://docs.google.com/document/d/1UOkjN7VRSgwGMUUO0qitzCyAER5nmj6MF767V-W3Am0/edit?usp=sharing))
-- 2024-11-14, TBD
-- 2024-12-12, TBD
+- 2024-11-14, TBD ([notes](https://docs.google.com/document/d/1pSw_DhO2z95OpCtaDHzTi2Wtp5IGuMLNuNw7RC8LGPI/edit?usp=sharing))
 
 ### 2025 - Upcoming
-- 2025-01-16, TBD
-- 2025-01-30, TBD
-- 2025-02-13, TBD
-- 2025-02-27, TBD
-- 2025-03-13, TBD
+- 2025-01-16, TBD ([notes](https://docs.google.com/document/d/1hfA0GAbfKuDWa1JUl2JGFAKuqnnc1M4IlxWrFvgKxzI/edit?usp=sharing))
+- 2025-01-30, TBD ([notes](https://docs.google.com/document/d/1iQn2xlaoL0pBsxRsne4HmRJla9r12Pl2DKmmSfb-PoY/edit?usp=sharing))
+- 2025-02-13, TBD ([notes](https://docs.google.com/document/d/1EC7zB3ulOabPtHv6IP0POrtMFReXLGLkD4znhnhl3Ks/edit?usp=sharing))
+- 2025-02-27, TBD ([notes](https://docs.google.com/document/d/1DhUIO_NUHlt-KAfSoY8vtBwaIWYETXbVJg6I0919eMU/edit?usp=sharing))
+- 2025-03-13, TBD ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))
 - 2025-03-27, TBD
 - 2025-04-10, TBD
 - 2025-04-24, TBD
@@ -26,8 +25,8 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-06-19, TBD
 
 ### 2024 - Past
-- 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing)) ([recording](https://drive.google.com/file/d/1ELGAhm7eWs1ybtpa4ssB76yKoSsaDRiM/view?usp=drive_link))
-- 2024-10-03, Open discussion ([notes](https://docs.google.com/document/d/1xcbYirMh8B0Vni1k4_jHNb84poSektTpVcMSfKnFFmk/edit?usp=drive_link)), ([recording](https://drive.google.com/file/d/10efAD9y9qYwcuJC81PsHwHjDjlsSW1vB/view?usp=drive_link))
+- 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing))([recording](https://drive.google.com/file/d/1ELGAhm7eWs1ybtpa4ssB76yKoSsaDRiM/view?usp=drive_link))
+- 2024-10-03, Open discussion ([notes](https://docs.google.com/document/d/1xcbYirMh8B0Vni1k4_jHNb84poSektTpVcMSfKnFFmk/edit?usp=drive_link))([recording](https://drive.google.com/file/d/10efAD9y9qYwcuJC81PsHwHjDjlsSW1vB/view?usp=drive_link))
 - 2024-09-19, Fossil dating standards for identification, reproduction and CAREful data management, Part I ([notes](https://docs.google.com/document/d/1HtrB2jrWEgsqTOQKRyh97Q-hvU7WxIRty-gmB6dBU-I/edit?usp=sharing))([recording](https://drive.google.com/file/d/1kzNt2NHjga4I2YS49OviIDsIw9NxWUv-/view?usp=sharing))
 - 2024-08-22, Archival-grade materials and conservation resources ([notes](https://docs.google.com/document/d/1_JLBELiYmszfVDZs7IhphwE3WzLfvfx73Kac28-TtRE/edit?usp=sharing))([recording](https://drive.google.com/file/d/108AovuIvNKQ1xKRITH1RGA8z_EB1k9Wz/view?usp=drive_link))
 - 2024-08-08, Open discussion ([notes](https://docs.google.com/document/d/1XDCU3LdEoQH7XfZVP7byjDyI3INkpMaOkaen-RLwB44/edit?usp=sharing))([recording](https://drive.google.com/file/d/1SofdtHENt58-SCg4SCPE0gAX_RnSOiXY/view?usp=drive_link))
