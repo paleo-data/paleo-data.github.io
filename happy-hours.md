@@ -9,6 +9,19 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 ### 2024 - Upcoming
 - 2024-10-31, GEO OSE Project Updates ([notes](https://docs.google.com/document/d/1UOkjN7VRSgwGMUUO0qitzCyAER5nmj6MF767V-W3Am0/edit?usp=sharing))
 - 2024-11-14, TBD
+- 2024-12-12, TBD
+- 2025-01-16, TBD
+- 2025-01-30, TBD
+- 2025-02-13, TBD
+- 2025-02-27, TBD
+- 2025-03-13, TBD
+- 2025-03-27, TBD
+- 2025-04-10, TBD
+- 2025-04-24, TBD
+- 2025-05-08, TBD
+- 2025-05-22, TBD
+- 2025-06-05, TBD
+- 2025-06-19, TBD
 
 ### 2024 - Past
 - 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing)) ([recording](https://drive.google.com/file/d/1ELGAhm7eWs1ybtpa4ssB76yKoSsaDRiM/view?usp=drive_link))
