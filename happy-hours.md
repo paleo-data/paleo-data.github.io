@@ -9,6 +9,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 ### 2024 - Upcoming
 - 2024-10-31, GEO OSE Project Updates ([notes](https://docs.google.com/document/d/1UOkjN7VRSgwGMUUO0qitzCyAER5nmj6MF767V-W3Am0/edit?usp=sharing))
 - 2024-11-14, TBD ([notes](https://docs.google.com/document/d/1pSw_DhO2z95OpCtaDHzTi2Wtp5IGuMLNuNw7RC8LGPI/edit?usp=sharing))
+- 2024-12-12, DwC Review ([notes](https://docs.google.com/document/d/122t8syjEz5lnLgY7_wy2nYtQSCcHfK2VjRXP9uKQtNA/edit?usp=sharing))
 
 ### 2025 - Upcoming
 - 2025-01-16, TBD ([notes](https://docs.google.com/document/d/1hfA0GAbfKuDWa1JUl2JGFAKuqnnc1M4IlxWrFvgKxzI/edit?usp=sharing))
