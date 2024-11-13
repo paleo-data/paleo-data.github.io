@@ -7,8 +7,8 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2024 - Upcoming
-- 2024-11-14, TBD ([notes](https://docs.google.com/document/d/1pSw_DhO2z95OpCtaDHzTi2Wtp5IGuMLNuNw7RC8LGPI/edit?usp=sharing))
-- 2024-12-12, DwC Review ([notes](https://docs.google.com/document/d/122t8syjEz5lnLgY7_wy2nYtQSCcHfK2VjRXP9uKQtNA/edit?usp=sharing))
+- 2024-11-14, Darwin Core Review ([notes](https://docs.google.com/document/d/1pSw_DhO2z95OpCtaDHzTi2Wtp5IGuMLNuNw7RC8LGPI/edit?usp=sharing))
+- 2024-12-12, Holiday social hour
 
 ### 2025 - Upcoming
 - 2025-01-16, TBD ([notes](https://docs.google.com/document/d/1hfA0GAbfKuDWa1JUl2JGFAKuqnnc1M4IlxWrFvgKxzI/edit?usp=sharing))
