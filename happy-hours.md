@@ -6,9 +6,6 @@ order: 1
 
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
-### 2024 - Upcoming
-- 2024-12-12, Holiday social hour
-
 ### 2025 - Upcoming
 - 2025-01-16, TBD ([notes](https://docs.google.com/document/d/1hfA0GAbfKuDWa1JUl2JGFAKuqnnc1M4IlxWrFvgKxzI/edit?usp=sharing))
 - 2025-01-30, TBD ([notes](https://docs.google.com/document/d/1iQn2xlaoL0pBsxRsne4HmRJla9r12Pl2DKmmSfb-PoY/edit?usp=sharing))
@@ -24,6 +21,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-06-19, TBD
 
 ### 2024 - Past
+- 2024-12-12, Holiday social hour
 - 2024-11-14, Darwin Core Review ([notes](https://docs.google.com/document/d/1pSw_DhO2z95OpCtaDHzTi2Wtp5IGuMLNuNw7RC8LGPI/edit?usp=sharing))([recording](https://drive.google.com/file/d/11dZRuK4qlsRCNzh5YSA4pqWJ7IstFq0y/view?usp=drive_link))
 - 2024-10-31, GEO OSE Project Updates ([notes](https://docs.google.com/document/d/1UOkjN7VRSgwGMUUO0qitzCyAER5nmj6MF767V-W3Am0/edit?usp=sharing))([recording](https://drive.google.com/file/d/1mPnoulxBIA0BlaIbkxoAhaSXY--li7FS/view?usp=sharing))
 - 2024-10-17, Fossil dating standards for identification, reproduction and CAREful data management, Part II ([notes](https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing))([recording](https://drive.google.com/file/d/1ELGAhm7eWs1ybtpa4ssB76yKoSsaDRiM/view?usp=drive_link))
