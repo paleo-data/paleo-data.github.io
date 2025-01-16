@@ -21,7 +21,7 @@ This group formed as a result of a decade of increasing collaboration between pa
 -  University of St. Thomas, St. Paul, MN - [Thomas Hickson](https://orcid.org/0000-0002-7878-3565)
 - Sam Noble Oklahoma Museum of Natural History (SNOMNH) – [Margaret Landis](https://orcid.org/0000-0002-3297-9888), [Roger Burkhalter](https://orcid.org/0000-0001-5518-5661)
 - Santa Cruz Museum of Natural History (SCMNH) - [Wayne Thompson](https://orcid.org/0000-0002-2603-0510)
-- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), [Amanda Millhouse](https://orcid.org/0000-0002-8679-4774), [Jessie Nakano](https://orcid.org/0000-0002-7652-3663), [Kathy Hollis](https://orcid.org/0000-0002-4875-0594), Matt Miller
+- Smithsonian National Museum of Natural History (NMNH) - [Holly Little](https://orcid.org/0000-0001-7909-4166), [Amanda Millhouse](https://orcid.org/0000-0002-8679-4774), [Jessie Nakano](https://orcid.org/0000-0002-7652-3663), [Kathy Hollis](https://orcid.org/0000-0002-4875-0594), Matt Miller, [Alex Lawrence](https://orcid.org/0009-0004-7918-4208)
 - Stanford University (LSJU) – [Chrissy Garcia](https://orcid.org/0000-0002-9728-3670)
 - University of Wisconsin Geology Museum (UWGM) – [Carrie Eaton](https://orcid.org/0000-0001-6647-1751)
 - Yale Peabody Museum (YPM) – [Jessica Utrup](https://orcid.org/0000-0001-5201-8235)
