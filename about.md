@@ -13,7 +13,7 @@ This group formed as a result of a decade of increasing collaboration between pa
 - Academy of Natural Sciences of Drexel University (ANSP) - [Alejandra Martinez-Melo](https://orcid.org/0000-0003-2314-689X)
 - Indiana University, Bloomington (IUB) – [Jess Miller-Camp](https://orcid.org/0000-0003-4143-9514)
 - Museum of Comparative Zoology, Harvard University (MCZ) – [Christina Byrd](https://orcid.org/0000-0001-7963-6092)
-- Natural History Museum of Los Angeles County (NHMLA / LACM ) - [Juliet Hook](https://orcid.org/0000-0003-0485-1112)
+- Natural History Museum of Los Angeles County (LACMIP) - [Juliet Hook](https://orcid.org/0000-0003-0485-1112)
 - North Carolina Museum of Natural Sciences (NCMNS) – [Ben Norton](https://orcid.org/0000-0002-5819-9134), Susan Edelstein
 - Paleontological Research Institute (PRI) – Vicky Wang
 - University of Colorado Museum of Natural History (CUMNH) - [Talia Karim](https://orcid.org/0000-0001-6514-963X), [Jacob Van Veldhuizen](https://orcid.org/0000-0001-6770-0181)
