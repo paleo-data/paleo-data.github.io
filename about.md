@@ -17,7 +17,7 @@ This group formed as a result of a decade of increasing collaboration between pa
 - North Carolina Museum of Natural Sciences (NCMNS) – [Ben Norton](https://orcid.org/0000-0002-5819-9134), Susan Edelstein
 - Paleontological Research Institute (PRI) – Vicky Wang
 - University of Colorado Museum of Natural History (CUMNH) - [Talia Karim](https://orcid.org/0000-0001-6514-963X), [Jacob Van Veldhuizen](https://orcid.org/0000-0001-6770-0181)
-- University of Kansas Natural History Museum & Biodiversity Institute - [Lindsay Walker](https://orcid.org/0000-0002-2162-6593) (Symbiota), [Natalia López Carranza](https://orcid.org/0000-0002-1393-2902) (KUMIP)
+- University of Kansas Natural History Museum & Biodiversity Institute - [Natalia López Carranza](https://orcid.org/0000-0002-1393-2902) (KUMIP), [Lindsay Walker](https://orcid.org/0000-0002-2162-6593) (Symbiota)
 -  University of St. Thomas, St. Paul, MN - [Thomas Hickson](https://orcid.org/0000-0002-7878-3565)
 - Sam Noble Oklahoma Museum of Natural History (SNOMNH) – [Margaret Landis](https://orcid.org/0000-0002-3297-9888), [Roger Burkhalter](https://orcid.org/0000-0001-5518-5661)
 - Santa Cruz Museum of Natural History (SCMNH) - [Wayne Thompson](https://orcid.org/0000-0002-2603-0510)
