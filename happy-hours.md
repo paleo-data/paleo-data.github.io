@@ -12,8 +12,8 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-02-27, Digital data storage options for paleo data archives ([notes](https://docs.google.com/document/d/1DhUIO_NUHlt-KAfSoY8vtBwaIWYETXbVJg6I0919eMU/edit?usp=sharing))
 - 2025-03-13, TBD ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))
 - 2025-03-27, TBD ([notes](https://docs.google.com/document/d/1ASkwpvIJxwxdXbRiFtl6Suw5WJPtbZXCRJvKZHnNEKo/edit?usp=sharing))
-- 2025-04-10, TBD ([notes](https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing))
-- 2025-04-24, TBD ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))
+- 2025-04-10, Structures for taxonomy data ([notes](https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing))
+- 2025-04-24, Systems for managing taxonomic data ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))
 - 2025-05-08, TBD
 - 2025-05-22, TBD
 - 2025-06-05, TBD
