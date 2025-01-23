@@ -1,6 +1,12 @@
 *.ipynb
 
 _site
+_data/navigation.yml
+_data/resources.yml
+_data/tags.yml
 
 collections/_resources/*
 !collections/_resources/index.md
+
+collections/_tags/*
+!collections/_tags/index.md
