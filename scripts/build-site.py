@@ -20,6 +20,15 @@ def autolink(text: str) -> str:
     return text
 
 
+def split_path(path: Path) -> list:
+    """Splits a path into segments"""
+    segments = []
+    while str(path) != ".":
+        segments.insert(0, path.name)
+        path = path.parent
+    return segments
+
+
 def parse_header(path: Path) -> dict:
     """Parses the Jekyll header in a markdown file"""
     with open(path, encoding="utf-8") as f:
@@ -87,9 +96,10 @@ if __name__ == "__main__":
     # Read page headers
     headers = {}
     for path in Path("..").glob("**/*.md"):
-        header = parse_header(path)
-        header["path"] = path
-        headers[header["title"]] = header
+        if "vendor" not in split_path(path):
+            header = parse_header(path)
+            header["path"] = path
+            headers[header["title"]] = header
 
     # Build navigation from page headers
     nav = {}
