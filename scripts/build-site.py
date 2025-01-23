@@ -49,7 +49,7 @@ if __name__ == "__main__":
     path = BASEPATH / "collections" / "_resources"
     path.mkdir(parents=True, exist_ok=True)
 
-    with open(BASEPATH / "_data" / "zenodo.yml") as f:
+    with open(BASEPATH / "_data" / "zenodo.yml", encoding="utf-8") as f:
         zenodo_ids = yaml.safe_load(f)
 
     # Get data from Zenodo
@@ -118,7 +118,7 @@ if __name__ == "__main__":
         if len(path) == 1:
             nav.setdefault("main", []).append({"title": title, "url": url})
 
-    with open(BASEPATH / "_data" / "navigation.yml", "w") as f:
+    with open(BASEPATH / "_data" / "navigation.yml", "w", encoding="utf-8") as f:
         yaml.dump(nav, f, sort_keys=False)
 
     # Index tags
@@ -129,5 +129,5 @@ if __name__ == "__main__":
                 {"title": header["title"], "path": header["path"]}
             )
 
-    with open(BASEPATH / "_data" / "tags.yml", "w") as f:
+    with open(BASEPATH / "_data" / "tags.yml", "w", encoding="utf-8") as f:
         yaml.dump(dict(sorted(tags.items(), key=lambda kv: kv[0])), f)
