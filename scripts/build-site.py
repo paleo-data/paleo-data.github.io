@@ -73,12 +73,14 @@ if __name__ == "__main__":
         metadata = rec["metadata"]
         desc = BeautifulSoup(metadata["description"], "html5lib")
 
+        # NOTE: The value in path will be used in a link tag and only resolves if
+        # the collections directory is omitted.
         row = {
             "title": metadata["title"],
             "creators": "; ".join([p["name"] for p in metadata["creators"]]),
             "description": autolink(re.sub("\n{2,}", "<br><br>", desc.text)),
             "link": rec["doi_url"],
-            "url": f"{to_slug(metadata['title'])}.md",
+            "path": f"_resources/{to_slug(metadata['title'])}.md",
         }
 
         rows[rec["doi_url"]] = row
@@ -118,7 +120,7 @@ if __name__ == "__main__":
             except KeyError:
                 break
 
-        if path[0] == "home":
+        if path[0] in ("collections", "home"):
             path = path[1:]
 
         header["path"] = "/".join(path) + ".md"

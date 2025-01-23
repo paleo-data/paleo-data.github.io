@@ -14,7 +14,7 @@ layout: single
 {% for item in site.data.resources %}
   {% assign row = item[1] %}
   <tr>
-    <td><a href="/resources{{ row.url | relative_url }}">{{ row.title }}</a></td>
+    <td><a href="{% link {{ row.path }} %}">{{ row.title }}</a></td>
     <td>{{ row.creators }}</td>
     <td>{{ row.description }}</td>
     <td><a href="{{ row.link }}">{{ row.link }}</a></td>
