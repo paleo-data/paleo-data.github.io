@@ -105,12 +105,15 @@ if __name__ == "__main__":
             "description": autolink(re.sub("\n{2,}", "\n\n", desc.text)),
             "resource_url": rec["doi_url"],
             "path": f"_resources/{to_slug(metadata['title'])}.md",
+            "nav_order": 1,
         }
 
-        with open(path / f"{to_slug(row['title'])}.md", "w", encoding="utf-8") as f:
+        fpath = path / f"{to_slug(row['title'])}.md"
+        with open(fpath, "w", encoding="utf-8") as f:
             f.write(write_header(row))
             f.write("\n")
             f.write(template)
+        print(f"Wrote {fpath.name}")
 
     # Read page headers. Omit the vendor directory used by GitHub actions.
     headers = {}
@@ -181,10 +184,12 @@ if __name__ == "__main__":
         template = f.read()
 
     for tag, pages in tags.items():
-        with open(path / f"{to_slug(tag)}.md", "w", encoding="utf-8") as f:
+        fpath = path / f"{to_slug(tag)}.md"
+        with open(fpath, "w", encoding="utf-8") as f:
             f.write(write_header({"title": tag, "pages": pages}))
             f.write("\n")
             f.write(template)
+        print(f"Wrote {fpath.name}")
         headers[tag] = {"key": "tags", "title": tag, "path": f"tags/{to_slug(tag)}"}
 
     # Sort header by nav_order, then title
@@ -206,8 +211,8 @@ if __name__ == "__main__":
             nav.setdefault(key, []).append({"title": key})
             nav[key][-1].setdefault("children", []).append({"title": title, "url": url})
 
-    with open(basepath / "_data" / "navigation.yml", "w", encoding="utf-8") as f:
+    fpath = basepath / "_data" / "navigation.yml"
+    with open(fpath, "w", encoding="utf-8") as f:
         yaml.dump(nav, f, sort_keys=False)
 
-    # with open(basepath / "_data" / "tags.yml", "w", encoding="utf-8") as f:
-    #    yaml.dump(dict(sorted(tags.items(), key=lambda kv: kv[0])), f)
+    print(f"Wrote {fpath.name}")
