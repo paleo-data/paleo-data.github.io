@@ -1,6 +1,6 @@
 ---
 title: About
 layout: single
+tags: [test]
 ---
 
-About

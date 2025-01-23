@@ -10,3 +10,6 @@ collections:
   resources:
     output: True
     sort_by: nav_order
+  tags:
+    output: True
+    sort_by: title
