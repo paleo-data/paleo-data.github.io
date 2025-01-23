@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
         row = {
             "title": metadata["title"],
-            "creators": [p["name"] for p in metadata["creators"]],
+            "creators": "; ".join([p["name"] for p in metadata["creators"]]),
             "description": re.sub("\n{2,}", "<br><br>", desc.text),
             "link": rec["doi_url"],
         }
