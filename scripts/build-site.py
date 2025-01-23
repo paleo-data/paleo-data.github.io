@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
         # Collections get their own sidebar
         if "collections" in segments:
-            key = segments[2].lstrip("_")
+            key = segments[-2].lstrip("_")
             path = [key, Path(segments[-1]).stem]
 
         else:
