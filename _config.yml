@@ -1,0 +1,12 @@
+title: Paleo Data Hub
+description: A clearinghouse for information about digitizing paleontology collections
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+exclude: [scripts]
+
+collections_dir: collections
+collections:
+  resources:
+    output: True
+    sort_by: nav_order
+  tags:
+    

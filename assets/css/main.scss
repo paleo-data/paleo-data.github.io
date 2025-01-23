@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.feature__wrapper a:link { color: #000; text-decoration: none; }
+.feature__wrapper a:visited { color: #000; text-decoration: none; }
+.feature__wrapper a:hover { color: #000; text-decoration: none !important; }
+.feature__wrapper a:active { color: #000; text-decoration: none; }
+
+.feature__wrapper div:has(> a:hover) { background-color: #eee; border-color: #000; }
+
+.feature__item { border: 1px solid #eee; }
