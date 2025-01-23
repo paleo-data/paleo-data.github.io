@@ -3,6 +3,8 @@ description: A clearinghouse for information about digitizing paleontology colle
 remote_theme: mmistakes/minimal-mistakes@4.26.2
 exclude: [scripts]
 
+repository: adamancuer/geo-ose-mm
+
 collections_dir: collections
 collections:
   resources:

@@ -1,1 +1,6 @@
+*.ipynb
+
 _site
+
+collections/_resources/*
+!collections/_resources/index.md

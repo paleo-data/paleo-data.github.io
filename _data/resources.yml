@@ -1,13 +1,29 @@
 https://doi.org/10.5281/zenodo.7195982:
-  creators: J. Bauer, R. Burkhalter, T. Karim, et al.
+  creators:
+  - Bauer, Jennifer
+  - Burkhalter, Roger
+  - Karim, Talia
+  - Krimmel, Erica
+  - Landis, Margaret
+  - Leachman, Siobhan
+  - Little, Holly
+  - Lorente, Malena
+  - Mills, Suzanne K.
+  - Neu-Yagle, Nicole
+  - Norton, Ben
+  - Paul, Deborah
+  - Shorthouse, David
+  - Utrup, Jessica
+  - Van Veldhuizen, Jacob
+  - Walker, Lindsay
   description: The purpose of this document is to provide a framework for how to mobilize
     information via Wikidata about people working in and/or associated with scientific
     collections. Building on previous Wikidata documentation produced by Siobhan Leachman
-    (2020, [https://doi.org/10.5281/zenodo.4724139),](https://doi.org/10.5281/zenodo.4724139),)
-    participants of the Using Wikidata to Capture and Share Information about People
-    in Paleontology workshop (held March 29-31, 2022) created this framework to formalize
-    and share practical knowledge gained from the workshop.<br><br>View a formatted
-    version of this document at [https://paleo-data.github.io/guidelines-wikidata-people.](https://paleo-data.github.io/guidelines-wikidata-people.)
+    (2020, https://doi.org/10.5281/zenodo.4724139), participants of the Using Wikidata
+    to Capture and Share Information about People in Paleontology workshop (held March
+    29-31, 2022) created this framework to formalize and share practical knowledge
+    gained from the workshop.<br><br>View a formatted version of this document at
+    https://paleo-data.github.io/guidelines-wikidata-people.
   link: https://doi.org/10.5281/zenodo.7195982
   title: 'Guidelines for Using Wikidata to Mobilize Information about People in Collections:
     A Paleontology Perspective'

@@ -47,7 +47,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Prebuild with Python
+      - name: Created additional markdown files with Python
         # Build and index some content with Python
         run: python ./scripts/build-site.py
       - name: Build with Jekyll
