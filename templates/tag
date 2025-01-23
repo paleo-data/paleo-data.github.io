@@ -2,6 +2,6 @@
 
 <ul>
   {% for page_ in page.pages %}
-    <li><a href="{% link {{ page_.path }} %}">{{ page_.title }}</a></li>
+    <li><a href="{{ page_.url | relative_url }}">{{ page_.title }}</a></li>
   {% endfor %}
 </ul>

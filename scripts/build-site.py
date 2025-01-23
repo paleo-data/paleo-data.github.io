@@ -11,6 +11,9 @@ from bs4 import BeautifulSoup
 from unidecode import unidecode
 
 
+VALID_TAGS = {"test"}
+
+
 def autolink(text: str, fmt: str = "markdown") -> str:
     """Locates and adds anchor tags to external links in text"""
     for url in set(re.findall(r"https?://[^\s]+", text)):
@@ -84,13 +87,13 @@ if __name__ == "__main__":
         zenodo_ids = yaml.safe_load(f)
 
     rows = {}
-    for i, zid in enumerate(zenodo_ids):
+    for i, zrec in enumerate(zenodo_ids):
 
         # Enforce a short delay between requests to Zenodo
         if i:
             time.sleep(0.5)
 
-        resp = requests.get(f"https://zenodo.org/api/records/{zid}")
+        resp = requests.get(f"https://zenodo.org/api/records/{zrec['id']}")
         rec = resp.json()
 
         metadata = rec["metadata"]
@@ -108,9 +111,14 @@ if __name__ == "__main__":
             "nav_order": 1,
         }
 
+        try:
+            row["tags"] = zrec["tags"]
+        except KeyError:
+            pass
+
         fpath = path / f"{to_slug(row['title'])}.md"
         with open(fpath, "w", encoding="utf-8") as f:
-            f.write(write_header(row))
+            f.write(write_header({k: v for k, v in row.items() if k not in ("path",)}))
             f.write("\n")
             f.write(template)
         print(f"Wrote {fpath.name}")
@@ -118,7 +126,7 @@ if __name__ == "__main__":
     # Read page headers. Omit the vendor directory used by GitHub actions.
     headers = {}
     for path in Path("..").glob("**/*.md"):
-        if "vendor" not in split_path(path):
+        if "vendor" not in split_path(path) and path.name != "README.md":
             header = parse_header(path)
             header["path"] = path
             headers[header["title"]] = header
@@ -166,15 +174,26 @@ if __name__ == "__main__":
 
         # Add navigation info to header
         header["key"] = key
-        header["path"] = "/".join(path) + ".md"
+        header["url"] = "/" + "/".join(path)
+
+        # NOTE: If internal links need to be converted to use the link tag (for
+        # example, to take advantage of the link checking ability of that tag),
+        # use the full path to the original file, including extension and excluding
+        # the collections folder for items on that path.
 
     # Index tags in headers
     tags = {}
     for header in headers.values():
-        for tag in header.get("tags", []):
-            tags.setdefault(tag, []).append(
-                {"title": header["title"], "path": header["path"]}
-            )
+        tags_ = header.get("tags", [])
+        if not isinstance(tags_, list):
+            tags_ = [tags_]
+        for tag in tags_:
+            if tag in VALID_TAGS:
+                tags.setdefault(tag, []).append(
+                    {"title": header["title"], "url": header["url"]}
+                )
+            else:
+                print(f"Invalid tag {repr(tag)} found in {repr(header['url'])}")
 
     # Create tag collection
     path = basepath / "collections" / "_tags"
@@ -190,7 +209,7 @@ if __name__ == "__main__":
             f.write("\n")
             f.write(template)
         print(f"Wrote {fpath.name}")
-        headers[tag] = {"key": "tags", "title": tag, "path": f"tags/{to_slug(tag)}"}
+        headers[tag] = {"key": "tags", "title": tag, "url": f"/tags/{to_slug(tag)}"}
 
     # Sort header by nav_order, then title
     headers = dict(
@@ -204,7 +223,7 @@ if __name__ == "__main__":
     nav = {}
     for title, header in headers.items():
         key = header["key"]
-        url = "/" + header["path"].rsplit(".", 1)[0]
+        url = header["url"]
         if key == "main":
             nav.setdefault(key, []).append({"title": title, "url": url})
         elif key:
