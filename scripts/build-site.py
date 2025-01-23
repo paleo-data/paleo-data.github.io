@@ -41,7 +41,7 @@ def to_slug(val: str) -> str:
 
 def write_header(header: dict) -> str:
     """Parses the Jekyll header in a markdown file"""
-    return "\n".join(["---", yaml.dump(header, sort_keys=False), "---", ""])
+    return "\n".join(["---", yaml.dump(header, sort_keys=False).rstrip(), "---", ""])
 
 
 if __name__ == "__main__":
