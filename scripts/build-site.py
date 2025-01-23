@@ -23,7 +23,10 @@ def autolink(text: str) -> str:
 def parse_header(path: Path) -> dict:
     """Parses the Jekyll header in a markdown file"""
     with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f.read().lstrip("---").split("---")[0])
+        try:
+            return yaml.safe_load(f.read().lstrip("---").split("---")[0])
+        except Exception as exc:
+            raise ValueError(path) from exc
 
 
 def to_slug(val: str) -> str:
