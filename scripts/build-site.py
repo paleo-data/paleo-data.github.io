@@ -1,16 +1,14 @@
+"""Creates and indexes pages based using YAML files in _data"""
+
 import re
 import os
+import time
 from pathlib import Path
 
 import requests
 import yaml
 from bs4 import BeautifulSoup
 from unidecode import unidecode
-
-try:
-    BASEPATH = Path(os.environ["GITHUB_WORKSPACE"])
-except KeyError:
-    BASEPATH = Path("..")
 
 
 def autolink(text: str) -> str:
@@ -30,7 +28,7 @@ def split_path(path: Path) -> list:
 
 
 def parse_header(path: Path) -> dict:
-    """Parses the Jekyll header in a markdown file"""
+    """Parses the Jekyll front matter in a markdown file"""
     with open(path, encoding="utf-8") as f:
         try:
             return yaml.safe_load(f.read().lstrip("---").split("---")[0])
@@ -39,7 +37,7 @@ def parse_header(path: Path) -> dict:
 
 
 def to_slug(val: str) -> str:
-    """Constructs a python attribute string from the given value"""
+    """Constructs a Python attribute string from the given value"""
     val = val.replace("/", "")
     val = unidecode(val)
     val = re.sub(r'["\']', "", val)
@@ -52,29 +50,41 @@ def to_slug(val: str) -> str:
 
 
 def write_header(header: dict) -> str:
-    """Parses the Jekyll header in a markdown file"""
+    """Writes Jekyll front matter to a markdown file"""
     return "\n".join(["---", yaml.dump(header, sort_keys=False).rstrip(), "---", ""])
 
 
 if __name__ == "__main__":
 
-    path = BASEPATH / "collections" / "_resources"
+    try:
+        basepath = Path(os.environ["GITHUB_WORKSPACE"])
+    except KeyError:
+        basepath = Path("..")
+
+    # Construct a collection of external resources
+    path = basepath / "collections" / "_resources"
     path.mkdir(parents=True, exist_ok=True)
 
-    with open(BASEPATH / "_data" / "zenodo.yml", encoding="utf-8") as f:
+    # Create pages from Zenodo records based on list of Zenodo IDs in the _data folder
+    with open(basepath / "_data" / "zenodo.yml", encoding="utf-8") as f:
         zenodo_ids = yaml.safe_load(f)
 
-    # Get data from Zenodo
     rows = {}
-    for zid in zenodo_ids:
+    for i, zid in enumerate(zenodo_ids):
+
+        # Enforce a short delay between requests to Zenodo
+        if i:
+            time.sleep(0.5)
+
         resp = requests.get(f"https://zenodo.org/api/records/{zid}")
         rec = resp.json()
 
         metadata = rec["metadata"]
         desc = BeautifulSoup(metadata["description"], "html5lib")
 
-        # NOTE: The value in path will be used in a link tag and only resolves if
-        # the collections directory is omitted.
+        # The value in path is used in a link tag, which expects the location of
+        # the file in the _site directory. Note that those paths omit the collections
+        # directory (defined in collections_dir in the config file).
         row = {
             "title": metadata["title"],
             "creators": "; ".join([p["name"] for p in metadata["creators"]]),
@@ -92,10 +102,10 @@ if __name__ == "__main__":
                 )
             )
 
-    with open(BASEPATH / "_data" / "resources.yml", "w", encoding="utf-8") as f:
+    with open(basepath / "_data" / "resources.yml", "w", encoding="utf-8") as f:
         yaml.dump(rows, f)
 
-    # Read page headers
+    # Read page headers. Omit the vendor directory populated by GitHub actions.
     headers = {}
     for path in Path("..").glob("**/*.md"):
         if "vendor" not in split_path(path):
@@ -103,7 +113,14 @@ if __name__ == "__main__":
             header["path"] = path
             headers[header["title"]] = header
 
-    # Build navigation from page headers
+    # Build navigation from page headers. Pages are sorted ny nav_order, then title.
+    headers = dict(
+        sorted(
+            headers.items(),
+            key=lambda kv: (kv[1].get("nav_order", 100), kv[1]["title"].lower()),
+        )
+    )
+
     nav = {}
     for title, header in headers.items():
         path = [header["path"].stem]
@@ -120,20 +137,24 @@ if __name__ == "__main__":
             except KeyError:
                 break
 
+        # Both collections and home are not part of the site organization
         if path[0] in ("collections", "home"):
             path = path[1:]
 
+        # The value in path can be used with the Jekyll link tag
         header["path"] = "/".join(path) + ".md"
 
         if path[-1] == "index":
             path = path[:-1]
 
+        # URL is a root-relative URL. The minimal-mistakes theme uses this
+        # format in URLs in _includes.
         url = "/" + "/".join(path)
 
         if len(path) == 1:
             nav.setdefault("main", []).append({"title": title, "url": url})
 
-    with open(BASEPATH / "_data" / "navigation.yml", "w", encoding="utf-8") as f:
+    with open(basepath / "_data" / "navigation.yml", "w", encoding="utf-8") as f:
         yaml.dump(nav, f, sort_keys=False)
 
     # Index tags
@@ -144,5 +165,5 @@ if __name__ == "__main__":
                 {"title": header["title"], "path": header["path"]}
             )
 
-    with open(BASEPATH / "_data" / "tags.yml", "w", encoding="utf-8") as f:
+    with open(basepath / "_data" / "tags.yml", "w", encoding="utf-8") as f:
         yaml.dump(dict(sorted(tags.items(), key=lambda kv: kv[0])), f)

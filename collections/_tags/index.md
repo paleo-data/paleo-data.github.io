@@ -1,6 +1,7 @@
 ---
 title: Tags
 parent: Home
+nav_order: 3
 layout: single
 ---
 

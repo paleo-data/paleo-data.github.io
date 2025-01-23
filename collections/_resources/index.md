@@ -1,6 +1,7 @@
 ---
 title: Resources
 parent: Home
+nav_order: 2
 layout: single
 ---
 
