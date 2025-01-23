@@ -14,7 +14,7 @@ sidebar:
   </tr>
 {% for resource in site.resources %}
   <tr>
-    <td><a href="{{ resource.url }}">{{ resource.title }}</a></td>
+    <td><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></td>
     <td><a href="{{ resource.resource_url }}">{{ resource.resource_url }}</a></td>
   </tr>
 {% endfor %}

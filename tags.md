@@ -9,6 +9,6 @@ sidebar:
 
 <ul>
 {% for tag in site.tags %}
-  <li><a href="{{ tag.url }}">{{ tag.title }}</a></li>
+  <li><a href="{{ tag.url | relative_url }}">{{ tag.title }}</a></li>
 {% endfor %}
 </ul>
