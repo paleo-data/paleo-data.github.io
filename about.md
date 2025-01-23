@@ -1,7 +1,7 @@
 ---
 title: About
-layout: single
 nav_order: 1
+classes: wide
 tags: [test]
 ---
 

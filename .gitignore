@@ -1,13 +1,8 @@
 *.ipynb
 *.sqlite
 
+.jekyll-cache
 _site
+collections
+
 _data/navigation.yml
-_data/resources.yml
-_data/tags.yml
-
-collections/_resources/*
-!collections/_resources/index.md
-
-collections/_tags/*
-!collections/_tags/index.md

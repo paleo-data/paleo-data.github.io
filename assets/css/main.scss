@@ -16,3 +16,6 @@ search: false
 .feature__wrapper div:has(> a:hover) { background-color: #eee; border-color: #000; }
 
 .feature__item { border: 1px solid #eee; }
+
+a.archive__item-teaser { border: none; }
+a.archive__item-body { border: none; }
