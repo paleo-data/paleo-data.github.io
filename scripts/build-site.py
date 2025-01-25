@@ -1,89 +1,35 @@
 """Creates and indexes pages based using YAML files in _data"""
 
 import re
-import os
 import time
-from pathlib import Path
 
 import requests
 import yaml
 from bs4 import BeautifulSoup
-from unidecode import unidecode
 
-
-VALID_TAGS = {"test"}
-
-
-def autolink(text: str, fmt: str = "markdown") -> str:
-    """Locates and adds anchor tags to external links in text"""
-    for url in set(re.findall(r"https?://[^\s]+", text)):
-        strip_chars = ",."
-        if "(" not in url:
-            strip_chars += ")"
-        url = url.rstrip(strip_chars)
-        if fmt == "html":
-            text = text.replace(url, f'<a href="{url}">{url}</a>')
-        elif fmt == "markdown":
-            text = text.replace(url, f"[{url}]({url})")
-    return text
-
-
-def split_path(path: Path) -> list:
-    """Splits a path into segments"""
-    segments = []
-    while str(path) != ".":
-        segments.insert(0, path.name)
-        path = path.parent
-    return segments
-
-
-def parse_header(path: Path) -> dict:
-    """Parses the Jekyll front matter in a markdown file"""
-    with open(path, encoding="utf-8") as f:
-        try:
-            return yaml.safe_load(f.read().lstrip("---").split("---")[0])
-        except Exception as exc:
-            raise ValueError(path) from exc
-
-
-def to_slug(val: str) -> str:
-    """Constructs a Python attribute string from the given value"""
-    val = val.replace("/", "")
-    val = unidecode(val)
-    val = re.sub(r'["\']', "", val)
-    val = re.sub(r"[^A-z\d]+", "_", val)
-    val = re.sub(r"([A-Z])(?!(?:[A-Za-z_]|$))", r"_\1", val)
-    val = re.sub(r"(?<![A-Z_])([A-Z])", r"_\1", val)
-    val = re.sub(r"(?<![\d_])([\d])", r"_\1", val)
-    val = re.sub(r"_+", "_", val)
-    return val.lower().strip("_").replace("_", "-")
-
-
-def write_header(header: dict) -> str:
-    """Writes Jekyll front matter to a markdown file"""
-    return "\n".join(["---", yaml.dump(header, sort_keys=False).rstrip(), "---", ""])
+from const import BASEPATH
+from utils import (
+    autolink,
+    build_nav,
+    compute_urls,
+    index_tags,
+    read_fms,
+    to_slug,
+    write_fm,
+)
 
 
 if __name__ == "__main__":
 
-    try:
-        basepath = Path(os.environ["GITHUB_WORKSPACE"])
-    except KeyError:
-        basepath = Path("..")
-
-        # Remove all markdown files from collections
-        for path in (basepath / "collections").glob("**/*.md"):
-            path.unlink()
-
-    # Construct a collection of external resources
-    path = basepath / "collections" / "_resources"
+    # Construct a collection of external resources from Zenodo
+    path = BASEPATH / "collections" / "_resources"
     path.mkdir(parents=True, exist_ok=True)
 
-    with open(basepath / "templates" / "resource", encoding="utf-8") as f:
+    with open(BASEPATH / "templates" / "resource", encoding="utf-8") as f:
         template = f.read()
 
     # Create pages from Zenodo records based on list of Zenodo IDs in the _data folder
-    with open(basepath / "_data" / "zenodo.yml", encoding="utf-8") as f:
+    with open(BASEPATH / "_data" / "zenodo.yml", encoding="utf-8") as f:
         zenodo_ids = yaml.safe_load(f)
 
     rows = {}
@@ -118,120 +64,14 @@ if __name__ == "__main__":
 
         fpath = path / f"{to_slug(row['title'])}.md"
         with open(fpath, "w", encoding="utf-8") as f:
-            f.write(write_header({k: v for k, v in row.items() if k not in ("path",)}))
+            f.write(write_fm({k: v for k, v in row.items() if k not in ("path",)}))
             f.write("\n")
             f.write(template)
         print(f"Wrote {fpath.name}")
 
-    # Read page headers. Omit the vendor directory used by GitHub actions.
-    headers = {}
-    for path in Path("..").glob("**/*.md"):
-        if "vendor" not in split_path(path) and path.name != "README.md":
-            header = parse_header(path)
-            header["path"] = path
-            headers[header["title"]] = header
-
-    # Determine paths to individual pages
-    for title, header in headers.items():
-
-        key = None
-        segments = split_path(header["path"])
-
-        # Collections get their own sidebar
-        if "collections" in segments:
-            key = segments[-2].lstrip("_")
-            path = [key, Path(segments[-1]).stem]
-
-        else:
-
-            # Build paths to content based on the parent attribute
-            path = [header["path"].stem]
-            if path[0] == "index":
-                path.insert(0, to_slug(header["title"]))
-
-            try:
-                parent = headers[header["parent"]]
-            except KeyError:
-                parent = None
-
-            while parent:
-                path.insert(0, to_slug(parent["title"]))
-                try:
-                    parent = headers[headers["parent"]]
-                except KeyError:
-                    break
-
-            # Omit home
-            if path[0] == "home":
-                path = path[1:]
-
-            # Omit index
-            if path[-1] == "index":
-                path = path[:-1]
-
-            if len(path) == 1:
-                key = "main"
-
-        # Add navigation info to header
-        header["key"] = key
-        header["url"] = "/" + "/".join(path)
-
-        # NOTE: If internal links need to be converted to use the link tag (for
-        # example, to take advantage of the link checking ability of that tag),
-        # use the full path to the original file, including extension and excluding
-        # the collections folder for items on that path.
-
-    # Index tags in headers
-    tags = {}
-    for header in headers.values():
-        tags_ = header.get("tags", [])
-        if not isinstance(tags_, list):
-            tags_ = [tags_]
-        for tag in tags_:
-            if tag in VALID_TAGS:
-                tags.setdefault(tag, []).append(
-                    {"title": header["title"], "url": header["url"]}
-                )
-            else:
-                print(f"Invalid tag {repr(tag)} found in {repr(header['url'])}")
-
-    # Create tag collection
-    path = basepath / "collections" / "_tags"
-    path.mkdir(parents=True, exist_ok=True)
-
-    with open(basepath / "templates" / "tag", encoding="utf-8") as f:
-        template = f.read()
-
-    for tag, pages in tags.items():
-        fpath = path / f"{to_slug(tag)}.md"
-        with open(fpath, "w", encoding="utf-8") as f:
-            f.write(write_header({"title": tag, "pages": pages}))
-            f.write("\n")
-            f.write(template)
-        print(f"Wrote {fpath.name}")
-        headers[tag] = {"key": "tags", "title": tag, "url": f"/tags/{to_slug(tag)}"}
-
-    # Sort header by nav_order, then title
-    headers = dict(
-        sorted(
-            headers.items(),
-            key=lambda kv: (kv[1].get("nav_order", 100), kv[1]["title"].lower()),
-        )
-    )
-
-    # Build navigation
-    nav = {}
-    for title, header in headers.items():
-        key = header["key"]
-        url = header["url"]
-        if key == "main":
-            nav.setdefault(key, []).append({"title": title, "url": url})
-        elif key:
-            nav.setdefault(key, []).append({"title": key})
-            nav[key][-1].setdefault("children", []).append({"title": title, "url": url})
-
-    fpath = basepath / "_data" / "navigation.yml"
-    with open(fpath, "w", encoding="utf-8") as f:
-        yaml.dump(nav, f, sort_keys=False)
-
-    print(f"Wrote {fpath.name}")
+    # Construct the navigation and build a tag index using file front matter. This
+    # section should generally not be modified.
+    fms = read_fms(BASEPATH)
+    compute_urls(fms)
+    index_tags(fms)
+    build_nav(fms)

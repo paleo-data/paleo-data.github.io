@@ -2,6 +2,7 @@
 *.sqlite
 
 .jekyll-cache
+__pycache__
 _site
 collections
 
