@@ -1,5 +1,7 @@
 """Creates and indexes pages based using YAML files in _data"""
 
+print("Running script")
+
 import re
 import time
 from pathlib import Path
