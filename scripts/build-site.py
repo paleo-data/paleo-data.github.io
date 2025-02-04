@@ -19,8 +19,6 @@ from utils import (
     write_fm,
 )
 
-print("hello world")
-
 if __name__ == "__main__":
 
     """Temporarily disabled
@@ -71,7 +69,7 @@ if __name__ == "__main__":
     # section should generally not be modified.
 
     print("Reading fms")
-    # fms = read_fms(BASEPATH)
+    fms = read_fms(BASEPATH)
 
     print("Determining URLs")
     # compute_urls(fms)
