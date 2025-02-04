@@ -4,6 +4,6 @@
 .jekyll-cache
 __pycache__
 _site
-collections
 
+collections/_tags
 _data/navigation.yml

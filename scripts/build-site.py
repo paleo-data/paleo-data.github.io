@@ -68,7 +68,15 @@ if __name__ == "__main__":
 
     # Construct the navigation and build a tag index using file front matter. This
     # section should generally not be modified.
+
+    print("Reading fms")
     fms = read_fms(BASEPATH)
+
+    print("Determining URLs")
     compute_urls(fms)
+
+    print("Indexing tags")
     index_tags(fms)
+
+    print("Building navigation")
     build_nav(fms)
