@@ -11,6 +11,6 @@ sidebar:
 
 <ul>
   {% for item in site.howto %}
-    <li><a href="{{ item.url | item }}">{{ item.title }}</a></li>
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
   {% endfor %}
 </ul>
