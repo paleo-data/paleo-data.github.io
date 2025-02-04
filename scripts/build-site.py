@@ -72,10 +72,10 @@ if __name__ == "__main__":
     fms = read_fms(BASEPATH)
 
     print("Determining URLs")
-    # compute_urls(fms)
+    compute_urls(fms)
 
     print("Indexing tags")
-    # index_tags(fms)
+    index_tags(fms)
 
     print("Building navigation")
-    # build_nav(fms)
+    build_nav(fms)

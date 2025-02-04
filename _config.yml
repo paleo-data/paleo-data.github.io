@@ -14,7 +14,7 @@ collections:
   howto:
     output: True
     sort_by: nav_order
-  resources:
+  tags:
     output: True
     sort_by: nav_order
 
