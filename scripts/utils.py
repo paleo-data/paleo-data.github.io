@@ -45,8 +45,8 @@ def read_fms(path: Path) -> dict:
     """Read page front_matters, omitting the vendor directory used by GitHub actions"""
     fms = {}
     for path in path.glob("**/*.md"):
-        print(path)
-        # if "vendor" not in split_path(path) and path.name != "README.md":
+        if "vendor" not in split_path(path) and path.name != "README.md":
+            print(path)
         #    fm = read_fm(path)
         #    fm["path"] = path
         #    fms[fm["title"]] = fm
