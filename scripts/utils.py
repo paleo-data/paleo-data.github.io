@@ -26,9 +26,10 @@ def autolink(text: str, fmt: str = "markdown") -> str:
 def split_path(path: Path) -> list:
     """Splits a path into segments"""
     segments = []
-    while str(path) != ".":
+    while path != path.parent:
         segments.insert(0, path.name)
         path = path.parent
+    segments.insert(0, str(path))
     return segments
 
 
@@ -46,10 +47,9 @@ def read_fms(path: Path) -> dict:
     fms = {}
     for path in path.glob("**/*.md"):
         if "vendor" not in split_path(path) and path.name != "README.md":
-            print(path)
-        #    fm = read_fm(path)
-        #    fm["path"] = path
-        #    fms[fm["title"]] = fm
+            fm = read_fm(path)
+            fm["path"] = path
+            fms[fm["title"]] = fm
     return fms
 
 
