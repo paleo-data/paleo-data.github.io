@@ -1,3 +1,5 @@
+print("Loading utils")
+
 import re
 from pathlib import Path
 

@@ -22,6 +22,7 @@ from utils import (
 
 if __name__ == "__main__":
 
+    """Temporarily disabled
     # Construct a collection of external resources from Zenodo
     path = BASEPATH / "collections" / "_resources"
     path.mkdir(parents=True, exist_ok=True)
@@ -29,7 +30,6 @@ if __name__ == "__main__":
     with open(BASEPATH / "templates" / "resource", encoding="utf-8") as f:
         template = f.read()
 
-    """ Temporarily disabled
     # Update Zenodo
     for path_ in Path(BASEPATH / "_data" / "resources").glob("**.yml"):
 
