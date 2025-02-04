@@ -46,10 +46,10 @@ def read_fms(path: Path) -> dict:
     fms = {}
     for path in path.glob("**/*.md"):
         print(path)
-        if "vendor" not in split_path(path) and path.name != "README.md":
-            fm = read_fm(path)
-            fm["path"] = path
-            fms[fm["title"]] = fm
+        # if "vendor" not in split_path(path) and path.name != "README.md":
+        #    fm = read_fm(path)
+        #    fm["path"] = path
+        #    fms[fm["title"]] = fm
     return fms
 
 
