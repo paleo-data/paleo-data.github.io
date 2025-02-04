@@ -81,8 +81,11 @@ def compute_urls(fms: dict) -> dict:
 
         # Collections get their own sidebar
         if "collections" in segments:
-            key = segments[-2].lstrip("_")
-            path = [key, Path(segments[-1]).stem]
+            path = segments[segments.index("collections") + 1 :]
+            path[0] = path[0].lstrip("_")
+            path[-1] = Path(path[-1]).stem
+            key = path[0]
+            heading = path[-2]
 
         # Build paths to non-collection content using the parent attribute
         else:
@@ -110,12 +113,14 @@ def compute_urls(fms: dict) -> dict:
             if path[-1] == "index":
                 path = path[:-1]
 
-            # Include descendants to home in the main navigation
+            # Include direct descendants of home in the main navigation
             if len(path) == 1:
                 key = "main"
+                heading = None
 
         # Add navigation info to fm
         fm["key"] = key
+        fm["heading"] = heading
         fm["url"] = "/" + "/".join(path)
 
         # NOTE: If internal links need to be converted to use the link tag (for
@@ -127,6 +132,7 @@ def compute_urls(fms: dict) -> dict:
 
 
 def index_tags(fms: dict) -> dict:
+    """Indexes front matter tags"""
     tags = {}
     for fm in fms.values():
         tags_ = fm.get("tags", [])
@@ -154,13 +160,21 @@ def index_tags(fms: dict) -> dict:
             f.write("\n")
             f.write(template)
         print(f"Wrote {fpath.name}")
-        fms[tag] = {"key": "tags", "title": tag, "url": f"/tags/{to_slug(tag)}"}
+        fms[tag] = {
+            "key": "tags",
+            "heading": "tags",
+            "title": tag,
+            "url": f"/tags/{to_slug(tag)}",
+        }
 
     return tags
 
 
-def build_nav(fms: dict) -> None:
-    """"""
+def build_nav(fms: dict, headers: dict = None) -> None:
+    """Builds a navigation sidebar"""
+    if headers is None:
+        headers = {}
+
     fms = dict(
         sorted(
             fms.items(),
@@ -170,13 +184,15 @@ def build_nav(fms: dict) -> None:
 
     nav = {}
     for title, fm in fms.items():
-        key = fm["key"]
-        url = fm["url"]
-        if key == "main":
-            nav.setdefault(key, []).append({"title": title, "url": url})
-        elif key:
-            nav.setdefault(key, []).append({"title": key})
-            nav[key][-1].setdefault("children", []).append({"title": title, "url": url})
+        if fm["key"] == "main":
+            nav.setdefault("main", []).append({"title": title, "url": fm["url"]})
+        elif fm["key"]:
+            nav.setdefault(
+                fm["key"], [{"title": headers.get(fm["heading"], fm["heading"])}]
+            )
+            nav[fm["key"]][-1].setdefault("children", []).append(
+                {"title": title, "url": fm["url"]}
+            )
 
     fpath = BASEPATH / "_data" / "navigation.yml"
     with open(fpath, "w", encoding="utf-8") as f:

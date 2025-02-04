@@ -10,4 +10,4 @@ except KeyError:
     BASEPATH = Path("..")
 
 # Set of valid tags
-VALID_TAGS = {"test"}
+VALID_TAGS = {"symbiota"}

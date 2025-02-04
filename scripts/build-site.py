@@ -2,6 +2,7 @@
 
 import re
 import time
+from pathlib import Path
 
 import requests
 import yaml
@@ -28,16 +29,11 @@ if __name__ == "__main__":
     with open(BASEPATH / "templates" / "resource", encoding="utf-8") as f:
         template = f.read()
 
-    # Create pages from Zenodo records based on list of Zenodo IDs in the _data folder
-    with open(BASEPATH / "_data" / "zenodo.yml", encoding="utf-8") as f:
-        zenodo_ids = yaml.safe_load(f)
+    """ Temporarily disabled
+    # Update Zenodo
+    for path_ in Path(BASEPATH / "_data" / "resources").glob("**.yml"):
 
-    rows = {}
-    for i, zrec in enumerate(zenodo_ids):
-
-        # Enforce a short delay between requests to Zenodo
-        if i:
-            time.sleep(0.5)
+        rec_orig = yaml.safe_load(path_)
 
         resp = requests.get(f"https://zenodo.org/api/records/{zrec['id']}")
         rec = resp.json()
@@ -68,6 +64,7 @@ if __name__ == "__main__":
             f.write("\n")
             f.write(template)
         print(f"Wrote {fpath.name}")
+    """
 
     # Construct the navigation and build a tag index using file front matter. This
     # section should generally not be modified.

@@ -1,7 +1,7 @@
 ---
 title: Tags
 parent: Home
-nav_order: 3
+nav_order: 6
 classes: wide
 sidebar:
   nav: tags

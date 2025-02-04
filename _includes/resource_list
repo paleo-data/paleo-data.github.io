@@ -1,0 +1,13 @@
+{% if page.show_tags %}
+  <ul>
+    {% for res_hash in site.data.resources %}
+    {% assign resource = res_hash[1] %}
+      {% for tag in page.show_tags %}
+        {% if resource.tags contains "symbiota" %}
+          <li><a href="{{ resource.doi }}">{{ resource.title }}</a>: {{ resource.description }}</li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}

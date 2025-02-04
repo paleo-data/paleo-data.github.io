@@ -11,12 +11,12 @@ lunr:
 
 collections_dir: collections
 collections:
+  howto:
+    output: True
+    sort_by: nav_order
   resources:
     output: True
     sort_by: nav_order
-  tags:
-    output: True
-    sort_by: title
 
 defaults:
   - 
@@ -26,15 +26,15 @@ defaults:
       layout: single
   -
     scope:
-      path: collections/_resources
+      path: collections
     values:
       classes: wide
       sidebar:
-        nav: resources
+        nav: main
   -
     scope:
       path: collections/_tags
     values:
-      classes: wide
       sidebar:
         nav: tags
+  
