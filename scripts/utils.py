@@ -41,8 +41,9 @@ def read_fm(path: Path) -> dict:
             raise ValueError(path) from exc
 
 
-def read_fms(path: Path = BASEPATH) -> dict:
+def read_fms(path: Path) -> dict:
     """Read page front_matters, omitting the vendor directory used by GitHub actions"""
+    return path
     fms = {}
     for path in path.glob("**/*.md"):
         if "vendor" not in split_path(path) and path.name != "README.md":
