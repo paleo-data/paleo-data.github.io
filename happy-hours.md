@@ -9,7 +9,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 ### 2025 - Upcoming
 - 2025-02-13, Digitization in the form of collection inventories ([notes](https://docs.google.com/document/d/1EC7zB3ulOabPtHv6IP0POrtMFReXLGLkD4znhnhl3Ks/edit?usp=sharing))
 - 2025-02-27, Digital data storage options for paleo data archives ([notes](https://docs.google.com/document/d/1DhUIO_NUHlt-KAfSoY8vtBwaIWYETXbVJg6I0919eMU/edit?usp=sharing))
-- 2025-03-13, TBD ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))
+- 2025-03-13, Case study on modeling and sharing data from the Amoco Collection ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))
 - 2025-03-27, Connecting specimens and archival materials ([notes](https://docs.google.com/document/d/1ASkwpvIJxwxdXbRiFtl6Suw5WJPtbZXCRJvKZHnNEKo/edit?usp=sharing))
 - 2025-04-10, TBD ([notes](https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing))
 - 2025-04-24, TBD ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))
