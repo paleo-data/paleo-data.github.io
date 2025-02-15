@@ -1,0 +1,42 @@
+# Zenodo resource data file template
+#
+# Most metadata used to depict Zenodo resources on the hub is loaded from the
+# Zenodo API when the site is generated. The subset of data provided here is used
+# to identify, annotate, and place the resource within the hub.
+#
+# The data file must be copied to the _data/resources folder to be added to the site.
+#
+# The filename should include the author and publication year of the resource. 
+# Filenames should be lowercase with individual words and number delimited by hyphens.
+# Years may include an alphabetic suffix if necessary to distinguish publications with
+# the same authors and year. 
+#
+# Examples:
+#
+# - One author: smith-2021.yml
+# - Two authors: smith-and-thomas-2023.yml
+# - Three or more authors: smith-et-al-2022.yml
+# - Organizational author: smith-organization-2022.yml
+# - Multiple publications from the same year: smith-2021a.yml, smith-2021b.yml
+
+# The DOI as a complete URL, for example, https://doi.org/10.5281/zenodo.6977243.
+# Required.
+doi:
+
+# The title of the resource. The title provided here is overwritten when the site
+# is generated. It is included primarily as a human-readable way to identify the
+# resource. Optional but recommended.
+title: 
+
+# A short description of the resource used to annotate the citation when the
+# resource appears on the site. Required.
+annotation:
+
+# The complete URL to the resource landing page. Optional. Provide only if the
+# access URL is not the same as the DOI URL.
+access_url:
+
+# A list of topics relevant to the resource, for example, [data sharing, people].
+# A full list of topics is available at https://github.com/adamancer/geo-ose-mm.
+# Required.
+topics:

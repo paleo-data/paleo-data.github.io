@@ -4,5 +4,5 @@ parent: Home
 nav_order: 2
 classes: wide
 sidebar:
-  nav: [main, community]
+  nav: [main, topics, howto]
 ---

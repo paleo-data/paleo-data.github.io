@@ -4,6 +4,10 @@ repository: adamancuer/geo-ose-mm
 theme: minimal-mistakes-jekyll
 exclude: [scripts, templates]
 
+minimal_mistakes_skin: air
+atom_feed:
+  hide: true
+
 search: true
 lunr:
   search_full_content: true
@@ -14,7 +18,7 @@ collections:
   howto:
     output: True
     sort_by: nav_order
-  tags:
+  topics:
     output: True
     sort_by: nav_order
 

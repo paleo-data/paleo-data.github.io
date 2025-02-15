@@ -4,8 +4,7 @@ toc: true
 toc_sticky: true
 sidebar:
   nav: [howto]
-tags: [symbiota]
-show_tags: [symbiota]
+topics: [symbiota]
 ---
 
 This guide will walk you through the steps you need to get started using the [Symbiota Paleo Data Portal](https://paleo.symbiota.org) for collections management. You may also want to familiarize yourself with the information in the [community]() section of this site.
@@ -15,18 +14,16 @@ This guide will walk you through the steps you need to get started using the [Sy
 Symbiota is **open source software** for creating **themed data portals** that help people **share** and **actively manage** biodiversity data. It is largely guided by the [Darwin Core]() data standard.
 
 {: .notice--info }
-> **Callout**
->
-> Check out the [main Symbiota source code on GitHub](https://>github.com/BioKIC/Symbiota). As an open source codebase, Symbiota is being developed concurrently by [several organizations](https://symbiota.org/related-projects/).
+**Callout**
+Check out the [main Symbiota source code on GitHub](https://>github.com/BioKIC/Symbiota). As an open source codebase, Symbiota is being developed concurrently by [several organizations](https://symbiota.org/related-projects/).
 
 ### Portal communities
 
 Themed portals are typically supported by a community of users coalesced around common goals related to digitization and/or data mobilization. These goals may be taxonomic, geographic, institutional, or project-based. Since 2012, over 20 [Thematic Collections Networks (TCNs)](http://idigbio.org/wiki/index.php/TCN_Resources) have used Symbiota as part of their digitization work. Most of these networks focus on neontological specimens, with the exception of the [Pteridological Collections Consortium](https://pteridophytes.berkeley.edu/).
 
 {: .notice--info }
-> **Callout**
->
-> See a directory of all the different [Symbiota portals](https://symbiota.org/related-projects/).
+**Callout**
+See a directory of all the different [Symbiota portals](https://symbiota.org/related-projects/).
 
 ### Symbiota Support Hub (SSH)
 
@@ -64,9 +61,8 @@ This guide will provide an introduction to the portal's essential functions fo d
 - Publish your data 
 
 {: .notice--info }
-> **Callout**
->
-> Access the portal at [paleo.symbiota.org](https://paleo.symbiota.org)
+**Callout**
+Access the portal at [paleo.symbiota.org](https://paleo.symbiota.org)
 
 ### Accessing your dataset
 
@@ -74,8 +70,10 @@ Your dataset, or "collection profile," can be found by going to *Sign in > My Pr
 
 ### Managing users
 
-In the **Administration Control Panel**, 
+In the **Administration Control Panel**... 
+
+{% include resource_card filename='pearson-2022.yml' %}
 
 ## Resources
 
-{% include resource_list %}
+{% include resource_list topics='symbiota' %}

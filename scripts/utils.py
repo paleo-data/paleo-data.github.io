@@ -108,8 +108,8 @@ def compute_urls(fms: dict) -> dict:
                 except KeyError:
                     break
 
-            # Omit home
-            if path[0] == "home":
+            # Omit site index
+            if len(path) == 2 and path[-1] == "index":
                 path = path[1:]
 
             # Omit index
@@ -134,11 +134,11 @@ def compute_urls(fms: dict) -> dict:
     return fms
 
 
-def index_tags(fms: dict) -> dict:
+def index_tags(fms: dict, key: str = "tags") -> dict:
     """Indexes front matter tags"""
     tags = {}
     for fm in fms.values():
-        tags_ = fm.get("tags", [])
+        tags_ = fm.get(key, [])
         if not isinstance(tags_, list):
             tags_ = [tags_]
         for tag in tags_:
@@ -150,10 +150,10 @@ def index_tags(fms: dict) -> dict:
                 print(f"Invalid tag {repr(tag)} found in {repr(fm['url'])}")
 
     # Create tag collection
-    path = BASEPATH / "collections" / "_tags"
+    path = BASEPATH / "collections" / f"_{key}"
     path.mkdir(parents=True, exist_ok=True)
 
-    with open(BASEPATH / "templates" / "tag", encoding="utf-8") as f:
+    with open(BASEPATH / "templates" / "pages" / "tag", encoding="utf-8") as f:
         template = f.read()
 
     for tag, pages in tags.items():
@@ -164,10 +164,10 @@ def index_tags(fms: dict) -> dict:
             f.write(template)
         print(f"Wrote {fpath.name}")
         fms[tag] = {
-            "key": "tags",
-            "heading": "tags",
+            "key": key,
+            "heading": key,
             "title": tag,
-            "url": f"/tags/{to_slug(tag)}",
+            "url": f"/{key}/{to_slug(tag)}",
         }
 
     return tags
@@ -191,7 +191,13 @@ def build_nav(fms: dict, headers: dict = None) -> None:
             nav.setdefault("main", []).append({"title": title, "url": fm["url"]})
         elif fm["key"]:
             nav.setdefault(
-                fm["key"], [{"title": headers.get(fm["heading"], fm["heading"])}]
+                fm["key"],
+                [
+                    {
+                        "title": headers.get(fm["heading"], fm["heading"]),
+                        "url": f"/{fm['key']}",
+                    }
+                ],
             )
             nav[fm["key"]][-1].setdefault("children", []).append(
                 {"title": title, "url": fm["url"]}
