@@ -18,6 +18,12 @@ collections:
   howto:
     output: True
     sort_by: nav_order
+  explanations:
+    output: True
+    sort_by: nav_order
+  tutorials:
+    output: True
+    sort_by: nav_order
   topics:
     output: True
     sort_by: nav_order
