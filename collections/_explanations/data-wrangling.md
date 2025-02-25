@@ -3,7 +3,7 @@ title: Data wrangling
 toc: true
 toc_sticky: true
 sidebar:
-  nav: [howto]
+  nav: [explanations]
 topics: [data wrangling]
 ---
 
