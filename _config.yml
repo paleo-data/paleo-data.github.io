@@ -1,6 +1,6 @@
 title: Paleo Data Hub
 description: A clearinghouse for information about digitizing paleontology collections
-repository: adamancuer/geo-ose-mm
+repository: ekrimmel/geo-ose-mm
 theme: minimal-mistakes-jekyll
 exclude: [scripts, templates]
 
