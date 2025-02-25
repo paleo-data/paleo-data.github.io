@@ -1,6 +1,6 @@
 title: Paleo Data Hub
 description: A clearinghouse for information about digitizing paleontology collections
-repository: adamancuer/geo-ose-mm
+repository: adamancer/geo-ose-mm
 theme: minimal-mistakes-jekyll
 exclude: [scripts, templates]
 
@@ -16,6 +16,12 @@ lunr:
 collections_dir: collections
 collections:
   howto:
+    output: True
+    sort_by: nav_order
+  explanations:
+    output: True
+    sort_by: nav_order
+  tutorials:
     output: True
     sort_by: nav_order
   topics:
