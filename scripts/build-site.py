@@ -62,7 +62,7 @@ if __name__ == "__main__":
                 row["access_url"] = row["resource_url"]
 
             with open(upd_path / path_.name, "w", encoding="utf-8") as f:
-                f.write(write_fm(row))
+                yaml.safe_dump(row, f)
             print(f"Updated {path_.name}")
 
         else:
@@ -83,4 +83,4 @@ if __name__ == "__main__":
     index_tags(fms, "topics")
 
     print("Building navigation")
-    build_nav(fms, headers={"howto": "How To"})
+    build_nav(fms)

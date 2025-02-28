@@ -1,11 +1,30 @@
 {% assign topics = include.topics | default: '' | split: '|' %}
 
-{% if topics %}
+{% assign found = false %}
+{% for res_hash in site.data.resources_updated %}
+{% assign resource = res_hash[1] %}
+  {% for topic in topics %}
+    {% if resource.topics contains topic %}
+      {% assign found = true %}
+      {% break %}
+    {% endif %}
+    {% if found %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if found %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if found %}
+  {% assign heading = include.heading | default: 'Resources' %}
+  <h2>{{ heading }}</h2>
   <ul>
     {% for res_hash in site.data.resources_updated %}
     {% assign resource = res_hash[1] %}
       {% for topic in topics %}
-        {% if resource.topics contains "symbiota" %}
+        {% if resource.topics contains topic %}
           <li><a href="{{ resource.doi }}">{{ resource.title }}</a>: {{ resource.annotation }}</li>
           {% break %}
         {% endif %}

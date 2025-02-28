@@ -1,11 +1,11 @@
 ---
-title: Community
+title: Paleo Data Ecosystem
 status: draft
-nav_order: 1
+nav_order: 2
 sidebar:
   nav:
   - sidebar
   collapsible: true
   expanded:
-  - community
+  - paleo_data_ecosystem
 ---

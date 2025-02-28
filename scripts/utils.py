@@ -117,9 +117,9 @@ def compute_urls(fms: dict) -> dict:
                 path = path[:-1]
 
             # Include direct descendants of home in the main navigation
+            heading = None
             if len(path) == 1:
                 key = "main"
-                heading = None
 
         # Add navigation info to fm
         fm["key"] = key
@@ -136,22 +136,50 @@ def compute_urls(fms: dict) -> dict:
 
 def index_tags(fms: dict, key: str = "tags") -> dict:
     """Indexes front matter tags"""
-    tags = {}
-    for fm in fms.values():
-        tags_ = fm.get(key, [])
-        if not isinstance(tags_, list):
-            tags_ = [tags_]
-        for tag in tags_:
-            if tag in VALID_TAGS:
-                tags.setdefault(tag, []).append(
-                    {"title": fm["title"], "url": fm["url"]}
-                )
-            else:
-                print(f"Invalid tag {repr(tag)} found in {repr(fm['url'])}")
 
+    tagged = []
+
+    # Get tags from front matter of pages
+    for fm in fms.values():
+        tags = fm.get(key, [])
+        if tags:
+            if not isinstance(tags, list):
+                tags = [tags]
+            tagged.append(
+                {
+                    "title": fm["title"],
+                    "kind": "internal",
+                    "url": fm["url"],
+                    "tags": tags,
+                }
+            )
+
+    # Get tags from resources
+    for path in (BASEPATH / "_data" / "resources_updated").glob("*.yml"):
+        with open(path, encoding="utf-8") as f:
+            resource = yaml.safe_load(f)
+            resource["kind"] = "external"
+            resource["url"] = resource["access_url"]
+            resource["tags"] = resource[key]
+            tagged.append(
+                {
+                    k: v
+                    for k, v in resource.items()
+                    if k in {"title", "kind", "url", "tags"}
+                }
+            )
+
+    tagged.sort(key=lambda t: t["title"])
+    with open(BASEPATH / "_data" / f"{key}.yml", "w", encoding="utf-8") as f:
+        yaml.safe_dump(tagged, f)
+
+    """
     # Create tag collection
     path = BASEPATH / "collections" / f"_{key}"
     path.mkdir(parents=True, exist_ok=True)
+
+    with open(path / "index.md", "w") as f:
+        f.write(write_fm({"title": "Topics"}))
 
     with open(BASEPATH / "templates" / "pages" / "tag", encoding="utf-8") as f:
         template = f.read()
@@ -169,6 +197,7 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
             "title": tag,
             "url": f"/{key}/{to_slug(tag)}",
         }
+    """
 
     return tags
 
@@ -178,30 +207,39 @@ def build_nav(fms: dict, headers: dict = None) -> None:
     if headers is None:
         headers = {}
 
+    nav = {}
+
+    # Order front matter based on top-level pages
+    parents = {}
+    for title, fm in fms.items():
+        if fm["path"]:
+            parents.setdefault(fm["path"].parent, []).append(fm)
+    main = parents[sorted(parents, key=lambda p: len(str(p)))[0]]
+    main.sort(key=lambda p: p.get("nav_order", 100000))
+
+    for fm in main:
+        if fm["path"].name != "index.md":
+            nav.setdefault("main", []).append({"title": fm["title"], "url": fm["url"]})
+            nav.setdefault("sidebar", []).append(
+                {"title": fm["title"], "url": fm["url"]}
+            )
+
     fms = dict(
         sorted(
             fms.items(),
             key=lambda kv: (kv[1].get("nav_order", 100), kv[1]["title"].lower()),
         )
     )
-
-    nav = {}
     for title, fm in fms.items():
-        if fm["key"] == "main":
-            nav.setdefault("main", []).append({"title": title, "url": fm["url"]})
-        elif fm["key"]:
-            nav.setdefault(
-                fm["key"],
-                [
-                    {
-                        "title": headers.get(fm["heading"], fm["heading"]),
-                        "url": f"/{fm['key']}",
-                    }
-                ],
-            )
-            nav[fm["key"]][-1].setdefault("children", []).append(
-                {"title": title, "url": fm["url"]}
-            )
+        if not fm.get("nav_exclude") and fm["key"] and fm["heading"]:
+
+            try:
+                heading = headers[fm["heading"]]
+            except KeyError:
+                heading = " ".join(fm["heading"].split("_")).title()
+
+            group = [g for g in nav.get("sidebar", []) if g["title"] == heading][0]
+            group.setdefault("children", []).append({"title": title, "url": fm["url"]})
 
     fpath = BASEPATH / "_data" / "navigation.yml"
     with open(fpath, "w", encoding="utf-8") as f:

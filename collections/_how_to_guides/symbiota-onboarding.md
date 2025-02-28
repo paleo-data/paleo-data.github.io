@@ -1,10 +1,15 @@
 ---
 title: How to get started in the Symbiota Paleo Data Portal
-toc: true
-toc_sticky: true
 sidebar:
-  nav: [howto]
-topics: [symbiota]
+  nav: [sidebar]
+toc: True
+toc_sticky: True
+sidebar:
+  nav:
+  - sidebar
+  collapsible: true
+  expanded:
+  - how_to_guides
 ---
 
 This guide will walk you through the steps you need to get started using the [Symbiota Paleo Data Portal](https://paleo.symbiota.org) for collections management. You may also want to familiarize yourself with the information in the [community]() section of this site.
@@ -73,6 +78,9 @@ Your dataset, or "collection profile," can be found by going to *Sign in > My Pr
 In the **Administration Control Panel**... 
 
 {% include resource_card filename='pearson-2022.yml' %}
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQUk9vaJstJ2k4YnLQWghUWRTKAVFgFWCrK1auJ1viYDtKVtqoI-Ef-DjSRBhdR6iFW9zZM5OLGLBb5/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ## Resources
 

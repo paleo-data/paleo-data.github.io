@@ -1,11 +1,11 @@
 ---
-title: Community
+title: How To Guides
 status: draft
-nav_order: 1
+nav_order: 4
 sidebar:
   nav:
   - sidebar
   collapsible: true
   expanded:
-  - community
+  - how_to_guides
 ---

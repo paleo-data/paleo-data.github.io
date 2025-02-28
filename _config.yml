@@ -4,9 +4,11 @@ repository: adamancer/geo-ose-mm
 theme: minimal-mistakes-jekyll
 exclude: [scripts, templates]
 
-minimal_mistakes_skin: air
 atom_feed:
   hide: true
+
+after_footer_scripts:
+  - /assets/js/custom.js
 
 search: true
 lunr:
@@ -15,36 +17,62 @@ lunr:
 
 collections_dir: collections
 collections:
-  howto:
+  community:
     output: True
     sort_by: nav_order
   explanations:
     output: True
     sort_by: nav_order
-  tutorials:
+  how_to_guides:
     output: True
     sort_by: nav_order
-  topics:
+  paleo_data_ecosystem:
+    output: True
+    sort_by: nav_order
+  tutorials:
     output: True
     sort_by: nav_order
 
 defaults:
-  - 
-    scope:
+  - scope:
       path: ""
     values:
       layout: single
-  -
-    scope:
+      sidebar:
+        nav: sidebar
+        collapsible: True
+  - scope:
       path: collections
     values:
-      classes: wide
-      sidebar:
-        nav: main
-  -
-    scope:
-      path: collections/_tags
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: community
     values:
       sidebar:
-        nav: tags
-  
+        expanded: [community]
+  - scope:
+      path: ""
+      type: explanations
+    values:
+      sidebar:
+        expanded: [explanations]
+  - scope:
+      path: ""
+      type: how_to_guides
+    values:
+      sidebar:
+        expanded: [how_to_guides]
+  - scope:
+      path: ""
+      type: paleo_data_ecosystem
+    values:
+      sidebar:
+        expanded: [paleo_data_ecosystem]
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      sidebar:
+        expanded: [tutorials]

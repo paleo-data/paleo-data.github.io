@@ -6,5 +6,3 @@ sidebar:
   nav: [community]
 topics: []
 ---
-
-{% include pdwg-happy-hours.yml %}

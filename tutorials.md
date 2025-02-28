@@ -1,11 +1,11 @@
 ---
-title: Community
+title: Tutorials
 status: draft
-nav_order: 1
+nav_order: 5
 sidebar:
   nav:
   - sidebar
   collapsible: true
   expanded:
-  - community
+  - tutorials
 ---
