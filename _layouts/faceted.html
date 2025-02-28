@@ -64,7 +64,7 @@ layout: default
         <table class="faceted">
           <tr><th>Resource</th><th>Topics</th></tr>
         {% for item in site.data.topics %}
-          <tr><td><a href="{% if item.kind == 'external' %}{{ item.access_url }}{% else %}{{ item.url | relative_url}}{% endif %}">{{ item.title }}</a>{% if item.kind == 'external' %} <img src={{ extlink }} class="extlink">{% endif %}</td><td>{% for tag in item.tags %}<a href="{{ "topics/" | append: tag | replace: " ", "-" | relative_url }}">{{ tag }}</a>, {% endfor %}</td></tr>
+          <tr><td><a href="{% if item.kind == 'external' %}{{ item.access_url }}{% else %}{{ item.url | relative_url}}{% endif %}">{{ item.title }}</a>{% if item.kind == 'external' %} <img src={{ extlink | relative_url }} class="extlink">{% endif %}</td><td>{% for tag in item.tags %}<a href="{{ "topics/" | append: tag | replace: " ", "-" | relative_url }}">{{ tag }}</a>, {% endfor %}</td></tr>
         {% endfor %}
         </table>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
