@@ -33,7 +33,7 @@ ul.collapsible li:has(ul.hidden) span::after { content: " ▾"; }
 ul.nav__items ul li { padding-left: 10px; text-indent: -10px; }
 ul.nav__items ul li:hover { text-decoration: underline; }
 
-ul.faceted a { font-weight: normal; }
+ul.faceted a { display: inline-block; font-weight: normal; padding-right: 0; }
 ul.faceted a.selected { font-weight: 800; }
 
 .extlink { width: 1em; padding-bottom: 0.2em; }

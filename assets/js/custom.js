@@ -5,6 +5,7 @@ $(document).ready(function() {
         // Public variables
         pdh.selected = [];
         pdh.iframes = {};
+        pdh.facets = {};
         $rows = $("table").find("tr:has(td)");
         $facets = $("ul.faceted").find("li");
 
@@ -27,31 +28,62 @@ $(document).ready(function() {
                 pdh.selected.splice(pdh.selected.indexOf($this.text()), 1);
             } else { pdh.selected.push($this.text()); }
             $rows.removeClass("hidden");
-            $facets.removeClass("hidden");
-            $facets.find("a").removeClass("selected");
             if (pdh.selected.length !== 0) {
-                // Hide rows that do not match
-                var available = [];
-                var visible = {};
                 $rows.each(function() { 
                     var $row = $(this);
                     var tags = [];
                     $row.find("a").each(function() { tags.push($(this).text()); })
-                    if (tags.filter(x => pdh.selected.includes(x)).length == pdh.selected.length) {
-                        available = available.concat(tags);
-                    } else { $row.addClass("hidden"); } 
-                });
-                available = [...new Set(available)];
-                $facets.each(function() {
-                    var $facet = $(this);
-                    if (!available.includes($facet.text())) {
-                        $facet.addClass("hidden");
-                    } else if (pdh.selected.includes($facet.text())) {
-                        $facet.find("a").addClass("selected");
+                    if (!(tags.filter(x => pdh.selected.includes(x)).length == pdh.selected.length)) {
+                        $row.addClass("hidden");
                     }
                 });
             }
-            $this.on("click", pdh.toggleFacet);
+            pdh.updateFacets();
+            $this.off("click").on("click", pdh.toggleFacet);
+        }
+
+        pdh.updateFacets = function() {
+
+            // Zero out facet list
+            if ($.isEmptyObject(pdh.facets)) {
+                $facets.each(function() {
+                    pdh.facets[$(this).text()] = 0;
+                });
+            } else { for (key in pdh.facets) { pdh.facets[key] = 0; } }
+        
+            // Count active tags
+            $rows.each(function() { 
+                var $row = $(this);
+                if (!$row.hasClass("hidden")) {
+                    $row.find("td:last-child").find("a").each(function() {
+                        pdh.facets[$(this).text()] += 1;
+                    })
+                }
+            });
+
+            // Sort active facets by count
+            const sorted = Object.entries(pdh.facets).sort(
+                function(a, b) { return ((a[1] > b[1]) ? -1 : ((a[1] < b[1]) ? 1 : 0));
+            });
+            
+            // Add facets to sidebar
+            $facets.remove();
+            sorted.forEach(function(val) {
+                if (val[0].length > 0 && val[1] > 0) {
+                    var li = document.createElement("li");
+                    var a = document.createElement("a");
+                    a.href = "/topics/" + val[0].replaceAll(" ", "-")
+                    a.innerText = val[0];
+                    if (pdh.selected.includes(val[0])) { a.classList.add("selected"); }
+                    li.appendChild(a);
+                    li.innerHTML += " (" + val[1] + ")";
+                    $("ul.faceted").append(li);
+                }
+            });
+
+            // Add handler
+            $facets = $("ul.faceted").find("li");
+            $facets.find("a").on("click", pdh.toggleFacet);
         }
 
         pdh.resizeIframe = function() {
@@ -76,5 +108,6 @@ $(document).ready(function() {
     }( window.pdh = window.pdh || {}, jQuery ));
 
     pdh.resizeIframe();
+    pdh.updateFacets();
 
 });
