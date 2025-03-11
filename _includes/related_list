@@ -1,10 +1,9 @@
 {% assign topics = include.topics | default: '' | split: '|' %}
 
 {% assign found = false %}
-{% for res_hash in site.data.resources_updated %}
-{% assign item = res_hash[1] %}
+{% for item in site.data.topics %}
   {% for topic in topics %}
-    {% if item.topics contains topic %}
+    {% if item.tags contains topic and item.kind == 'internal' and item.title != page.title %}
       {% assign found = true %}
       {% break %}
     {% endif %}
@@ -18,14 +17,13 @@
 {% endfor %}
 
 {% if found %}
-  {% assign heading = include.heading | default: 'External Resources' %}
+  {% assign heading = include.heading | default: 'Related Pages' %}
   <h2>{{ heading }}</h2>
   <ul>
-    {% for res_hash in site.data.resources_updated %}
-    {% assign item = res_hash[1] %}
+    {% for item in site.data.topics %}
       {% for topic in topics %}
-        {% if item.topics contains topic %}
-          <li><a class="external" href="{{ item.doi }}">{{ item.title }}</a>: {{ item.annotation }}</li>
+        {% if item.tags contains topic and item.kind == 'internal' and item.title != page.title %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% break %}
         {% endif %}
       {% endfor %}
