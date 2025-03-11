@@ -1,5 +1,5 @@
 ---
-title: How to use ABCD EFG
+title: Use ABCD EFG
 status: draft
 topics:
 - share data

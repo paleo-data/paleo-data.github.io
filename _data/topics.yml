@@ -1,5 +1,17 @@
 - kind: internal
   tags:
+  - capture data
+  - inventory
+  title: Capture inventory data
+  url: /how_to_guides/how-to-capture-inventory-data
+- kind: internal
+  tags:
+  - capture data
+  - catalog
+  title: Catalog fossil specimens
+  url: /how_to_guides/how-to-catalog-fossil-specimens
+- kind: internal
+  tags:
   - catalogue of life
   - taxonomy
   title: Catalogue of Life
@@ -49,6 +61,14 @@
   url: /data_ecosystem/gbdb
 - kind: internal
   tags:
+  - manage data
+  - georeference
+  - geography
+  - shared locality
+  title: Georeference collection localities
+  url: /how_to_guides/how-to-georeference-collection-localities
+- kind: internal
+  tags:
   - discover data
   - gbif
   - grscicoll
@@ -82,121 +102,16 @@
   url: https://paleo-data.github.io/guidelines-wikidata-people
 - kind: internal
   tags:
-  - capture data
-  - inventory
-  title: How to capture inventory data
-  url: /how_to_guides/how-to-capture-inventory-data
-- kind: internal
-  tags:
-  - capture data
-  - catalog
-  title: How to catalog fossil specimens
-  url: /how_to_guides/how-to-catalog-fossil-specimens
-- kind: internal
-  tags:
-  - manage data
-  - georeference
-  - geography
-  - shared locality
-  title: How to georeference collection localities
-  url: /how_to_guides/how-to-georeference-collection-localities
-- kind: internal
-  tags:
-  - capture data
-  - image
-  title: How to image fossil specimens
-  url: /how_to_guides/how-to-image-fossil-specimens
-- kind: internal
-  tags:
-  - manage data
-  - chronostratigraphy
-  title: How to manage data about chronostratigraphy
-  url: /how_to_guides/how-to-manage-data-about-chronostratigraphy
-- kind: internal
-  tags:
-  - manage data
-  - geography
-  - georeference
-  title: How to manage data about geography
-  url: /how_to_guides/how-to-manage-data-about-geography
-- kind: internal
-  tags:
-  - manage data
-  - lithostratigraphy
-  title: How to manage data about lithostratigraphy
-  url: /how_to_guides/how-to-manage-data-about-lithostratigraphy
-- kind: internal
-  tags:
-  - manage data
-  - people
-  title: How to manage data about people
-  url: /how_to_guides/how-to-manage-data-about-people
-- kind: internal
-  tags:
-  - manage data
-  - sensitive locality
-  - georeference
-  title: How to manage data about sensitive localities
-  url: /how_to_guides/how-to-manage-data-about-sensitive-localities
-- kind: internal
-  tags:
-  - manage data
-  - shared locality
-  - georeference
-  - catalog
-  title: How to manage data about shared localities
-  url: /how_to_guides/how-to-manage-data-about-shared-localities
-- kind: internal
-  tags:
-  - manage data
-  - taxonomy
-  title: How to manage data about taxonomy
-  url: /how_to_guides/how-to-manage-data-about-taxonomy
-- kind: internal
-  tags:
-  - share data
-  - grscicoll
-  title: How to publish collections metadata on GRSciColl
-  url: /how_to_guides/how-to-publish-collections-metadata-on-grscicoll
-- kind: internal
-  tags:
-  - share data
-  - gbif
-  title: How to publish specimen data on GBIF
-  url: /how_to_guides/how-to-publish-specimen-data-on-gbif
-- kind: internal
-  tags:
-  - share data
-  - data standard
-  - abcd efg
-  title: How to use ABCD EFG
-  url: /how_to_guides/how-to-use-abcd-efg
-- kind: internal
-  tags:
-  - share data
-  - data standard
-  - darwin core
-  title: How to use Darwin Core
-  url: /how_to_guides/how-to-use-darwin-core
-- kind: internal
-  tags:
-  - share data
-  - data standard
-  - latimer core
-  title: How to use Latimer Core
-  url: /how_to_guides/how-to-use-latimer-core
-- kind: internal
-  tags:
-  - symbiota
-  - catalog
-  title: How to use the Symbiota Paleo Data Portal
-  url: /how_to_guides/how-to-use-the-symbiota-paleo-data-portal
-- kind: internal
-  tags:
   - manage data
   - identifier
   title: Identifiers
   url: /explanations/identifier
+- kind: internal
+  tags:
+  - capture data
+  - image
+  title: Image fossil specimens
+  url: /how_to_guides/how-to-image-fossil-specimens
 - kind: internal
   tags:
   - manage data
@@ -209,6 +124,52 @@
   - lithostratigraphy
   title: Macrostrat
   url: /data_ecosystem/macrostrat
+- kind: internal
+  tags:
+  - manage data
+  - chronostratigraphy
+  title: Manage data about chronostratigraphy
+  url: /how_to_guides/how-to-manage-data-about-chronostratigraphy
+- kind: internal
+  tags:
+  - manage data
+  - geography
+  - georeference
+  title: Manage data about geography
+  url: /how_to_guides/how-to-manage-data-about-geography
+- kind: internal
+  tags:
+  - manage data
+  - lithostratigraphy
+  title: Manage data about lithostratigraphy
+  url: /how_to_guides/how-to-manage-data-about-lithostratigraphy
+- kind: internal
+  tags:
+  - manage data
+  - people
+  title: Manage data about people
+  url: /how_to_guides/how-to-manage-data-about-people
+- kind: internal
+  tags:
+  - manage data
+  - sensitive locality
+  - georeference
+  title: Manage data about sensitive localities
+  url: /how_to_guides/how-to-manage-data-about-sensitive-localities
+- kind: internal
+  tags:
+  - manage data
+  - shared locality
+  - georeference
+  - catalog
+  title: Manage data about shared localities
+  url: /how_to_guides/how-to-manage-data-about-shared-localities
+- kind: internal
+  tags:
+  - manage data
+  - taxonomy
+  title: Manage data about taxonomy
+  url: /how_to_guides/how-to-manage-data-about-taxonomy
 - kind: external
   tags:
   - symbiota
@@ -233,6 +194,18 @@
   - chronostratigraphy
   title: Paleobiology Database (PBDB)
   url: /data_ecosystem/pbdb
+- kind: internal
+  tags:
+  - share data
+  - grscicoll
+  title: Publish collections metadata on GRSciColl
+  url: /how_to_guides/how-to-publish-collections-metadata-on-grscicoll
+- kind: internal
+  tags:
+  - share data
+  - gbif
+  title: Publish specimen data on GBIF
+  url: /how_to_guides/how-to-publish-specimen-data-on-gbif
 - kind: external
   tags:
   - symbiota
@@ -272,3 +245,30 @@
   - chronostratigraphy
   title: USGS National Geologic Map Database (Geolex)
   url: /data_ecosystem/usgs-geolex
+- kind: internal
+  tags:
+  - share data
+  - data standard
+  - abcd efg
+  title: Use ABCD EFG
+  url: /how_to_guides/how-to-use-abcd-efg
+- kind: internal
+  tags:
+  - share data
+  - data standard
+  - darwin core
+  title: Use Darwin Core
+  url: /how_to_guides/how-to-use-darwin-core
+- kind: internal
+  tags:
+  - share data
+  - data standard
+  - latimer core
+  title: Use Latimer Core
+  url: /how_to_guides/how-to-use-latimer-core
+- kind: internal
+  tags:
+  - symbiota
+  - catalog
+  title: Use the Symbiota Paleo Data Portal
+  url: /how_to_guides/how-to-use-the-symbiota-paleo-data-portal

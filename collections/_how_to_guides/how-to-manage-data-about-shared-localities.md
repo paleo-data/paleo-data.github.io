@@ -1,5 +1,5 @@
 ---
-title: How to manage data about shared localities
+title: Manage data about shared localities
 status: draft
 topics:
 - manage data

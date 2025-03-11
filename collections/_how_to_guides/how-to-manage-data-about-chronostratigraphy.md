@@ -1,5 +1,5 @@
 ---
-title: How to manage data about chronostratigraphy
+title: Manage data about chronostratigraphy
 status: draft
 topics:
 - manage data

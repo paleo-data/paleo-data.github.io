@@ -1,5 +1,5 @@
 ---
-title: How to manage data about lithostratigraphy
+title: Manage data about lithostratigraphy
 status: draft
 topics:
 - manage data

@@ -1,5 +1,5 @@
 ---
-title: How to georeference collection localities
+title: Georeference collection localities
 status: draft
 topics:
 - manage data

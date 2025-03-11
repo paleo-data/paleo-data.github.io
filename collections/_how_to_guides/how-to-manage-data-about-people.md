@@ -1,5 +1,5 @@
 ---
-title: How to manage data about people
+title: Manage data about people
 status: draft
 topics:
 - manage data

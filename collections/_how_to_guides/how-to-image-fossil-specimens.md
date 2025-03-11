@@ -1,5 +1,5 @@
 ---
-title: How to image fossil specimens
+title: Image fossil specimens
 status: draft
 topics:
 - capture data

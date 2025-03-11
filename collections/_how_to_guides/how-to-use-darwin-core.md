@@ -1,5 +1,5 @@
 ---
-title: How to use Darwin Core
+title: Use Darwin Core
 status: draft
 topics:
 - share data

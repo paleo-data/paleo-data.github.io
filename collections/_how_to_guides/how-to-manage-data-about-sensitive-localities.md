@@ -1,5 +1,5 @@
 ---
-title: How to manage data about sensitive localities
+title: Manage data about sensitive localities
 status: draft
 topics:
 - manage data

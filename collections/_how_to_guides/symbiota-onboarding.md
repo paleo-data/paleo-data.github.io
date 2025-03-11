@@ -1,5 +1,5 @@
 ---
-title: How to get started in the Symbiota Paleo Data Portal
+title: Get started in the Symbiota Paleo Data Portal
 sidebar:
   nav: [sidebar]
 toc: True

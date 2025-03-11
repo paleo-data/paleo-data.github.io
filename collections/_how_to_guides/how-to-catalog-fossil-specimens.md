@@ -1,5 +1,5 @@
 ---
-title: How to catalog fossil specimens
+title: Catalog fossil specimens
 status: draft
 topics:
 - capture data

@@ -1,5 +1,5 @@
 ---
-title: How to use the Symbiota Paleo Data Portal
+title: Use the Symbiota Paleo Data Portal
 status: draft
 topics:
 - symbiota

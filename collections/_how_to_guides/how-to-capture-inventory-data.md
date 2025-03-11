@@ -1,5 +1,5 @@
 ---
-title: How to capture inventory data
+title: Capture inventory data
 status: draft
 topics:
 - capture data

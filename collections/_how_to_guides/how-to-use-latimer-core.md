@@ -1,5 +1,5 @@
 ---
-title: How to use Latimer Core
+title: Use Latimer Core
 status: draft
 topics:
 - share data

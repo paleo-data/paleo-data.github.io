@@ -1,5 +1,5 @@
 ---
-title: How to manage data about taxonomy
+title: Manage data about taxonomy
 status: draft
 topics:
 - manage data

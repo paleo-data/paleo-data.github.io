@@ -1,5 +1,5 @@
 ---
-title: How to publish collections metadata on GRSciColl
+title: Publish collections metadata on GRSciColl
 status: draft
 topics:
 - share data

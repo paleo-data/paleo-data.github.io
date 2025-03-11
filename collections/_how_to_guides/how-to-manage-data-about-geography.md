@@ -1,5 +1,5 @@
 ---
-title: How to manage data about geography
+title: Manage data about geography
 status: draft
 topics:
 - manage data

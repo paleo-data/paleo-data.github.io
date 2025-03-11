@@ -1,5 +1,5 @@
 ---
-title: How to publish specimen data on GBIF
+title: Publish specimen data on GBIF
 status: draft
 topics:
 - share data
