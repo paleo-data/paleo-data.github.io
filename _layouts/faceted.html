@@ -26,8 +26,6 @@ layout: default
 {% endfor %}
 {% assign tags = tags | split: "," | uniq | sort_natural %}
 
-{% assign extlink = "/assets/images/ri--external-link-line.png" %}
-
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -64,7 +62,7 @@ layout: default
         <table class="faceted">
           <tr><th>Resource</th><!--<th>Topics</th>--></tr>
         {% for item in site.data.topics %}
-          <tr data-tags="{{ item.tags | join: '|'}}"><td><a href="{% if item.kind == 'external' %}{{ item.url }}{% else %}{{ item.url | relative_url}}{% endif %}">{{ item.title }}</a>{% if item.kind == 'external' %} <img src={{ extlink | relative_url }} class="extlink">{% endif %}</td><!--<td>{% for tag in item.tags %}<a href="{{ "topics/" | append: tag | replace: " ", "-" | relative_url }}">{{ tag }}</a>, {% endfor %}</td>--></tr>
+          <tr data-tags="{{ item.tags | join: '|'}}"><td><a {% if item.kind == 'external' %}class="external" {% endif %}href="{% if item.kind == 'external' %}{{ item.url }}{% else %}{{ item.url | relative_url}}{% endif %}">{{ item.title }}</a></td><!--<td>{% for tag in item.tags %}<a href="{{ "topics/" | append: tag | replace: " ", "-" | relative_url }}">{{ tag }}</a>, {% endfor %}</td>--></tr>
         {% endfor %}
         </table>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
