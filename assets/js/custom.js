@@ -14,7 +14,6 @@ $(document).ready(function() {
             var $this = $(this);
             $this.off("click");
             e.preventDefault();
-            console.log($this.next());
             $this.parent("a").next("ul").toggleClass("hidden");
             $this.on("click", pdh.toggleSubmenu);
         }
@@ -31,8 +30,7 @@ $(document).ready(function() {
             if (pdh.selected.length !== 0) {
                 $rows.each(function() { 
                     var $row = $(this);
-                    var tags = [];
-                    $row.find("a").each(function() { tags.push($(this).text()); })
+                    var tags = $row.data("tags").split("|");
                     if (!(tags.filter(x => pdh.selected.includes(x)).length == pdh.selected.length)) {
                         $row.addClass("hidden");
                     }
@@ -55,8 +53,8 @@ $(document).ready(function() {
             $rows.each(function() { 
                 var $row = $(this);
                 if (!$row.hasClass("hidden")) {
-                    $row.find("td:last-child").find("a").each(function() {
-                        pdh.facets[$(this).text()] += 1;
+                    $row.data("tags").split("|").forEach(function(val) {
+                        pdh.facets[val] += 1;
                     })
                 }
             });

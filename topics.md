@@ -6,3 +6,5 @@ sidebar:
   nav: [sidebar]
   collapsible: True
 ---
+
+<!-- Content on this page is populated from _layouts/faceted.html -->
