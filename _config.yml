@@ -1,12 +1,83 @@
 title: Paleo Data Hub
 description: A clearinghouse for information about digitizing paleontology collections
-remote_theme: mmistakes/minimal-mistakes@4.26.2
-exclude: [scripts]
+repository: adamancer/geo-ose-mm
+theme: minimal-mistakes-jekyll
+exclude: [scripts, templates]
+
+atom_feed:
+  hide: true
+
+after_footer_scripts:
+  - /assets/js/custom.js
+
+search: true
+lunr:
+  search_full_content: true
+  search_within_pages: true
 
 collections_dir: collections
 collections:
-  resources:
+  community:
     output: True
     sort_by: nav_order
-  tags:
-    
+  explanations:
+    output: True
+    sort_by: nav_order
+  how_to_guides:
+    output: True
+    sort_by: nav_order
+  data_ecosystem:
+    output: True
+    sort_by: nav_order
+  tutorials:
+    output: True
+    sort_by: nav_order
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      sidebar:
+        nav: sidebar
+        collapsible: True
+  - scope:
+      path: collections
+    values:
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: community
+    values:
+      section: Community
+      sidebar:
+        expanded: [community]
+  - scope:
+      path: ""
+      type: explanations
+    values:
+      section: Explanations
+      sidebar:
+        expanded: [explanations]
+  - scope:
+      path: ""
+      type: how_to_guides
+    values:
+      section: How To Guides
+      sidebar:
+        expanded: [how_to_guides]
+  - scope:
+      path: ""
+      type: data_ecosystem
+    values:
+      section: Data Ecosystem
+      sidebar:
+        expanded: [data_ecosystem]
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      section: Tutorials
+      sidebar:
+        expanded: [tutorials]

@@ -1,0 +1,34 @@
+{% assign topics = include.topics | default: '' | split: '|' %}
+
+{% assign found = false %}
+{% for res_hash in site.data.resources_updated %}
+{% assign item = res_hash[1] %}
+  {% for topic in topics %}
+    {% if item.topics contains topic %}
+      {% assign found = true %}
+      {% break %}
+    {% endif %}
+    {% if found %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% if found %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if found %}
+  {% assign heading = include.heading | default: 'External Resources' %}
+  <h2>{{ heading }}</h2>
+  <ul>
+    {% for res_hash in site.data.resources_updated %}
+    {% assign item = res_hash[1] %}
+      {% for topic in topics %}
+        {% if item.topics contains topic %}
+          <li><a class="external" href="{{ item.doi }}">{{ item.title }}</a>: {{ item.annotation }}</li>
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endif %}

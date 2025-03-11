@@ -1,0 +1,7 @@
+<p>The following pages are tagged with <strong>{{ page.title }}</strong>:</p>
+
+<ul>
+  {% for page_ in page.pages %}
+    <li><a href="{{ page_.url | relative_url }}">{{ page_.title }}</a></li>
+  {% endfor %}
+</ul>
