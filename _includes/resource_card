@@ -3,7 +3,7 @@
     {% assign filename = res_hash[0] | append: '.yml' %}
     {% if filename == include.filename %}
       {% assign resource = res_hash[1] %}
-      <strong><a href="{{ resource.access_url }}">{{ resource.title }}</a></strong>
+      <strong><a class="external" href="{{ resource.access_url }}">{{ resource.title }}</a></strong>
       <p>{{ resource.authors }}</p>
       <p>{{ resource.annotation }}</p>
     {% break %}
