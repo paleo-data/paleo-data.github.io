@@ -26,7 +26,7 @@ collections:
   how_to_guides:
     output: True
     sort_by: nav_order
-  paleo_data_ecosystem:
+  data_ecosystem:
     output: True
     sort_by: nav_order
   tutorials:
@@ -66,10 +66,10 @@ defaults:
         expanded: [how_to_guides]
   - scope:
       path: ""
-      type: paleo_data_ecosystem
+      type: data_ecosystem
     values:
       sidebar:
-        expanded: [paleo_data_ecosystem]
+        expanded: [data_ecosystem]
   - scope:
       path: ""
       type: tutorials

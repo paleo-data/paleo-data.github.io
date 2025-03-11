@@ -30,8 +30,9 @@ $(document).ready(function() {
             $facets.removeClass("hidden");
             $facets.find("a").removeClass("selected");
             if (pdh.selected.length !== 0) {
-                // Hide rows
+                // Hide rows that do not match
                 var available = [];
+                var visible = {};
                 $rows.each(function() { 
                     var $row = $(this);
                     var tags = [];
@@ -67,7 +68,7 @@ $(document).ready(function() {
         }
 
         // Enable handlers
-        $("ul.collapsible li:has(ul) span.nav__sub-title").on("click", pdh.toggleSubmenu);
+        // $("ul.collapsible li:has(ul) span.nav__sub-title").on("click", pdh.toggleSubmenu);
         $("ul.faceted a").on("click", pdh.toggleFacet);
         $("table.faceted tr td:nth-child(2) a").on("click", pdh.toggleFacet);
         $(window).on("resize", pdh.resizeIframe);

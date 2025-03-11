@@ -83,4 +83,4 @@ if __name__ == "__main__":
     index_tags(fms, "topics")
 
     print("Building navigation")
-    build_nav(fms)
+    build_nav(fms, include_main=["topics.md"])

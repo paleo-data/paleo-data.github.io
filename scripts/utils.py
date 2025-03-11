@@ -202,7 +202,12 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
     return tags
 
 
-def build_nav(fms: dict, headers: dict = None) -> None:
+def build_nav(
+    fms: dict,
+    headers: dict = None,
+    include_main: list = None,
+    exclude_main: list = None,
+) -> None:
     """Builds a navigation sidebar"""
     if headers is None:
         headers = {}
@@ -219,7 +224,14 @@ def build_nav(fms: dict, headers: dict = None) -> None:
 
     for fm in main:
         if fm["path"].name != "index.md":
-            nav.setdefault("main", []).append({"title": fm["title"], "url": fm["url"]})
+            if (
+                not (include_main or exclude_main)
+                or (include_main and fm["path"].name in include_main)
+                or (exclude_main and fm["path"].name not in exclude_main)
+            ):
+                nav.setdefault("main", []).append(
+                    {"title": fm["title"], "url": fm["url"]}
+                )
             nav.setdefault("sidebar", []).append(
                 {"title": fm["title"], "url": fm["url"]}
             )

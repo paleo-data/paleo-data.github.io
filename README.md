@@ -4,7 +4,7 @@ This repository contains the files for the Paleo Data Hub website.
 
 ## Site structure
 
-The site is organized primarily by collections. The following
+The site is organized primarily by collections.
 
 ### Community
 
@@ -37,5 +37,5 @@ build-site.py script is run.
 
 ## Acknolwedgments
 
-Icons are from the [Prime icon set](https://icon-sets.iconify.design/prime/) from
-Iconify. 
+Icons are from the [Remix icon set](https://icon-sets.iconify.design/ri/) (Apache 2.0)
+from Iconify. 

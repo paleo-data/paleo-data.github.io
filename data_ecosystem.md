@@ -1,5 +1,5 @@
 ---
-title: Paleo Data Ecosystem
+title: Data Ecosystem
 status: draft
 nav_order: 2
 sidebar:
@@ -7,5 +7,5 @@ sidebar:
   - sidebar
   collapsible: true
   expanded:
-  - paleo_data_ecosystem
+  - data_ecosystem
 ---

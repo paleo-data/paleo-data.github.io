@@ -15,12 +15,12 @@ search: false
 
 .feature__wrapper div:has(> a:hover) { background-color: #eee; border-color: #000; }
 
-.feature__item { border: 1px solid #eee; }
+.feature__item { border: 1px solid #eee; margin-bottom: 1em; }
 
 a.archive__item-teaser { border: none; }
 a.archive__item-body { border: none; }
 h2.archive__item-title { text-align: center; }
-div.archive__item-teaser img { width: 30%;  padding: 0; margin: 10% 35% 0 35%; }
+div.archive__item-teaser img { width: 30%;  padding: 0; box-shadow: none !important; margin: 10% 35% 0 35%; }
 div.archive__item-excerpt { margin: 0 5%; }
 
 .notice--info { font-style: normal; }
@@ -31,7 +31,7 @@ ul.collapsible li:has(ul) span::after { content: " ▴"; }
 ul.collapsible li:has(ul.hidden) span::after { content: " ▾"; }
 
 ul.nav__items ul li { padding-left: 10px; text-indent: -10px; }
-ul.nav__items ul li:hover { color: red; }
+ul.nav__items ul li:hover { text-decoration: underline; }
 
 ul.faceted a { font-weight: normal; }
 ul.faceted a.selected { font-weight: 800; }

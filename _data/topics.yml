@@ -3,13 +3,13 @@
   - catalogue of life
   - taxonomy
   title: Catalogue of Life
-  url: /paleo_data_ecosystem/catalogue-of-life
+  url: /data_ecosystem/catalogue-of-life
 - kind: internal
   tags:
   - checklist bank
   - taxonomy
   title: Checklist Bank
-  url: /paleo_data_ecosystem/checklist-bank
+  url: /data_ecosystem/checklist-bank
 - kind: internal
   tags:
   - manage data
@@ -46,7 +46,7 @@
   - lithostratigraphy
   - chronostratigraphy
   title: Geobiodiversity Database (GBDB)
-  url: /paleo_data_ecosystem/gbdb
+  url: /data_ecosystem/gbdb
 - kind: internal
   tags:
   - discover data
@@ -58,20 +58,20 @@
   tags:
   - gbif
   title: Global Biodiversity Information Facility (GBIF)
-  url: /paleo_data_ecosystem/gbif
+  url: /data_ecosystem/gbif
 - kind: internal
   tags:
   - global names
   - taxonomy
   title: Global Names Architecture
-  url: /paleo_data_ecosystem/global-names
+  url: /data_ecosystem/global-names
 - kind: internal
   tags:
   - grscicoll
   - inventory
   - gbif
   title: Global Registry of Scientific Collections (GRSciColl)
-  url: /paleo_data_ecosystem/grscicoll
+  url: /data_ecosystem/grscicoll
 - kind: external
   tags:
   - people
@@ -208,7 +208,7 @@
   - macrostrat
   - lithostratigraphy
   title: Macrostrat
-  url: /paleo_data_ecosystem/macrostrat
+  url: /data_ecosystem/macrostrat
 - kind: external
   tags:
   - symbiota
@@ -220,7 +220,7 @@
   - pbot
   - taxonomy
   title: PBot Integrative Paleobotany Portal
-  url: /paleo_data_ecosystem/pbot
+  url: /data_ecosystem/pbot
 - kind: internal
   tags:
   - manage data
@@ -232,7 +232,7 @@
   - pbdb
   - chronostratigraphy
   title: Paleobiology Database (PBDB)
-  url: /paleo_data_ecosystem/pbdb
+  url: /data_ecosystem/pbdb
 - kind: external
   tags:
   - symbiota
@@ -244,14 +244,14 @@
   - symbiota
   - collection management system
   title: Symbiota Paleo Data Portal
-  url: /paleo_data_ecosystem/symbiota
+  url: /data_ecosystem/symbiota
 - kind: internal
   tags:
   - taxonworks
   - collection management system
   - taxonomy
   title: TaxonWorks
-  url: /paleo_data_ecosystem/taxonworks
+  url: /data_ecosystem/taxonworks
 - kind: internal
   tags:
   - share data
@@ -264,11 +264,11 @@
   - treatise ip
   - taxonomy
   title: Treatise on Invertebrate Paleontology
-  url: /paleo_data_ecosystem/treatise-ip
+  url: /data_ecosystem/treatise-ip
 - kind: internal
   tags:
   - usgs geolex
   - lithostratigraphy
   - chronostratigraphy
   title: USGS National Geologic Map Database (Geolex)
-  url: /paleo_data_ecosystem/usgs-geolex
+  url: /data_ecosystem/usgs-geolex

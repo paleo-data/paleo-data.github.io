@@ -9,11 +9,36 @@ header:
   #    url: "/about"
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 feature_row:
-    - image_path: /assets/images/ri--leaf-line.png
+    - image_path: /assets/images/ri--community-line.png
       alt: "A globe icon"
-      title: "Getting started with Symbiota"
-      excerpt: This guide will walk you through the steps you need to get started using the Symbiota Paleo Data Portal for collections management.
-      url: /how_to_guides/symbiota-onboarding
+      title: "Community"
+      excerpt: 
+      url: /community
+    - image_path: /assets/images/ri--node-tree.png
+      alt: "A globe icon"
+      title: "Data Ecosystem"
+      excerpt: 
+      url: /data_ecosystem
+    - image_path: /assets/images/ri--info-card-line.png
+      alt: "A globe icon"
+      title: "Topics"
+      excerpt: 
+      url: /topics
+    - image_path: /assets/images/ri--questionnaire-line.png
+      alt: "A globe icon"
+      title: "Explanations"
+      excerpt: 
+      url: /explanations
+    - image_path: /assets/images/ri--book-shelf-line.png
+      alt: "A globe icon"
+      title: "How To Guides"
+      excerpt: 
+      url: /how_to_guides
+    - image_path: /assets/images/ri--treasure-map-line.png
+      alt: "A globe icon"
+      title: "Tutorials"
+      excerpt: 
+      url: /tutorials
 ---
 
 Welcome to the Paleo Data Hub!
