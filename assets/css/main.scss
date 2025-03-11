@@ -39,7 +39,7 @@ ul.faceted a.selected { font-weight: 800; }
 a.external::after {
     content: "";
     display: inline-block;
-    background-image: url("/assets/images/ri--external-link-line.png");
+    background-image: url("../images/ri--external-link-line.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 1em;
