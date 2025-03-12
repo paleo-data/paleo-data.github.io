@@ -8,6 +8,8 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.page__content { font-size: 0.9em; }
+
 .feature__wrapper a:link { color: #000; text-decoration: none; }
 .feature__wrapper a:visited { color: #000; text-decoration: none; }
 .feature__wrapper a:hover { color: #000; text-decoration: none !important; }
@@ -51,3 +53,5 @@ a.external::after {
 
 div.section-title { font-size: 0.8em; text-decoration: underline; font-variant: small-caps; margin-bottom: 0.3em; }
 div.section-title a { color: #555; }
+
+img.icon { width: 2em; height: 2em; }
