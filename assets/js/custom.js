@@ -22,10 +22,15 @@ $(document).ready(function() {
             var $this = $(this);
             $this.off("click");
             e.preventDefault();
-            // Toggle selected
-            if (pdh.selected.includes($this.text())) {
-                pdh.selected.splice(pdh.selected.indexOf($this.text()), 1);
-            } else { pdh.selected.push($this.text()); }
+            pdh.toggleFacetFromText($this.text());
+            pdh.pushState();
+            $this.off("click").on("click", pdh.toggleFacet);
+        }
+
+        pdh.toggleFacetFromText = function(tag) {
+            if (pdh.selected.includes(tag)) {
+                pdh.selected.splice(pdh.selected.indexOf(tag), 1);
+            } else { pdh.selected.push(tag); }
             $rows.removeClass("hidden");
             if (pdh.selected.length !== 0) {
                 $rows.each(function() { 
@@ -37,7 +42,17 @@ $(document).ready(function() {
                 });
             }
             pdh.updateFacets();
-            $this.off("click").on("click", pdh.toggleFacet);
+        }
+
+        pdh.toggleFacetsFromURL = function() {
+            const params = new URLSearchParams(window.location.search);
+            const topics = params.getAll("topic");
+            pdh.selected = [];
+            if (topics.length !== 0) {
+                topics.forEach(function(val) {
+                    pdh.toggleFacetFromText(val.replace("-", " "));
+                });
+            } else { $rows.removeClass("hidden"); pdh.updateFacets(); }
         }
 
         pdh.updateFacets = function() {
@@ -84,6 +99,20 @@ $(document).ready(function() {
             $facets.find("a").on("click", pdh.toggleFacet);
         }
 
+        pdh.pushState = function() {
+            var href = window.location.href.split("?")[0];
+            if (pdh.selected.length) {
+                href += "?"
+                pdh.selected.sort().forEach(function(val) {
+                    href += "topic=" + val.replace(" ", "-") + "&";
+                });
+                href = href.replace(/&$/, "");
+            }
+            if (href != window.location.href) {
+                window.history.pushState( {} , "", href );
+            }
+        }
+
         pdh.resizeIframe = function() {
             $("iframe").each(function(e) {
                 var $this = $(this);
@@ -102,10 +131,13 @@ $(document).ready(function() {
         $("ul.faceted a").on("click", pdh.toggleFacet);
         $("table.faceted tr td:nth-child(2) a").on("click", pdh.toggleFacet);
         $(window).on("resize", pdh.resizeIframe);
+        window.onpopstate = (event) => pdh.toggleFacetsFromURL();
 
     }( window.pdh = window.pdh || {}, jQuery ));
 
     pdh.resizeIframe();
     pdh.updateFacets();
+    pdh.toggleFacetsFromURL();
+    pdh.hideEvents();
 
 });
