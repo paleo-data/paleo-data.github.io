@@ -49,7 +49,7 @@ Welcome to the Paleo Data Hub!
 {% for item in items %}
   {% capture then %}{{ item.date | date: "%s" }}{% endcapture %}
   {% if then >= now %}
-    {% assign item_ = item.date | append: ": " | append: item.topic | split: "|" %}
+    {% assign item_ = item.date | append: ": " | append: item.title | split: "|" %}
     {% assign upcoming = upcoming | concat: item_ %}
   {% endif %}
 {% endfor %}
