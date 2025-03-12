@@ -162,7 +162,7 @@ gem install bundler jekyll
 ### Build the site locally
 
 Open the command prompt and run the following commands to activate the environment
-needed to built the site and 
+needed to build and run the site locally:
 
 ```
 mamba activate pdh
