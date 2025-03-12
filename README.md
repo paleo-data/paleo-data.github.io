@@ -1,7 +1,7 @@
-# Paleo Data Hub
+# Paleo Data Knowledge Hub
 
-This repository contains the files for the Paleo Data Hub website, which is created
-using [Jekyll](https://jekyllrb.com/) and the 
+This repository contains the files for the Paleo Data Knowledge Hub website, which is
+created using [Jekyll](https://jekyllrb.com/) and the 
 [minimal-mistakes](https://mmistakes.github.io) template.
 
 ## Adding new pages
@@ -134,17 +134,17 @@ Building the site locally requires that the following three applications are ins
 - [Ruby](https://www.ruby-lang.org/en/downloads) (under Ways of Installing Ruby)
 
 Once those applications are installed, you can
-[fork this repository](https://github.com/paleo-data/paleo-data-hub/fork), then clone
+[fork this repository](https://github.com/paleo-data/knowledge-hub/fork), then clone
 the fork to your system:
 
 ```
-git clone https://github.com/{username}/paleo-data-hub
+git clone https://github.com/{username}/knowledge-hub
 ```
 
 Navigate to the directory you just created:
 
 ```
-cd path/to/paleo-data-hub
+cd path/to/knowledge-hub
 ```
 
 Set up the Python environment:
@@ -166,7 +166,7 @@ needed to build and run the site locally:
 
 ```
 mamba activate pdh
-cd path/to/paleo-data-hub
+cd path/to/knowledge-hub
 ```
 
 To build the site and launch Jekyll, run the following commands in the same prompt:
