@@ -18,7 +18,7 @@
 {% endfor %}
 
 {% if found %}
-  {% assign heading = include.heading | default: 'External Resources' %}
+  {% assign heading = include.heading | default: 'External resources' %}
   <h2>{{ heading }}</h2>
   <ul>
     {% for res_hash in site.data.resources_updated %}
