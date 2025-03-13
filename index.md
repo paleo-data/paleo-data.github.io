@@ -57,7 +57,7 @@ Welcome to the Paleo Data Hub!
 {% assign size = upcoming | size %}
 {% if size > 0 %}
   <div class="notice--info upcoming">
-    <strong>Upcoming Paleo Data Happy Hours</strong>
+    <strong>Upcoming PDWG Happy Hours</strong>
     <ul>
     {% assign idx = 0 %}
     {% for item in upcoming %}
