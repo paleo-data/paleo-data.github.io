@@ -48,8 +48,8 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
     <tr id="{{ item.date }}" data-tags="{{ item.date | date: '%Y'}}|{{ item.topics | join: '|'}}">
       <td>{{ item.date }}</td>
       <td>{{ item.title }}</td>
-      <td>{% if item.notes %}<a href="{{ item.notes }}"><img class="icon" src="/assets/images/ri--file-text-line.png"></a>{% endif %}</td>
-      <td>{% if item.recording %}<a href="{{ item.recording }}"><img class="icon" src="/assets/images/ri--video-on-line.png"></a>{% endif %}</td>
+      <td>{% if item.notes %}<a href="{{ item.notes }}"><img class="icon" src="{{ '/assets/images/ri--file-text-line.png' | relative_url }}"></a>{% endif %}</td>
+      <td>{% if item.recording %}<a href="{{ item.recording }}"><img class="icon" src="{{ '/assets/images/ri--video-on-line.png' | relative_url }}"></a>{% endif %}</td>
     </tr>
    {% endif %}
 {% endfor %}
