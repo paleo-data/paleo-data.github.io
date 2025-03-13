@@ -1,5 +1,5 @@
 ---
-title: Paleo Data Hub
+title: Paleo Data Knowledge Hub
 layout: splash
 header:
   overlay_image: /assets/images/header.jpg

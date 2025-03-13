@@ -17,7 +17,7 @@
 {% endfor %}
 
 {% if found %}
-  {% assign heading = include.heading | default: 'Related Pages' %}
+  {% assign heading = include.heading | default: 'Related pages' %}
   <h2>{{ heading }}</h2>
   <ul>
     {% for item in site.data.topics %}
