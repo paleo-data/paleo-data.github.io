@@ -126,20 +126,6 @@ $(document).ready(function() {
             })
         }
 
-        pdh.hideEvents = function() {
-            var today = new Date().toISOString();
-            var shown = $("div.upcoming").find("li:not(.hidden)").length;
-            console.log(shown);
-            $("div.upcoming").find("li").each(function() {
-                var dt = $(this).data("date");
-                if (dt < today) { $(this).addClass("hidden"); shown--; }
-                else if (dt >= today && shown < 3 && $(this).hasClass("hidden")) {
-                    $(this).removeClass("hidden");
-                    shown++;
-                }
-            });
-        }
-
         // Enable handlers
         // $("ul.collapsible li:has(ul) span.nav__sub-title").on("click", pdh.toggleSubmenu);
         $("ul.faceted a").on("click", pdh.toggleFacet);
@@ -152,6 +138,5 @@ $(document).ready(function() {
     pdh.resizeIframe();
     pdh.updateFacets();
     pdh.toggleFacetsFromURL();
-    pdh.hideEvents();
 
 });
