@@ -43,11 +43,11 @@ feature_row:
 
 Welcome to the Paleo Data Hub!
 
-{% capture now %}{{ "now" | date: "%s" }}{% endcapture %}
+{% capture now %}{{ "now" | date: "%Y-%m-%d" }}{% endcapture %}
 {% assign upcoming = "" | split: "" %}
 {% assign items = site.data.pdwg_happy_hours | sort: "date" %}
 {% for item in items %}
-  {% capture then %}{{ item.date | date: "%s" }}{% endcapture %}
+  {% capture then %}{{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
   {% if then >= now %}
     {% assign item_ = item.date | append: ": " | append: item.title | split: "|" %}
     {% assign upcoming = upcoming | concat: item_ %}

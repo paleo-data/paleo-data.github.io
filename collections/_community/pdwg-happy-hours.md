@@ -17,10 +17,10 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
     <th>Notes</th>
     <th>Recording</th>
   </tr>
-{% capture now %}{{ "now" | date: "%s" }}{% endcapture %}
+{% capture now %}{{ "now" | date: "%Y-%m-%d" }}{% endcapture %}
 {% assign items = site.data[page.facet_data] | sort: "date" %}
 {% for item in items %}
-  {% capture then %}{{ item.date | date: "%s" }}{% endcapture %}
+  {% capture then %}{{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
   {% if then >= now %}
     <tr id="{{ item.date }}" data-tags="{{ item.date | date: '%Y'}}|{{ item.topics | join: '|'}}">
       <td>{{ item.date }}</td>
@@ -40,10 +40,10 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
     <th>Notes</th>
     <th>Recording</th>
   </tr>
-{% capture now %}{{ "now" | date: "%s" }}{% endcapture %}
+{% capture now %}{{ "now" | date: "%Y-%m-%d" }}{% endcapture %}
 {% assign items = site.data[page.facet_data] | sort: "date" | reverse %}
 {% for item in items %}
-  {% capture then %}{{ item.date | date: "%s" }}{% endcapture %}
+  {% capture then %}{{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
   {% if then < now %}
     <tr id="{{ item.date }}" data-tags="{{ item.date | date: '%Y'}}|{{ item.topics | join: '|'}}">
       <td>{{ item.date }}</td>
