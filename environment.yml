@@ -1,0 +1,11 @@
+name: pdh
+channels:
+- conda-forge
+- default
+dependencies:
+- python>=3.10
+- beautifulsoup4
+- html5lib
+- pyyaml
+- requests
+- unidecode
