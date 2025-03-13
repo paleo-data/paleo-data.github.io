@@ -65,9 +65,31 @@ suitable Markdown is not available, for example, for embed tags.
 
 Jekyll also supports [Liquid](https://shopify.github.io/liquid/), which is a template
 language that can be used to add dynamic content to pages. Liquid tags should also be
-used sparingly, with the primary exception being use of `include` tags to display
+used sparingly, with the primary exceptions being (1) use of the `relative_url`
+filter to link to pages elsewhere on the site and (2) use of `include` tags to display
 widgets defined by either the `minimal-mistakes` template or created specifically for
-this site. Some examples of widgets are provided below.
+this site.
+
+#### Linking within the site
+
+We recommend using Jekyll's `relative_url` filter to link to other pages on the hub.
+This filter accepts a root-relative URL. Note that the collections folder is not
+part of the URL for pages in a collection and that page names do not need to include
+a file extension.
+
+Link to a top-level page:
+
+```
+[Community]{{ "/community" | relative_url }}
+```
+
+Link to a page in a collection:
+
+```
+[PDWG Happy Hours]{{ "/community/pdwg-happy-hours" | relative_url }}
+```
+
+#### Widgets
 
 Include a list of related pages matching one or more topics:
 
