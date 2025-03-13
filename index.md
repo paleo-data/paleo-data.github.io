@@ -45,7 +45,7 @@ Welcome to the Paleo Data Hub!
 
 {% capture now %}{{ "now" | date: "%Y-%m-%d" }}{% endcapture %}
 {% assign upcoming = "" | split: "" %}
-{% assign items = site.data.pdwg_happy_hours | sort: "date" %}
+{% assign items = site.data["pdwg-happy-hours"] | sort: "date" %}
 {% for item in items %}
   {% capture then %}{{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
   {% if then >= now %}

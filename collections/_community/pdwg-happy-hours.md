@@ -3,7 +3,7 @@ title: PDWG Happy Hours
 status: draft
 last_modified_at: 2025-03-12
 layout: faceted
-facet_data: pdwg_happy_hours
+facet_data: pdwg-happy-hours
 facet_keys: [topics, date]
 ---
 

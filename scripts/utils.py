@@ -170,7 +170,7 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
             )
 
     # Get tags from happy hours
-    with open(BASEPATH / "_data" / "pdwg_happy_hours.yml", encoding="utf-8") as f:
+    with open(BASEPATH / "_data" / "pdwg-happy-hours.yml", encoding="utf-8") as f:
         for event in yaml.safe_load(f):
             event["url"] = f"/community/pdwg-happy-hours#{event['date']}"
             event["kind"] = "PDWG happy hour"
