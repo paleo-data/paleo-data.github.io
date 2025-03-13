@@ -148,7 +148,7 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
             tagged.append(
                 {
                     "title": fm["title"],
-                    "kind": "internal",
+                    "kind": "page",
                     "url": fm["url"],
                     "tags": tags,
                 }
@@ -165,6 +165,20 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
                 {
                     k: v
                     for k, v in resource.items()
+                    if k in {"title", "kind", "url", "tags"}
+                }
+            )
+
+    # Get tags from happy hours
+    with open(BASEPATH / "_data" / "pdwg-happy-hours.yml", encoding="utf-8") as f:
+        for event in yaml.safe_load(f):
+            event["url"] = f"/community/pdwg-happy-hours#{event['date']}"
+            event["kind"] = "PDWG happy hour"
+            event["tags"] = event.get(key, [])
+            tagged.append(
+                {
+                    k: v
+                    for k, v in event.items()
                     if k in {"title", "kind", "url", "tags"}
                 }
             )

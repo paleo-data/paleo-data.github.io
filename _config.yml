@@ -11,8 +11,8 @@ after_footer_scripts:
   - /assets/js/custom.js
 
 search: true
+search_full_content: true
 lunr:
-  search_full_content: true
   search_within_pages: true
 
 collections_dir: collections

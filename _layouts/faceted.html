@@ -19,12 +19,19 @@ layout: default
 {% endif %}
 
 {% assign tags = "" %}
-{% for item in site.data.topics %}
-  {% for tag in item.tags %}
-    {% assign tags = tags | append: "," | append: tag %}
+{% for item in site.data[page.facet_data] %}
+  {% for key in page.facet_keys %}
+    {% if key == "date" %}
+      {% assign dt = item[key] | date: "%Y" %}
+      {% assign tags = tags | append: "," | append: key | append: ":" | append: dt %}
+    {% else %}
+      {% for tag in item[key] %}
+        {% assign tags = tags | append: "," | append: key | append: ":" | append: tag %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
-{% assign tags = tags | split: "," | uniq | sort_natural %}
+{% assign tags = tags | replace_first: ",", "" | split: "," | uniq | sort_natural %}
 
 <div id="main" role="main">
   {% include sidebar.html %}
@@ -49,22 +56,26 @@ layout: default
 
       <section class="page__content" itemprop="text">
         <aside class="sidebar__right sticky">
-          <nav class="toc">
-            <header><h4 class="nav__title">Topics</h4></header>
-            <ul class="toc__menu faceted">
-              {% for tag in tags %}
-                <li><a href="{{ "topics/" | append: tag | replace: " ", "-" | relative_url }}">{{ tag }}</a></li>
-              {% endfor %}
+          {% assign last = "" %}
+          {% for tag_ in tags %}
+            {% assign tag = tag_ | split: ":" %}
+            {% if tag[0] != last %}
+              {% if last != "" %}
+                  </ul>
+                </nav>
+              {% endif %}
+              <nav class="toc">
+                <header><h4 class="nav__title">{{ tag[0] | capitalize | replace: "Tags", "Topics" }}</h4></header>
+                <ul id="{{ tag[0] }}" class="toc__menu faceted">
+              {% assign last = tag[0] %}
+            {% endif %}
+            <li><a href="{{ "topics/" | append: tag[1] | replace: " ", "-" | relative_url }}">{{ tag[1] }}</a></li>
+          {% endfor %}
             </ul>
           </nav>
         </aside>
         {{ content }}
-        <table class="faceted">
-          <tr><th>Resource</th><!--<th>Topics</th>--></tr>
-        {% for item in site.data.topics %}
-          <tr data-tags="{{ item.tags | join: '|'}}"><td><a {% if item.kind == 'external' %}class="external" {% endif %}href="{% if item.kind == 'external' %}{{ item.url }}{% else %}{{ item.url | relative_url}}{% endif %}">{{ item.title }}</a></td><!--<td>{% for tag in item.tags %}<a href="{{ "topics/" | append: tag | replace: " ", "-" | relative_url }}">{{ tag }}</a>, {% endfor %}</td>--></tr>
-        {% endfor %}
-        </table>
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

@@ -6,6 +6,7 @@ $(document).ready(function() {
         pdh.selected = [];
         pdh.iframes = {};
         pdh.facets = {};
+        pdh.ids = {};
         $rows = $("table").find("tr:has(td)");
         $facets = $("ul.faceted").find("li");
 
@@ -61,9 +62,10 @@ $(document).ready(function() {
             if ($.isEmptyObject(pdh.facets)) {
                 $facets.each(function() {
                     pdh.facets[$(this).text()] = 0;
+                    pdh.ids[$(this).text()] = $(this).parent("ul");
                 });
             } else { for (key in pdh.facets) { pdh.facets[key] = 0; } }
-        
+
             // Count active tags
             $rows.each(function() { 
                 var $row = $(this);
@@ -90,7 +92,7 @@ $(document).ready(function() {
                     if (pdh.selected.includes(val[0])) { a.classList.add("selected"); }
                     li.appendChild(a);
                     li.innerHTML += " (" + val[1] + ")";
-                    $("ul.faceted").append(li);
+                    pdh.ids[val[0]].append(li);
                 }
             });
 
@@ -138,6 +140,5 @@ $(document).ready(function() {
     pdh.resizeIframe();
     pdh.updateFacets();
     pdh.toggleFacetsFromURL();
-    pdh.hideEvents();
 
 });
