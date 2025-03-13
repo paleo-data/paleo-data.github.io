@@ -1,8 +1,13 @@
 # Paleo Data Knowledge Hub
 
-This repository contains the files for the Paleo Data Knowledge Hub website, which is
-created using [Jekyll](https://jekyllrb.com/) and the 
-[minimal-mistakes](https://mmistakes.github.io) template.
+This repository contains files for the 
+[Paleo Data Knowledge Hub](https://paleo-data.github.io/knowledge-hub) website,
+which enables open access to resources for anyone producing, managing, or utilizing
+paleontological specimen data. The hub empowers ongoing engagement and continuous
+knowledge sharing across stakeholder communities. Resources hosted on the knowledge
+hub are broadly relevant, and ideally adaptable to other domains beyond paleo. The
+site design strives to be human-centered, especially prioritizing an intuitive
+interface with a low barrier to entry for new users.
 
 ## Adding new pages
 
@@ -212,5 +217,4 @@ pages) will not be reflected until Jekyll is restarted or the full site is rebui
 
 ## Acknolwedgments
 
-Icons are from the [Remix icon set](https://icon-sets.iconify.design/ri/) (Apache 2.0)
-from Iconify. 
+Icons are from the [Remix icon set](https://icon-sets.iconify.design/ri/) (Apache 2.0) from Iconify. 
