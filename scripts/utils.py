@@ -155,7 +155,7 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
             )
 
     # Get tags from resources
-    for path in (BASEPATH / "_data" / "resources_updated").glob("*.yml"):
+    for path in (BASEPATH / "_data" / "resources-updated").glob("*.yml"):
         with open(path, encoding="utf-8") as f:
             resource = yaml.safe_load(f)
             resource["kind"] = "external"
@@ -248,7 +248,7 @@ def build_nav(
             try:
                 heading = headers[fm["heading"]]
             except KeyError:
-                heading = " ".join(fm["heading"].split("_")).title()
+                heading = " ".join(fm["heading"].split("-")).title()
 
             group = [g for g in nav.get("sidebar", []) if g["title"] == heading][0]
             group.setdefault("children", []).append({"title": title, "url": fm["url"]})

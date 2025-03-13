@@ -1,5 +1,5 @@
 <div class="notice--info">
-  {% for res_hash in site.data.resources_updated %}
+  {% for res_hash in site.data["resources-updated"] %}
     {% assign filename = res_hash[0] | append: '.yml' %}
     {% if filename == include.filename %}
       {% assign resource = res_hash[1] %}

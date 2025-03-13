@@ -7,5 +7,5 @@ sidebar:
   - sidebar
   collapsible: true
   expanded:
-  - data_ecosystem
+  - data-ecosystem
 ---

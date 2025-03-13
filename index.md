@@ -18,7 +18,7 @@ feature_row:
       alt: "A globe icon"
       title: "Data Ecosystem"
       excerpt: 
-      url: /data_ecosystem
+      url: /data-ecosystem
     - image_path: /assets/images/ri--info-card-line.png
       alt: "A globe icon"
       title: "Topics"

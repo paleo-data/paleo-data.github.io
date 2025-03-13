@@ -20,13 +20,13 @@ collections:
   community:
     output: True
     sort_by: nav_order
+  "data-ecosystem":
+    output: True
+    sort_by: nav_order
   explanations:
     output: True
     sort_by: nav_order
-  how_to_guides:
-    output: True
-    sort_by: nav_order
-  data_ecosystem:
+  "how-to-guides":
     output: True
     sort_by: nav_order
   tutorials:
@@ -62,18 +62,18 @@ defaults:
         expanded: [explanations]
   - scope:
       path: ""
-      type: how_to_guides
+      type: how-to-guides
     values:
       section: How To Guides
       sidebar:
-        expanded: [how_to_guides]
+        expanded: [how-to-guides]
   - scope:
       path: ""
-      type: data_ecosystem
+      type: data-ecosystem
     values:
       section: Data Ecosystem
       sidebar:
-        expanded: [data_ecosystem]
+        expanded: [data-ecosystem]
   - scope:
       path: ""
       type: tutorials

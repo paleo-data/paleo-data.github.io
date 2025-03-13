@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     # Update resources from Zenodo
     res_path = Path(BASEPATH / "_data" / "resources")
-    upd_path = Path(BASEPATH / "_data" / "resources_updated")
+    upd_path = Path(BASEPATH / "_data" / "resources-updated")
     for path in [res_path, upd_path]:
         path.mkdir(parents=True, exist_ok=True)
 

@@ -1,7 +1,7 @@
 {% assign topics = include.topics | default: '' | split: '|' %}
 
 {% assign found = false %}
-{% for res_hash in site.data.resources_updated %}
+{% for res_hash in site.data["resources-updated"] %}
 {% assign item = res_hash[1] %}
   {% for topic in topics %}
     {% if item.topics contains topic %}
@@ -21,7 +21,7 @@
   {% assign heading = include.heading | default: 'External resources' %}
   <h2>{{ heading }}</h2>
   <ul>
-    {% for res_hash in site.data.resources_updated %}
+    {% for res_hash in site.data["resources-updated"] %}
     {% assign item = res_hash[1] %}
       {% for topic in topics %}
         {% if item.topics contains topic %}

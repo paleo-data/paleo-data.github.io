@@ -10,7 +10,7 @@ sidebar:
   - sidebar
   collapsible: true
   expanded:
-  - how_to_guides
+  - how-to-guides
 topics: [symbiota]
 ---
 
