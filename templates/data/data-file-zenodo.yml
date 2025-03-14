@@ -23,9 +23,9 @@
 # Required.
 doi:
 
-# The title of the resource. The title provided here is overwritten when the site
-# is generated. It is included primarily as a human-readable way to identify the
-# resource. Optional but recommended.
+# The title of the resource. The title provided here is overwritten with data from Zenodo 
+# when the site is generated. It is included primarily as a human-readable way to identify
+# the resource. Optional but recommended.
 title: 
 
 # A short description of the resource used to annotate the citation when the
@@ -37,6 +37,6 @@ annotation:
 access_url:
 
 # A list of topics relevant to the resource, for example, [data sharing, people].
-# A full list of topics is available at https://github.com/adamancer/geo-ose-mm.
+# A full list of topics is available at https://github.com/paleo-data/knowledge-hub.
 # Required.
 topics:
