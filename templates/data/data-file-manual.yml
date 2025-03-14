@@ -19,39 +19,39 @@
 # - Website: website-title.yml
 
 # The DOI as a complete URL, for example, https://doi.org/10.5281/zenodo.6977243.
-# Optional but recommended.
+# Optional but highly recommended if at all possible.
 doi:
 
-# The title of the resource
+# The title of the resource. Required.
 title: 
 
 # A short description of the resource used to annotate the citation when the
 # resource appears on the site. Required.
 annotation:
 
-# The list of authors
+# The list of authors. Optional but recommended.
 authors: 
 
-# The publication date as yyyy-mm-dd
+# The publication date, formatted as yyyy-mm-dd. Optional but recommended.
 publication_date:
 
 # The complete URL to the resource landing page. Optional. Provide only if the
 # access URL is not the same as the DOI URL.
 access_url:
 
-# The date the resource was accessed as yyyy-mm-dd. Required for websites.
+# The date the resource was accessed, formatted as yyyy-mm-dd. Required only for websites.
 access_date:
 
-# The date the content was last updated as yyyy-mm-dd. Recommended if known.
+# The date the content was last updated, formatted as yyyy-mm-dd. Optional but recommended.
 last_updated_date:
 
-# The type of resource, for example, website or publication
+# The type of resource, for example, website or publication. Optional.
 resource_type:
 
-# The license the resource has been released under, for example, cc0
+# The license the resource has been released under, for example, CC0. Optional.
 license:
 
 # A list of topics relevant to the resource, for example, [data sharing, people].
-# A full list of topics is available at https://github.com/adamancer/geo-ose-mm.
+# A full list of topics is available at https://github.com/paleo-data/knowledge-hub.
 # Required.
 topics:
