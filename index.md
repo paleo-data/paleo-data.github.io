@@ -7,7 +7,7 @@ header:
   #actions:
   #  - label: "More Info"
   #    url: "/about"
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+excerpt: A community-curated resource for learning about capturing, managing, sharing, and discovering fossil data
 feature_row:
     - image_path: /assets/images/ri--community-line.png
       alt: "A globe icon"
@@ -40,8 +40,7 @@ feature_row:
       excerpt: 
       url: /tutorials
 ---
-
-Welcome to the Paleo Data Hub!
+This website is a hub designed to enable open access to information for anyone producing, managing, or utilizing paleontological specimen data. Ideally, the hub facilitates ongoing engagement and continuous knowledge sharing across stakeholder communities, in particular by hosting resources that are broadly relevant, and even adaptable to domains beyond paleo. All community users (e.g., you) are invited to engage as both information seekers and knowledge contributors. In the initial implementation of this knowledge hub (ongoing throughout 2025), content creation will focus deeply on the information needs of paleo collections professionals, and intro-level on the needs of paleo researchers using collections-based data.
 
 {% capture now %}{{ "now" | date: "%Y-%m-%d" }}{% endcapture %}
 {% assign upcoming = "" | split: "" %}
@@ -57,7 +56,7 @@ Welcome to the Paleo Data Hub!
 {% assign size = upcoming | size %}
 {% if size > 0 %}
   <div class="notice--info upcoming">
-    <strong>Upcoming PDWG Happy Hours</strong>
+    <strong>Upcoming "Happy Hour" meetings</strong>
     <ul>
     {% assign idx = 0 %}
     {% for item in upcoming %}
@@ -65,8 +64,7 @@ Welcome to the Paleo Data Hub!
       {% assign idx = idx | plus: 1 %}
     {% endfor %}
     </ul>
-    <p>Happy hours take place every other Thursday at 12 PM ET. Please see the 
-    <a href="{{ '/community/pdwg-happy-hours' | relative_url }}">happy hour page</a> for details about how to attend.</p>
+    <p>Happy hours are biweekly meetings of the Paleo Data Working Group that take place every other Thursday at 12 PM Eastern Time. Please see the <a href="{{ '/community/pdwg-happy-hours' | relative_url }}">happy hour page</a> for details about how to attend.</p>
   </div>
 {% endif %}
 
