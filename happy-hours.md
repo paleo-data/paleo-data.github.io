@@ -14,6 +14,9 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-05-22, TBD ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))
 - 2025-06-05, TBD ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))
 - 2025-06-19, TBD ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
+- 2025-07-03, TBD
+- 2025-07-17, TBD
+- 2025-07-31, TBD
 
 ### 2025 - Past
 - 2025-03-13, Case study on modeling and sharing data from the Amoco Collection ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))([recording]https://drive.google.com/file/d/1-yCj0eeRMeZCbLs-SIhdLXTYewbX2EmO/view?usp=drive_link))
