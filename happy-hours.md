@@ -11,12 +11,12 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-04-10, How to share collection workflows FAIRly with Zenodo ([notes](https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing))
 - 2025-04-24, TBD ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))
 - 2025-05-08, Indigenous data stewardship ([notes](https://docs.google.com/document/d/14BrZ3gBkmJwRb6Ou3pV53zcYqTCH1e8ynE95zBeCxaY/edit?usp=sharing))
-- 2025-05-22, TBD
-- 2025-06-05, TBD
-- 2025-06-19, TBD
+- 2025-05-22, TBD ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))
+- 2025-06-05, TBD ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))
+- 2025-06-19, TBD ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
 
 ### 2025 - Past
-- 2025-03-13, Case study on modeling and sharing data from the Amoco Collection ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))
+- 2025-03-13, Case study on modeling and sharing data from the Amoco Collection ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))([recording]https://drive.google.com/file/d/1-yCj0eeRMeZCbLs-SIhdLXTYewbX2EmO/view?usp=drive_link))
 - 2025-02-27, Digital data storage options for paleo data archives ([notes](https://docs.google.com/document/d/1DhUIO_NUHlt-KAfSoY8vtBwaIWYETXbVJg6I0919eMU/edit?usp=sharing))([recording](https://drive.google.com/file/d/16M6gUgX4t14qxX5ODl5nKD0u60ynnQ_R/view?usp=drive_link))
 - 2025-02-13, Digitization in the form of collection inventories ([notes](https://docs.google.com/document/d/1EC7zB3ulOabPtHv6IP0POrtMFReXLGLkD4znhnhl3Ks/edit?usp=sharing))([recording](https://drive.google.com/file/d/1QcEkhirqj3X4YcSKHQ75qrmy1pfHrf6F/view?usp=drive_link))
 - 2025-01-30, Physical collection storage tracking methods ([notes](https://docs.google.com/document/d/1iQn2xlaoL0pBsxRsne4HmRJla9r12Pl2DKmmSfb-PoY/edit?usp=sharing))([recording](https://drive.google.com/file/d/137ieO927GyKT9BWAJEmGkXExRf3BQHcA/view?usp=drive_link))
