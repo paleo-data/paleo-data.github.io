@@ -1,111 +1,152 @@
 $(document).ready(function() {
 
-    (function(pdh, $, undefined) {
+    (function(pkh, $, undefined) {
 
         // Public variables
-        pdh.selected = [];
-        pdh.iframes = {};
-        pdh.facets = {};
-        pdh.ids = {};
+        pkh.selected = [];      // list of selected facets
+        pkh.containedBy = {};   // maps {facet: count} to containers
+        pkh.containers = {};
+        pkh.sortBy = {};
+        pkh.iframes = {};
         $rows = $("table").find("tr:has(td)");
         $facets = $("ul.faceted").find("li");
+        $sortButtons = $("img.sortFacet");
+        const pageName = window.location.pathname;
 
         // Public methods
-        pdh.toggleSubmenu = function(e) {
+        pkh.toggleSubmenu = function(e) {
             var $this = $(this);
             $this.off("click");
             e.preventDefault();
             $this.parent("a").next("ul").toggleClass("hidden");
-            $this.on("click", pdh.toggleSubmenu);
+            $this.on("click", pkh.toggleSubmenu);
         }
 
-        pdh.toggleFacet = function(e) {
+        pkh.changeFacetSort = function() {
+            let $im = $(this);
+            let parentID = $im.parents("nav").find("ul").attr("id");
+            ["alpha", "count"].forEach(function (sortCrit) {
+                if ($im.hasClass(sortCrit) & pkh.sortBy[parentID] != sortCrit) {
+                    let $buttons = $im.parents("nav").find("img");
+                    $buttons.removeClass("selected");
+                    $buttons.filter("." + sortCrit).addClass("selected");
+                    pkh.sortBy[parentID] = sortCrit;
+                    pkh.updateFacets();
+                    return;
+                }
+            });
+        }
+
+        pkh.toggleFacet = function(e) {
             var $this = $(this);
             $this.off("click");
             e.preventDefault();
-            pdh.toggleFacetFromText($this.text());
-            pdh.pushState();
-            $this.off("click").on("click", pdh.toggleFacet);
+            pkh.toggleFacetFromText($this.text());
+            pkh.pushState();
+            $this.off("click").on("click", pkh.toggleFacet);
         }
 
-        pdh.toggleFacetFromText = function(tag) {
-            if (pdh.selected.includes(tag)) {
-                pdh.selected.splice(pdh.selected.indexOf(tag), 1);
-            } else { pdh.selected.push(tag); }
+        pkh.toggleFacetFromText = function(tag) {
+            if (pkh.selected.includes(tag)) {
+                pkh.selected.splice(pkh.selected.indexOf(tag), 1);
+            } else { pkh.selected.push(tag); }
             $rows.removeClass("hidden");
-            if (pdh.selected.length !== 0) {
+            if (pkh.selected.length !== 0) {
                 $rows.each(function() { 
                     var $row = $(this);
                     var tags = $row.data("tags").split("|");
-                    if (!(tags.filter(x => pdh.selected.includes(x)).length == pdh.selected.length)) {
+                    if (!(tags.filter(x => pkh.selected.includes(x)).length == pkh.selected.length)) {
                         $row.addClass("hidden");
                     }
                 });
             }
-            pdh.updateFacets();
+            pkh.updateFacets();
         }
 
-        pdh.toggleFacetsFromURL = function() {
+        pkh.toggleFacetsFromURL = function() {
             const params = new URLSearchParams(window.location.search);
             const topics = params.getAll("topic");
-            pdh.selected = [];
+            pkh.selected = [];
             if (topics.length !== 0) {
                 topics.forEach(function(val) {
-                    pdh.toggleFacetFromText(val.replace("-", " "));
+                    pkh.toggleFacetFromText(val.replace("-", " "));
                 });
-            } else { $rows.removeClass("hidden"); pdh.updateFacets(); }
+            } else { $rows.removeClass("hidden"); pkh.updateFacets(); }
         }
 
-        pdh.updateFacets = function() {
+        pkh.updateFacets = function() {
 
-            // Zero out facet list
-            if ($.isEmptyObject(pdh.facets)) {
+            // Initialize facet containers
+            if ($.isEmptyObject(pkh.containers)) {
                 $facets.each(function() {
-                    pdh.facets[$(this).text()] = 0;
-                    pdh.ids[$(this).text()] = $(this).parent("ul");
+                    let facet = $(this).text();
+                    let parentID = $(this).parent("ul").attr("id");
+                    if (parentID in pkh.containers) {
+                        pkh.containers[parentID][facet] = 0;
+                    } else { pkh.containers[parentID] = { facet: 0 }; }
+                    pkh.containedBy[facet] = $(this).parent("ul");
+                    pkh.sortBy[parentID] = "count";
                 });
-            } else { for (key in pdh.facets) { pdh.facets[key] = 0; } }
+            } else {
+                for (parentID in pkh.containers) {
+                    let $parent = $("#" + parentID);
+                    for (facet in pkh.containers[parentID]) {
+                        pkh.containers[parentID][facet] = 0;
+                        pkh.containedBy[facet] = $parent;
+                    }
+                }
+            }
 
             // Count active tags
             $rows.each(function() { 
                 var $row = $(this);
                 if (!$row.hasClass("hidden")) {
                     $row.data("tags").split("|").forEach(function(val) {
-                        pdh.facets[val] += 1;
+                        if (val.length !== 0) {
+                            pkh.containers[pkh.containedBy[val].attr("id")][val] += 1;
+                        }
                     })
                 }
             });
 
-            // Sort active facets by count
-            const sorted = Object.entries(pdh.facets).sort(
-                function(a, b) { return ((a[1] > b[1]) ? -1 : ((a[1] < b[1]) ? 1 : 0));
-            });
-            
-            // Add facets to sidebar
+            // Update facets in sidebar
             $facets.remove();
-            sorted.forEach(function(val) {
-                if (val[0].length > 0 && val[1] > 0) {
-                    var li = document.createElement("li");
-                    var a = document.createElement("a");
-                    a.href = "/topics/" + val[0].replaceAll(" ", "-")
-                    a.innerText = val[0];
-                    if (pdh.selected.includes(val[0])) { a.classList.add("selected"); }
-                    li.appendChild(a);
-                    li.innerHTML += " (" + val[1] + ")";
-                    pdh.ids[val[0]].append(li);
-                }
-            });
+            for (parentID in pkh.containers) {
+                let facets = pkh.containers[parentID];
+                let sorted = (pkh.sortBy[parentID] == "count")
+                    ? Object.entries(facets).sort(
+                        function(a, b) { return ((a[1] > b[1]) ? -1 : ((a[1] < b[1]) ? 1 : 0));
+                    })
+                    : Object.entries(Object.keys(facets).sort().reduce(
+                        (obj, key) => { 
+                        obj[key] = facets[key]; 
+                        return obj;
+                        }, {} ));
+                
+                sorted.forEach(function(val) {
+                    if (val[0].length > 0 && val[1] > 0) {
+                        var li = document.createElement("li");
+                        var a = document.createElement("a");
+                        a.href = pageName + "?topic=" + val[0].replaceAll(" ", "-")
+                        a.innerText = val[0];
+                        if (pkh.selected.includes(val[0])) { a.classList.add("selected"); }
+                        li.appendChild(a);
+                        li.innerHTML += " (" + val[1] + ")";
+                        pkh.containedBy[val[0]].append(li);
+                    }
+                });
+            }
 
             // Add handler
             $facets = $("ul.faceted").find("li");
-            $facets.find("a").on("click", pdh.toggleFacet);
+            $facets.find("a").on("click", pkh.toggleFacet);
         }
 
-        pdh.pushState = function() {
+        pkh.pushState = function() {
             var href = window.location.href.split("?")[0];
-            if (pdh.selected.length) {
+            if (pkh.selected.length) {
                 href += "?"
-                pdh.selected.sort().forEach(function(val) {
+                pkh.selected.sort().forEach(function(val) {
                     href += "topic=" + val.replace(" ", "-") + "&";
                 });
                 href = href.replace(/&$/, "");
@@ -115,30 +156,31 @@ $(document).ready(function() {
             }
         }
 
-        pdh.resizeIframe = function() {
+        pkh.resizeIframe = function() {
             $("iframe").each(function(e) {
                 var $this = $(this);
                 var key = $(this).attr("src");
-                if (!(key in pdh.iframes)) {
-                    pdh.iframes[key] = $this.width() / $this.height();
+                if (!(key in pkh.iframes)) {
+                    pkh.iframes[key] = $this.width() / $this.height();
                 }              
-                var aspectRatio = pdh.iframes[key];
+                var aspectRatio = pkh.iframes[key];
                 $this.attr("width", "100%");
                 $this.attr("height", $(this).width() / aspectRatio);
             })
         }
 
         // Enable handlers
-        // $("ul.collapsible li:has(ul) span.nav__sub-title").on("click", pdh.toggleSubmenu);
-        $("ul.faceted a").on("click", pdh.toggleFacet);
-        $("table.faceted tr td:nth-child(2) a").on("click", pdh.toggleFacet);
-        $(window).on("resize", pdh.resizeIframe);
-        window.onpopstate = (event) => pdh.toggleFacetsFromURL();
+        // $("ul.collapsible li:has(ul) span.nav__sub-title").on("click", pkh.toggleSubmenu);
+        $("ul.faceted a").on("click", pkh.toggleFacet);
+        $("table.faceted tr td:nth-child(2) a").on("click", pkh.toggleFacet);
+        $sortButtons.on("click", pkh.changeFacetSort);
+        $(window).on("resize", pkh.resizeIframe);
+        window.onpopstate = (event) => pkh.toggleFacetsFromURL();
 
-    }( window.pdh = window.pdh || {}, jQuery ));
+    }( window.pkh = window.pkh || {}, jQuery ));
 
-    pdh.resizeIframe();
-    pdh.updateFacets();
-    pdh.toggleFacetsFromURL();
+    pkh.resizeIframe();
+    pkh.updateFacets();
+    pkh.toggleFacetsFromURL();
 
 });

@@ -57,3 +57,7 @@ div.section-title a { color: #555; }
 img.icon { width: 2em; height: 2em; }
 
 tr:hover { background-color: #eee; }
+
+img.sortFacet { float: right; width: 20px; height: 20px; }
+img.sortFacet:hover { cursor: pointer; }
+img.selected { -webkit-filter: invert(1); filter: invert(1); }

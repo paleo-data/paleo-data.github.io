@@ -65,11 +65,11 @@ layout: default
                 </nav>
               {% endif %}
               <nav class="toc">
-                <header><h4 class="nav__title">{{ tag[0] | capitalize | replace: "Tags", "Topics" }}</h4></header>
+                <header><h4 class="nav__title">{{ tag[0] | capitalize | replace: "Tags", "Topics" }}<img class="sortFacet alpha" src="{{ '/assets/images/ri--sort-alphabet-asc.png' | relative_url }}"><img class="sortFacet count selected" src="{{ '/assets/images/ri--sort-number-asc.png' | relative_url }}"></h4></header>
                 <ul id="{{ tag[0] }}" class="toc__menu faceted">
               {% assign last = tag[0] %}
             {% endif %}
-            <li><a href="{{ "topics/" | append: tag[1] | replace: " ", "-" | relative_url }}">{{ tag[1] }}</a></li>
+            <li><a href="{{ page.url | split: "." | first | append: "?topic=" | append: tag[1] | replace: " ", "-" | relative_url }}">{{ tag[1] }}</a></li>
           {% endfor %}
             </ul>
           </nav>
