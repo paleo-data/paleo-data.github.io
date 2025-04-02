@@ -7,7 +7,6 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2025 - Upcoming
-- 2025-03-27, Connecting specimens and archival materials ([notes](https://docs.google.com/document/d/1ASkwpvIJxwxdXbRiFtl6Suw5WJPtbZXCRJvKZHnNEKo/edit?usp=sharing))
 - 2025-04-10, How to share collection workflows FAIRly with Zenodo ([notes](https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing))
 - 2025-04-24, TBD ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))
 - 2025-05-08, Indigenous data stewardship ([notes](https://docs.google.com/document/d/14BrZ3gBkmJwRb6Ou3pV53zcYqTCH1e8ynE95zBeCxaY/edit?usp=sharing))
@@ -19,6 +18,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-07-31, TBD ([notes](https://docs.google.com/document/d/1yVioLUI2_EB1E3C35xGg_5FtQGUGvqyfix5B6WFX3ro/edit?usp=sharing))
 
 ### 2025 - Past
+- 2025-03-27, Connecting specimens and archival materials ([notes](https://docs.google.com/document/d/1ASkwpvIJxwxdXbRiFtl6Suw5WJPtbZXCRJvKZHnNEKo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1oaRUY9iwaTPlxFqdxomoGFznWI6uS6dH/view?usp=sharing))
 - 2025-03-13, Case study on modeling and sharing data from the Amoco Collection ([notes](https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing))([recording](https://drive.google.com/file/d/1-yCj0eeRMeZCbLs-SIhdLXTYewbX2EmO/view?usp=drive_link))
 - 2025-02-27, Digital data storage options for paleo data archives ([notes](https://docs.google.com/document/d/1DhUIO_NUHlt-KAfSoY8vtBwaIWYETXbVJg6I0919eMU/edit?usp=sharing))([recording](https://drive.google.com/file/d/16M6gUgX4t14qxX5ODl5nKD0u60ynnQ_R/view?usp=drive_link))
 - 2025-02-13, Digitization in the form of collection inventories ([notes](https://docs.google.com/document/d/1EC7zB3ulOabPtHv6IP0POrtMFReXLGLkD4znhnhl3Ks/edit?usp=sharing))([recording](https://drive.google.com/file/d/1QcEkhirqj3X4YcSKHQ75qrmy1pfHrf6F/view?usp=drive_link))
