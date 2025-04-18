@@ -69,7 +69,7 @@ $(document).ready(function() {
             pkh.selected = [];
             if (topics.length !== 0) {
                 topics.forEach(function(val) {
-                    pkh.toggleFacetFromText(val.replace("-", " "));
+                    pkh.toggleFacetFromText(val.replaceAll("-", " "));
                 });
             } else { $rows.removeClass("hidden"); pkh.updateFacets(); }
         }
@@ -147,7 +147,7 @@ $(document).ready(function() {
             if (pkh.selected.length) {
                 href += "?"
                 pkh.selected.sort().forEach(function(val) {
-                    href += "topic=" + val.replace(" ", "-") + "&";
+                    href += "topic=" + val.replaceAll(" ", "-") + "&";
                 });
                 href = href.replace(/&$/, "");
             }
