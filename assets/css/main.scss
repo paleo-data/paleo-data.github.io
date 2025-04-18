@@ -34,11 +34,9 @@ ul.nav__items ul li { padding-left: 10px; margin-bottom: 0.5em; text-indent: -10
 ul.nav__items ul li:hover { text-decoration: underline; }
 
 // Right navigation bar
-ul.faceted a { font-weight: normal; padding-right: 0; }
+ul.faceted a { display: inline; font-weight: normal; padding: 0; border: 0; }
 ul.faceted a.selected { font-weight: 800; }
-
-#tags a { display: inline; padding: none; border: none; }
-#tags li { padding: 0.25rem 0.75rem 0.25rem 1rem; text-indent: -1rem;  border-bottom: 1px solid rgb(241.7, 242.5, 243.1);}
+ul.faceted li { padding: 0.25rem 0.75rem 0.25rem 1rem; text-indent: -0.5rem;  border-bottom: 1px solid rgb(241.7, 242.5, 243.1);}
 
 img.sortFacet { float: right; width: 20px; height: 20px; }
 img.sortFacet:hover { cursor: pointer; }
