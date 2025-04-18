@@ -10,13 +10,14 @@ search: false
 
 .page__content { font-size: 0.9em; }
 
+
+// Feature row and items
 .feature__wrapper a:link { color: #000; text-decoration: none; }
 .feature__wrapper a:visited { color: #000; text-decoration: none; }
 .feature__wrapper a:hover { color: #000; text-decoration: none !important; }
 .feature__wrapper a:active { color: #000; text-decoration: none; }
 
 .feature__wrapper div:has(> a:hover) { background-color: #eee; border-color: #000; }
-
 .feature__item { border: 1px solid #eee; margin-bottom: 1em; }
 
 a.archive__item-teaser { border: none; }
@@ -25,19 +26,25 @@ h2.archive__item-title { text-align: center; }
 div.archive__item-teaser img { width: 30%;  padding: 0; box-shadow: none !important; margin: 10% 35% 0 35%; }
 div.archive__item-excerpt { margin: 0 5%; }
 
-.notice--info { font-style: normal; }
-
-.hidden {display: none; }
-
+// Left naviation bar
 ul.collapsible li:has(ul) span::after { content: " ▴"; }
 ul.collapsible li:has(ul.hidden) span::after { content: " ▾"; }
 
 ul.nav__items ul li { padding-left: 10px; margin-bottom: 0.5em; text-indent: -10px; }
 ul.nav__items ul li:hover { text-decoration: underline; }
 
-ul.faceted a { display: inline-block; font-weight: normal; padding-right: 0; }
+// Right navigation bar
+ul.faceted a { font-weight: normal; padding-right: 0; }
 ul.faceted a.selected { font-weight: 800; }
 
+#tags a { display: inline; padding: none; border: none; }
+#tags li { padding: 0.25rem 0.75rem 0.25rem 1rem; text-indent: -1rem;  border-bottom: 1px solid rgb(241.7, 242.5, 243.1);}
+
+img.sortFacet { float: right; width: 20px; height: 20px; }
+img.sortFacet:hover { cursor: pointer; }
+img.selected { -webkit-filter: invert(1); filter: invert(1); }
+
+// Internal link signifier
 a.external::after {
     content: "";
     display: inline-block;
@@ -51,16 +58,18 @@ a.external::after {
     margin-bottom: 0.2em;
 }
 
+// Faceted tables
+table.faceted { width: 95%; display: table; }
+table.faceted td:last-child { width: 25%; }
+tr:hover { background-color: #eee; }
+
+// Other
 div.section-title { font-size: 0.8em; text-decoration: underline; font-variant: small-caps; margin-bottom: 0.3em; }
 div.section-title a { color: #555; }
 
 img.icon { width: 2em; height: 2em; }
 
-tr:hover { background-color: #eee; }
+.notice--info { font-style: normal; }
 
-img.sortFacet { float: right; width: 20px; height: 20px; }
-img.sortFacet:hover { cursor: pointer; }
-img.selected { -webkit-filter: invert(1); filter: invert(1); }
+.hidden {display: none; }
 
-table.faceted { width: 95%; display: table; }
-table.faceted td:last-child { width: 10%; }
