@@ -10,7 +10,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-04-24, Archives and Collections: a case study ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))
 - 2025-05-08, Indigenous data stewardship ([notes](https://docs.google.com/document/d/14BrZ3gBkmJwRb6Ou3pV53zcYqTCH1e8ynE95zBeCxaY/edit?usp=sharing))
 - 2025-05-22, TBD ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))
-- 2025-06-05, TBD ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))
+- 2025-06-05, Post-[SPNHC](https://spnhc2025.ku.edu/) Updates ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))
 - 2025-06-19, TBD ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
 - 2025-07-03, TBD ([notes](https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=sharing))
 - 2025-07-17, TBD ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))
