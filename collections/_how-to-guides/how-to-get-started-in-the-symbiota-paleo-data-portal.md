@@ -23,7 +23,7 @@ This guide is designed orient new data providers to using the [Symbiota Paleo Da
  <img style="zoom:70%;  float:right; padding:0.7em" src="/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
 [Symbiota](https://github.com/Symbiota/Symbiota) is open source software guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard for creating themed data portals to help people share and actively manage biodiversity data. The PDP utilizes the version of Symbiota code that is developed by the [Symbiota Support Hub](https://paleo.symbiota.org/portal/misc/contacts.php](https://symbiota.org/about-us)) (SSH), a University of Kansas-based team dedicated to the technical and social implementation of Symbiota-based data portals. The SSH provides technical support for PDP users—like nightly portal backups and routine code upgrades—whereas the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
 
-{% include figure image_path="/assets/images/symbiota-logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo" float="right" %}
+{% include figure image_path="/assets/images/symbiota-logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo" %}
 
 {: .notice--info }
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
