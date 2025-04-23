@@ -1,6 +1,6 @@
 ---
 title: Get started in the Symbiota Paleo Data Portal
-last_modified_at: 2025-03-11
+last_modified_at: 2025-04-22
 sidebar:
   nav: [sidebar]
 toc: True
@@ -14,25 +14,18 @@ sidebar:
 topics: [symbiota]
 ---
 
-This guide will walk you through the steps you need to get started using the [Symbiota Paleo Data Portal](https://paleo.symbiota.org) for collections management. You may also want to familiarize yourself with the information in the [community]() section of this site.
+# Onboarding guide for new data providers
 
-TESTING123?!
+
+This guide is designed orient new data providers to using the [Symbiota Paleo Data Portal](https://paleo.symbiota.org) ("PDP") for managing and publishing fossil specimen data. Prior to getting started, new users are also encouraged to familiarize themselves with the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php).
 
 ## What is Symbiota?
 
-Symbiota is **open source software** for creating **themed data portals** that help people **share** and **actively manage** biodiversity data. It is largely guided by the [Darwin Core]() data standard.
+[Symbiota](https://github.com/Symbiota/Symbiota) is **open source software** for creating **themed data portals** that help people **share** and **actively manage** biodiversity data. It is largely guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard and is used to create themed portals with user communities that coalesce around common goals, like specimen digitization and data mobilization. To date, most Symbiota portals have focused on neontological data, with a handful of exceptions, including the [Paleo Data Portal](https://paleo.symbiota.org). The PDP utilizes the version of Symbiota code that is developed by the [Symbiota Support Hub](https://paleo.symbiota.org/portal/misc/contacts.php](https://symbiota.org/about-us)) (SSH), a University of Kansas-based team dedicated to the technical and social implementation of Symbiota-based data portals. The SSH provides technical support for PDP users—like portal-wide data backups and routine code upgrades—whereas the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
 
 {: .notice--info }
 **Callout**
-Check out the [main Symbiota source code on GitHub](https://>github.com/BioKIC/Symbiota). As an open source codebase, Symbiota is being developed concurrently by [several organizations](https://symbiota.org/related-projects/).
-
-### Portal communities
-
-Themed portals are typically supported by a community of users coalesced around common goals related to digitization and/or data mobilization. These goals may be taxonomic, geographic, institutional, or project-based. Since 2012, over 20 [Thematic Collections Networks (TCNs)](http://idigbio.org/wiki/index.php/TCN_Resources) have used Symbiota as part of their digitization work. Most of these networks focus on neontological specimens, with the exception of the [Pteridological Collections Consortium](https://pteridophytes.berkeley.edu/).
-
-{: .notice--info }
-**Callout**
-See a directory of all the different [Symbiota portals](https://symbiota.org/related-projects/).
+Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
 
 ### Symbiota Support Hub (SSH)
 
