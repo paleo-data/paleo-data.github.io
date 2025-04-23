@@ -24,20 +24,9 @@ This guide is designed orient new data providers to using the [Symbiota Paleo Da
 [Symbiota](https://github.com/Symbiota/Symbiota) is **open source software** for creating **themed data portals** that help people **share** and **actively manage** biodiversity data. It is largely guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard and is used to create themed portals with user communities that coalesce around common goals, like specimen digitization and data mobilization. To date, most Symbiota portals have focused on neontological data, with a handful of exceptions, including the [Paleo Data Portal](https://paleo.symbiota.org). The PDP utilizes the version of Symbiota code that is developed by the [Symbiota Support Hub](https://paleo.symbiota.org/portal/misc/contacts.php](https://symbiota.org/about-us)) (SSH), a University of Kansas-based team dedicated to the technical and social implementation of Symbiota-based data portals. The SSH provides technical support for PDP users—like portal-wide data backups and routine code upgrades—whereas the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
 
 {: .notice--info }
-**Callout**
-Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
+📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
 
-### Symbiota Support Hub (SSH)
-
-The Symbiota Support Hub (SSH) was established in 2021 in order to provide:
-- **Help Desk support** for portal data access, publication, sharing, and management (help@symbiota.org) 
-- Scalable development, management, and dissemination of **documentation** for all categories of Symbiota users (biokic.github.io/symbiota-docs) 
-- Implementation of a **sustainable business plan** for the SSH
-- **Hosting webinars, trainings, and workshops to improve capacity within the Symbiota user community**
-
-SSH is funding by the National Science Foundation ([award 2027654](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2027654)) through 2026.
-
-{% include figure image_path="/assets/images/SSH-Team-Slide-Aug-2024.png" alt="NEED ALT TEXT" caption="SSH team" %}
+{% include figure image_path="/assets/images/symbiota-logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo" %}
 
 ## What is the Paleo Data Portal?
 
