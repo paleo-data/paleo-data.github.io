@@ -21,9 +21,7 @@ This guide is designed orient new and prospective data providers to using the [S
  <img style="float: left; margin: 0px 15px 0px 0px;" width="25%" src="/knowledge-hub/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
 [Symbiota](https://github.com/Symbiota/Symbiota) is open source software guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard for creating themed data portals to help people share and manage biodiversity data. The PDP utilizes the version of Symbiota code that is developed by the [Symbiota Support Hub](https://paleo.symbiota.org/portal/misc/contacts.php](https://symbiota.org/about-us)) (SSH), a University of Kansas-based team dedicated to the technical and social implementation of Symbiota-based data portals. The SSH provides technical support for PDP users—like nightly portal backups and routine code upgrades—whereas the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
 
-{% include figure image_path="/knowledge-hub/assets/images/symbiota-logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo" %}
-
-## What is the Paleo Data Portal?
+## What is the "Paleo Data Portal"?
 The Paleo Data Portal is a Symbiota-based data portal hosted by the Symbiota Support Hub that exists to:
 - Provide **low barrier-to-entry** data mobilization platform
 - Increase **data accessibility** for research use
@@ -52,7 +50,7 @@ This section of the guide will provide an introduction to the portal's essential
 - Manage taxonomy
 - Publish your data
 
-<iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/edit?usp=sharing" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {% include figure image_path="/knowledge-hub/assets/images/symbiota-logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo" %}
 
