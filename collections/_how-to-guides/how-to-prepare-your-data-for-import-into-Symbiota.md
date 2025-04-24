@@ -52,7 +52,7 @@ If you maintain cataloged specimen records in a spreadsheet, this information ca
 | **Cataloging specimen lots** | When multiple individuals of a single taxon exist in a given lot (i.e. isolated in one physical container), they can be cataloged as a single occurrence record. [See below]() for advice when a lot contains multiple taxa. |
 | **Cataloging part-counterpart pairs and similar relationships between records** | [See below]() for information about “extending” your specimens. |
 
-{: .notice--info }
+{: .notice--warning }
 ADD A NOTE ABOUT CAPTURING VERBATIM GEOLOGICAL TIME VALUES
 
 ## How to import your data into Symbiota
@@ -64,11 +64,14 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 **Important:** Always import one or a very small number of representative records prior to initiating a larger import, especially if you are new to this process. Doing so will allow you to assess how your records will look in the portal. Similar to bulk data ingestion, only users with Administrator permissions can delete records, and this action cannot be done in bulk; records can only be deleted one-by-one using the Admin tab interface on the Occurrence Editor.
 
 ## Steps you can take immediately after your records are in Symbiota
-➡️ Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.
-➡️ Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.
-➡️ Run your portal's [built-in data cleaning tools](https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/) to ingest new taxonomy and clean geographic location details.
-➡️ Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/). (Tip: Many of these steps can be delegated to users with Editor permissions, such as students or volunteers!)
+➡️ Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.<br>
+➡️ Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.<br>
+➡️ Run your portal's [built-in data cleaning tools](https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/) to ingest new taxonomy and clean geographic location details.<br>
+➡️ Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/).<br>
 ➡️ [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
+
+{: .notice--success }
+**Tip:** The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 ## How do I keep my records clean once they’re available in Symbiota?
 ### Prevent new errors
@@ -77,11 +80,13 @@ When training new staff or volunteers on data entry or management, it is **highl
 ### Mitigate existing errors
 Mistakes are likely to happen, even in carefully curated datasets. It is therefore recommended that you routinely assess your data using the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/). This guide is designed to enable users with either Administrator or Editor permissions to your Collection Profile to “clean” your data–i.e. find and correct errors–using the portal’s built-in features wherever possible.
 
-### Crowdsourcing quality control
+### Crowdsouring quality control
 Symbiota maintains several built-in tools to facilitate collaborative data entry and data cleaning when enabled for your collection.  For example, Administrators of a given collection can enable any portal user who is logged in with an account to suggest edits to your records in the portal. Suggestions must be reviewed by an Administrator before they become public. By default, this option is turned **off**, but it can be activated through your Administrator Control Panel. Review [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/public_feedback/public_edits/) for more information about this feature. 
 
 ### Set up a data import profile
 If you intend to continue cataloging using a spreadsheet method, set up a new data [import profile](https://biokic.github.io/symbiota-docs/coll_manager/upload/) based on your cleaned spreadsheet.
+
+
 {% include resource_card filename='pearson-2022.yml' %}
 
 {% include related_list topics='symbiota' %}
