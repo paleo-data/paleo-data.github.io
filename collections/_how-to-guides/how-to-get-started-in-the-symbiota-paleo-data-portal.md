@@ -29,8 +29,8 @@ The Paleo Data Portal is a Symbiota-based data portal hosted by the Symbiota Sup
 - **Integrate with [PDWG](https://paleo-data.github.io/about)’s efforts** to develop best practices in paleo data management and publishing
 - Provide a **testing ground** for technical solutions, e.g. those related to taxonomy
 
-## How to participate?
-If you manage a fossil collection and would like to use this portal to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php). If the portal seems suitable for your needs after reviewing the guidlines, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8). Be aware that this data portal is only inteded for use by collections that are maintained in a publicly accessible and permanent repositories. 
+## How to participate
+If you manage a fossil collection and would like to use this portal to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php). If the portal seems suitable for your needs after reviewing this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8). Once your responses are received, someone from the Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) will be in touch.
 
 {: .notice--info }
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
@@ -45,10 +45,9 @@ This section of the guide will provides an introduction to the portal's essentia
 
 {% include resource_card filename='pearson-2022.yml' %}
 
-{: .notice--info }
-The Paleo Data Portal is made possible by the US National Science Foundation (NSF Award#[2324690
-](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)).
-
 {% include related_list topics='symbiota' %}
 
 {% include resource_list topics='symbiota' %}
+
+{: .notice--info }
+The Paleo Data Portal is made possible by the US National Science Foundation (NSF Award #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)).
