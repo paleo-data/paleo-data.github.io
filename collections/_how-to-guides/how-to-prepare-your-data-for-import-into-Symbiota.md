@@ -29,14 +29,13 @@ This document outlines actions you can take to prepare existing digital catalog 
 #### Data formatting checklist
 If you maintain cataloged specimen records in a spreadsheet, this information can be imported into Symbiota in CSV format. Before doing so, it is highly recommended that you use this checklist to prepare your data for ingestion to maximize the interoperability between your data and that of other collections, ultimately making your records more discoverable and useful for research. Additional data cleaning can be performed once your records are in Symbiota. The checklist below has been compiled based on scenarios observed in other datasets from fossil collections prepared for import. The [Symbiota Data Import Fields](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) guide provides important information about fields available in Symbiota, as well as the types of data that can be imported into each one—for instance, which fields can only contain numbers, dates only, textual data, etc.—and how this information should be formatted. ~Examples of datasets that have been cleaned in preparation for ingestion into Symbiota can be found [here]()~. 
 
-<center>
 | Dataset | After Cleaning |
 | --------------- | ------ |
 | ASU Paleobotany | [link] | 
 | PH Paleobotany  | [link] |
-</center>
 
 - [ ] Catalog Numbers: Every occurrence (=specimen record) to be imported must have a catalog number assigned. Example: “USNM000001”.
+- [x] Catalog Numbers: Every occurrence (=specimen record) to be imported must have a catalog number assigned. Example: “USNM000001”.
 
 
 {% include resource_card filename='pearson-2022.yml' %}
