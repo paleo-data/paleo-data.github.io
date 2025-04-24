@@ -69,8 +69,8 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 - Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/).
 - [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
 
-{: .notice--note }
-**Tip:** The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
+{: .notice--info }
+💡 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 ## How do I keep my records clean once they’re available in Symbiota?
 ### Prevent new errors
