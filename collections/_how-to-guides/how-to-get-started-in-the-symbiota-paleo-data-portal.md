@@ -1,6 +1,6 @@
 ---
 title: Get started in the Symbiota Paleo Data Portal
-last_modified_at: 2025-04-22
+last_modified_at: 2025-04-23
 sidebar:
   nav: [sidebar]
 toc: True
@@ -39,24 +39,11 @@ If you manage a fossil collection and would like to use this portal to manage yo
 ## Data preparation
 ‼️ If you maintain existing digital catalog records in a spreadsheet, this information can be imported into the Paleo Data Portal. Data providers are strongly advised to refer to the guide, [_How to prepare your data for import into Symbiota_](), prior to ingesting new data in the portal. 
 
-## Essential functions for data providers
-This section of the guide will provide an introduction to the portal's essential functions fo data providers, including information about how to...
-- Access your collection’s dataset
-  - View the various control panels
-  - Grant/redact user permissions/access
-  - Manage your collections metadata
-  - Backup your data
-- Add/edit records
-- Manage taxonomy
-- Publish your data
-
+## Essential functions
+This section of the guide will provides an introduction to the portal's essential functions for data providers.
 <iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-{% include figure image_path="/knowledge-hub/assets/images/symbiota-logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo" %}
-
 {% include resource_card filename='pearson-2022.yml' %}
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQUk9vaJstJ2k4YnLQWghUWRTKAVFgFWCrK1auJ1viYDtKVtqoI-Ef-DjSRBhdR6iFW9zZM5OLGLBb5/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 {: .notice--info }
 The Paleo Data Portal is made possible by the US National Science Foundation (NSF Award#[2324690
