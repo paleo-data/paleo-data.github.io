@@ -29,11 +29,10 @@ This document outlines actions you can take to prepare existing digital catalog 
 #### Data formatting checklist
 If you maintain cataloged specimen records in a spreadsheet, this information can be imported into Symbiota in CSV format. Before doing so, it is highly recommended that you use this checklist to prepare your data for ingestion to maximize the interoperability between your data and that of other collections, ultimately making your records more discoverable and useful for research. Additional data cleaning can be performed once your records are in Symbiota. The checklist below has been compiled based on scenarios observed in other datasets from fossil collections prepared for import. The [Symbiota Data Import Fields](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) guide provides important information about fields available in Symbiota, as well as the types of data that can be imported into each one—for instance, which fields can only contain numbers, dates only, textual data, etc.—and how this information should be formatted. Examples of datasets that have been cleaned in preparation for ingestion into Symbiota can be found [here](). 
 
-| Dataset | After Cleaning |
-| - | - |
-| ASU Paleobotany | [link]() | 
-| PH Paleobotany  | [link]() |
-
+| Example Datasets |
+| - |
+| [ASU Paleobotany]() | 
+| [PH Paleobotany]() |
 
 | Checklist Item | Recommendation |
 | - | - |
@@ -61,16 +60,16 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 - To import a spreadsheet of extended specimen data, use the “[Extended Data Import](https://biokic.github.io/symbiota-docs/coll_manager/upload/links/)” option. [See below]() for more information about how to extend your specimens using Symbiota.
 
 {: .notice--danger }
-**Important:** Always import one or a very small number of representative records prior to initiating a larger import, especially if you are new to this process. Doing so will allow you to assess how your records will look in the portal. Similar to bulk data ingestion, only users with Administrator permissions can delete records, and this action cannot be done in bulk; records can only be deleted one-by-one using the Admin tab interface on the Occurrence Editor.
+**Recommendation:** Import one or a very small number of representative records prior to initiating a larger import, especially if you are new to this process. Doing so will allow you to assess how your records will look in the portal. Similar to bulk data ingestion, only users with Administrator permissions can delete records, and this action cannot be done in bulk; records can only be deleted one-by-one using the Admin tab interface on the Occurrence Editor.
 
 ## Steps you can take immediately after your records are in Symbiota
-➡️ Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.<br>
-➡️ Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.<br>
-➡️ Run your portal's [built-in data cleaning tools](https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/) to ingest new taxonomy and clean geographic location details.<br>
-➡️ Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/).<br>
-➡️ [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
+- Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.
+- Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.
+- Run your portal's [built-in data cleaning tools](https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/) to ingest new taxonomy and clean geographic location details.
+- Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/).
+- [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
 
-{: .notice--success }
+{: .notice--note }
 **Tip:** The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 ## How do I keep my records clean once they’re available in Symbiota?
