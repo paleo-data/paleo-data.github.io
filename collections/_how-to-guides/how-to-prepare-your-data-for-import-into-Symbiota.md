@@ -41,7 +41,8 @@ If you maintain cataloged specimen records in a spreadsheet, this information ca
 | -------------- | -------------- |
 | **Catalog Numbers** | Every occurrence (=specimen record) to be imported must have a catalog number assigned. Example: `USNM000001`. |
 |`**Secondary identifiers** | [Parse](https://biokic.github.io/symbiota-docs/editor/edit/fields/catno/) into a semicolon delimited list of key:value pairs (i.e., tagName: identifier). Example: _otherCatalogNumbers_ = `legacy catalog number: ASU 3541; accession number: WIS-L-001456`. |
-| **Delimiters** | Use pipes (`|`) or semicolons to separate values in a list, and be consistent with formatting. Doing so will facilitate parsing of data, if ever needed, in the future. Avoid using commas as delimiters.  Example: _Associated Collectors_ = `Charlotte Hill | Samuel Scudder | Arthur Lakes` |
+| **Delimiters** | Use pipes (`|`) or semicolons to separate values in a list, and be consistent with formatting. Doing so will facilitate parsing of data, if ever needed, in the future. Avoid using [commas]() as delimiters. Example: _Associated Collectors_ = `Charlotte Hill | Samuel Scudder | Arthur Lakes` |
+| **Fields containing different kinds of information** | When this is unavoidable, use `key:value` pairs to concatenate data that must be combined into one field. Example: _Occurrence Remarks_ = `ACQUISITION DETAILS: Gift of Arthur Lakes April 1890 | NOTES: Original specimen label misplaced`.
 
 {% include resource_card filename='pearson-2022.yml' %}
 
