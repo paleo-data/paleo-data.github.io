@@ -15,7 +15,7 @@ topics: [symbiota]
 ---
 
 {: .notice--primary } 
-This guide is designed orient new and prospective data providers to using Symbiota for managing and publishing fossil specimen data.
+This guide is designed orient new and prospective data providers to Symbiota, a tool for managing and publishing fossil specimen data.
 
 # Introduction
 ## What is Symbiota?
