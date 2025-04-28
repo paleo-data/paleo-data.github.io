@@ -117,6 +117,8 @@ You can create associations between one or more occurrence records cataloged in 
 | subjectCatalogNumber | objectCatalogNumber | basisOfRecord |
 | - | - | - |
 | PH00818528a | PH00818528b | FossilSpecimen |
+
+{: .notice--info }
 Think of the “subject” as the “part” and the “object” as the “counterpart” in a part-counterpart pairing.
 
 {: .notice--info }
@@ -132,6 +134,8 @@ Similarly, associations can be created between specimen occurrences in your Symb
 | subjectCatalogNumber | objectID | basisOfRecord | verbatimSciname | resourceURL |
 | - | - | - | - | - |
 | USNMPAL603860 | YPMVP058990 | FossilSpecimen | Goleroconus alfi | [https://collections.peabody.yale.edu/search/Record/YPM-VP-058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) |
+
+{: .notice--info }
 Think of the “subject” as the piece of specimen retained in your collection (cataloged in Symbiota) and the “object” as part retained in an external collection. The _verbatimSciName_ refers to the identification of the occurrence maintained by the external collection.
 
 ### Cataloging multi-taxon specimen lots
