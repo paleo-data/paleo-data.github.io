@@ -14,7 +14,7 @@ sidebar:
 topics: [symbiota, data wrangling, extended specimen]
 ---
 
-{: .notice }
+{: .notice--primary }
 This guide is intended to complement documentation for [getting started in the Symbiota Paleo Data Portal](/knowledge-hub/how-to-guides/how-to-get-started-in-the-symbiota-paleo-data-portal.html), as well as the official Symbiota user documentation, [Symbiota Docs](https://biokic.github.io/symbiota-docs/). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
 
 This document outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. These steps can help make your data more easily managed and discovered, and are therefore _highly_ recommended.
@@ -72,7 +72,7 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 - Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/).
 - [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
 
-{: .notice--info }
+{: .notice--primary }
 💡 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 ## How do I keep my records clean once they’re available in Symbiota?
@@ -91,10 +91,10 @@ If you intend to continue cataloging using a spreadsheet method, set up a new da
 ## Extending your specimens
 Once your occurrence records are available in Symbiota, associations can be created between your specimen data in Symbiota and external resources, including digitally available literature and other occurrence records (both in and external to your Symbiota portal). This can be accomplished using two methods. Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://biokic.github.io/symbiota-docs/editor/links/); additionally, users with Administrator permissions can create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://biokic.github.io/symbiota-docs/coll_manager/upload/links/). The latter option contains several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
-{: .notice--info }
+{: .notice--warning }
 **Tip:** When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible.
 
-{: .notice--info }
+{: .notice--primary }
 Examples of "Extended Specimens" in Symbiota are available in [this dataset](https://paleo.symbiota.org/portal/collections/list.php?datasetid=4). 
 
 ### Type and referred specimens
@@ -121,16 +121,16 @@ You can create associations between one or more occurrence records cataloged in 
 | - | - | - |
 | PH00818528a | PH00818528b | FossilSpecimen |
 
-{: .notice }
+{: .notice--primary }
 Think of the “**subject**” as the “**part**” and the “**object**” as the “**counterpart**” when creating a a part-counterpart pairing in Symbiota. Both records must already exist in the portal in order to create this type of relationship.
 
-{: .notice }
+{: .notice--primary }
 **Alternative method:** If you prefer to catalog part-counterpart specimens as a single specimen record, this is also possible, as in this [example]().
 
 #### Scenario B: Multiple institutions own different pieces of a fossil specimen
 Similarly, associations can be created between specimen occurrences in your Symbiota portal and occurrences in other data portals—**for example, if your collection maintains one half of a part-counterpart pair, one or more pieces of an individual cataloged by different institutions, or a specimen-cast pairing.** In all of these cases, you can create linkages between your catalog records in Symbiota and records hosted in external portals.
 
-**Example:** (USNM PAL 603860)(https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763802) (cataloged in Symbiota) is a cast of (YPM VP 058990)(https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) (cataloged in an external database). An association has been created between these records in Symbiota.
+**Example:** [USNM PAL 603860](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763802) (cataloged in Symbiota) is a cast of [YPM VP 058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) (cataloged in an external database). An association has been created between these records in Symbiota.
 - _Association Type_ = `Occurrence - External Link`
 - _Relationship Type_ = value varies depending on the association to be created
 
@@ -138,7 +138,7 @@ Similarly, associations can be created between specimen occurrences in your Symb
 | - | - | - | - | - |
 | USNMPAL603860 | YPMVP058990 | FossilSpecimen | Goleroconus alfi | [https://collections.peabody.yale.edu/search/Record/YPM-VP-058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) |
 
-{: .notice }
+{: .notice--primary }
 Think of the “**subject**” as the piece of specimen retained in your collection (cataloged in Symbiota) and the “**object**” as part retained in an external collection. The _verbatimSciName_ refers to the identification of the occurrence maintained by the external collection.
 
 ### Cataloging multi-taxon specimen lots
