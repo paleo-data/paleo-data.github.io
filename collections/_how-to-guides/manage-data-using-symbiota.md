@@ -14,7 +14,7 @@ sidebar:
 topics: [symbiota, data wrangling, extended specimen]
 ---
 
-{: .notice--info }
+{: .notice }
 This guide is intended to complement documentation for [getting started in the Symbiota Paleo Data Portal](/knowledge-hub/how-to-guides/how-to-get-started-in-the-symbiota-paleo-data-portal.html), as well as the official Symbiota user documentation, [Symbiota Docs](https://biokic.github.io/symbiota-docs/). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
 
 This document outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. These steps can help make your data more easily managed and discovered, and are therefore _highly_ recommended.
@@ -61,6 +61,9 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 
 {: .notice--danger }
 **Recommendation:** Import one or a very small number of representative records prior to initiating a larger import, especially if you are new to this process. Doing so will allow you to assess how your records will look in the portal. Similar to bulk data ingestion, only users with Administrator permissions can delete records, and this action cannot be done in bulk; records can only be deleted one-by-one using the Admin tab interface on the Occurrence Editor.
+
+{: .notice--primary }
+**Questions?** Contact [paleoinformatics@gmail.com](mailto:paleoinformatics@gmail.com). Include “Symbiota” in the subject of your email, e.g. “Help with preparing my data for the Symbiota Paleo Data Portal”. 
 
 ## Steps you can take immediately after your records are in Symbiota
 - Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.
@@ -118,11 +121,11 @@ You can create associations between one or more occurrence records cataloged in 
 | - | - | - |
 | PH00818528a | PH00818528b | FossilSpecimen |
 
-{: .notice--info }
-Think of the “subject” as the “part” and the “object” as the “counterpart” in a part-counterpart pairing.
+{: .notice }
+Think of the “**subject**” as the “**part**” and the “**object**” as the “**counterpart**” when creating a a part-counterpart pairing in Symbiota. Both records must already exist in the portal in order to create this type of relationship.
 
-{: .notice--info }
-**Alternatively**, if you prefer to catalog part-counterpart specimens as a single specimen record, this is also possible, as in this [example]().
+{: .notice }
+**Alternative method:** If you prefer to catalog part-counterpart specimens as a single specimen record, this is also possible, as in this [example]().
 
 #### Scenario B: Multiple institutions own different pieces of a fossil specimen
 Similarly, associations can be created between specimen occurrences in your Symbiota portal and occurrences in other data portals—**for example, if your collection maintains one half of a part-counterpart pair, one or more pieces of an individual cataloged by different institutions, or a specimen-cast pairing.** In all of these cases, you can create linkages between your catalog records in Symbiota and records hosted in external portals.
@@ -135,21 +138,13 @@ Similarly, associations can be created between specimen occurrences in your Symb
 | - | - | - | - | - |
 | USNMPAL603860 | YPMVP058990 | FossilSpecimen | Goleroconus alfi | [https://collections.peabody.yale.edu/search/Record/YPM-VP-058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) |
 
-{: .notice--info }
-Think of the “subject” as the piece of specimen retained in your collection (cataloged in Symbiota) and the “object” as part retained in an external collection. The _verbatimSciName_ refers to the identification of the occurrence maintained by the external collection.
+{: .notice }
+Think of the “**subject**” as the piece of specimen retained in your collection (cataloged in Symbiota) and the “**object**” as part retained in an external collection. The _verbatimSciName_ refers to the identification of the occurrence maintained by the external collection.
 
 ### Cataloging multi-taxon specimen lots
-Content forthcoming!
+_Content forthcoming!_
 
-
-
-More about Symbiota and the Extended Specimen: https://symbiota.org/extended-specimens-in-symbiota/ 
-
-Examples of “Extended Specimens” in Symbiota: https://paleo.symbiota.org/portal/collections/list.php?datasetid=4 
-
-
-{% include resource_card filename='pearson-2022.yml' %}
-
+# Additional resources
 {% include related_list topics='symbiota' %}
-
 {% include resource_list topics='symbiota' %}
+{% include resource_card filename='pearson-2022.yml' %}
