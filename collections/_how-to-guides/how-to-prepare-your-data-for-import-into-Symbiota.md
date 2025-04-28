@@ -1,6 +1,6 @@
 ---
-title: Prepare your data for import into Symbiota
-last_modified_at: 2025-04-23
+title: Manage fossil specimen data using Symbiota
+last_modified_at: 2025-04-27
 sidebar:
   nav: [sidebar]
 toc: True
@@ -11,7 +11,7 @@ sidebar:
   collapsible: true
   expanded:
   - how-to-guides
-topics: [symbiota, data wrangling]
+topics: [symbiota, data wrangling, extended specimen]
 ---
 
 {: .notice--info }
@@ -84,6 +84,31 @@ Symbiota maintains several built-in tools to facilitate collaborative data entry
 
 ### Set up a data import profile
 If you intend to continue cataloging using a spreadsheet method, set up a new data [import profile](https://biokic.github.io/symbiota-docs/coll_manager/upload/) based on your cleaned spreadsheet.
+
+## Extending your specimens
+Once your occurrence records are available in Symbiota, associations can be created between your specimen data in Symbiota and external resources, including digitally available literature and other occurrence records (both in and external to your Symbiota portal). This can be accomplished using two methods. Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://biokic.github.io/symbiota-docs/editor/links/); additionally, users with Administrator permissions can create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://biokic.github.io/symbiota-docs/coll_manager/upload/links/). The latter option contains several fields that are not available in the Linked Resources tab, such as _accordingTo_.
+
+{: .notice--info }
+**Tip:** When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible.
+
+{: .notice--info }
+Examples of "Extended Specimens" in Symbiota are available in [this dataset](https://paleo.symbiota.org/portal/collections/list.php?datasetid=4). 
+
+### Type and referred specimens
+You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
+
+**Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
+- Association Type = “Non-occurrence Resource”
+- Relationship Type = “isReferencedBy”
+
+| subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
+| - | - | - | - |
+| USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
+| USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
+
+More about Symbiota and the Extended Specimen: https://symbiota.org/extended-specimens-in-symbiota/ 
+
+Examples of “Extended Specimens” in Symbiota: https://paleo.symbiota.org/portal/collections/list.php?datasetid=4 
 
 
 {% include resource_card filename='pearson-2022.yml' %}
