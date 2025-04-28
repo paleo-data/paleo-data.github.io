@@ -31,14 +31,14 @@ The [Paleo Data Portal](https://paleo.symbiota.org) ("PDP") is a Symbiota-based 
 - Provide a **testing ground** for technical solutions, e.g. those related to taxonomy
 
 ## How to participate
-If you manage a fossil collection and would like to use this portal to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php). If the portal seems suitable for your needs after reviewing this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8). Once your responses are received, someone from the Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) will be in touch.
+If you manage a fossil collection and would like to use this portal to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php). If the portal seems suitable for your needs after reviewing this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8). Once your responses are received, someone from the [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) will be in touch.
 
 {: .notice--info }
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
 
 # Getting started
 ## Data preparation
-‼️ If you maintain existing digital catalog records in a spreadsheet, this information can be imported into the Paleo Data Portal. Data providers are strongly advised to refer to the guide, [_How to prepare your data for import into Symbiota_](), prior to ingesting new data in the portal. 
+‼️ If you maintain existing digital catalog records in a spreadsheet, this information can be imported into the Paleo Data Portal. Data providers are strongly advised to review the [Symbiota data formatting guide](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#formatting-data-for-import) and complete the [related checklist](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#formatting-data-for-import) prior to ingesting data in the portal. 
 
 ## Essential functions
 This section of the guide will provides an introduction to the portal's essential functions for data providers.
