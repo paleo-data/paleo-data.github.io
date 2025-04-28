@@ -98,13 +98,46 @@ Examples of "Extended Specimens" in Symbiota are available in [this dataset](htt
 You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
 
 **Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
-- Association Type = “Non-occurrence Resource”
-- Relationship Type = “isReferencedBy”
+- _Association Type_ = `Non-occurrence Resource`
+- _Relationship Type_ = `isReferencedBy`
 
 | subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
 | - | - | - | - |
 | USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
 | USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
+
+### Part/Counterpart specimens and similar scenarios
+#### Scenario A: One institution owns all pieces of a fossil specimen
+You can create associations between one or more occurrence records cataloged in your Symbiota portal using the fields and parameters specified below.
+
+**Example:** PH00818528a (part) and PH00818528b (counterpart) were cataloged as separate records within the same Symbiota portal and subsequently linked as associated records.
+- _Association Type_ = `Occurrence - Internal (this portal)`
+- _Relationship Type_ = `part` OR `counterpart` (describe the specimen being linked to)
+
+| subjectCatalogNumber | objectCatalogNumber | basisOfRecord |
+| - | - | - |
+| PH00818528a | PH00818528b | FossilSpecimen |
+Think of the “subject” as the “part” and the “object” as the “counterpart” in a part-counterpart pairing.
+
+{: .notice--info }
+**Alternatively**, if you prefer to catalog part-counterpart specimens as a single specimen record, this is also possible, as in this [example]().
+
+#### Scenario B: Multiple institutions own different pieces of a fossil specimen
+Similarly, associations can be created between specimen occurrences in your Symbiota portal and occurrences in other data portals—**for example, if your collection maintains one half of a part-counterpart pair, one or more pieces of an individual cataloged by different institutions, or a specimen-cast pairing.** In all of these cases, you can create linkages between your catalog records in Symbiota and records hosted in external portals.
+
+**Example:** (USNM PAL 603860)(https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763802) (cataloged in Symbiota) is a cast of (YPM VP 058990)(https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) (cataloged in an external database). An association has been created between these records in Symbiota.
+- _Association Type_ = `Occurrence - External Link`
+- _Relationship Type_ = value varies depending on the association to be created
+
+| subjectCatalogNumber | objectID | basisOfRecord | verbatimSciname | resourceURL |
+| - | - | - | - | - |
+| USNMPAL603860 | YPMVP058990 | FossilSpecimen | Goleroconus alfi | [https://collections.peabody.yale.edu/search/Record/YPM-VP-058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) |
+Think of the “subject” as the piece of specimen retained in your collection (cataloged in Symbiota) and the “object” as part retained in an external collection. The _verbatimSciName_ refers to the identification of the occurrence maintained by the external collection.
+
+### Cataloging multi-taxon specimen lots
+Content forthcoming!
+
+
 
 More about Symbiota and the Extended Specimen: https://symbiota.org/extended-specimens-in-symbiota/ 
 
