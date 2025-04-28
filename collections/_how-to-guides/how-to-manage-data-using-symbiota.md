@@ -1,5 +1,5 @@
 ---
-title: Manage fossil specimen data using Symbiota
+title: Manage specimen data using Symbiota
 last_modified_at: 2025-04-27
 sidebar:
   nav: [sidebar]
