@@ -113,13 +113,13 @@ You can create linkages between occurrence records in your Symbiota portal and d
 #### Scenario A: One institution owns all pieces of a fossil specimen
 You can create associations between one or more occurrence records cataloged in your Symbiota portal using the fields and parameters specified below.
 
-**Example:** PH00818528a (part) and PH00818528b (counterpart) were cataloged as separate records within the same Symbiota portal and subsequently linked as associated records.
+**Example:** [ANSP3472](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763808) (part) and [ANSP3473](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763807) (counterpart) were cataloged as separate records within the same Symbiota portal and subsequently linked as associated records.
 - _Association Type_ = `Occurrence - Internal (this portal)`
 - _Relationship Type_ = `part` OR `counterpart` (describe the specimen being linked to)
 
 | subjectCatalogNumber | objectCatalogNumber | basisOfRecord |
 | - | - | - |
-| PH00818528a | PH00818528b | FossilSpecimen |
+| ANSP3472 | ANSP4373 | FossilSpecimen |
 
 {: .notice--primary }
 Think of the “**subject**” as the “**part**” and the “**object**” as the “**counterpart**” when creating a a part-counterpart pairing in Symbiota. Both records must already exist in the portal in order to create this type of relationship.
