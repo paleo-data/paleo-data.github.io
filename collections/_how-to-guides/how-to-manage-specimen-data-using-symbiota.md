@@ -19,6 +19,9 @@ This guide is intended to complement documentation for [getting started in the S
 
 This document outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. These steps can help make your data more easily managed and discovered, and are therefore _highly_ recommended.
 
+{: .notice--info }
+**Tip:** Refer to example fossil specimen records in Symbiota [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
+
 ## Formatting data for import
 
 ### Steps you can take to ready your records for ingestion
