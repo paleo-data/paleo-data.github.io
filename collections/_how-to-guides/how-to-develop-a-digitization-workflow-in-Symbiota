@@ -1,0 +1,27 @@
+---
+title: Develop a digitization workflow using Symbiota
+last_modified_at: 2025-04-29
+sidebar:
+  nav: [sidebar]
+toc: True
+toc_sticky: True
+sidebar:
+  nav:
+  - sidebar
+  collapsible: true
+  expanded:
+  - how-to-guides
+topics: [symbiota, data wrangling, workflow]
+---
+
+{: .notice--primary }
+This guide is intended to help data providers develop digitization workflows using Symbiota.
+
+
+{: .notice--info }
+**Tip:** Refer to example fossil specimen records in Symbiota [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
+
+## Formatting data for import
+
+### Steps you can take to ready your records for ingestion
+1. Familiarize yourself with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which is the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/).
