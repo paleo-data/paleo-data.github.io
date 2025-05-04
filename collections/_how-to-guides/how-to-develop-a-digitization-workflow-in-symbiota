@@ -17,14 +17,7 @@ topics: [symbiota, data wrangling, workflow]
 {: .notice--primary }
 This guide is intended to help data providers develop digitization workflows using Symbiota.
 
-
-{: .notice--info }
-**Tip:** Refer to example fossil specimen records in Symbiota [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
-
-## Formatting data for import
-
-### Steps you can take to ready your records for ingestion
-1. Familiarize yourself with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which is the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/).
+<iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # Additional resources
 {% include resource_card filename='krimmel-2022-workflows.yml' %}
