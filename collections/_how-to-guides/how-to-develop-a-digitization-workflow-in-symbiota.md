@@ -11,7 +11,7 @@ sidebar:
   collapsible: true
   expanded:
   - how-to-guides
-topics: [symbiota, data wrangling, workflow]
+topics: [symbiota, workflow]
 ---
 
 {: .notice--primary }
