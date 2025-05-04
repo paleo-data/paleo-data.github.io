@@ -1,6 +1,6 @@
 ---
 title: Manage specimen data using Symbiota
-last_modified_at: 2025-04-27
+last_modified_at: 2025-05-04
 sidebar:
   nav: [sidebar]
 toc: True
@@ -21,6 +21,8 @@ This document outlines actions you can take to prepare existing digital catalog 
 
 {: .notice--info }
 **Tip:** Refer to example fossil specimen records in Symbiota [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
+
+# Bulk data import
 
 ## Formatting data for import
 
@@ -92,7 +94,10 @@ Symbiota maintains several built-in tools to facilitate collaborative data entry
 ### Set up a data import profile
 If you intend to continue cataloging using a spreadsheet method, set up a new data [import profile](https://biokic.github.io/symbiota-docs/coll_manager/upload/) based on your cleaned spreadsheet.
 
-## Extending your specimens
+# Direct data entry
+
+
+#Extending your specimens
 Once your occurrence records are available in Symbiota, associations can be created between your specimen data in Symbiota and external resources, including digitally available literature and other occurrence records (both in and external to your Symbiota portal). This can be accomplished using two methods. Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://biokic.github.io/symbiota-docs/editor/links/); additionally, users with Administrator permissions can create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://biokic.github.io/symbiota-docs/coll_manager/upload/links/). The latter option contains several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
 {: .notice--warning }
