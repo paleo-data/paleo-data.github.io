@@ -25,3 +25,8 @@ This guide is intended to help data providers develop digitization workflows usi
 
 ### Steps you can take to ready your records for ingestion
 1. Familiarize yourself with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which is the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/).
+
+# Additional resources
+{% include resource_card filename='krimmel-2022-workflows.yml' %}
+{% include related_list topics='symbiota' %}
+{% include resource_list topics='symbiota' %}
