@@ -17,14 +17,16 @@ topics: [symbiota, data wrangling, extended specimen]
 {: .notice--primary }
 This guide is intended to complement documentation for [getting started in the Symbiota Paleo Data Portal](/knowledge-hub/how-to-guides/how-to-get-started-in-the-symbiota-paleo-data-portal.html), as well as the official Symbiota user documentation, [Symbiota Docs](https://biokic.github.io/symbiota-docs/). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
 
-This document outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. These steps can help make your data more easily managed and discovered, and are therefore _highly_ recommended.
-
 {: .notice--info }
 **Tip:** Refer to example fossil specimen records in Symbiota [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
+
+# Introduction
+There are two primary ways data can be entered into a Symbiota portal: 1) as a [bulk data import](#bulk-data-import) and 2) [directly using the Occurrence Editor interface](#direct-data-entry). 
 
 # Bulk data import
 
 ## Formatting data for import
+This section outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. These steps can help make your data more easily managed and discovered, and are therefore _highly_ recommended.
 
 ### Steps you can take to ready your records for ingestion
 1. Familiarize yourself with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which is the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/).
