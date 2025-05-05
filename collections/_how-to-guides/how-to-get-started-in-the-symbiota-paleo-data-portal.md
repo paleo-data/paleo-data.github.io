@@ -15,7 +15,7 @@ topics: [symbiota]
 ---
 
 {: .notice--primary } 
-This guide is designed orient new and prospective data providers to Symbiota, a tool for managing and publishing fossil specimen data.
+This guide is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
 
 # Introduction
 ## What is Symbiota?
@@ -37,12 +37,15 @@ If you manage a fossil collection and would like to use this portal to manage yo
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
 
 # Getting started
-## Data preparation
-‼️ If you maintain existing digital catalog records in a spreadsheet, this information can be imported into the Paleo Data Portal. Data providers are strongly advised to review the [Symbiota data formatting guide](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#formatting-data-for-import) and complete the [related checklist](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#formatting-data-for-import) prior to ingesting data in the portal. 
 
 ## Essential functions
 This section of the guide will provides an introduction to the portal's essential functions for data providers.
 <iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Next steps
+Carefully review this introductory guide to [managing fossil specimen data in Symbiota](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota).
+
+If you maintain existing digital catalog records in a spreadsheet, this information can (and should!) be imported into the Paleo Data Portal. Data providers are strongly advised to review the [Symbiota data formatting guide](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#formatting-data-for-import) and complete the [related checklist]([/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#formatting-data-for-import](/knowledge-hub/how-to-guides/how-to-manage-specimen-data-using-symbiota#data-formatting-checklist)) prior to ingesting specimen records into the portal. 
 
 {% include resource_card filename='pearson-2022.yml' %}
 
