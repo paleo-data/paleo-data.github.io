@@ -1,6 +1,7 @@
 ---
 title: Manage fossil specimen data using Symbiota
-last_modified_at: 2025-05-04
+last_modified_at: 2025-05-06
+authors: ["Lindsay Walker"]
 sidebar:
   nav: [sidebar]
 toc: True
@@ -40,11 +41,9 @@ If you maintain fossil specimen data that needs to be imported into a Symbiota p
 #### Data formatting checklist
 If you maintain cataloged specimen records in a spreadsheet, this information can be imported into Symbiota in CSV format. Before doing so, **it is highly recommended that you complete this checklist to prepare your data for ingestion to maximize the interoperability between your data and that of other collections, ultimately making your records more discoverable and useful for research**. Additional data cleaning can be performed once your records are in Symbiota ([printable version](https://docs.google.com/document/d/11rEFpVtKwzKRZ7Fi5esLzAcs6bLXNQBym8QmKCQ-jWI/edit?usp=sharing)). The checklist below has been compiled based on scenarios observed in other datasets from fossil collections prepared for import. The [Symbiota Data Import Fields](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) guide provides important information about fields available in Symbiota, as well as the types of data that can be imported into each one—for instance, which fields can only contain numbers, dates only, textual data, etc.—and how this information should be formatted. Examples of datasets that have been cleaned in preparation for ingestion into Symbiota can be found [here](). 
 
-| Example Datasets |
-| - |
-| [ASU Paleobotany]() | 
-| [PH Paleobotany]() |
-
+{: .notice--info }
+Example datasets: _content forthcoming_
+ 
 | Checklist Item | Recommendation |
 | - | - |
 | **Catalog Numbers** | Every occurrence (=specimen record) to be imported must have a catalog number assigned. <br>**Example:** `USNM000001` |
@@ -158,9 +157,8 @@ Similarly, associations can be created between specimen occurrences in your Symb
 Think of the “**subject**” as the piece of specimen retained in your collection (cataloged in Symbiota) and the “**object**” as part retained in an external collection. The _verbatimSciName_ refers to the identification of the occurrence maintained by the external collection.
 
 ### Cataloging multi-taxon specimen lots
-_Content forthcoming!_
+_Content forthcoming_
 
-# Additional resources
 {% include related_list topics='symbiota' %}
 {% include resource_list topics='symbiota' %}
 {% include resource_card filename='pearson-2022.yml' %}
