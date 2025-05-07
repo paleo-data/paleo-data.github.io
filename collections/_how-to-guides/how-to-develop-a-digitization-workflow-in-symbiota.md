@@ -19,7 +19,7 @@ This guide is intended to help data providers develop digitization workflows for
 
 <iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-If you would like assistance with thinking through workflow options for your collection, please contact [paleoinformatics@gmail.com](mailto:paleoinformatics@gmail.com) and include "Symbiota" in the subject of your message. A member of the Paleo Data Portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) will contact you to provide assistance. 
+{: .notice--primary } 📬 **Questions?** Data providers are encouraged to contact paleoinformatics@gmail.com for assistance with questions related to developing a digitization workflow for fossil collections using Symbiota. Include “Symbiota” in the subject of your email, e.g. “Help with developing a workflow for my fossil collection using Symbiota”.
 
 {% include related_list topics='symbiota' %}
 {% include resource_list topics='symbiota' %}
