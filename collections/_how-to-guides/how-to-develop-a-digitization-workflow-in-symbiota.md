@@ -21,6 +21,18 @@ This guide is intended to help data providers develop digitization workflows for
 
 {: .notice--primary } 📬 **Questions?** Data providers are encouraged to contact paleoinformatics@gmail.com for assistance with questions related to developing a digitization workflow for fossil collections using Symbiota. Include “Symbiota” in the subject of your email, e.g. “Help with developing a workflow for my fossil collection using Symbiota”.
 
+# Workflow components
+
+## Cataloging and transcription
+
+Because data transcription inherently involves judgement calls, and not all label data can be accurately represented using existing data standards, imaging specimen label images is recommended whenever possible. 
+
+## Georeferencing
+
+## Imaging
+
+
+
 {% include related_list topics='symbiota' %}
 {% include resource_list topics='symbiota' %}
 {% include resource_card filename='krimmel-2022-workflows.yml' %}
