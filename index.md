@@ -2,7 +2,7 @@
 title: Paleo Data Knowledge Hub
 layout: splash
 header:
-  overlay_image: /assets/images/header.jpg
+  overlay_image: /assets/images/header2.jpg
   caption: "Photo credit: [NMNH](https://naturalhistory.si.edu/)"
   #actions:
   #  - label: "More Info"
