@@ -10,32 +10,32 @@ header:
 excerpt: A community-curated resource for learning about capturing, managing, sharing, and discovering fossil data
 feature_row:
     - image_path: /assets/images/ri--community-line.png
-      alt: "A globe icon"
+      alt: "A line drawing of a house in front of an apartment building"
       title: "Community"
       excerpt: 
       url: /community
     - image_path: /assets/images/ri--node-tree.png
-      alt: "A globe icon"
+      alt: "A line drawing showing three rectangles connected by lines"
       title: "Data Ecosystem"
       excerpt: 
       url: /data-ecosystem
     - image_path: /assets/images/ri--info-card-line.png
-      alt: "A globe icon"
+      alt: "A line drawing of a card with the letter i on it"
       title: "Topics"
       excerpt: 
       url: /topics
     - image_path: /assets/images/ri--questionnaire-line.png
-      alt: "A globe icon"
+      alt: "A line drawing of a speech bubble containing a question mark"
       title: "Explanations"
       excerpt: 
       url: /explanations
     - image_path: /assets/images/ri--book-shelf-line.png
-      alt: "A globe icon"
+      alt: "A line drawing of three books arranged as if on a shelf"
       title: "How To Guides"
       excerpt: 
-      url: /how_to_guides
+      url: /how-to-guides
     - image_path: /assets/images/ri--treasure-map-line.png
-      alt: "A globe icon"
+      alt: "A line drawing of a map with a dotted line leading to an X"
       title: "Tutorials"
       excerpt: 
       url: /tutorials
