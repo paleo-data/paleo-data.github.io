@@ -7,14 +7,24 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2025 - Upcoming
-- 2025-05-22, Capturing and managing land ownership data ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))
 - 2025-06-05, Post-[SPNHC](https://spnhc2025.ku.edu/) Updates ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))
 - 2025-06-19, Indigenous data stewardship, Part II ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
 - 2025-07-03, TBD ([notes](https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=sharing))
-- 2025-07-17, TBD ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))
-- 2025-07-31, TBD ([notes](https://docs.google.com/document/d/1yVioLUI2_EB1E3C35xGg_5FtQGUGvqyfix5B6WFX3ro/edit?usp=sharing))
+- 2025-07-17, Working Session; TBD ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))
+- 2025-07-31, Working Session; TBD ([notes](https://docs.google.com/document/d/1yVioLUI2_EB1E3C35xGg_5FtQGUGvqyfix5B6WFX3ro/edit?usp=sharing))
+- 2025-08-14, Working Session; TBD ([notes](https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing))
+- 2025-08-28, Working Session; TBD ([notes](https://docs.google.com/document/d/1f8kUDa2lMqoSIWoi1cxreJ80FgR6hEz5wAwKOw9ZZoU/edit?usp=sharing))
+- 2025-09-11, TBD ([notes](https://docs.google.com/document/d/1ccoVwC0emYINGh45raIAxsBE347JkyrOqLD3cCH2YrY/edit?usp=sharing))
+- 2025-09-25, TBD ([notes](https://docs.google.com/document/d/17BmEcrRimcO2IQQmUaaFZ7sPCz6LgW8oLRPdu4WZ1jY/edit?usp=sharing))
+- 2025-10-09, TBD ([notes](https://docs.google.com/document/d/1pVq6qIsfHsq4r7iTrXpn4lCRmNLZEdfdkEA4FZgrKkM/edit?usp=sharing))
+- 2025-10-23, TBD ([notes](https://docs.google.com/document/d/1bstTMLn1qZUTC10zvMI_EULzofQ5TLiQD7ujUZlcevY/edit?usp=sharing))
+- 2025-11-06, TBD ([notes](https://docs.google.com/document/d/1LBnzq5ggEsg7DhqwoQD5DPQcXckkiXvLiSPtiSyaSoA/edit?usp=sharing))
+- 2025-11-20, TBD ([notes](https://docs.google.com/document/d/1PlplLoPnWRCoKK9FNs4dPLZglOSZUVt4PP1cHaNuK2w/edit?usp=sharing))
+- 2025-12-04, TBD ([notes](https://docs.google.com/document/d/1ZrVAkfEhVZJUtAHeZD_s1DGUeGJNkefI0n7QVgAtP7U/edit?usp=sharing))
+- 2025-12-18, TBD
 
 ### 2025 - Past
+- 2025-05-22, Capturing and managing land ownership data ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))([recording](https://drive.google.com/file/d/1vKnhuf-NCzuG7A-XfwdHW8K8MAOBUxeZ/view?usp=drive_link))
 - 2025-05-08, Indigenous data stewardship, Part I ([notes](https://docs.google.com/document/d/14BrZ3gBkmJwRb6Ou3pV53zcYqTCH1e8ynE95zBeCxaY/edit?usp=sharing))([recording](https://drive.google.com/file/d/10JgxsBNgsZyaveJMUJNS5Cx3SVAh1-8E/view?usp=sharing))
 - 2025-04-24, Archives and Collections: a case study ([notes](https://docs.google.com/document/d/1eir4xfcIUUJMrE8-qhpiDNURuXztzNew0Pa9fIT9Y08/edit?usp=sharing))([recording](https://drive.google.com/file/d/1CLl_Dphh2i7fVn3c1QvB6P72IZtKCTnL/view?usp=sharing))
 - 2025-04-10, How to share collection workflows FAIRly with Zenodo ([notes](https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing))([recording](https://drive.google.com/file/d/1kK-lM003VXZv9pnQunJhd-9SN323Snpx/view?usp=sharing))
