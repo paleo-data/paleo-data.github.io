@@ -1,6 +1,6 @@
 ---
 title: Manage fossil specimen data using Symbiota
-last_modified_at: 2025-05-06
+last_modified_at: 2025-05-24
 authors: ["Lindsay Walker"]
 sidebar:
   nav: [sidebar]
@@ -84,7 +84,7 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 💡 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 # Direct data entry
-This section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/). This guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers are thus strongly encourged to conform with the receommendations outlined in this section.
+The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/). This guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers are thus strongly encourged to conform with the recommendations outlined in this section.
 
 ## Orientation
 
