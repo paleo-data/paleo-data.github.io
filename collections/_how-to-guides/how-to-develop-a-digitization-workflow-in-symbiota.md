@@ -22,23 +22,23 @@ This guide is intended to help data providers develop digitization workflows for
 
 # Introduction
 
-## Digitization workflows
+## Digitization workflows in fossil collections
 In the context of this guide and other Knowledge Hub documentation, **"digitization"** is act of translating and capturing metadata describing a physical specimen into a digital form ([Nelson & Ellis, 2018](https://doi.org/10.1098/rstb.2017.0391)). It encompasses the activities related to [cataloging](#cataloging), [georeferencing](#georeferencing), and [imaging](#imaging). 
 
-Many paleontological collections are highly heterogeneous in nature--taxonomically, geographically, geologically, and physically. That is, one collection might contain fragmented elements of long-extinct and geologically recent vertebrates, invertebrates, and plants of varying sizes and shapes and in various states of physical preparation (e.g., from fully prepared specimens on exhibit to unopened field jackets and unwashed bulk samples—and many intermediate states). 
+Many paleontological collections are highly heterogeneous in nature--taxonomically, geographically, geologically, and physically. That is, one collection might contain fragmented elements of long-extinct and geologically recent vertebrates, invertebrates, and plants of varying sizes and shapes and in various states of physical preparation (e.g., from fully prepared specimens on exhibit to unopened field jackets and unwashed sediment samples—plus many intermediate states). 
 
-Careful planning is therefore necessary to efficiently digitize fossil specimen data in paleontological collections, and workflow development a critical part of this process. By developing and streamlining a thoughtful digitization workflow tailored to the nature of your collection (or a sub collection), you can maximize your collection’s visibility and research utility, in turn making it more likely to be used by researchers and thus further justifiable to administrators, potential funders, etc.
+Careful planning is therefore necessary to efficiently digitize fossil specimen data in paleontological collections, and workflow development a critical part of this process. By designing and streamlining a thoughtful digitization workflow tailored to the nature of a given collection (or a subcollection), the collection’s visibility and application for research and educational use can be maximized. In turn, this can provide the collection’s stewardship team—perhaps you!—with further justification for collections maintenance to institutional administrators, prospective funders, and other potential stakeholders.
 
 ### Where to start 
 Start by defining the goal of your digitization workflow. For instance, do you need to capture highly detailed specimen records for a specific research project, or is your aim to document core specimen data to make your collection more discoverable? Answering these questions will allow you to prioritize various workflow elements given the nature of your collection and resources available to complete the associated tasks (staff, equipment, etc.). The various workflows and associated guides herein are designed to help you design workflows that output discoverable, interoperable data to maximize their potential for research use in the context of the Paleo Data Ecosystem.
 
 Symbiota software is particularly well-suited to is enabling flexible digitization workflows to quickly increase the digital presence of your collection—for example, by facilitating the creation of skeletal specimen records that can be iteratively improved upon as time and resources allow. 
 
-The content herein is tailor to Symbiota-based digitization workflows and is intended to be considered in parallel with the Knowledge Hub’s various [Symbiota how-to guides](/knowledge-hub/topics?topic=symbiota) and related content.
+The content in this guide is tailored to data providers who wish to create Symbiota-based digitization workflows and is intended to be read in parallel with the Knowledge Hub’s various [Symbiota how-to guides](/knowledge-hub/topics?topic=symbiota) and related content.
 
 # Workflow components
 
-## Cataloging and transcription
+## Cataloging
 
 Sometimes "cataloging" is used interchangably with "trasncription" and "databasing". 
 
