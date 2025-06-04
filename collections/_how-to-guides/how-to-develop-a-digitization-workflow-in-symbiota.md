@@ -55,6 +55,13 @@ Georeferencing can be defined as "the process (verb) or product (noun) of interp
 - [GLOBAL georeferencing protocols and guides](https://globaltcn.utk.edu/georeferencing)
 
 ## Imaging
+When resources allow, image capture can be beneficial for mutiple reasons. First, ...
+
+2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools]([https://biokic.github.io/symbiota-docs/coll_manager/upload/links/](https://biokic.github.io/symbiota-docs/editor/links/#linking-associations). 
+
+If your organization requires image hosting...
+
+### Imaging 
 
 # Example workflows
 
