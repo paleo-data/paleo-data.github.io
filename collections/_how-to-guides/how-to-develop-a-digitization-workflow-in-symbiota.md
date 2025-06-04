@@ -1,6 +1,6 @@
 ---
 title: Develop a digitization workflow using Symbiota
-last_modified_at: 2025-05-24
+last_modified_at: 2025-06-03
 sidebar:
   nav: [sidebar]
 toc: True
@@ -20,14 +20,14 @@ This guide is intended to help data providers develop digitization workflows for
 # Introduction
 
 ## Digitization workflows in fossil collections
-In the context of this guide and other Knowledge Hub documentation, **"digitization"** is act of translating and capturing metadata describing a physical specimen into a digital form ([Nelson & Ellis, 2018](https://doi.org/10.1098/rstb.2017.0391)). It encompasses the activities related to [cataloging](#cataloging), [georeferencing](#georeferencing), and [imaging](#imaging). 
+In the context of this guide and other Knowledge Hub documentation, "digitization" is act of translating and capturing metadata describing a physical specimen into a digital form ([Nelson & Ellis, 2018](https://doi.org/10.1098/rstb.2017.0391)). It can encompass tasks related to [cataloging](#cataloging), [georeferencing](#georeferencing), and [imaging](#imaging). 
 
-Many paleontological collections are highly heterogeneous in nature--taxonomically, geographically, geologically, and physically. That is, one collection might contain fragmented elements of long-extinct and geologically recent vertebrates, invertebrates, and plants of varying sizes and shapes and in various states of physical preparation (e.g., from fully prepared specimens on exhibit to unopened field jackets and unwashed sediment samples—plus many intermediate states). 
+Many paleontological collections are highly heterogeneous in nature--taxonomically, geographically, geologically, and physically. That is, one collection might contain both long-extinct and geologically recent organisms and their traces, including vertebrates, invertebrates, and plants of varying sizes and shapes and in various states of physical preparation.
 
-Careful planning is therefore necessary to efficiently digitize fossil specimen data in paleontological collections, and workflow development a critical part of this process. By designing and streamlining a thoughtful digitization workflow tailored to the nature of a given collection (or a subcollection), a collection’s visibility and application for research and educational use can be maximized, in turn generating further justification for continued collections maintenance to institutional administrators, prospective funders, and other potential stakeholders.
+Careful planning is necessary to efficiently digitize fossil specimen data in paleontological collections, and workflow development a critical part of this process. By designing and streamlining a thoughtful digitization workflow, you can maximize your collection’s visibility and application for research and educational use, in turn generating further justification for its ongoing maintenance to administrators, prospective funders, and other potential stakeholders.
 
 ### Where to start 
-Start by defining the goal of your digitization workflow. For instance, do you need to capture highly detailed specimen records for a specific research project, or is your aim to document core specimen data to make your collection more discoverable? Answering these questions will allow you to prioritize various workflow elements given the nature of your collection and resources available to complete the associated tasks (staff, equipment, etc.). The various content herein is designed to facilitate the creation of workflows that output discoverable, interoperable data to maximize their potential for research use in the context of the [Paleo Data Ecosystem](/knowledge-hub/data-ecosystem).
+Start by defining the goal of your digitization workflow. For instance, do you need to capture specimen records for a specific research project, or is your aim to document core specimen data to make your collection more discoverable? Defining the end goal will allow you to prioritize various workflow elements and digitization tasks given the nature of your collection and its available resources. The content in this guide is designed to facilitate the creation of workflows that output discoverable, interoperable data in the context of the [Paleo Data Ecosystem](/knowledge-hub/data-ecosystem).
 
 Symbiota software is particularly well-suited to is enabling flexible digitization workflows to quickly increase the digital presence of your collection, for example, by facilitating the creation of skeletal specimen records that can be iteratively improved upon as time and resources allow. The content in this guide is tailored to data providers who wish to create Symbiota-based digitization workflows and is intended to be read in parallel with the Knowledge Hub’s various [Symbiota how-to guides](/knowledge-hub/topics?topic=symbiota) and related content.
 
@@ -37,12 +37,11 @@ Symbiota software is particularly well-suited to is enabling flexible digitizati
 
 Sometimes "cataloging" is used interchangably with "trasncription" and "databasing". 
 
-
 Because data transcription inherently involves judgement calls, and not all label data can be accurately represented using existing data standards, imaging specimen label images is recommended whenever possible. 
 
 ## Georeferencing
 
-Georeferencing can be defined as "the process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method" ([Zermoglio et al., 2020](https://doi.org/10.35035/e09p-h128)). For example, georeferencing is often required to assign coordinates to historically collected specimens and can be a signficiant component of a digitization workflow. Symbiota portals contain a number of built-in tools to facilitate georeferencing on a record-by-record basis, in batch, or collaboratively. A number of resources exist that explain how these tools work in Symbiota, as well as more generally as the process applies to fossil collections.
+Georeferencing can be defined as "the process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method" ([Zermoglio et al., 2020](https://doi.org/10.35035/e09p-h128)). For example, georeferencing is often required to assign geographic coordinates to historically collected specimens and can be a signficiant component of a digitization workflow. Symbiota portals contain a number of built-in tools to facilitate georeferencing on a record-by-record basis, in batch, or collaboratively. Many resources exist that explain georeferencing and how related tools work in Symbiota portals.
 
 ### Symbiota-specific resources
 - [Georeferencing Tools in Symbiota](https://youtu.be/5DmgrjmHYJ8?si=xsW70OSa_1ta86Sa&t=691)
