@@ -19,7 +19,7 @@ This guide is intended to help data providers develop digitization workflows for
 
 # Introduction
 
-## Digitization workflows in fossil collections
+## Digitization workflows for fossil collections
 In the context of this guide and other Knowledge Hub documentation, "digitization" is act of translating and capturing metadata describing a physical specimen into a digital form ([Nelson & Ellis, 2018](https://doi.org/10.1098/rstb.2017.0391)). It can encompass tasks related to [cataloging](#cataloging), [georeferencing](#georeferencing), and [imaging](#imaging). 
 
 Many paleontological collections are highly heterogeneous in nature--taxonomically, geographically, geologically, and physically. That is, one collection might contain both long-extinct and geologically recent organisms and their traces, including vertebrates, invertebrates, and plants of varying sizes and shapes and in various states of physical preparation.
@@ -41,7 +41,7 @@ Because data transcription inherently involves judgement calls, and not all labe
 
 ## Georeferencing
 
-Georeferencing can be defined as "the process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method" ([Zermoglio et al., 2020](https://doi.org/10.35035/e09p-h128)). For example, georeferencing is often required to assign geographic coordinates to historically collected specimens and can be a signficiant component of a digitization workflow. Symbiota portals contain a number of built-in tools to facilitate georeferencing on a record-by-record basis, in batch, or collaboratively. Many resources exist that explain georeferencing and how related tools work in Symbiota portals.
+Georeferencing can be defined as "the process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method" ([Zermoglio et al., 2020](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/#georeference)). Georeferencing can be a signficiant component of a digitization workflow; for example, it is often required to assign geographic coordinates to historically collected specimens. Symbiota portals contain a number of built-in tools to facilitate georeferencing on a record-by-record basis, in batch, or collaboratively. Many resources exist that explain georeferencing and how related tools work in Symbiota portals.
 
 ### Symbiota-specific resources
 - [Overview of georeferencing tools in Symbiota](https://youtu.be/5DmgrjmHYJ8?si=xsW70OSa_1ta86Sa&t=691)
