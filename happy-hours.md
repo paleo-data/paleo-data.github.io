@@ -8,8 +8,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 
 ### 2025 - Upcoming
 - 2025-06-05, Post-[SPNHC](https://spnhc2025.ku.edu/) Updates ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))
-- 2025-06-19, Indigenous data stewardship, Part II ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
-- 2025-07-03, TBD ([notes](https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=sharing))
+- 2025-06-26, Indigenous data stewardship, Part II ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
 - 2025-07-17, Working Session; TBD ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))
 - 2025-07-31, Working Session; TBD ([notes](https://docs.google.com/document/d/1yVioLUI2_EB1E3C35xGg_5FtQGUGvqyfix5B6WFX3ro/edit?usp=sharing))
 - 2025-08-14, Working Session; TBD ([notes](https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing))
@@ -21,7 +20,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-11-06, TBD ([notes](https://docs.google.com/document/d/1LBnzq5ggEsg7DhqwoQD5DPQcXckkiXvLiSPtiSyaSoA/edit?usp=sharing))
 - 2025-11-20, TBD ([notes](https://docs.google.com/document/d/1PlplLoPnWRCoKK9FNs4dPLZglOSZUVt4PP1cHaNuK2w/edit?usp=sharing))
 - 2025-12-04, TBD ([notes](https://docs.google.com/document/d/1ZrVAkfEhVZJUtAHeZD_s1DGUeGJNkefI0n7QVgAtP7U/edit?usp=sharing))
-- 2025-12-18, TBD
+- 2025-12-18, TBD ([notes](https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=sharing))
 
 ### 2025 - Past
 - 2025-05-22, Capturing and managing land ownership data ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))([recording](https://drive.google.com/file/d/1vKnhuf-NCzuG7A-XfwdHW8K8MAOBUxeZ/view?usp=drive_link))
