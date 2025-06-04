@@ -17,9 +17,6 @@ topics: [symbiota]
 {: .notice--primary }
 This guide is intended to help data providers develop digitization workflows for fossil specimens using Symbiota.
 
-{: .notice--primary }
-📬 **Questions?** Data providers are encouraged to contact paleoinformatics@gmail.com for assistance with questions related to developing a digitization workflow for fossil collections using Symbiota. Include “Symbiota” in the subject of your email, e.g. “Help with developing a workflow for my fossil collection using Symbiota”.
-
 # Introduction
 
 ## Digitization workflows in fossil collections
@@ -45,11 +42,27 @@ Because data transcription inherently involves judgement calls, and not all labe
 
 ## Georeferencing
 
+Georeferencing can be defined as "the process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method" ([Zermoglio et al., 2020](https://doi.org/10.35035/e09p-h128)). For example, georeferencing is often required to assign coordinates to historically collected specimens and can be a signficiant component of a digitization workflow. Symbiota portals contain a number of built-in tools to facilitate georeferencing on a record-by-record basis, in batch, or collaboratively. A number of resources exist that explain how these tools work in Symbiota, as well as more generally as the process applies to fossil collections.
+
+### Symbiota-specific resources
+- [Georeferencing Tools in Symbiota](https://youtu.be/5DmgrjmHYJ8?si=xsW70OSa_1ta86Sa&t=691)
+- [Georeferencing in CCH2 [a Symbiota portal] Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse.html)
+
+### General georeferencing resources
+- [TDWG Earth Science and Paleobiology Interest Group georeferencing resources for paleontological collections](https://tdwg.github.io/esp/georeferencing/README.html)
+- [Georeferencing Quick Reference Guide](https://doi.org/10.35035/e09p-h128)
+- [Georeferencing in CoGe training video](https://youtu.be/h1JfJuSC-eg)
+- [CCH2 georeferencing protocols and guides](https://www.capturingcaliforniasflowers.org/georeferencing-protocols-and-guides.html)
+- [GLOBAL georeferencing protocols and guides](https://globaltcn.utk.edu/georeferencing)
+
 ## Imaging
 
 # Example workflows
 
 <iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+{: .notice--primary }
+📬 **Questions?** Data providers are encouraged to contact paleoinformatics@gmail.com for assistance with questions related to developing a digitization workflow for fossil collections using Symbiota. Include “Symbiota” in the subject of your email, e.g. “Help with developing a workflow for my fossil collection using Symbiota”.
 
 
 {% include related_list topics='symbiota' %}
