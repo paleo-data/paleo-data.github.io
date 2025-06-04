@@ -44,8 +44,8 @@ Because data transcription inherently involves judgement calls, and not all labe
 Georeferencing can be defined as "the process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method" ([Zermoglio et al., 2020](https://doi.org/10.35035/e09p-h128)). For example, georeferencing is often required to assign geographic coordinates to historically collected specimens and can be a signficiant component of a digitization workflow. Symbiota portals contain a number of built-in tools to facilitate georeferencing on a record-by-record basis, in batch, or collaboratively. Many resources exist that explain georeferencing and how related tools work in Symbiota portals.
 
 ### Symbiota-specific resources
-- [Georeferencing Tools in Symbiota](https://youtu.be/5DmgrjmHYJ8?si=xsW70OSa_1ta86Sa&t=691)
-- [Georeferencing in CCH2 [a Symbiota portal] Training Course](https://www.capturingcaliforniasflowers.org/georeferencingcourse.html)
+- [Overview of georeferencing tools in Symbiota](https://youtu.be/5DmgrjmHYJ8?si=xsW70OSa_1ta86Sa&t=691)
+- [Georeferencing in CCH2 [a Symbiota portal] training course](https://www.capturingcaliforniasflowers.org/georeferencingcourse.html)
 
 ### General georeferencing resources
 - [TDWG Earth Science and Paleobiology Interest Group georeferencing resources for paleontological collections](https://tdwg.github.io/esp/georeferencing/README.html)
