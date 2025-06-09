@@ -1,6 +1,6 @@
 ---
 title: Develop a digitization workflow using Symbiota
-last_modified_at: 2025-06-03
+last_modified_at: 2025-06-09
 sidebar:
   nav: [sidebar]
 toc: True
@@ -57,17 +57,16 @@ Georeferencing can be defined as "the process (verb) or product (noun) of interp
 ## Imaging
 When resources allow, basic 2D digital photography can be highly beneficial to digitization workflows. Some reasons to integrate specimen and label photography into your digitization workflow include:
 - To document your specimens at time of digitization and provide reconaissance images to data users (e.g., researchers), who may then request additional or more detailed specimen images.
-- To facilitate data transciption from specimen label text, which can be completed without additional specimen handling and, in some cases, remotely via the portal's interface.
+- To facilitate data transciption from specimen label text, which can be completed without additional specimen handling and, when appropriate, remotely via the portal's interface.
 - To capture verbatim specimen label text, some of which may be difficult to accurately represent using the fields currently available using Symbiota and the Darwin Core data standard.
 
-### Image hosting
-If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/images/). 
+2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools](https://biokic.github.io/symbiota-docs/editor/links/#linking-associations). 
 
 {: .notice--note }
 **Reminder:** All media files (including images) associated with specimen records where _Location Security_ has been applied will be redacted from public viewing. Users with Administrator permissions can give select individuals [read-only "Rare Species Reader" permissions](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/) to view media (and all other locality data) associated with a given collection through the _Administration Control Panel > Manage Permissions_.
 
-{: .notice--note }
-2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools]([https://biokic.github.io/symbiota-docs/coll_manager/upload/links/](https://biokic.github.io/symbiota-docs/editor/links/#linking-associations). 
+### Image hosting
+If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/images/). 
 
 # Example workflows
 
