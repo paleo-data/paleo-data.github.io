@@ -1,6 +1,6 @@
 ---
 title: Manage fossil specimen data using Symbiota
-last_modified_at: 2025-05-24
+last_modified_at: 2025-06-10
 authors: ["Lindsay Walker"]
 sidebar:
   nav: [sidebar]
@@ -39,10 +39,10 @@ If you maintain fossil specimen data that needs to be imported into a Symbiota p
 2. If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Not all fields are required to contain data. Your spreadsheet must be converted to CSV format prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC).
 
 #### Data formatting checklist
-If you maintain cataloged specimen records in a spreadsheet, this information can be imported into Symbiota in CSV format. Before doing so, **it is highly recommended that you complete this checklist to prepare your data for ingestion to maximize the interoperability between your data and that of other collections, ultimately making your records more discoverable and useful for research**. Additional data cleaning can be performed once your records are in Symbiota ([printable version](https://docs.google.com/document/d/11rEFpVtKwzKRZ7Fi5esLzAcs6bLXNQBym8QmKCQ-jWI/edit?usp=sharing)). The checklist below has been compiled based on scenarios observed in other datasets from fossil collections prepared for import. The [Symbiota Data Import Fields](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) guide provides important information about fields available in Symbiota, as well as the types of data that can be imported into each one—for instance, which fields can only contain numbers, dates only, textual data, etc.—and how this information should be formatted. Examples of datasets that have been cleaned in preparation for ingestion into Symbiota can be found [here](). 
+If you maintain cataloged specimen records in a spreadsheet, this information can be imported into Symbiota in CSV format. Before doing so, **it is highly recommended that you complete this checklist to prepare your data for ingestion to maximize the interoperability between your data and that of other collections, ultimately making your records more discoverable and useful for research**. Additional data cleaning can be performed once your records are in Symbiota ([printable version](https://docs.google.com/document/d/11rEFpVtKwzKRZ7Fi5esLzAcs6bLXNQBym8QmKCQ-jWI/edit?usp=sharing)). The checklist below has been compiled based on scenarios observed in other datasets from fossil collections prepared for import. The [Symbiota Data Import Fields](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) guide provides important information about fields available in Symbiota, as well as the types of data that can be imported into each one—for instance, which fields can only contain numbers, dates only, textual data, etc.—and how this information should be formatted. . 
 
 {: .notice--info }
-Example datasets: _content forthcoming_
+Example records illustrating common cataloging scenarios in fossil collections can be found [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
  
 | Checklist Item | Recommendation |
 | - | - |
