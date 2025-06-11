@@ -26,9 +26,6 @@ There are two ways specimen records are typically entered into a Symbiota portal
 
 Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/).
 
-{: .notice--primary }
-📬 **Questions?** Data providers are encouraged to contact [paleoinformatics@gmail.com](mailto:paleoinformatics@gmail.com) for assistance with questions related to importing and maintaining fossil specimen data using Symbiota. Include “Symbiota” in the subject of your email, e.g. “Help with preparing my data for the Symbiota Paleo Data Portal”. 
-
 # Bulk data import
 
 ## Formatting data for import
@@ -158,6 +155,9 @@ Think of the “**subject**” as the piece of specimen retained in your collect
 
 ### Cataloging multi-taxon specimen lots
 _Content forthcoming_
+
+{: .notice--primary }
+📬 **Questions?** Data providers are encouraged to contact [paleoinformatics@gmail.com](mailto:paleoinformatics@gmail.com) for assistance with questions related to importing and maintaining fossil specimen data using Symbiota. Include “Symbiota” in the subject of your email, e.g. “Help with preparing my data for the Symbiota Paleo Data Portal”. 
 
 {% include related_list topics='symbiota' %}
 {% include resource_list topics='symbiota' %}
