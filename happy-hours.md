@@ -7,8 +7,7 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2025 - Upcoming
-- 2025-06-26, Indigenous data stewardship, Part II ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))
-- 2025-07-17, Working Session; TBD ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))
+- 2025-07-17, Working Session; Creating Exemplar Fossil Specimen Records ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))
 - 2025-07-31, Working Session; TBD ([notes](https://docs.google.com/document/d/1yVioLUI2_EB1E3C35xGg_5FtQGUGvqyfix5B6WFX3ro/edit?usp=sharing))
 - 2025-08-14, Working Session; TBD ([notes](https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing))
 - 2025-08-28, Working Session; TBD ([notes](https://docs.google.com/document/d/1f8kUDa2lMqoSIWoi1cxreJ80FgR6hEz5wAwKOw9ZZoU/edit?usp=sharing))
@@ -22,6 +21,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-12-18, TBD ([notes](https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=sharing))
 
 ### 2025 - Past
+- 2025-06-26, Indigenous data stewardship, Part II ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))([recording](https://drive.google.com/file/d/1YLaL-lHaRONh4BdT_FO2OBh7IA5jY_tR/view?usp=drive_link))
 - 2025-06-05, Post-[SPNHC](https://spnhc2025.ku.edu/) Updates ([notes](https://docs.google.com/document/d/1fhI-NEdAsWjxifQ2SNI2zLblKe-Dhir89mJ-jfkhGmo/edit?usp=sharing))([recording](https://drive.google.com/file/d/1vVA2NJSbBRF_768zh1Eq7hgRK8hTZjVW/view?usp=sharing))
 - 2025-05-22, Capturing and managing land ownership data ([notes](https://docs.google.com/document/d/140Q7dmpGbCmq6Y4llGRloRenUclO2dXhNkFEDUJ61Mg/edit?usp=sharing))([recording](https://drive.google.com/file/d/1vKnhuf-NCzuG7A-XfwdHW8K8MAOBUxeZ/view?usp=drive_link))
 - 2025-05-08, Indigenous data stewardship, Part I ([notes](https://docs.google.com/document/d/14BrZ3gBkmJwRb6Ou3pV53zcYqTCH1e8ynE95zBeCxaY/edit?usp=sharing))([recording](https://drive.google.com/file/d/10JgxsBNgsZyaveJMUJNS5Cx3SVAh1-8E/view?usp=sharing))
