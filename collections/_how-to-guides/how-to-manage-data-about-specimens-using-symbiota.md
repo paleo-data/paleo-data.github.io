@@ -1,6 +1,6 @@
 ---
 title: Manage data about fossil specimens using Symbiota
-last_modified_at: 2025-06-10
+last_modified_at: 2025-07-03
 authors: ["Lindsay Walker"]
 sidebar:
   nav: [sidebar]
@@ -60,7 +60,7 @@ Example records illustrating common cataloging scenarios in fossil collections c
 | **Cataloging part-counterpart pairs and similar relationships between records** | [See below]() for information about “extending” your specimens. |
 
 {: .notice--warning }
-**A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it should not be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _dynamicProperties_ as a key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `VERBATIM CHRONOSTRATIGRAPHY: Permian?`
+**A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it should not be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _stratigraphicRemarks_ as a key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `VERBATIM CHRONOSTRATIGRAPHY: Permian?`
 
 ## How to import your data into Symbiota
 There are multiple ways to import new records into a Symbiota portal. This action can only be completed by users with Administrator permissions through the Administration Control Panel.
