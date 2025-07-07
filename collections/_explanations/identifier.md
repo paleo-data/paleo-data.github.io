@@ -7,7 +7,7 @@ topics:
 - identifier
 ---
 
-{: .notice--info }
+{: .notice--primary }
 A version of this content is also [published on the SPNHC wiki](https://spnhc.org/persistent-identifiers/).
 
 As we increasingly digitize specimens and share digital data about our collections, Persistent IDentifiers (PIDs) are often assigned to digital specimen records and can also be used to reference other elements of collections data, such as people or taxa. PIDs are foundational elements of data infrastructure because they enable automated and semi-automated linking between concepts[1], and also help make data FAIR, or “findable, accessible, interoperable and reusable” (see FAIR Guiding Principles F1 and A1[2]).
