@@ -53,8 +53,7 @@ layout: default
         {% endif %}
         {% if page.status != "published" %}
         <div class="notice--warning">
-          <h4>Draft</h4>
-          <p>The content on this page has not been finalized. Contributors can mark a page as complete and remove this warning by adding <code>status: published</code> to the front matter in the Markdown source file.</p>
+          <p><bold>Draft:</bold> The content on this page has not been finalized. Contributors can mark a page as complete and remove this warning by adding <code>status: published</code> to the front matter in the Markdown source file.</p>
         </div>
         {% endif %}
         {{ content }}
