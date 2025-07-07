@@ -82,8 +82,26 @@ Include a
 
 ```
 {: .notice--info }
-**Callout**
-Access the portal at [paleo.symbiota.org](https://paleo.symbiota.org)
+This type of notice is used for sidebar information.
+```
+
+```
+{: .notice--primary }
+This type of notice is used for ...
+```
+
+```
+{: .notice--warning }
+This type of notice is used for ...
+```
+
+```
+{: .notice--danger }
+This type of notice is used for ...
+```
+
+```
+<iframe src="https://docs.google.com/presentation/d/1yJFsaCnBC28zW8UtLfl3tnJayk3w-BRDtVzyZYpD1TI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
 #### Add widgets to pull in content
