@@ -16,11 +16,9 @@ topics: [data wrangling, workflows]
 - For text-heavy one-off data entry, e.g. when typing a sentence in a notes field associated with each row.
 - For projects with multiple users on separate computers.
 
-{% include resource_card filename='krimmel-walker-2022.yml' %}
-
 # Getting started
 
-Download OpenRefine from https://openrefine.org.
+Download OpenRefine from [https://openrefine.org](https://openrefine.org).
 
 # Basic tutorials
 
@@ -66,3 +64,5 @@ OpenRefine enables a variety of options for using scripting to extend the functi
 # Join the community
 
 There are many audiences for OpenRefine, and the best community to join is one that aligns with your usage context and skill level. The OpenRefine Google Group is maintained by OpenRefine, and most messages posted are more technical. 
+
+{% include resource_list topics='openrefine' %}
