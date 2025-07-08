@@ -6,7 +6,6 @@ topics:
 - sensitive locality
 - georeference
 ---
-Restricting locality data
 Specific locality information may be restricted for some or all paleontological specimens due to federal regulations as well as the preferences of private landowners. 
 
 If coordinates need to be shared with less precision than the data available
