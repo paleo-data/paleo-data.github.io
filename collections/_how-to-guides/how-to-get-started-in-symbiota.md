@@ -1,5 +1,5 @@
 ---
-title: Get started in the Symbiota Paleo Data Portal
+title: Get started in Symbiota
 last_modified_at: 2025-04-23
 sidebar:
   nav: [sidebar]
