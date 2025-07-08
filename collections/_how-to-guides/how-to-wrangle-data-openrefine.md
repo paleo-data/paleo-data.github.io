@@ -65,4 +65,4 @@ OpenRefine enables a variety of options for using scripting to extend the functi
 
 There are many audiences for OpenRefine, and the best community to join is one that aligns with your usage context and skill level. The OpenRefine Google Group is maintained by OpenRefine, and most messages posted are more technical. 
 
-{% include resource_list topics='openrefine' %}
+{% include resource_list topics='data management' %}
