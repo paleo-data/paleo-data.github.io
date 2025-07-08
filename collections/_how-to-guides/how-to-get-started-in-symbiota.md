@@ -1,6 +1,6 @@
 ---
 title: Get started in Symbiota
-last_modified_at: 2025-04-23
+last_modified_at: 2025-07-08
 sidebar:
   nav: [sidebar]
 toc: True
@@ -32,6 +32,11 @@ The [Paleo Data Portal](https://paleo.symbiota.org) ("PDP") is a Symbiota-based 
 
 ## How to participate
 If you manage a fossil collection and would like to use this portal to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php). If the portal seems suitable for your needs after reviewing this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8). Once your responses are received, someone from the [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) will be in touch.
+
+Data contributors are **strongly** encouraged to participate in the [Paleo Data Working Group](https://paleo-data.github.io/) (aka "PDWG"), a community of practice for paleontological collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. Learn how to participate in PDWG [here](https://paleo-data.github.io/#how-to-get-involved). 
+
+## Project context
+_Content forthcoming!_
 
 {: .notice--info }
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
