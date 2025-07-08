@@ -17,8 +17,6 @@ topics: [symbiota]
 {: .notice--primary } 
 This guide is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
 
-TEST EDIT FOR ADAM
-
 # Introduction
 ## What is Symbiota?
  <img style="float: left; margin: 0px 15px 0px 0px;" width="25%" src="/knowledge-hub/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
