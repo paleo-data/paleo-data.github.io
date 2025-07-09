@@ -28,6 +28,6 @@ Across paleo collections, we lack a good method for dealing with higher classifi
 
 Unranked clades also pose a challenges in fossil taxonomy. Not only are many databases unable to handle the data structure of unranked clades, but it can also be hard to determine how many clades a specimen belongs to. Furthermore, clades intersect with Linnean taxonomy in varied and often inconsistent ways. Currently, many paleo collections are managing data about unranked clades eitey by shoehorning them into fields designed for Linnean taxonomy or into a notes field. Both of these options limit discoverability.
 
-Identification qualifiers–such as "cf.", "aff.", "sp. A," "sp. etxc.", etc.– are especially important in paleo collections. Figure 1 in [Sigovini et al. 2016](pub-sigovini-et-al-2016.yml) offers a good framework for how to use qualifiers in taxonomy.
+Identification qualifiers–such as "cf.", "aff.", "sp. A," "sp. etxc.", etc.– are especially important in paleo collections. Figure 1 in [Sigovini et al. 2016](sigovini-et-al-2016.yml) offers a good framework for how to use qualifiers in taxonomy.
 
 {% include resource_list topics='taxonomy' %}
