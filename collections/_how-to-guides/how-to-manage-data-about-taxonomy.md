@@ -28,6 +28,21 @@ Across paleo collections, we lack a good method for dealing with higher classifi
 
 Unranked clades also pose a challenges in fossil taxonomy. Not only are many databases unable to handle the data structure of unranked clades, but it can also be hard to determine how many clades a specimen belongs to. Furthermore, clades intersect with Linnean taxonomy in varied and often inconsistent ways. Currently, many paleo collections are managing data about unranked clades eitey by shoehorning them into fields designed for Linnean taxonomy or into a notes field. Both of these options limit discoverability.
 
-Identification qualifiers–such as "cf.", "aff.", "sp. A," "sp. etxc.", etc.– are especially important in paleo collections. Figure 1 in [Sigovini et al. 2016](sigovini-et-al-2016.yml) offers a good framework for how to use qualifiers in taxonomy.
+Identification qualifiers–such as "cf.", "aff.", "sp. A," "sp. etxc.", etc.– are especially important in paleo collections. Figure 1 in [Sigovini et al. 2016](../_data/resources/sigovini-et-al-2016.yml) offers a good framework for how to use qualifiers in taxonomy.
+
+# Resources for taxonomy
+
+| Resource | Higher taxonomy | Micropaleo | Ichnofossils| Invertebrates | Paleobotany | Vertebrates |
+| --- | --- | --- | --- | --- | --- | --- |
+| [WoRMS](worms.yml) | x | x |  | x | x | x |
+| [IRMNG](irmng.yml) | x | x | x | x | x | x |
+| [Catalogue of Life](catalogue-of-life.yml) | x | x |  | x | x | x |
+| [PBDB](pbdb.yml) | x | x | x | x | x | x |
+| [ITIS](itis.yml) | x |  |  |  | x |  |
+| [BugGuide](bugguide.yml) | x |  |  |  |  |  |
+| [Foraminifera Database](foraminifera.yml) |  | x |  |  |  |  |
+| [Carpenter et al. 1994](carpenter-et-al-1994.yml) |  |  | x |  |  |  |
+| [Lockley and Peterson 2003](lockley-peterson-2003.yml) |  |  | x |  |  |  |
+| []() |  |  |  |  |  |  |
 
 {% include resource_list topics='taxonomy' %}
