@@ -36,7 +36,7 @@ Identification qualifiers–such as "cf.", "aff.", "sp. A," "sp. etxc.", etc.–
 
 {% include resource_card filename='worms.yml' %}
 {% include resource_card filename='irmng.yml' %}
-{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='col.yml' %}
 {% include resource_card filename='pbdb.yml' %}
 {% include resource_card filename='itis.yml' %}
 {% include resource_card filename='bugguide.yml' %}
@@ -47,7 +47,7 @@ See Paleobotany (below) for pollen and spores.
 {% include resource_card filename='foraminifera.yml' %}
 {% include resource_card filename='worms.yml' %}
 {% include resource_card filename='irmng.yml' %}
-{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='col.yml' %}
 {% include resource_card filename='pbdb.yml' %}
 
 ## Ichnology/Trace fossils
@@ -64,22 +64,33 @@ See Paleobotany (below) for pollen and spores.
 {% include resource_card filename='bouchet-et-al-2017.yml' %}
 {% include resource_card filename='carter-et-al-2011.yml' %}
 {% include resource_card filename='coan-et-al-2000.yml' %}
-{% include resource_card filename='coan-scott-2017.yml' %}
+{% include resource_card filename='coan-scott-2012.yml' %}
 {% include resource_card filename='texas-cretaceous.yml' %}
 {% include resource_card filename='blake-lissner-1996.yml' %}
 {% include resource_card filename='ponder-et-al-2020.yml' %}
 {% include resource_card filename='worms.yml' %}
 {% include resource_card filename='irmng.yml' %}
-{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='col.yml' %}
 {% include resource_card filename='pbdb.yml' %}
 
 ## Paleobotany
 Including palynology.
 
-{% include resource_card filename='.yml' %}
+{% include resource_card filename='ifpni.yml' %}
+{% include resource_card filename='ipni.yml' %}
+{% include resource_card filename='index-fossil-plants-1.yml' %}
+{% include resource_card filename='index-fossil-plants-2.yml' %}
+{% include resource_card filename='index-fossil-plants-3.yml' %}
+{% include resource_card filename='index-fossil-plants-4.yml' %}
+{% include resource_card filename='genera-fossil-spores.yml' %}
+{% include resource_card filename='algaebase.yml' %}
+{% include resource_card filename='bryonames.yml' %}
+{% include resource_card filename='species-fungorum.yml' %}
+{% include resource_card filename='pteridoportal.yml' %}
+{% include resource_card filename='bhl.yml' %}
 {% include resource_card filename='worms.yml' %}
 {% include resource_card filename='irmng.yml' %}
-{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='col.yml' %}
 {% include resource_card filename='pbdb.yml' %}
 {% include resource_card filename='itis.yml' %}
 
@@ -88,7 +99,7 @@ Including palynology.
 {% include resource_card filename='.yml' %}
 {% include resource_card filename='worms.yml' %}
 {% include resource_card filename='irmng.yml' %}
-{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='col.yml' %}
 {% include resource_card filename='pbdb.yml' %}
 
 {% include resource_list topics='taxonomy' %}
