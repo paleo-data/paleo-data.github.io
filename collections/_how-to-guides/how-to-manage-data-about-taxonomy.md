@@ -32,17 +32,63 @@ Identification qualifiers–such as "cf.", "aff.", "sp. A," "sp. etxc.", etc.–
 
 # Resources for taxonomy
 
-| Resource | Higher taxonomy | Micropaleo | Ichnofossils| Invertebrates | Paleobotany | Vertebrates |
-| --- | --- | --- | --- | --- | --- | --- |
-| [WoRMS](worms.yml) | x | x |  | x | x | x |
-| [IRMNG](irmng.yml) | x | x | x | x | x | x |
-| [Catalogue of Life](catalogue-of-life.yml) | x | x |  | x | x | x |
-| [PBDB](pbdb.yml) | x | x | x | x | x | x |
-| [ITIS](itis.yml) | x |  |  |  | x |  |
-| [BugGuide](bugguide.yml) | x |  |  |  |  |  |
-| [Foraminifera Database](foraminifera.yml) |  | x |  |  |  |  |
-| [Carpenter et al. 1994](carpenter-et-al-1994.yml) |  |  | x |  |  |  |
-| [Lockley and Peterson 2003](lockley-peterson-2003.yml) |  |  | x |  |  |  |
-| []() |  |  |  |  |  |  |
+## Higher taxonomy across fossil taxonomic groups
+
+{% include resource_card filename='worms.yml' %}
+{% include resource_card filename='irmng.yml' %}
+{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='pbdb.yml' %}
+{% include resource_card filename='itis.yml' %}
+{% include resource_card filename='bugguide.yml' %}
+
+## Micropaleontology
+See Paleobotany (below) for pollen and spores.
+
+{% include resource_card filename='foraminifera.yml' %}
+{% include resource_card filename='worms.yml' %}
+{% include resource_card filename='irmng.yml' %}
+{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='pbdb.yml' %}
+
+## Ichnology/Trace fossils
+
+{% include resource_card filename='carpenter-et-al-1994.yml' %}
+{% include resource_card filename='lockley-peterson-2003.yml' %}
+{% include resource_card filename='irmng.yml' %}
+{% include resource_card filename='pbdb.yml' %}
+
+## Invertebrate paleontology
+
+{% include resource_card filename='treatise-ip.yml' %}
+{% include resource_card filename='bouchet-et-al-2010.yml' %}
+{% include resource_card filename='bouchet-et-al-2017.yml' %}
+{% include resource_card filename='carter-et-al-2011.yml' %}
+{% include resource_card filename='coan-et-al-2000.yml' %}
+{% include resource_card filename='coan-scott-2017.yml' %}
+{% include resource_card filename='texas-cretaceous.yml' %}
+{% include resource_card filename='blake-lissner-1996.yml' %}
+{% include resource_card filename='ponder-et-al-2020.yml' %}
+{% include resource_card filename='worms.yml' %}
+{% include resource_card filename='irmng.yml' %}
+{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='pbdb.yml' %}
+
+## Paleobotany
+Including palynology.
+
+{% include resource_card filename='.yml' %}
+{% include resource_card filename='worms.yml' %}
+{% include resource_card filename='irmng.yml' %}
+{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='pbdb.yml' %}
+{% include resource_card filename='itis.yml' %}
+
+## Vertebrates
+
+{% include resource_card filename='.yml' %}
+{% include resource_card filename='worms.yml' %}
+{% include resource_card filename='irmng.yml' %}
+{% include resource_card filename='catalogue-of-life.yml' %}
+{% include resource_card filename='pbdb.yml' %}
 
 {% include resource_list topics='taxonomy' %}
