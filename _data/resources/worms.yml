@@ -1,0 +1,11 @@
+doi: 
+title: World Register of Marine Species (WoRMS)
+annotation: Useful for higher taxonomy. WoRMS is a dynamic database with many editors and daily updates. Some  information is conflicting, and it includes unpublished taxonomic checklists for groups not critically evaluated in literature. Sometimes there is a lack of transparency in which publications/unpublished checklists are relied upon. This is a good source for taxonomic trees that overlap with extant groups.
+creators: 
+publication_date: 
+access_url: http://www.marinespecies.org/
+access_date: 2025-07-09
+last_updated_date: 2025-07-09
+resource_type: 
+license: 
+topics: [taxonomy]
