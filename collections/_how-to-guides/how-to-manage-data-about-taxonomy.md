@@ -96,7 +96,17 @@ Including palynology.
 
 ## Vertebrates
 
-{% include resource_card filename='.yml' %}
+{% include resource_card filename='mckenna-bell-1997.yml' %}
+{% include resource_card filename='carroll-1988.yml' %}
+{% include resource_card filename='sues-2019.yml' %}
+{% include resource_card filename='benton-2015.yml' %}
+{% include resource_card filename='kemp-2004.yml' %}
+{% include resource_card filename='kammerer-et-al-2011.yml' %}
+{% include resource_card filename='kielan-et-al-2004.yml' %}
+{% include resource_card filename='nelson-et-al-2016.yml' %}
+{% include resource_card filename='mikko-phylogeny.yml' %}
+{% include resource_card filename='cretaceous-madagascar.yml' %}
+{% include resource_card filename='eol.yml' %}
 {% include resource_card filename='worms.yml' %}
 {% include resource_card filename='irmng.yml' %}
 {% include resource_card filename='col.yml' %}
