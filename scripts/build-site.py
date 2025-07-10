@@ -43,12 +43,23 @@ if __name__ == "__main__":
             metadata = zrec["metadata"]
             desc = BeautifulSoup(metadata["description"], "html5lib")
 
+            names = [p["name"] for p in metadata["creators"]]
+            year = metadata["publication_date"][:4]
+            last_names = [n.split(",")[0] for n in names]
+            if len(last_names) == 1:
+                citation = f"{last_names[0]} ({year})"
+            elif len(last_names) == 2:
+                citation = f"{last_names[0]} and {last_names[1]} ({year})"
+            else:
+                citation = f"{last_names[0]} et al. ({year})"
+
             # The value in path is used in a link tag, which expects the location of
             # the file in the _site directory. Note that those paths omit the
             # collections directory (defined in collections_dir in the config file).
             row = {
+                "citation": citation,
                 "title": metadata["title"],
-                "creators": "; ".join([p["name"] for p in metadata["creators"]]),
+                "creators": "; ".join(names),
                 "description": autolink(re.sub("\n{2,}", "\n\n", desc.text)),
                 "resource_url": zrec["doi_url"],
                 "path": f"_resources/{to_slug(metadata['title'])}.md",

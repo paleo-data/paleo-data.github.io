@@ -241,7 +241,7 @@ def build_nav(
     main.sort(key=lambda p: p.get("nav_order", 100000))
 
     for fm in main:
-        if fm["path"].name != "index.md":
+        if fm["path"].name not in {"index.md", "test.md"}:
             if (
                 not (include_main or exclude_main)
                 or (include_main and fm["path"].name in include_main)
