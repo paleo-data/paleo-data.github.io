@@ -42,7 +42,7 @@ Critically, **the PDP integrates with the goals of a larger project** led by the
 ## How to participate
 If you administer a fossil collection and would like to use the PDP to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php) as well as the Symbiota-related content on this website. If Symbiota seems suitable for your data management needs after considering this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8) if you would like to contribute data to the PDP.
 
-Data providers to this portal are **strongly** encouraged to participate in the [Paleo Data Working Group](https://paleo-data.github.io/) (PDWG). PDWG is [community of practice](https://doi.org/10.3897/biss.5.74370) for collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. More information about how to participate in PDWG can be found [here](https://paleo-data.github.io/#how-to-get-involved). 
+Data providers are **strongly** encouraged to participate in the [Paleo Data Working Group](https://paleo-data.github.io/) (PDWG). PDWG is a [community of practice](https://doi.org/10.3897/biss.5.74370) for collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. More information about how to participate in PDWG can be found [here](https://paleo-data.github.io/#how-to-get-involved). 
 
 # Software orientation
 Data providers should reference the following content when learning to use Symbiota to share fossil specimen data.
@@ -52,9 +52,10 @@ The following presentation provides an overview of Symbiota's most essential fea
 <iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## 2) Learn how to manage specimen data using Symbiota
-Carefully review [this guide](/knowledge-hub/how-to-guides/how-to-manage-data-about-specimens-using-symbiota) before contributing fossil specimen data to Symbiota portals. 
+Carefully review [this guide](/knowledge-hub/how-to-guides/how-to-manage-data-about-specimens-using-symbiota) before contributing fossil specimen data to a Symbiota portal. 
 
-If you maintain existing digital catalog records in a spreadsheet, this information can (and should!) be imported into Symbiota. Data providers should review the [data formatting guide](/knowledge-hub/how-to-guides/how-to-manage-data-about-specimens-using-symbiota#bulk-data-import) prior to ingesting fossil specimen records into Symbiota. 
+{: .notice--info }
+If you maintain existing digital catalog records in a spreadsheet, this information can be imported into Symbiota. Data providers should review the [data formatting guide](/knowledge-hub/how-to-guides/how-to-manage-data-about-specimens-using-symbiota#bulk-data-import) prior to ingesting fossil specimen records into Symbiota. 
 
 ## 3) Develop a digitization workflow
 Once oriented to Symbiota's key features and requirements for managing fossil specimen data, [this guide](/knowledge-hub/how-to-guides/how-to-develop-a-digitization-workflow-in-symbiota) will help you develop a strategy for digitizing your fossil specimens using a Symbiota portal.
@@ -62,6 +63,3 @@ Once oriented to Symbiota's key features and requirements for managing fossil sp
 {% include related_list topics='symbiota' %}
 
 {% include resource_list topics='symbiota' %}
-
-{: .notice--info }
-The Paleo Data Portal is made possible by the US National Science Foundation (NSF Award #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)).
