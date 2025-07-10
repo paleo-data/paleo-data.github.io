@@ -19,14 +19,14 @@ This guide is designed orient new and prospective data providers to using Symbio
 
 # Introduction
 ## What is Symbiota?
- <img style="float: left; margin: 0px 15px 0px 0px;" width="25%" src="/knowledge-hub/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
+<img style="float: left; margin: 0px 15px 0px 0px;" width="25%" src="/knowledge-hub/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
 [Symbiota](https://github.com/Symbiota/Symbiota) is open source software guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard used to create data portals to help collections share and manage biodiversity data. While Symbiota has been widely used to share data from biological collections, support for the active management and publication of fossil specimen data is relatively new (NSF Awards #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)). The most commonly used version of Symbiota and a number of Symbiota-based portals are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us) (SSH).
 
 {: .notice--info }
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
 
 ## What is the "Paleo Data Portal"?
-The [Paleo Data Portal](https://paleo.symbiota.org) ("PDP") is a Symbiota-based data portal that exists to:
+The [Paleo Data Portal](https://paleo.symbiota.org) (PDP) is a Symbiota-based data portal that exists to:
 - Provide a **low barrier-to-entry** data mobilization platform for fossil collections
 - **Increase access** to fossil specimen data for research use
 - **Build community** among fossil collections not previously engaged in digitization efforts
@@ -34,6 +34,10 @@ The [Paleo Data Portal](https://paleo.symbiota.org) ("PDP") is a Symbiota-based 
 - Provide a **platform for testing** solutions related to managing, aggregating, and publishing fossil specimen data
 
 While the PDP is hosted by the SSH, the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
+
+Critically, the PDP integrates with the goals of a larger project led by the University of Colorado, the US National Museum of Natural History, and University of Kansas to 1) support transformational and translational research in the geo- and biosciences by driving development in the open data landscape and 2) improve the discoverability and use of paleontological specimen data through community engagement and collaboration.
+
+<img style="float: center; margin: 0px 0px 0px 0px;" width="100%" src="/knowledge-hub/assets/images/symbiota_largerinitiative.png" alt="Symbiota orientation slide" caption="The Paleo Data Portal is part of a larger initiative to address outstanding issues related to fossil collections data.">
 
 ## How to participate
 If you administer a fossil collection and would like to use the PDP to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php) as well as the information outlined below. If Symbiota seems suitable for your data management needs after considering this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8) if you would like to contribute data to the PDP.
