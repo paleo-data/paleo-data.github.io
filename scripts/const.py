@@ -14,5 +14,5 @@ except KeyError:
 print(f"Basepath: {BASEPATH}")
 
 # Read list of valid tags
-with open(f"../_data/topics.txt") as f:
+with open(BASEPATH / "_data" / "topics.txt") as f:
     VALID_TAGS = set(f.read().splitlines())
