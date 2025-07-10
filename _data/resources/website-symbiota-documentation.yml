@@ -1,5 +1,5 @@
 title: Symbiota Docs
-access_url: https://biokic.github.io/symbiota-docs/
+access_url: https://docs.symbiota.org/docs/about
 doi: 
 creators: Symbiota Support Hub
 publication_date: 2022-09-01
@@ -7,5 +7,5 @@ annotation: Documentation for users of Symbiota software.
 resource_type:  website
 license: CC-BY-NC
 keywords: symbiota
-last_updated_date:
+last_updated_date: 2025-07-09
 topics: [symbiota, collection management system]
