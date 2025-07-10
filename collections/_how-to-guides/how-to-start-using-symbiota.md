@@ -31,18 +31,18 @@ The [Paleo Data Portal](https://paleo.symbiota.org) (PDP) is a Symbiota-based da
 - **Increase access** to fossil specimen data for research use
 - **Build community** among fossil collections not previously engaged in digitization efforts
 - **Integrate with [PDWG](https://paleo-data.github.io/about)’s efforts** to develop best practices in paleo data management and publishing
-- Provide a **platform for testing** solutions related to managing, aggregating, and publishing fossil specimen data
+- Provide a **platform for testing solutions** to outstanding issues associated with fossil specimen data (e.g. [taxonomy](https://doi.org/10.3897/biss.7.111507))
 
 While the PDP is hosted by the SSH, the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
 
-Critically, the PDP integrates with the goals of a larger project led by the University of Colorado, the US National Museum of Natural History, and University of Kansas to 1) support transformational and translational research in the geo- and biosciences by driving development in the open data landscape and 2) improve the discoverability and use of paleontological specimen data through community engagement and collaboration.
+Critically, **the PDP integrates with the goals of a larger project** led by the University of Colorado at Boulder, the US National Museum of Natural History, and University of Kansas that aims to 1) support transformational and translational research in the geo- and biosciences by driving development in the open data landscape and 2) improve the discoverability and use of paleontological specimen data through community engagement and collaboration.
 
 <img style="float: center; margin: 0px 0px 0px 0px;" width="100%" src="/knowledge-hub/assets/images/symbiota_largerinitiative.png" alt="Symbiota orientation slide" caption="The Paleo Data Portal is part of a larger initiative to address outstanding issues related to fossil collections data.">
 
 ## How to participate
-If you administer a fossil collection and would like to use the PDP to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php) as well as the information outlined below. If Symbiota seems suitable for your data management needs after considering this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8) if you would like to contribute data to the PDP.
+If you administer a fossil collection and would like to use the PDP to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php) as well as the Symbiota-related content on this website. If Symbiota seems suitable for your data management needs after considering this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8) if you would like to contribute data to the PDP.
 
-Data providers to this portal are **strongly** encouraged to participate in the [Paleo Data Working Group](https://paleo-data.github.io/) (PDWG). PDWG is community of practice for collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. More information about how to participate in PDWG can be found [here](https://paleo-data.github.io/#how-to-get-involved). 
+Data providers to this portal are **strongly** encouraged to participate in the [Paleo Data Working Group](https://paleo-data.github.io/) (PDWG). PDWG is [community of practice](https://doi.org/10.3897/biss.5.74370) for collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. More information about how to participate in PDWG can be found [here](https://paleo-data.github.io/#how-to-get-involved). 
 
 # Software orientation
 Data providers should reference the following content when learning to use Symbiota to share fossil specimen data.
