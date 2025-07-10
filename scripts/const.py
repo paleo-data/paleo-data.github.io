@@ -11,7 +11,8 @@ try:
 except KeyError:
     BASEPATH = Path("..")
 
-print(BASEPATH)
+print(f"Basepath: {BASEPATH}")
 
-# Set of valid tags
-VALID_TAGS = {"symbiota"}
+# Read list of valid tags
+with open(f"../_data/topics.txt") as f:
+    VALID_TAGS = set(f.read().splitlines())

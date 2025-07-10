@@ -28,6 +28,7 @@ if __name__ == "__main__":
     for path in [res_path, upd_path]:
         path.mkdir(parents=True, exist_ok=True)
 
+    print("Updating resources")
     for path_ in res_path.glob("*.yml"):
 
         with open(path_, encoding="utf-8") as f:
@@ -63,17 +64,17 @@ if __name__ == "__main__":
 
             with open(upd_path / path_.name, "w", encoding="utf-8") as f:
                 yaml.safe_dump(row, f)
-            print(f"Updated {path_.name}")
+            print(f" Updated {path_.name}")
 
         else:
             # Copy non-Zenodo records as they are
             shutil.copy2(path_, upd_path)
-            print(f"Copied {path_.name}")
+            print(f" Copied {path_.name}")
 
     # Construct the navigation and build a tag index using file front matter. This
     # section should generally not be modified.
 
-    print("Reading fms")
+    print("Reading front matter")
     fms = read_fms(BASEPATH)
 
     print("Determining URLs")

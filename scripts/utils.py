@@ -145,6 +145,10 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
         if tags:
             if not isinstance(tags, list):
                 tags = [tags]
+            invalid = set(tags) - VALID_TAGS
+            if invalid:
+                print(f"Invalid tags omitted: {invalid} (url={fm['url']})")
+                tags = sorted(set(tags) & VALID_TAGS)
             tagged.append(
                 {
                     "title": fm["title"],
