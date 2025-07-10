@@ -48,7 +48,7 @@ Data providers are **strongly** encouraged to participate in the [Paleo Data Wor
 Data providers should reference the following content when learning to use Symbiota to share fossil specimen data.
 
 ## 1) Learn how to access key features in Symbiota
-The following presentation provides an overview of Symbiota's most essential features used to access, manage, and publish fossil specimen data.
+The following presentation provides an overview of Symbiota's most essential features used to access, manage, and publish fossil specimen data. More comprehensive documentation is available in [Symbiota Docs](https://docs.symbiota.org/docs/about/).
 <iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## 2) Learn how to manage specimen data using Symbiota
