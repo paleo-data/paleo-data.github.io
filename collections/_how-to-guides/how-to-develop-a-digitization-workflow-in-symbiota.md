@@ -69,8 +69,8 @@ When resources allow, basic 2D digital photography can be highly beneficial to d
 If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/images/). 
 
 # Example workflows
-
 <iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+# Related resources
 {% include resource_card filename='krimmel-2022-workflows.yml' %}
 {% include resource_card filename='website-symbiota-workflows.yml' %}
