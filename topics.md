@@ -6,7 +6,7 @@ facet_data: topics
 facet_keys: [tags]
 sidebar:
   nav: [sidebar]
-  collapsible: True
+  collapsible: true
 ---
 
 <table class="faceted">

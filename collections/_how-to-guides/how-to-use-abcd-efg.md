@@ -1,9 +1,7 @@
 ---
 title: Use ABCD EFG
 status: draft
-topics:
-- share data
-- data standard
-- abcd efg
+topics: [abcd efg, data standard, share data]
 ---
+
 {% include resource_list topics='abcd efg' %}

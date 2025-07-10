@@ -1,9 +1,7 @@
 ---
 title: Geobiodiversity Database (GBDB)
 status: draft
-topics:
-- gbdb
-- lithostratigraphy
-- chronostratigraphy
+topics: [chronostratigraphy, gbdb, lithostratigraphy]
 ---
+
 {% include resource_list topics='gbdb' %}

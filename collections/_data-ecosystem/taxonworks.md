@@ -1,9 +1,7 @@
 ---
 title: TaxonWorks
 status: draft
-topics:
-- taxonworks
-- collection management system
-- taxonomy
+topics: [collection management system, taxonomy, taxonworks]
 ---
+
 {% include resource_list topics='taxonworks' %}

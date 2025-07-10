@@ -1,8 +1,7 @@
 ---
 title: Manage data about chronostratigraphy
 status: draft
-topics:
-- manage data
-- chronostratigraphy
+topics: [chronostratigraphy, manage data]
 ---
+
 {% include resource_list topics='chronostratigraphy' %}

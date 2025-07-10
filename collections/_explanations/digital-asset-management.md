@@ -1,8 +1,7 @@
 ---
 title: Digital asset management
 status: draft
-topics:
-- manage data
-- digital asset management
+topics: [digital asset management, manage data]
 ---
+
 {% include resource_list topics='digital asset management' %}

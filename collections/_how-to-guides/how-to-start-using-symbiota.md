@@ -3,14 +3,10 @@ title: Start using Symbiota
 last_modified_at: 2025-07-09
 sidebar:
   nav: [sidebar]
-toc: True
-toc_sticky: True
-sidebar:
-  nav:
-  - sidebar
   collapsible: true
-  expanded:
-  - how-to-guides
+  expanded: [how-to-guides]
+toc: true
+toc_sticky: true
 topics: [symbiota]
 ---
 

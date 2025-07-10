@@ -1,8 +1,7 @@
 ---
 title: Intellectual property
 status: draft
-topics:
-- manage data
-- intellectual property
+topics: [intellectual property, manage data]
 ---
+
 {% include resource_list topics='intellectual property' %}

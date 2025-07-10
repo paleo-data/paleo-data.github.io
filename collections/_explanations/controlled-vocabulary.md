@@ -1,8 +1,7 @@
 ---
 title: Controlled vocabularies
 status: draft
-topics:
-- share data
-- controlled vocabulary
+topics: [controlled vocabulary, share data]
 ---
+
 {% include resource_list topics='controlled vocabulary' %}

@@ -1,8 +1,7 @@
 ---
 title: Data standards
 status: draft
-topics:
-- share data
-- data standard
+topics: [data standard, share data]
 ---
+
 {% include resource_list topics='data standard' %}

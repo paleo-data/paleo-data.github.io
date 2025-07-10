@@ -3,9 +3,7 @@ title: Tutorials
 status: draft
 nav_order: 5
 sidebar:
-  nav:
-  - sidebar
+  nav: [sidebar]
   collapsible: true
-  expanded:
-  - tutorials
+  expanded: [tutorials]
 ---

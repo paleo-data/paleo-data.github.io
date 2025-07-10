@@ -1,8 +1,7 @@
 ---
 title: Manage data about lithostratigraphy
 status: draft
-topics:
-- manage data
-- lithostratigraphy
+topics: [lithostratigraphy, manage data]
 ---
+
 {% include resource_list topics='lithostratigraphy' %}

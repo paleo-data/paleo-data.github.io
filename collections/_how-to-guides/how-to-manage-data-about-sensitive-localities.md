@@ -1,9 +1,7 @@
 ---
 title: Manage data about sensitive localities
 status: draft
-topics:
-- manage data
-- sensitive locality
-- georeference
+topics: [georeference, manage data, sensitive locality]
 ---
+
 {% include resource_list topics='sensitive locality' %}

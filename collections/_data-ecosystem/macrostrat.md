@@ -1,8 +1,7 @@
 ---
 title: Macrostrat
 status: draft
-topics:
-- macrostrat
-- lithostratigraphy
+topics: [lithostratigraphy, macrostrat]
 ---
+
 {% include resource_list topics='macrostrat' %}

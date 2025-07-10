@@ -1,8 +1,7 @@
 ---
 title: Publish specimen data on GBIF
 status: draft
-topics:
-- share data
-- gbif
+topics: [gbif, share data]
 ---
+
 {% include resource_list topics='gbif' %}

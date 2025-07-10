@@ -1,9 +1,7 @@
 ---
 title: Global Registry of Scientific Collections (GRSciColl)
 status: draft
-topics:
-- grscicoll
-- inventory
-- gbif
+topics: [gbif, grscicoll, inventory]
 ---
+
 {% include resource_list topics='grscicoll' %}

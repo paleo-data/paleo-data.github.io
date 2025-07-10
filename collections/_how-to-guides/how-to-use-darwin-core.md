@@ -1,9 +1,7 @@
 ---
 title: Use Darwin Core
 status: draft
-topics:
-- share data
-- data standard
-- darwin core
+topics: [darwin core, data standard, share data]
 ---
+
 {% include resource_list topics='darwin core' %}

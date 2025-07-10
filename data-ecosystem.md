@@ -3,9 +3,7 @@ title: Data Ecosystem
 status: draft
 nav_order: 2
 sidebar:
-  nav:
-  - sidebar
+  nav: [sidebar]
   collapsible: true
-  expanded:
-  - data-ecosystem
+  expanded: [data-ecosystem]
 ---

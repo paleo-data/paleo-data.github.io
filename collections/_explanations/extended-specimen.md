@@ -1,9 +1,7 @@
 ---
 title: The Extended Specimen
 status: draft
-topics:
-- share data
-- manage data
-- extended specimen
+topics: [extended specimen, manage data, share data]
 ---
+
 {% include resource_list topics='extended specimen' %}

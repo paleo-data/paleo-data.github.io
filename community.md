@@ -3,9 +3,7 @@ title: Community
 status: draft
 nav_order: 1
 sidebar:
-  nav:
-  - sidebar
+  nav: [sidebar]
   collapsible: true
-  expanded:
-  - community
+  expanded: [community]
 ---

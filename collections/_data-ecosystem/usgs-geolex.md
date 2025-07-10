@@ -1,9 +1,7 @@
 ---
 title: USGS National Geologic Map Database (Geolex)
 status: draft
-topics:
-- usgs geolex
-- lithostratigraphy
-- chronostratigraphy
+topics: [chronostratigraphy, lithostratigraphy, usgs geolex]
 ---
+
 {% include resource_list topics='usgs geolex' %}
