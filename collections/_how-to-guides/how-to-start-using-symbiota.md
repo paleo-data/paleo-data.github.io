@@ -20,7 +20,7 @@ This guide is designed orient new and prospective data providers to using Symbio
 # Introduction
 ## What is Symbiota?
  <img style="float: left; margin: 0px 15px 0px 0px;" width="25%" src="/knowledge-hub/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
-[Symbiota](https://github.com/Symbiota/Symbiota) is open source software guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard used to create data portals to help collections share and manage biodiversity data. While Symbiota has been widely used by biological collections to share preserved specimen data, it was recently enhanced to support the management and pubication of fossil specimen data (NSF Award #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603). The most commonly used version of Symbiota and a number of Symbiota-based portals are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us) (SSH).
+[Symbiota](https://github.com/Symbiota/Symbiota) is open source software guided by the [Darwin Core](http://dwc.tdwg.org/terms) data standard used to create data portals to help collections share and manage biodiversity data. While Symbiota has been widely used to share data from biological collections, support for the active management and publication of fossil specimen data is relatively new (NSF Awards #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)). The most commonly used version of Symbiota and a number of Symbiota-based portals are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us) (SSH).
 
 {: .notice--info }
 📃 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
@@ -31,20 +31,17 @@ The [Paleo Data Portal](https://paleo.symbiota.org) ("PDP") is a Symbiota-based 
 - **Increase access** to fossil specimen data for research use
 - **Build community** among fossil collections not previously engaged in digitization efforts
 - **Integrate with [PDWG](https://paleo-data.github.io/about)’s efforts** to develop best practices in paleo data management and publishing
-- Provide a **platform for testing** solutions related to the management of fossil specimen data, e.g. those related to taxonomy
+- Provide a **platform for testing** solutions related to managing, aggregating, and publishing fossil specimen data
 
 While the PDP is hosted by the SSH, the portal's [Steering Committee](https://paleo.symbiota.org/portal/misc/contacts.php) provides guidance on best practices related to the management of fossil specimen data.
 
 ## How to participate
-If you administer a fossil collection and would like to use the PDP to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php) as well as the information outlined below. If Symbiota seems suitable for your data management needs after reviewing this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8) you would like to contribute data to the PDP.
+If you administer a fossil collection and would like to use the PDP to manage your specimen data, first carefully review the portal's [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php) as well as the information outlined below. If Symbiota seems suitable for your data management needs after considering this information, please complete [this form](https://forms.gle/VGH9Rqg4ujpNcj1C8) if you would like to contribute data to the PDP.
 
 Data providers to this portal are **strongly** encouraged to participate in the [Paleo Data Working Group](https://paleo-data.github.io/) (PDWG). PDWG is community of practice for collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. More information about how to participate in PDWG can be found [here](https://paleo-data.github.io/#how-to-get-involved). 
 
-## Additional context
-_Content forthcoming!_
-
 # Software orientation
-New data providers should reference the following content when learning to use Symbiota to share fossil specimen data.
+Data providers should reference the following content when learning to use Symbiota to share fossil specimen data.
 
 ## 1) Learn how to access key features in Symbiota
 The following presentation provides an overview of Symbiota's most essential features used to access, manage, and publish fossil specimen data.
