@@ -11,7 +11,7 @@ sidebar:
   collapsible: true
   expanded:
   - how-to-guides
-topics: [symbiota]
+topics: [symbiota, workflows]
 ---
 
 {: .notice--primary }
