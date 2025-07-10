@@ -1,6 +1,6 @@
 ---
-title: Get started in Symbiota
-last_modified_at: 2025-07-08
+title: Start using Symbiota
+last_modified_at: 2025-07-09
 sidebar:
   nav: [sidebar]
 toc: True
