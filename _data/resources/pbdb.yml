@@ -1,0 +1,11 @@
+doi: 
+title: Paleobiology Database (PBDB)
+annotation: Useful for all taxonomic levels, although there are still many missing taxonomic classifications as well as conflicting information. Critically, taxonomic names in PBDB are transparently tied to published literature, and additionly linked to physical occurrences (geospatial, temporal, stratigraphic data).
+creators: 
+publication_date: 
+access_url: https://paleobiodb.org
+access_date: 2025-07-09
+last_updated_date: 2025-07-09
+resource_type: 
+license: 
+topics: [taxonomy, pbdb]

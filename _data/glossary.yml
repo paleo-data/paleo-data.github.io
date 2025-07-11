@@ -1,1 +1,65 @@
+- term: Uniform Resource Identifier
+  acronym: URI
+  definition: Includes URLs and URNs
+  topics: [identifier]
+  
+- term: Internationalized Resource Identifier
+  acronym: IRI
+  definition: Variation of a URI that expands the characterset
+  topics: [identifier]
 
+- term: Universally Unique Identifier
+  acronym: UUID
+  definition:
+  topics: [identifier]
+
+- term: Globally Unique Identifier
+  acronym: GUID
+  definition:
+  topics: [identifier]
+
+- term: Persistent Identifier
+  acronym: PID
+  definition:
+  topics: [identifier]
+
+- term: Digital Object Identifier
+  acronym: DOI
+  definition:
+  topics: [identifier]
+  
+- term: Archival Resource Key
+  acronym: ARK
+  definition:
+  topics: [identifier]
+  
+- term: Life Science Identifier
+  acronym: LSID
+  definition:
+  topics: [identifier]
+  
+- term: 
+  acronym: 
+  definition:
+  topics: []
+  topics: []
+  
+- term: 
+  acronym: 
+  definition:
+  topics: []
+  
+- term: 
+  acronym: 
+  definition:
+  topics: []
+  
+- term: 
+  acronym: 
+  definition:
+  topics: []
+  
+- term: 
+  acronym: 
+  definition:
+  topics: []

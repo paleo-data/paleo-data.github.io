@@ -1,0 +1,11 @@
+doi: 
+title: United Nations World Geographical Names
+annotation: A multilingual, multiscriptual dataset of names of countries, capitals and major cities.
+creators: United Nations Group of Experts on Geographical Names
+publication_date: 2019
+access_url: https://unstats.un.org/unsd/geoinfo/geonames/
+access_date: 2025-07-08
+last_updated_date: 2025-07-08
+resource_type: website
+license: 
+topics: [georeference, geography]
