@@ -1,7 +1,9 @@
 ---
 title: Identifiers
 status: draft
-topics: [identifier, manage data]
+topics:
+- manage data
+- identifier
 ---
 
 {% include resource_list topics='identifier' %}
