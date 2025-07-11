@@ -278,7 +278,7 @@ def build_nav(
         yaml.dump(nav, f, sort_keys=False)
 
 
-def add_tooltips(path, glossary=None, exclude=(".github", "README.md")):
+def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")):
     """Adds definitions as tooltips"""
 
     if glossary is None:
