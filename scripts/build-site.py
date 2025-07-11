@@ -5,12 +5,20 @@ import shutil
 from pathlib import Path
 
 import html5lib
+import pandas as pd
 import requests
 import yaml
 from bs4 import BeautifulSoup
 
-from const import BASEPATH
+try:
+    import requests_cache
+except ModuleNotFoundError:
+    pass
+
+from const import BASEPATH, GLOSSARY
 from utils import (
+    add_dwc_terms,
+    add_tooltips,
     autolink,
     build_nav,
     compute_urls,
@@ -21,6 +29,12 @@ from utils import (
 )
 
 if __name__ == "__main__":
+
+    # Use cache when building the site locally. Cached requests expire after 8 hrs.
+    try:
+        session = requests_cache.CachedSession(expire_after=28800)
+    except NameError:
+        session = requests.Session()
 
     # Update resources from Zenodo
     res_path = Path(BASEPATH / "_data" / "resources")
@@ -38,7 +52,7 @@ if __name__ == "__main__":
         doi = rec.get("doi")
         match = re.search(r"https?://doi.org/10.5281/zenodo.(\d+)$", doi if doi else "")
         if match:
-            resp = requests.get(f"https://zenodo.org/api/records/{match.group(1)}")
+            resp = session.get(f"https://zenodo.org/api/records/{match.group(1)}")
             zrec = resp.json()
             metadata = zrec["metadata"]
             desc = BeautifulSoup(metadata["description"], "html5lib")
@@ -82,6 +96,9 @@ if __name__ == "__main__":
             shutil.copy2(path_, upd_path)
             print(f" Copied {path_.name}")
 
+    print("Updating glossary")
+    glossary = add_dwc_terms(session)
+
     # Construct the navigation and build a tag index using file front matter. This
     # section should generally not be modified.
 
@@ -96,3 +113,6 @@ if __name__ == "__main__":
 
     print("Building navigation")
     build_nav(fms, include_main=["topics.md"])
+
+    print("Adding glossary tooltips")
+    add_tooltips(BASEPATH, glossary)

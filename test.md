@@ -8,6 +8,8 @@ sidebar:
   expanded: [community]
 ---
 
-This is a simple implementation of a tooltip for resources, for example, {% include resource_link filename='krimmel-2022-workflows.yml' %}. The tooltip is an include widget that uses the filename to identify the specific resource.
+This page is used to test widgets and other features.
 
-The original annotation for {% include resource_link filename='bauer-et-al-2022.yml' %} included a link, which breaks the tooltip. This annotation is also kind of long. Long tooltips may be cut off.
+This a resource with a tooltip: {% include resource_link filename='bauer-et-al-2022.yml' %}. It should display as a link to an external resource with a tooltip that appears on hover. Tooltips displayed using this widget are based on the annotation field. If that field contains any formatting code, it may break the tooltip. The first appearance of the word tooltip should be underlined and include a tooltip but no link.
+
+This is a paragraph including Darwin Core terms, like geodeticDatum and maximumDistanceAboveSurfaceInMeters. Those terms should display as links to the Darwin Core Quick Reference Guide and should show a definition on hover. Only the first appearance of a term on each page should include the tooltip, so geodeticDatum in this sentence should appear as plain text. Note that terms do not use a widget or any other syntax. The script that builds the page identifies them automatically. 

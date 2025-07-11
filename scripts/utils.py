@@ -1,12 +1,14 @@
 print("Loading utils")
 
+import io
 import re
 from pathlib import Path
 
+import pandas as pd
 import yaml
 from unidecode import unidecode
 
-from const import BASEPATH, VALID_TAGS
+from const import BASEPATH, GLOSSARY, IS_GITHUB, VALID_TAGS
 
 
 def autolink(text: str, fmt: str = "markdown") -> str:
@@ -274,3 +276,93 @@ def build_nav(
     fpath = BASEPATH / "_data" / "navigation.yml"
     with open(fpath, "w", encoding="utf-8") as f:
         yaml.dump(nav, f, sort_keys=False)
+
+
+def add_tooltips(path, glossary=None, exclude=(".github", "README.md")):
+    """Adds definitions as tooltips"""
+
+    if glossary is None:
+        glossary = GLOSSARY
+
+    # Build pattern to find elements that should not inclide tooltips
+    subpatterns = (
+        r"#.*?\n",  # markdown headers
+        r"\[.*?\]\(.*?\)",  # markdown links
+        r"{%.*?%}",  # Jekyll includes
+    )
+    pattern = f"({'|'.join(subpatterns)})"
+
+    for path in path.glob("**/*.md"):
+
+        # This function modifies the markdown files. The modified files should not
+        # be committed, so it only runs on test.md if run locally.
+        if not IS_GITHUB and path.name != "test.md":
+            continue
+
+        # Skip files including any of the exclude keywords
+        if any((s in str(path) for s in exclude)):
+            continue
+
+        # Create a copy of the glossary. Terms are removed as they are found so that
+        # only the first occurrence in each document has the tooltip.
+        glossary_ = glossary.copy()
+
+        with open(path, encoding="utf-8") as f:
+            _, fm, content = f.read().split("---", 2)
+            parts = re.split(pattern, content)
+            for i, part in enumerate(parts):
+                if not re.match(pattern, part):
+                    for key in list(glossary_):
+                        # Find the first match for the term in the part
+                        match = re.search(rf"\b{key}\b", part, flags=re.I)
+                        if match is not None:
+                            print(match)
+                            # Use the matched term so that case is preserved
+                            term = match.group()
+                            include = f'{{% include glossary term="{term}" %}}'
+                            parts[i] = re.sub(rf"\b{term}\b", include, parts[i], 1)
+                            del glossary_[key]
+            content_ = "---" + fm + "---" + "".join(parts)
+
+        # Do not mess with the file unless it has been changed
+        if content != content_:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(content_)
+
+
+def add_dwc_terms(session):
+    """Updates the glossary with terms from Darwin Core"""
+    source = "Darwin Core"
+    url = "https://raw.githubusercontent.com/tdwg/dwc/refs/heads/master/vocabulary/term_versions.csv"
+    resp = session.get(url)
+    df = pd.read_csv(io.StringIO(resp.text))
+
+    # Restrict to recommended terms
+    df = df[df["status"] == "recommended"]
+
+    # Drop one-word terms. These terms are too common to assume they refer to DwC.
+    df = df[df["term_localName"].str.contains("[A-Z]")]
+
+    # Drop class names
+    df = df[~df["term_localName"].str.contains("^[A-Z]")]
+
+    # Drop IRI
+    df = df[~df["label"].str.contains(r"\(IRI\)")]
+
+    glossary = [t for t in GLOSSARY.values() if t.get("source") != source]
+    for _, row in df.iterrows():
+        term = row["term_localName"]
+        glossary.append(
+            {
+                "term": term,
+                "definition": row["definition"],
+                "source": source,
+                "url": f"https://dwc.tdwg.org/terms/#dwc:{term}",
+            }
+        )
+    glossary.sort(key=lambda t: t["term"])
+
+    with open(BASEPATH / "_data" / "glossary.yml", "w", encoding="utf-8") as f:
+        yaml.safe_dump(glossary, f, sort_keys=False)
+
+    return {t["term"]: t for t in glossary}

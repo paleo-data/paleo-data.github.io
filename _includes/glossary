@@ -1,0 +1,12 @@
+{% assign term = include.term | downcase %}
+{%- for entry in site.data["glossary"] -%}
+{% assign eterm = entry.term | downcase %}
+{%- if eterm == term -%}
+{%- if entry.url -%}
+    <a class="external tooltip" href="{{ entry.url }}">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></a>
+{%- else - %}
+    <span class="tooltip">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></span>
+{%- endif -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}

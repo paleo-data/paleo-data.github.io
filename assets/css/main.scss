@@ -73,7 +73,8 @@ tr:hover { background-color: #eee; }
 .tooltip .tooltiptext {
   visibility: hidden;
   font-size: 0.7em;
-  width: 500px;
+  width: max-content;
+  max-width: 500px;
   background-color: black;
   color: #fff;
   padding: 10px;
@@ -83,6 +84,8 @@ tr:hover { background-color: #eee; }
   left: 50%;
   z-index: 1;
 }
+
+span.tooltip { border-bottom: 1px dotted #000; }
 
 .tooltip:hover .tooltiptext { visibility: visible; }
 
