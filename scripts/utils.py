@@ -308,7 +308,10 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md")):
         glossary_ = glossary.copy()
 
         with open(path, encoding="utf-8") as f:
-            _, fm, content = f.read().split("---", 2)
+            try:
+                _, fm, content = f.read().split("---", 2)
+            except:
+                raise ValueError(f"No YAML header: {path}") from exc
             parts = re.split(pattern, content)
             for i, part in enumerate(parts):
                 if not re.match(pattern, part):
@@ -316,7 +319,6 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md")):
                         # Find the first match for the term in the part
                         match = re.search(rf"\b{key}\b", part, flags=re.I)
                         if match is not None:
-                            print(match)
                             # Use the matched term so that case is preserved
                             term = match.group()
                             include = f'{{% include glossary term="{term}" %}}'
