@@ -29,4 +29,4 @@ As the United States paleo collections community wraps up funding on several The
 
 # Conferences
 
-{% include resource_list topics='tdwg' %}
+{% include resource_list topics='pdwg' %}
