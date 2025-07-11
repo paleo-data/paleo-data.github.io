@@ -22,7 +22,7 @@ Any and all paleontology collections professionals are encouraged to join the PD
 
 **GitHub**: We have an [organization on GitHub](https://github.com/paleo-data), which hosts this site and serves as a project management tool.
 
-**Google Drive**: Our [shared folder on Google Drive](https://drive.google.com/drive/folders/1Ne9B1bIGGzGhreEHMxoCVEwPaIhIILVx?usp=sharing) is a place where we can store administrative and working documents that do not fit well on the Knowledge Hub. Please request access if you think you should be enabled to edit files in this folder. 
+**Google Drive**: Our [shared folder on Google Drive](https://drive.google.com/drive/folders/1Ne9B1bIGGzGhreEHMxoCVEwPaIhIILVx?usp=sharing) is a neutral, non-institutional space where community members can curate and manage access to collaborative working documents and resources that do not fit well on the Knowledge Hub. Please request access if you think you should be enabled to edit files in this folder. 
 
 ## List of institutions and people involved
 
