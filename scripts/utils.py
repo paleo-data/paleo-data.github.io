@@ -310,7 +310,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md")):
         with open(path, encoding="utf-8") as f:
             try:
                 _, fm, content = f.read().split("---", 2)
-            except:
+            except Exception as exc:
                 raise ValueError(f"No YAML header: {path}") from exc
             parts = re.split(pattern, content)
             for i, part in enumerate(parts):
