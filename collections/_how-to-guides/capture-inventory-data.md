@@ -21,6 +21,6 @@ Labels on cabinets, drawers, boxes, and other physical storage locations may con
 
 ## Share inventory data
 
-Inventory data often exist in parallel to specimen records, but increasingly are recognized as useful to mobilize. [Latimer Core](data-ecosystem/latimer-core)provides a standard for describing inventory-type data, and [GRSciColl](data-ecosystem/grscicoll) provides a place to upload the data and make it discoverable.
+Inventory data often exist in parallel to specimen records, but increasingly are recognized as useful to mobilize. [Latimer Core](use-latimer-core) provides a standard for describing inventory-type data, and [GRSciColl](./data-ecosystem/grscicoll) provides a place to upload the data and make it discoverable.
 
 {% include resource_list topics='inventory' %}
