@@ -9,19 +9,19 @@ These data may be maintained in parallel to specimen catalog records.
 
 Often a by-product of digitization
 
-# Take images of physical labels
+## Take images of physical labels
 
 Labels on cabinets, drawers, boxes, and other physical storage locations may contain valuable information that is not digitally accessible. Even if the only action you take is to photograph these labels, doing so can save time and create an easy reference.
 
 {: .notice--info }
 **Case study:** At the Utah Museum of Natural History, students take images of all drawer labels and these images are then associated with physical storage locations in EMu.
 
-# Note basic info in a spreadsheet during intake
+## Note basic info in a spreadsheet during intake
 
 {: .notice--info }
 **Case study:** In the CUMNH Invertebrate Paleo collection, a large and mostly unprocessed donation was received. Staff used a simple spreadsheet to capture information about the types of boxes, approximate amount of material per box, and collecting localities contained in each box. This information will be used to calculate physical storage and space needs for unpacking and formally cataloging the specimens.
 
-# Places to share inventory data
+## Share inventory data
 
 Inventory data often exist in parallel to specimen records, but increasingly are recognized as useful to mobilize. [Latimer Core](data-ecosystem/latimer-core)provides a standard for describing inventory-type data, and [GRSciColl](data-ecosystem/grscicoll) provides a place to upload the data and make it discoverable.
 
