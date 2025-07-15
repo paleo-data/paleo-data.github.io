@@ -17,6 +17,9 @@ if __name__ == "__main__":
         content_ = content
         for match in re.findall(r"{% include glossary.*?%}", content):
             term = re.search("term=['\"](.*?)['\"]", match).group(1)
+            namespace = re.search("namespace=['\"](.*?)['\"]", match).group(1)
+            if namespace:
+                term = f"{namespace}:{term}"
             content_ = content_.replace(match, term)
         if content_ != content:
             print(f"Removed glossary includes from {path}")

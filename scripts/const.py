@@ -22,7 +22,11 @@ with open(BASEPATH / "_data" / "topics.txt") as f:
     VALID_TAGS = set(f.read().splitlines())
 
 with open(BASEPATH / "_data" / "glossary.yml") as f:
+
     try:
-        GLOSSARY = {t["term"].lower(): t for t in yaml.safe_load(f)}
+        GLOSSARY = {
+            (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
+            for t in yaml.safe_load(f)
+        }
     except TypeError:
         GLOSSARY = {}

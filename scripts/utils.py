@@ -321,8 +321,14 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
                         if match is not None:
                             # Use the matched term so that case is preserved
                             term = match.group()
-                            include = f'{{% include glossary term="{term}" %}}'
-                            parts[i] = re.sub(rf"\b{term}\b", include, parts[i], 1)
+                            try:
+                                namespace, term = term.split(":")
+                            except ValueError:
+                                namespace = ""
+                            include = f'{{% include glossary term="{term}" namespace="{namespace}" %}}'
+                            parts[i] = re.sub(
+                                rf"\b{match.group()}\b", include, parts[i], 1
+                            )
                             del glossary_[key]
             content_ = "---" + fm + "---" + "".join(parts)
 
@@ -334,6 +340,17 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
 
 def add_dwc_terms(session):
     """Updates the glossary with terms from Darwin Core"""
+
+    def assign_namespace(val):
+        if "dwc/terms" in val:
+            return "dwc"
+        elif "dwc/iri" in val:
+            return "dwciri"
+        elif "dublincore" in val:
+            return "dc"
+        else:
+            raise ValueError(f"Unknown namespace: {val}")
+
     source = "Darwin Core"
     url = "https://raw.githubusercontent.com/tdwg/dwc/refs/heads/master/vocabulary/term_versions.csv"
     resp = session.get(url)
@@ -342,14 +359,8 @@ def add_dwc_terms(session):
     # Restrict to recommended terms
     df = df[df["status"] == "recommended"]
 
-    # Drop one-word terms. These terms are too common to assume they refer to DwC.
-    df = df[df["term_localName"].str.contains("[A-Z]")]
-
-    # Drop class names
-    df = df[~df["term_localName"].str.contains("^[A-Z]")]
-
-    # Drop IRI
-    df = df[~df["label"].str.contains(r"\(IRI\)")]
+    # Assign namespaces based on IRI
+    df["namespace"] = df["iri"].apply(assign_namespace)
 
     glossary = [t for t in GLOSSARY.values() if t.get("source") != source]
     for _, row in df.iterrows():
@@ -358,6 +369,7 @@ def add_dwc_terms(session):
             {
                 "term": term,
                 "definition": row["definition"],
+                "namespace": row["namespace"],
                 "source": source,
                 "url": f"https://dwc.tdwg.org/terms/#dwc:{term}",
             }
@@ -367,4 +379,7 @@ def add_dwc_terms(session):
     with open(BASEPATH / "_data" / "glossary.yml", "w", encoding="utf-8") as f:
         yaml.safe_dump(glossary, f, sort_keys=False)
 
-    return {t["term"]: t for t in glossary}
+    return {
+        (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
+        for t in glossary
+    }
