@@ -284,11 +284,12 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
     if glossary is None:
         glossary = GLOSSARY
 
-    # Build pattern to find elements that should not inclide tooltips
+    # Build pattern to find elements that should not include tooltips
     subpatterns = (
         r"#.*?\n",  # markdown headers
         r"\[.*?\]\(.*?\)",  # markdown links
         r"{%.*?%}",  # Jekyll includes
+        r"<*?>.*?</*?>",  # HTML tags
     )
     pattern = f"({'|'.join(subpatterns)})"
 
