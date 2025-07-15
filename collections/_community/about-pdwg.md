@@ -10,19 +10,28 @@ sidebar:
   - community
 ---
 
-This website is brought to you by the Paleo Data Working Group (PDWG, pronounced "pidwig"), which is a community of practice centered around collections-based paleo and informatics professionals. PDWG was launched in May 2020 as a driving force for broader conversations about paleontological data standards and integration of fossil data into larger data ecosystems. We formed as a result of a decade of increasing collaboration between paleontology professionals digitizing their collections, including as part of an earlier [Paleo Digitization Working Group](https://www.idigbio.org/wiki/index.php/Paleo_Digitization_Working_Group) hosted by iDigBio. Current activities include regular "[happy hour](/community/pdwg-happy-hours)" meetings, [workshops](/community/events), community outreach, and engagement with parallel groups and processes. We also maintain a community pipeline for carrying conversation through to documentation and guidelines, such as those curated in this knowledge hub. Contact us at _paleodatawg@gmail.com_.
+This website is brought to you by the Paleo Data Working Group (PDWG, pronounced "pidwig"), which is a community of practice centered around collections-based paleo and informatics professionals. PDWG was launched in May 2020 as a driving force for broader conversations about paleontological data standards and integration of fossil data into larger data ecosystems. We formed as a result of a decade of increasing collaboration between paleontology professionals digitizing their collections, including as part of an earlier [Paleo Digitization Working Group](https://www.idigbio.org/wiki/index.php/Paleo_Digitization_Working_Group) hosted by iDigBio. Current activities include regular "[happy hour](/community/pdwg-happy-hours)" meetings, [workshops](/community/events), community outreach, and engagement with parallel groups and processes. We also maintain a community pipeline for carrying conversation through to documentation and guidelines, such as the content curated in this knowledge hub. Contact the PDWG Organizing Team at _paleodatawg@gmail.com_.
 
-## How to get involved
+## Get involved
 
-Any and all paleontology collections professionals are encouraged to join the PDWG community. We use the following tools for this community of practice...
+Any and all paleontology collections (or allied) professionals are encouraged to participate in PDWG! We follow [these community norms](), including acting and interacting in ways that contribute to an open, welcoming, and diverse community.
 
-**Slack**: Our primary tool for asynchronous conversations about topics or questions on anything digitization- or collections management-related. [To join the Slack workspace click here](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg).  If you are unfamiliar with Slack, see this [3-minute video overview](https://vimeo.com/434234678) of how to use it up for the Paleo Data workspace.
+{: .notice--primary }
+The best way to get started is to show up to a [happy hour](/community/pdwg-happy-hours) meeting, join our [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg), and/or request to join our [Google Group ](https://groups.google.com/g/paleo-data/about).
 
-**Google Group**: A listserv where we post announcements about upcoming happy hours, workshops, or other events of interest. [Request to join the Google Group here](https://groups.google.com/g/paleo-data/about).
+As a community of practice, we regularly use the following tools:
 
-**GitHub**: We have an [organization on GitHub](https://github.com/paleo-data), which hosts this site and serves as a project management tool.
+- **GitHub**: PDWG has an [organization on GitHub](https://github.com/orgs/paleo-data) which hosts multiple repositories, including the one for this site. In addition to hosting content, we use GitHub for project management of our happy hour meetings. Any member of PDWG is welcome to request an invite to be a member of the GitHub organization.
 
-**Google Drive**: Our [shared folder on Google Drive](https://drive.google.com/drive/folders/1Ne9B1bIGGzGhreEHMxoCVEwPaIhIILVx?usp=sharing) is a neutral, non-institutional space where community members can curate and manage access to collaborative working documents and resources that do not fit well on the Knowledge Hub. Please request access if you think you should be enabled to edit files in this folder. 
+- **Google Groups**: We use Google Groups as a listserv where we post announcements about upcoming happy hours, workshops, or other events of interest. [Request to join the Google Group here](https://groups.google.com/g/paleo-data/about). Anyone is welcome to post to the Group. We have received feedback that not everyone can use Google Groups with their work emails, which can be annoying; until/unless we move to a different mailing list platform, the solution is to subscribe with a separate and/or additional email.
+
+- **Google Drive**: Our [shared folder on Google Drive](https://drive.google.com/drive/folders/1Ne9B1bIGGzGhreEHMxoCVEwPaIhIILVx?usp=sharing) is a neutral, non-institutional space where community members can curate and manage access to collaborative working documents and resources that do not fit well (or yet) on this knowledge hub. Happy hour meeting materials live within this Google folder. Please request access if you think you should be enabled to edit files in this folder!
+
+- **Slack**: Our primary tool for asynchronous conversation between individual community members and interest groups within the PDWG community. [To join the Slack workspace click here](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg). If you are unfamiliar with Slack, see this [3-minute video overview](https://vimeo.com/434234678) of how to use it up for the Paleo Data workspace. Ours is a free Slack workspace, which means messages are only accessible for a 90-day history.
+
+- **Zoom**: We host happy hour and other synchronous meetings on [Zoom](https://www.zoom.com), and occasionally use Zoom's built-in collaboration tools like Whiteboard. Look for a link to the happy hour Zoom room in announcements posted to the Google Group and Slack.
+
+We also frequently use [EasyRetro](https://easyretro.io) as a feedback tool for community activities, either synchronous or asynchronous, and [Zenodo](https://zenodo.org/) is an essential tool for contributing individual/institutional expertise to this knowledge hub–learn more about that in our [contributor guidelines]().
 
 ## List of institutions and people involved
 
