@@ -17,7 +17,7 @@ This website is brought to you by the Paleo Data Working Group (PDWG, pronounced
 Any and all paleontology collections (or allied) professionals are encouraged to participate in PDWG! We follow [these community norms](), including acting and interacting in ways that contribute to an open, welcoming, and diverse community.
 
 {: .notice--primary }
-The best way to get started is to show up to a [happy hour](/community/pdwg-happy-hours) meeting, join our [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg), and/or request to join our [Google Group ](https://groups.google.com/g/paleo-data/about).
+**Quick start!** Show up to a [happy hour](/community/pdwg-happy-hours) meeting, join our [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg), and/or request to join our [Google Group ](https://groups.google.com/g/paleo-data/about).
 
 As a community of practice, we regularly use the following tools:
 
