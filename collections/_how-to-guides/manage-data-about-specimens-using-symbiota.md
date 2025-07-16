@@ -1,6 +1,6 @@
 ---
 title: Manage data about fossil specimens using Symbiota
-last_modified_at: 2025-07-03
+last_modified_at: 2025-07-15
 authors: [Lindsay Walker]
 sidebar:
   nav: [sidebar]
@@ -12,24 +12,26 @@ topics: [data wrangling, extended specimen, symbiota]
 ---
 
 {: .notice--primary }
-This guide is intended to complement documentation for [getting started in the Symbiota Paleo Data Portal](/knowledge-hub/how-to-guides/how-to-get-started-in-the-symbiota-paleo-data-portal.html), as well as the official Symbiota user documentation, [Symbiota Docs](https://biokic.github.io/symbiota-docs/). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
-
-{: .notice--info }
-**Tip:** Refer to example fossil specimen records in Symbiota [here](https://paleo.symbiota.org/portal/collections/list.php?db=6).
+This guide is intended to complement documentation for [getting started in the Symbiota Paleo Data Portal](/knowledge-hub/how-to-guides/manage-data-about-specimens-using-symbiota), as well as the official Symbiota user documentation, [Symbiota Docs](https://docs.symbiota.org/docs/about). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
 
 # Introduction
-There are two ways specimen records are typically entered into a Symbiota portal: 1) as a [bulk data import](#bulk-data-import) or 2) [directly using the Occurrence Editor interface](#direct-data-entry). Additional methods are possible (more on that [here](https://biokic.github.io/symbiota-docs/coll_manager/upload/)), but these two options are commonly used by collections that actively ("live") manage their specimen data using Symbiota. 
+There are two ways specimen records are typically entered into a Symbiota portal: 1) as a [bulk data import](#bulk-data-import) or 2) [directly using the Occurrence Editor interface](#direct-data-entry). Additional methods exist (more on that [here]([https://biokic.github.io/symbiota-docs/coll_manager/upload/](https://docs.symbiota.org/docs/Collection_Manager_Guide/Importing_Uploading/)), but these two options are most commonly used by collections that actively ("live") manage their specimen data using Symbiota. 
 
-Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/).
+Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+
+{: .notice--info }
+📌 [Exemplar catalog records](https://paleo.symbiota.org/portal/collections/list.php?db=6) have been created to help guide data entry for fossil specimens in Symbiota portals. It may be helpful to bookmark this page for easy access when cataloging.
 
 # Bulk data import
 
 ## Formatting data for import
-If you maintain fossil specimen data that needs to be imported into a Symbiota portal (e.g. in a spreadsheet), this section outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. This data preparation guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers and thus strongly encourged to follow the steps outlined below when possible.
+This section outlines actions you can take to prepare existing digital catalog records from your fossil collection for ingestion into Symbiota. The end goal is to make your data more easily managed, discovered, and used for research; data providers and thus strongly encourged to follow these steps when feasible.
 
 ### Steps you can take to ready your records for ingestion
-1. If you maintain existing catalog records to be imported into Symbiota, perform some data cleaning to align your records to the Symbiota data fields and formatting specified in the previous step. [OpenRefine](https://doi.org/10.5281/zenodo.6574728) is free software that can be used for this purpose. **Highly recommended: Use the checklist below to prepare your data for import.**
+1. If you maintain existing catalog records to be imported into Symbiota, perform some data cleaning to align your records to the Symbiota data fields and formatting specified in the previous step. [OpenRefine](https://openrefine.org) is free software that can be used for this purpose. The [data formatting checklist](#data-formatting-checklist) is intended to guide this process.
 2. If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Not all fields are required to contain data. Your spreadsheet must be converted to CSV format prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC).
+
+{% include resource_card filename='krimmel-walker-2022.yml' %}
 
 #### Data formatting checklist
 If you maintain cataloged specimen records in a spreadsheet, this information can be imported into Symbiota in CSV format. Before doing so, **it is highly recommended that you complete this checklist to prepare your data for ingestion to maximize the interoperability between your data and that of other collections, ultimately making your records more discoverable and useful for research**. Additional data cleaning can be performed once your records are in Symbiota ([printable version](https://docs.google.com/document/d/11rEFpVtKwzKRZ7Fi5esLzAcs6bLXNQBym8QmKCQ-jWI/edit?usp=sharing)). The checklist below has been compiled based on scenarios observed in other datasets from fossil collections prepared for import. The [Symbiota Data Import Fields](https://biokic.github.io/symbiota-docs/coll_manager/upload/fields/) guide provides important information about fields available in Symbiota, as well as the types of data that can be imported into each one—for instance, which fields can only contain numbers, dates only, textual data, etc.—and how this information should be formatted. . 
