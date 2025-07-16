@@ -60,7 +60,7 @@ When preparing your data, refer to [Symbiota’s Data Import Fields](https://doc
 **A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it should not be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _stratigraphicRemarks_ as a key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `VERBATIM CHRONOSTRATIGRAPHY: Permian?`
 
 {: .notice--warning }
-Suggested solutions to documenting several commonly encouraged cataloging scenarios--such as dealing with "part-counterpart" specimens and similar scenarios--are further detailed [below](#part-counterpart-specimens-and-similar-scenarios).
+**A note on commonly encountered scenarios:** Suggested solutions to several commonly encountered cataloging scenarios--such as dealing with "part-counterpart" specimens and similar scenarios--are further detailed [below](#part-counterpart-specimens-and-similar-scenarios).
 
 ## How to import your data into Symbiota
 There are multiple ways to import new records into a Symbiota portal. This action can only be completed by users with Administrator permissions through the Administration Control Panel.
