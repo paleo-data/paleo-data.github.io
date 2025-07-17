@@ -1,0 +1,27 @@
+{%- capture term -%}
+{%- if include.namespace.blank? -%}
+{{ include.term | downcase }}
+{%- else -%}
+{{ include.namespace | downcase }}:{{ include.term | downcase }}
+{%- endif -%}
+{%- endcapture -%}
+
+{%- for entry in site.data["glossary"] -%}
+
+{%- capture eterm -%}
+{%- if entry.namespace.blank? -%}
+{{ entry.term | downcase }}
+{%- else -%}
+{{ entry.namespace | downcase }}:{{ entry.term | downcase }}
+{%- endif -%}
+{%- endcapture -%}
+
+{%- if eterm == term -%}
+{%- if entry.url -%}
+    <a class="external tooltip" href="{{ entry.url }}">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></a>
+{%- else - %}
+    <span class="tooltip">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></span>
+{%- endif -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
