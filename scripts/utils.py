@@ -375,7 +375,7 @@ def add_dwc_terms(session):
                 "url": f"https://dwc.tdwg.org/terms/#dwc:{term}",
             }
         )
-    glossary.sort(key=lambda t: t["term"])
+    glossary.sort(key=lambda t: t["term"].lower())
 
     with open(BASEPATH / "_data" / "glossary.yml", "w", encoding="utf-8") as f:
         yaml.safe_dump(glossary, f, sort_keys=False)

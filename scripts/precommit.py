@@ -5,10 +5,22 @@ from pathlib import Path
 
 import yaml
 
+try:
+    import requests_cache
+except ModuleNotFoundError:
+    pass
+
 from const import BASEPATH
+from utils import add_dwc_terms
 
 
 if __name__ == "__main__":
+
+    # Use cache when building the site locally. Cached requests expire after 8 hrs.
+    try:
+        session = requests_cache.CachedSession(expire_after=28800)
+    except NameError:
+        session = requests.Session()
 
     # Remove glossary includes. These are added automatically when the site is built.
     for path in BASEPATH.glob("**/*.md"):
@@ -26,11 +38,5 @@ if __name__ == "__main__":
             with open(path, "w", encoding="utf-8") as f:
                 f.write(content_)
 
-    # Clear sourced values from glossary. These are added from a canonical source when
-    # the site is built.
-    sources = ["Darwin Core"]
-    with open(BASEPATH / "_data" / "glossary.yml", encoding="utf-8") as f:
-        glossary = [t for t in yaml.safe_load(f) if t.get("source") not in sources]
-
-    with open(BASEPATH / "_data" / "glossary.yml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(glossary, f, sort_keys=False)
+    # Update glossary
+    add_dwc_terms(session)

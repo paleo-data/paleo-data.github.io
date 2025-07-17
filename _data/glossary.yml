@@ -1,2 +1,1734 @@
-- term: tooltip
-  definition: Helper text that appears when hovering over an element on a webpage
+- term: acceptedNameUsage
+  definition: The full name, with authorship and date information if known, of the
+    currently valid (zoological) or accepted (botanical) dwc:Taxon.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:acceptedNameUsage
+- term: acceptedNameUsageID
+  definition: An identifier for the name usage (documented meaning of the name according
+    to a source) of the currently valid (zoological) or accepted (botanical) taxon.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:acceptedNameUsageID
+- term: accessRights
+  definition: Information about who can access the resource or an indication of its
+    security status.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:accessRights
+- term: associatedMedia
+  definition: A list (concatenated and separated) of identifiers (publication, global
+    unique identifier, URI) of media associated with the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:associatedMedia
+- term: associatedOccurrences
+  definition: A list (concatenated and separated) of identifiers of other dwc:Occurrence
+    records and their associations to this dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:associatedOccurrences
+- term: associatedOrganisms
+  definition: A list (concatenated and separated) of identifiers of other dwc:Organisms
+    and the associations of this dwc:Organism to each of them.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:associatedOrganisms
+- term: associatedReferences
+  definition: A list (concatenated and separated) of identifiers (publication, bibliographic
+    reference, global unique identifier, URI) of literature associated with the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:associatedReferences
+- term: associatedSequences
+  definition: A list (concatenated and separated) of identifiers (publication, global
+    unique identifier, URI) of genetic sequence information associated with the dwc:MaterialEntity.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:associatedSequences
+- term: associatedTaxa
+  definition: A list (concatenated and separated) of identifiers or names of dwc:Taxon
+    records and the associations of this dwc:Occurrence to each of them.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:associatedTaxa
+- term: basisOfRecord
+  definition: The specific nature of the data record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:basisOfRecord
+- term: bed
+  definition: The full name of the lithostratigraphic bed from which the dwc:MaterialEntity
+    was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:bed
+- term: behavior
+  definition: The behavior shown by the subject at the time the dwc:Occurrence was
+    recorded.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:behavior
+- term: behavior
+  definition: A description of the behavior shown by the subject at the time the dwc:Occurrence
+    was recorded.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:behavior
+- term: bibliographicCitation
+  definition: A bibliographic reference for the resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:bibliographicCitation
+- term: caste
+  definition: Categorisation of individuals for eusocial species (including some mammals
+    and arthropods).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:caste
+- term: caste
+  definition: Categorisation of individuals for eusocial species (including some mammals
+    and arthropods).
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:caste
+- term: catalogNumber
+  definition: An identifier (preferably unique) for the record within the data set
+    or collection.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:catalogNumber
+- term: causeOfDeath
+  definition: An indication of the known or suspected cause of death of a dwc:Organism.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:causeOfDeath
+- term: class
+  definition: The full scientific name of the class in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:class
+- term: collectionCode
+  definition: The name, acronym, coden, or initialism identifying the collection or
+    data set from which the record was derived.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:collectionCode
+- term: collectionID
+  definition: An identifier for the collection or dataset from which the record was
+    derived.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:collectionID
+- term: continent
+  definition: The name of the continent in which the dcterms:Location occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:continent
+- term: coordinatePrecision
+  definition: A decimal representation of the precision of the coordinates given in
+    the dwc:decimalLatitude and dwc:decimalLongitude.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:coordinatePrecision
+- term: coordinateUncertaintyInMeters
+  definition: The horizontal distance (in meters) from the given dwc:decimalLatitude
+    and dwc:decimalLongitude describing the smallest circle containing the whole of
+    the dcterms:Location. Leave the value empty if the uncertainty is unknown, cannot
+    be estimated, or is not applicable (because there are no coordinates). Zero is
+    not a valid value for this term.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters
+- term: country
+  definition: The name of the country or major administrative unit in which the dcterms:Location
+    occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:country
+- term: countryCode
+  definition: The standard code for the country in which the dcterms:Location occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:countryCode
+- term: county
+  definition: The full, unabbreviated name of the next smaller administrative region
+    than stateProvince (county, shire, department, etc.) in which the dcterms:Location
+    occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:county
+- term: cultivarEpithet
+  definition: Part of the name of a cultivar, cultivar group or grex that follows
+    the dwc:scientificName.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:cultivarEpithet
+- term: dataGeneralizations
+  definition: Actions taken to make the shared data less specific or complete than
+    in its original form. Suggests that alternative data of higher quality may be
+    available on request.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:dataGeneralizations
+- term: dataGeneralizations
+  definition: Actions taken to make the shared data less specific or complete than
+    in its original form. Suggests that alternative data of higher quality may be
+    available on request.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:dataGeneralizations
+- term: datasetID
+  definition: An identifier for the set of data. May be a global unique identifier
+    or an identifier specific to a collection or institution.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:datasetID
+- term: datasetName
+  definition: The name identifying the data set from which the record was derived.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:datasetName
+- term: dateIdentified
+  definition: The date on which the subject was determined as representing the dwc:Taxon.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:dateIdentified
+- term: day
+  definition: The integer day of the month on which the dwc:Event occurred.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:day
+- term: decimalLatitude
+  definition: The geographic latitude (in decimal degrees, using the spatial reference
+    system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location.
+    Positive values are north of the Equator, negative values are south of it. Legal
+    values lie between -90 and 90, inclusive.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:decimalLatitude
+- term: decimalLongitude
+  definition: The geographic longitude (in decimal degrees, using the spatial reference
+    system given in dwc:geodeticDatum) of the geographic center of a dcterms:Location.
+    Positive values are east of the Greenwich Meridian, negative values are west of
+    it. Legal values lie between -180 and 180, inclusive.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:decimalLongitude
+- term: degreeOfEstablishment
+  definition: The degree to which a dwc:Organism survives, reproduces, and expands
+    its range at the given place and time.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:degreeOfEstablishment
+- term: degreeOfEstablishment
+  definition: The degree to which a dwc:Organism survives, reproduces, and expands
+    its range at the given place and time.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:degreeOfEstablishment
+- term: digitalSpecimenID
+  definition: An identifier for a particular instance of a Digital Specimen.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:digitalSpecimenID
+- term: discipline
+  definition: The primary branch or branches of knowledge represented by the record.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:discipline
+- term: discipline
+  definition: The primary branch or branches of knowledge represented by the record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:discipline
+- term: disposition
+  definition: The current state of a dwc:MaterialEntity with respect to a collection.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:disposition
+- term: disposition
+  definition: The current state of a specimen with respect to the collection identified
+    in dwc:collectionCode or dwc:collectionID.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:disposition
+- term: dynamicProperties
+  definition: A list of additional measurements, facts, characteristics, or assertions
+    about the record. Meant to provide a mechanism for structured content.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:dynamicProperties
+- term: earliestAgeOrLowestStage
+  definition: The full name of the earliest possible geochronologic age or lowest
+    chronostratigraphic stage attributable to the stratigraphic horizon from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage
+- term: earliestEonOrLowestEonothem
+  definition: The full name of the earliest possible geochronologic eon or lowest
+    chrono-stratigraphic eonothem or the informal name ("Precambrian") attributable
+    to the stratigraphic horizon from which the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:earliestEonOrLowestEonothem
+- term: earliestEpochOrLowestSeries
+  definition: The full name of the earliest possible geochronologic epoch or lowest
+    chronostratigraphic series attributable to the stratigraphic horizon from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries
+- term: earliestEraOrLowestErathem
+  definition: The full name of the earliest possible geochronologic era or lowest
+    chronostratigraphic erathem attributable to the stratigraphic horizon from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:earliestEraOrLowestErathem
+- term: earliestGeochronologicalEra
+  definition: Use to link a dwc:GeologicalContext instance to chronostratigraphic
+    time periods at the lowest possible level in a standardized hierarchy. Use this
+    property to point to the earliest possible geological time period from which the
+    dwc:MaterialEntity was collected.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:earliestGeochronologicalEra
+- term: earliestPeriodOrLowestSystem
+  definition: The full name of the earliest possible geochronologic period or lowest
+    chronostratigraphic system attributable to the stratigraphic horizon from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem
+- term: endDayOfYear
+  definition: The latest integer day of the year on which the dwc:Event occurred (1
+    for January 1, 365 for December 31, except in a leap year, in which case it is
+    366).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:endDayOfYear
+- term: establishmentMeans
+  definition: Statement about whether a dwc:Organism has been introduced to a given
+    place and time through the direct or indirect activity of modern humans.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:establishmentMeans
+- term: establishmentMeans
+  definition: Statement about whether a dwc:Organism has been introduced to a given
+    place and time through the direct or indirect activity of modern humans.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:establishmentMeans
+- term: Event
+  definition: An action that occurs at some location during some time.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:Event
+- term: eventDate
+  definition: The date-time or interval during which a dwc:Event occurred. For occurrences,
+    this is the date-time when the dwc:Event was recorded. Not suitable for a time
+    in a geological context.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:eventDate
+- term: eventID
+  definition: An identifier for the set of information associated with a dwc:Event
+    (something that occurs at a place and time). May be a global unique identifier
+    or an identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:eventID
+- term: eventRemarks
+  definition: Comments or notes about the dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:eventRemarks
+- term: eventTime
+  definition: The time or interval during which a dwc:Event occurred.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:eventTime
+- term: eventType
+  definition: The nature of the dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:eventType
+- term: eventType
+  definition: The nature of the dwc:Event.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:eventType
+- term: family
+  definition: The full scientific name of the family in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:family
+- term: feedbackURL
+  definition: A uniform resource locator (URL) that points to a webpage on which a
+    form may be submitted to gather feedback about the record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:feedbackURL
+- term: fieldNotes
+  definition: One of a) an indicator of the existence of, b) a reference to (publication,
+    URI), or c) the text of notes taken in the field about the dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fieldNotes
+- term: fieldNotes
+  definition: One of a) an indicator of the existence of, b) a reference to (publication,
+    URI), or c) the text of notes taken in the field about the dwc:Event.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fieldNotes
+- term: fieldNumber
+  definition: An identifier given to the dwc:Event in the field. Often serves as a
+    link between field notes and the dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fieldNumber
+- term: fieldNumber
+  definition: An identifier given to the event in the field. Often serves as a link
+    between field notes and the dwc:Event.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fieldNumber
+- term: footprintSpatialFit
+  definition: The ratio of the area of the dwc:footprintWKT to the area of the true
+    (original, or most specific) spatial representation of the dcterms:Location. Legal
+    values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact
+    match or 100% overlap. A value of 0 should be used if the given dwc:footprintWKT
+    does not completely contain the original representation. The dwc:footprintSpatialFit
+    is undefined (and should be left empty) if the original representation is any
+    geometry without area (e.g., a point or polyline) and without uncertainty and
+    the given georeference is not that same geometry (without uncertainty). If both
+    the original and the given georeference are the same point, the dwc:footprintSpatialFit
+    is 1.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:footprintSpatialFit
+- term: footprintSRS
+  definition: The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+    which the geometry given in dwc:footprintWKT is based.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:footprintSRS
+- term: footprintSRS
+  definition: The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+    which the geometry given in dwc:footprintWKT is based.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:footprintSRS
+- term: footprintWKT
+  definition: A Well-Known Text (WKT) representation of the shape (footprint, geometry)
+    that defines the dcterms:Location. A dcterms:Location may have both a point-radius
+    representation (see dwc:decimalLatitude) and a footprint representation, and they
+    may differ from each other.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:footprintWKT
+- term: footprintWKT
+  definition: A Well-Known Text (WKT) representation of the shape (footprint, geometry)
+    that defines the dcterms:Location. A dcterms:Location may have both a point-radius
+    representation (see dwc:decimalLatitude) and a footprint representation, and they
+    may differ from each other.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:footprintWKT
+- term: formation
+  definition: The full name of the lithostratigraphic formation from which the dwc:MaterialEntity
+    was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:formation
+- term: FossilSpecimen
+  definition: A preserved specimen that is a fossil.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:FossilSpecimen
+- term: fromLithostratigraphicUnit
+  definition: Use to link a dwc:GeologicalContext instance to an IRI-identified lithostratigraphic
+    unit at the lowest possible level in a hierarchy.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fromLithostratigraphicUnit
+- term: fundingAttribution
+  definition: An organization or agency that provided funding for a project.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fundingAttribution
+- term: fundingAttributionID
+  definition: A list (concatenated and separated) of the globally unique identifiers
+    for the funding organizations or agencies that supported the project.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fundingAttributionID
+- term: genericName
+  definition: The genus part of the dwc:scientificName without authorship.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:genericName
+- term: genus
+  definition: The full scientific name of the genus in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:genus
+- term: geodeticDatum
+  definition: The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+    which the geographic coordinates given in dwc:decimalLatitude and dwc:decimalLongitude
+    are based.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:geodeticDatum
+- term: geodeticDatum
+  definition: The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+    which the geographic coordinates given in dwc:decimalLatitude and dwc:decimalLongitude
+    are based.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:geodeticDatum
+- term: GeologicalContext
+  definition: Geological information, such as stratigraphy, that qualifies a region
+    or place.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:GeologicalContext
+- term: geologicalContextID
+  definition: An identifier for the set of information associated with a dwc:GeologicalContext
+    (the location within a geological context, such as stratigraphy). May be a global
+    unique identifier or an identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:geologicalContextID
+- term: georeferencedBy
+  definition: A list (concatenated and separated) of names of people, groups, or organizations
+    who determined the georeference (spatial representation) for the dcterms:Location.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferencedBy
+- term: georeferencedBy
+  definition: A person, group, or organization who determined the georeference (spatial
+    representation) for the dcterms:Location.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferencedBy
+- term: georeferencedDate
+  definition: The date on which the dcterms:Location was georeferenced.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferencedDate
+- term: georeferenceProtocol
+  definition: A description or reference to the methods used to determine the spatial
+    footprint, coordinates, and uncertainties.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol
+- term: georeferenceProtocol
+  definition: A description or reference to the methods used to determine the spatial
+    footprint, coordinates, and uncertainties.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol
+- term: georeferenceRemarks
+  definition: Comments or notes about the spatial description determination, explaining
+    assumptions made in addition or opposition to the those formalized in the method
+    referred to in dwc:georeferenceProtocol.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks
+- term: georeferenceSources
+  definition: A list (concatenated and separated) of maps, gazetteers, or other resources
+    used to georeference the dcterms:Location, described specifically enough to allow
+    anyone in the future to use the same resources.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceSources
+- term: georeferenceSources
+  definition: A map, gazetteer, or other resource used to georeference the dcterms:Location.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceSources
+- term: georeferenceVerificationStatus
+  definition: A categorical description of the extent to which the georeference has
+    been verified to represent the best possible spatial description for the dcterms:Location
+    of the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus
+- term: georeferenceVerificationStatus
+  definition: A categorical description of the extent to which the georeference has
+    been verified to represent the best possible spatial description for the dcterms:Location
+    of the dwc:Occurrence.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus
+- term: group
+  definition: The full name of the lithostratigraphic group from which the dwc:MaterialEntity
+    was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:group
+- term: habitat
+  definition: A category or description of the habitat in which the dwc:Event occurred.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:habitat
+- term: habitat
+  definition: A category or description of the habitat in which the dwc:Event occurred.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:habitat
+- term: higherClassification
+  definition: A list (concatenated and separated) of taxa names terminating at the
+    rank immediately superior to the referenced dwc:Taxon.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:higherClassification
+- term: higherGeography
+  definition: A list (concatenated and separated) of geographic names less specific
+    than the information captured in the dwc:locality term.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:higherGeography
+- term: higherGeographyID
+  definition: An identifier for the geographic region within which the dcterms:Location
+    occurred.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:higherGeographyID
+- term: highestBiostratigraphicZone
+  definition: The full name of the highest possible geological biostratigraphic zone
+    of the stratigraphic horizon from which the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:highestBiostratigraphicZone
+- term: HumanObservation
+  definition: An output of a human observation process.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:HumanObservation
+- term: Identification
+  definition: A taxonomic determination (e.g., the assignment to a dwc:Taxon).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:Identification
+- term: identificationID
+  definition: An identifier for the dwc:Identification (the body of information associated
+    with the assignment of a scientific name). May be a global unique identifier or
+    an identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationID
+- term: identificationQualifier
+  definition: A brief phrase or a standard term ("cf.", "aff.") to express the determiner's
+    doubts about the dwc:Identification.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationQualifier
+- term: identificationQualifier
+  definition: A controlled value to express the determiner's doubts about the dwc:Identification.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationQualifier
+- term: identificationReferences
+  definition: A list (concatenated and separated) of references (publication, global
+    unique identifier, URI) used in the dwc:Identification.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationReferences
+- term: identificationRemarks
+  definition: Comments or notes about the dwc:Identification.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationRemarks
+- term: identificationVerificationStatus
+  definition: A categorical indicator of the extent to which the taxonomic identification
+    has been verified to be correct.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationVerificationStatus
+- term: identificationVerificationStatus
+  definition: A categorical indicator of the extent to which the taxonomic identification
+    has been verified to be correct.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identificationVerificationStatus
+- term: identifiedBy
+  definition: A list (concatenated and separated) of names of people, groups, or organizations
+    who assigned the dwc:Taxon to the subject.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identifiedBy
+- term: identifiedBy
+  definition: A person, group, or organization who assigned the dwc:Taxon to the subject.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identifiedBy
+- term: identifiedByID
+  definition: A list (concatenated and separated) of the globally unique identifier
+    for the person, people, groups, or organizations responsible for assigning the
+    dwc:Taxon to the subject.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:identifiedByID
+- term: inCollection
+  definition: Use to link any subject resource that is part of a collection to the
+    collection containing the resource.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:inCollection
+- term: inDataset
+  definition: Use to link a subject dataset record to the dataset which contains it.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:inDataset
+- term: inDescribedPlace
+  definition: Use to link a dcterms:Location instance subject to the lowest level
+    standardized hierarchically-described resource.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:inDescribedPlace
+- term: individualCount
+  definition: The number of individuals present at the time of the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:individualCount
+- term: informationWithheld
+  definition: Additional information that exists, but that has not been shared in
+    the given record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:informationWithheld
+- term: informationWithheld
+  definition: Additional information that exists, but that has not been shared in
+    the given record.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:informationWithheld
+- term: infragenericEpithet
+  definition: The infrageneric part of a binomial name at ranks above species but
+    below genus.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:infragenericEpithet
+- term: infraspecificEpithet
+  definition: The name of the lowest or terminal infraspecific epithet of the dwc:scientificName,
+    excluding any rank designation.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:infraspecificEpithet
+- term: institutionCode
+  definition: The name (or acronym) in use by the institution having custody of the
+    object(s) or information referred to in the record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:institutionCode
+- term: institutionID
+  definition: An identifier for the institution having custody of the object(s) or
+    information referred to in the record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:institutionID
+- term: island
+  definition: The name of the island on or near which the dcterms:Location occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:island
+- term: islandGroup
+  definition: The name of the island group in which the dcterms:Location occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:islandGroup
+- term: kingdom
+  definition: The full scientific name of the kingdom in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:kingdom
+- term: language
+  definition: A language of the resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:language
+- term: language
+  definition: A language of the resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:language
+- term: latestAgeOrHighestStage
+  definition: The full name of the latest possible geochronologic age or highest chronostratigraphic
+    stage attributable to the stratigraphic horizon from which the dwc:MaterialEntity
+    was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage
+- term: latestEonOrHighestEonothem
+  definition: The full name of the latest possible geochronologic eon or highest chrono-stratigraphic
+    eonothem or the informal name ("Precambrian") attributable to the stratigraphic
+    horizon from which the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:latestEonOrHighestEonothem
+- term: latestEpochOrHighestSeries
+  definition: The full name of the latest possible geochronologic epoch or highest
+    chronostratigraphic series attributable to the stratigraphic horizon from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries
+- term: latestEraOrHighestErathem
+  definition: The full name of the latest possible geochronologic era or highest chronostratigraphic
+    erathem attributable to the stratigraphic horizon from which the dwc:MaterialEntity
+    was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:latestEraOrHighestErathem
+- term: latestGeochronologicalEra
+  definition: Use to link a dwc:GeologicalContext instance to chronostratigraphic
+    time periods at the lowest possible level in a standardized hierarchy. Use this
+    property to point to the latest possible geological time period from which the
+    dwc:MaterialEntity was collected.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:latestGeochronologicalEra
+- term: latestPeriodOrHighestSystem
+  definition: The full name of the latest possible geochronologic period or highest
+    chronostratigraphic system attributable to the stratigraphic horizon from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem
+- term: license
+  definition: A legal document giving official permission to do something with the
+    resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:license
+- term: lifeStage
+  definition: The age class or life stage of the dwc:Organism(s) at the time the dwc:Occurrence
+    was recorded.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:lifeStage
+- term: lifeStage
+  definition: The age class or life stage of the dwc:Organism(s) at the time the dwc:Occurrence
+    was recorded.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:lifeStage
+- term: lithostratigraphicTerms
+  definition: The combination of all lithostratigraphic names for the rock from which
+    the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:lithostratigraphicTerms
+- term: LivingSpecimen
+  definition: A specimen that is alive.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:LivingSpecimen
+- term: locality
+  definition: The specific description of the place.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:locality
+- term: Location
+  definition: A spatial region or named place.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:Location
+- term: locationAccordingTo
+  definition: Information about the source of this dcterms:Location information. Could
+    be a publication (gazetteer), institution, or team of individuals.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:locationAccordingTo
+- term: locationAccordingTo
+  definition: Information about the source of this dcterms:Location information. Could
+    be a publication (gazetteer), institution, or team of individuals.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:locationAccordingTo
+- term: locationID
+  definition: An identifier for the set of dcterms:Location information. May be a
+    global unique identifier or an identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:locationID
+- term: locationRemarks
+  definition: Comments or notes about the dcterms:Location.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:locationRemarks
+- term: lowestBiostratigraphicZone
+  definition: The full name of the lowest possible geological biostratigraphic zone
+    of the stratigraphic horizon from which the dwc:MaterialEntity was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:lowestBiostratigraphicZone
+- term: MachineObservation
+  definition: An output of a machine observation process.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:MachineObservation
+- term: MaterialCitation
+  definition: A reference to or citation of one, a part of, or multiple specimens
+    in scholarly publications.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:MaterialCitation
+- term: MaterialEntity
+  definition: An entity that can be identified, exists for some period of time, and
+    consists in whole or in part of physical matter while it exists.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:MaterialEntity
+- term: materialEntityID
+  definition: An identifier for a particular instance of a dwc:MaterialEntity.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:materialEntityID
+- term: materialEntityRemarks
+  definition: Comments or notes about the dwc:MaterialEntity instance.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:materialEntityRemarks
+- term: materialEntityType
+  definition: A category that best matches the nature of a dwc:MaterialEntity.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:materialEntityType
+- term: MaterialSample
+  definition: A material entity that represents an entity of interest in whole or
+    in part.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:MaterialSample
+- term: materialSampleID
+  definition: An identifier for the dwc:MaterialSample (as opposed to a particular
+    digital record of the dwc:MaterialSample). In the absence of a persistent global
+    unique identifier, construct one from a combination of identifiers in the record
+    that will most closely make the dwc:materialSampleID globally unique.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:materialSampleID
+- term: maximumDepthInMeters
+  definition: The greater depth of a range of depth below the local surface, in meters.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:maximumDepthInMeters
+- term: maximumDistanceAboveSurfaceInMeters
+  definition: The greater distance in a range of distance from a reference surface
+    in the vertical direction, in meters. Use positive values for locations above
+    the surface, negative values for locations below. If depth measures are given,
+    the reference surface is the location given by the depth, otherwise the reference
+    surface is the location given by the elevation.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:maximumDistanceAboveSurfaceInMeters
+- term: maximumElevationInMeters
+  definition: The upper limit of the range of elevation (altitude, usually above sea
+    level), in meters.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:maximumElevationInMeters
+- term: measurementAccuracy
+  definition: The description of the potential error associated with the dwc:measurementValue.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementAccuracy
+- term: measurementDeterminedBy
+  definition: A list (concatenated and separated) of names of people, groups, or organizations
+    who determined the value of the dwc:MeasurementOrFact.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementDeterminedBy
+- term: measurementDeterminedBy
+  definition: A person, group, or organization who determined the value of the dwc:MeasurementOrFact.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementDeterminedBy
+- term: measurementDeterminedDate
+  definition: The date on which the dwc:MeasurementOrFact was made.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementDeterminedDate
+- term: measurementID
+  definition: An identifier for the dwc:MeasurementOrFact (information pertaining
+    to measurements, facts, characteristics, or assertions). May be a global unique
+    identifier or an identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementID
+- term: measurementMethod
+  definition: A description of or reference to (publication, URI) the method or protocol
+    used to determine the measurement, fact, characteristic, or assertion.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementMethod
+- term: measurementMethod
+  definition: The method or protocol used to determine the measurement, fact, characteristic,
+    or assertion.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementMethod
+- term: MeasurementOrFact
+  definition: A measurement of or fact about an rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:MeasurementOrFact
+- term: measurementRemarks
+  definition: Comments or notes accompanying the dwc:MeasurementOrFact.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementRemarks
+- term: measurementType
+  definition: The nature of the measurement, fact, characteristic, or assertion.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementType
+- term: measurementType
+  definition: The nature of the measurement, fact, characteristic, or assertion.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementType
+- term: measurementUnit
+  definition: The units associated with the dwc:measurementValue.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementUnit
+- term: measurementUnit
+  definition: The units associated with the dwc:measurementValue.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementUnit
+- term: measurementValue
+  definition: The value of the measurement, fact, characteristic, or assertion.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementValue
+- term: measurementValue
+  definition: The value of the measurement, fact, characteristic, or assertion.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:measurementValue
+- term: member
+  definition: The full name of the lithostratigraphic member from which the dwc:MaterialEntity
+    was collected.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:member
+- term: minimumDepthInMeters
+  definition: The lesser depth of a range of depth below the local surface, in meters.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:minimumDepthInMeters
+- term: minimumDistanceAboveSurfaceInMeters
+  definition: The lesser distance in a range of distance from a reference surface
+    in the vertical direction, in meters. Use positive values for locations above
+    the surface, negative values for locations below. If depth measures are given,
+    the reference surface is the location given by the depth, otherwise the reference
+    surface is the location given by the elevation.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:minimumDistanceAboveSurfaceInMeters
+- term: minimumElevationInMeters
+  definition: The lower limit of the range of elevation (altitude, usually above sea
+    level), in meters.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:minimumElevationInMeters
+- term: modified
+  definition: Date on which the resource was changed.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:modified
+- term: month
+  definition: The integer month in which the dwc:Event occurred.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:month
+- term: municipality
+  definition: The full, unabbreviated name of the next smaller administrative region
+    than county (city, municipality, etc.) in which the dcterms:Location occurs. Do
+    not use this term for a nearby named place that does not contain the actual dcterms:Location.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:municipality
+- term: nameAccordingTo
+  definition: The reference to the source in which the specific taxon concept circumscription
+    is defined or implied - traditionally signified by the Latin "sensu" or "sec."
+    (from secundum, meaning "according to"). For taxa that result from identifications,
+    a reference to the keys, monographs, experts and other sources should be given.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:nameAccordingTo
+- term: nameAccordingToID
+  definition: An identifier for the source in which the specific taxon concept circumscription
+    is defined or implied. See dwc:nameAccordingTo.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:nameAccordingToID
+- term: namePublishedIn
+  definition: A reference for the publication in which the dwc:scientificName was
+    originally established under the rules of the associated dwc:nomenclaturalCode.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:namePublishedIn
+- term: namePublishedInID
+  definition: An identifier for the publication in which the dwc:scientificName was
+    originally established under the rules of the associated dwc:nomenclaturalCode.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:namePublishedInID
+- term: namePublishedInYear
+  definition: The four-digit year in which the dwc:scientificName was published.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:namePublishedInYear
+- term: nomenclaturalCode
+  definition: The nomenclatural code (or codes in the case of an ambiregnal name)
+    under which the dwc:scientificName is constructed.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:nomenclaturalCode
+- term: nomenclaturalStatus
+  definition: The status related to the original publication of the name and its conformance
+    to the relevant rules of nomenclature. It is based essentially on an algorithm
+    according to the business rules of the code. It requires no taxonomic opinion.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:nomenclaturalStatus
+- term: Occurrence
+  definition: An existence of a dwc:Organism at a particular place at a particular
+    time.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:Occurrence
+- term: occurrenceID
+  definition: An identifier for the dwc:Occurrence (as opposed to a particular digital
+    record of the dwc:Occurrence). In the absence of a persistent global unique identifier,
+    construct one from a combination of identifiers in the record that will most closely
+    make the dwc:occurrenceID globally unique.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:occurrenceID
+- term: occurrenceRemarks
+  definition: Comments or notes about the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks
+- term: occurrenceStatus
+  definition: A statement about the presence or absence of a dwc:Taxon at a dcterms:Location.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:occurrenceStatus
+- term: occurrenceStatus
+  definition: A statement about the presence or absence of a dwc:Taxon at a dcterms:Location.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:occurrenceStatus
+- term: order
+  definition: The full scientific name of the order in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:order
+- term: Organism
+  definition: A particular organism or defined group of organisms considered to be
+    taxonomically homogeneous.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:Organism
+- term: organismID
+  definition: An identifier for the dwc:Organism instance (as opposed to a particular
+    digital record of the dwc:Organism). May be a globally unique identifier or an
+    identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismID
+- term: organismName
+  definition: A textual name or label assigned to a dwc:Organism instance.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismName
+- term: organismQuantity
+  definition: A number or enumeration value for the quantity of dwc:Organisms.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismQuantity
+- term: organismQuantityType
+  definition: The type of quantification system used for the quantity of dwc:Organisms.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismQuantityType
+- term: organismQuantityType
+  definition: The type of quantification system used for the quantity of organisms.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismQuantityType
+- term: organismRemarks
+  definition: Comments or notes about the dwc:Organism instance.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismRemarks
+- term: organismScope
+  definition: A description of the kind of dwc:Organism instance. Can be used to indicate
+    whether the dwc:Organism instance represents a discrete organism or if it represents
+    a particular type of aggregation.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:organismScope
+- term: originalNameUsage
+  definition: The taxon name, with authorship and date information if known, as it
+    originally appeared when first established under the rules of the associated dwc:nomenclaturalCode.
+    The basionym (botany) or basonym (bacteriology) of the dwc:scientificName or the
+    senior/earlier homonym for replaced names.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:originalNameUsage
+- term: originalNameUsageID
+  definition: An identifier for the name usage (documented meaning of the name according
+    to a source) in which the terminal element of the dwc:scientificName was originally
+    established under the rules of the associated dwc:nomenclaturalCode.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:originalNameUsageID
+- term: otherCatalogNumbers
+  definition: A list (concatenated and separated) of previous or alternate fully qualified
+    catalog numbers or other human-used identifiers for the same dwc:Occurrence, whether
+    in the current or any other data set or collection.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers
+- term: ownerInstitutionCode
+  definition: The name (or acronym) in use by the institution having ownership of
+    the object(s) or information referred to in the record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:ownerInstitutionCode
+- term: parentEventID
+  definition: An identifier for the broader dwc:Event that groups this and potentially
+    other dwc:Events.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:parentEventID
+- term: parentMeasurementID
+  definition: An identifier for a broader dwc:MeasurementOrFact that groups this and
+    potentially other dwc:MeasurementOrFacts.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:parentMeasurementID
+- term: parentNameUsage
+  definition: The full name, with authorship and date information if known, of the
+    direct, most proximate higher-rank parent dwc:Taxon (in a classification) of the
+    most specific element of the dwc:scientificName.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:parentNameUsage
+- term: parentNameUsageID
+  definition: An identifier for the name usage (documented meaning of the name according
+    to a source) of the direct, most proximate higher-rank parent taxon (in a classification)
+    of the most specific element of the dwc:scientificName.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:parentNameUsageID
+- term: pathway
+  definition: The process by which a dwc:Organism came to be in a given place at a
+    given time.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:pathway
+- term: pathway
+  definition: The process by which a dwc:Organism came to be in a given place at a
+    given time.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:pathway
+- term: phylum
+  definition: The full scientific name of the phylum or division in which the dwc:Taxon
+    is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:phylum
+- term: pointRadiusSpatialFit
+  definition: The ratio of the area of the point-radius (dwc:decimalLatitude, dwc:decimalLongitude,
+    dwc:coordinateUncertaintyInMeters) to the area of the true (original, or most
+    specific) spatial representation of the dcterms:Location. Legal values are 0,
+    greater than or equal to 1, or undefined. A value of 1 is an exact match or 100%
+    overlap. A value of 0 should be used if the given point-radius does not completely
+    contain the original representation. The dwc:pointRadiusSpatialFit is undefined
+    (and should be left empty) if the original representation is any geometry without
+    area (e.g., a point or polyline) and without uncertainty and the given georeference
+    is not that same geometry (without uncertainty). If both the original and the
+    given georeference are the same point, the dwc:pointRadiusSpatialFit is 1.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:pointRadiusSpatialFit
+- term: preparations
+  definition: A list (concatenated and separated) of preparations and preservation
+    methods for a dwc:MaterialEntity.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:preparations
+- term: preparations
+  definition: A preparation or preservation method for a specimen.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:preparations
+- term: PreservedSpecimen
+  definition: A specimen that has been preserved.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:PreservedSpecimen
+- term: previousIdentifications
+  definition: A list (concatenated and separated) of previous assignments of names
+    to the dwc:Organism.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:previousIdentifications
+- term: projectID
+  definition: A list (concatenated and separated) of identifiers for projects that
+    contributed to a dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:projectID
+- term: projectTitle
+  definition: A list (concatenated and separated) of titles or names for projects
+    that contributed to a dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:projectTitle
+- term: recordedBy
+  definition: A list (concatenated and separated) of names of people, groups, or organizations
+    responsible for recording the original dwc:Occurrence. The primary collector or
+    observer, especially one who applies a personal identifier (dwc:recordNumber),
+    should be listed first.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:recordedBy
+- term: recordedBy
+  definition: A person, group, or organization responsible for recording the original
+    dwc:Occurrence.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:recordedBy
+- term: recordedByID
+  definition: A list (concatenated and separated) of the globally unique identifier
+    for the person, people, groups, or organizations responsible for recording the
+    original dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:recordedByID
+- term: recordNumber
+  definition: An identifier given to the dwc:Occurrence at the time it was recorded.
+    Often serves as a link between field notes and a dwc:Occurrence record, such as
+    a specimen collector's number.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:recordNumber
+- term: recordNumber
+  definition: An identifier given to the dwc:Occurrence at the time it was recorded.
+    Often serves as a link between field notes and a dwc:Occurrence record, such as
+    a specimen collector's number.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:recordNumber
+- term: references
+  definition: A related resource that is referenced, cited, or otherwise pointed to
+    by the described resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:references
+- term: relatedResourceID
+  definition: An identifier for a related resource (the object, rather than the subject
+    of the relationship).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:relatedResourceID
+- term: relationshipAccordingTo
+  definition: The source (person, organization, publication, reference) establishing
+    the relationship between the two resources.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:relationshipAccordingTo
+- term: relationshipEstablishedDate
+  definition: The date-time on which the relationship between the two resources was
+    established.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:relationshipEstablishedDate
+- term: relationshipOfResource
+  definition: The relationship of the subject (identified by dwc:resourceID) to the
+    object (identified by dwc:relatedResourceID).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:relationshipOfResource
+- term: relationshipOfResourceID
+  definition: An identifier for the relationship type (predicate) that connects the
+    subject identified by dwc:resourceID to its object identified by dwc:relatedResourceID.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:relationshipOfResourceID
+- term: relationshipRemarks
+  definition: Comments or notes about the relationship between the two resources.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:relationshipRemarks
+- term: reproductiveCondition
+  definition: The reproductive condition of the biological individual(s) represented
+    in the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:reproductiveCondition
+- term: reproductiveCondition
+  definition: The reproductive condition of the biological individual(s) represented
+    in the dwc:Occurrence.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:reproductiveCondition
+- term: resourceID
+  definition: An identifier for the resource that is the subject of the relationship.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:resourceID
+- term: ResourceRelationship
+  definition: A relationship of one rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource)
+    to another.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:ResourceRelationship
+- term: resourceRelationshipID
+  definition: An identifier for an instance of relationship between one resource (the
+    subject) and another (dwc:relatedResource, the object).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:resourceRelationshipID
+- term: rightsHolder
+  definition: A person or organization owning or managing rights over the resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:rightsHolder
+- term: sampleSizeUnit
+  definition: The unit of measurement of the size (time duration, length, area, or
+    volume) of a sample in a sampling dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:sampleSizeUnit
+- term: sampleSizeUnit
+  definition: The unit of measurement of the size (time duration, length, area, or
+    volume) of a sample in a sampling dwc:Event.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:sampleSizeUnit
+- term: sampleSizeValue
+  definition: A numeric value for a measurement of the size (time duration, length,
+    area, or volume) of a sample in a sampling dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:sampleSizeValue
+- term: samplingEffort
+  definition: The amount of effort expended during a dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:samplingEffort
+- term: samplingProtocol
+  definition: The names of, references to, or descriptions of the methods or protocols
+    used during a dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:samplingProtocol
+- term: samplingProtocol
+  definition: The methods or protocols used during a dwc:Event, denoted by an IRI.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:samplingProtocol
+- term: scientificName
+  definition: The full scientific name, with authorship and date information if known.
+    When forming part of a dwc:Identification, this should be the name in lowest level
+    taxonomic rank that can be determined. This term should not contain identification
+    qualifications, which should instead be supplied in the dwc:identificationQualifier
+    term.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:scientificName
+- term: scientificNameAuthorship
+  definition: The authorship information for the dwc:scientificName formatted according
+    to the conventions of the applicable dwc:nomenclaturalCode.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship
+- term: scientificNameID
+  definition: An identifier for the nomenclatural (not taxonomic) details of a scientific
+    name.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:scientificNameID
+- term: sex
+  definition: The sex of the biological individual(s) represented in the dwc:Occurrence.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:sex
+- term: sex
+  definition: The sex of the biological individual(s) represented in the dwc:Occurrence.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:sex
+- term: specificEpithet
+  definition: The name of the first or species epithet of the dwc:scientificName.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:specificEpithet
+- term: startDayOfYear
+  definition: The earliest integer day of the year on which the dwc:Event occurred
+    (1 for January 1, 365 for December 31, except in a leap year, in which case it
+    is 366).
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:startDayOfYear
+- term: stateProvince
+  definition: The name of the next smaller administrative region than country (state,
+    province, canton, department, region, etc.) in which the dcterms:Location occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:stateProvince
+- term: subfamily
+  definition: The full scientific name of the subfamily in which the dwc:Taxon is
+    classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:subfamily
+- term: subgenus
+  definition: The full scientific name of the subgenus in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:subgenus
+- term: subtribe
+  definition: The full scientific name of the subtribe in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:subtribe
+- term: superfamily
+  definition: The full scientific name of the superfamily in which the dwc:Taxon is
+    classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:superfamily
+- term: Taxon
+  definition: A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026)
+    considered by taxonomists to form a homogeneous unit.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:Taxon
+- term: taxonConceptID
+  definition: An identifier for the taxonomic concept to which the record refers -
+    not for the nomenclatural details of a dwc:Taxon.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:taxonConceptID
+- term: taxonID
+  definition: An identifier for the set of dwc:Taxon information. May be a global
+    unique identifier or an identifier specific to the data set.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:taxonID
+- term: taxonomicStatus
+  definition: The status of the use of the dwc:scientificName as a label for a taxon.
+    Requires taxonomic opinion to define the scope of a dwc:Taxon. Rules of priority
+    then are used to define the taxonomic status of the nomenclature contained in
+    that scope, combined with the experts opinion. It must be linked to a specific
+    taxonomic reference that defines the concept.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:taxonomicStatus
+- term: taxonRank
+  definition: The taxonomic rank of the most specific name in the dwc:scientificName.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:taxonRank
+- term: taxonRemarks
+  definition: Comments or notes about the taxon or name.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:taxonRemarks
+- term: toDigitalSpecimen
+  definition: Use to link a dwc:Identification instance subject to a taxonomic entity
+    such as a taxon, taxon concept, or taxon name use.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:toDigitalSpecimen
+- term: toTaxon
+  definition: Use to link a dwc:Identification instance subject to a taxonomic entity
+    such as a taxon, taxon concept, or taxon name use.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:toTaxon
+- term: tribe
+  definition: The full scientific name of the tribe in which the dwc:Taxon is classified.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:tribe
+- term: type
+  definition: The nature or genre of the resource.
+  namespace: dc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:type
+- term: typeStatus
+  definition: A list (concatenated and separated) of nomenclatural types (type status,
+    typified scientific name, publication) applied to the subject.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:typeStatus
+- term: typeStatus
+  definition: A nomenclatural type (type status, typified scientific name, publication)
+    applied to the subject.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:typeStatus
+- term: typifiedName
+  definition: A scientific name that is based on a type specimen.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:typifiedName
+- term: verbatimCoordinates
+  definition: The verbatim original spatial coordinates of the dcterms:Location. The
+    coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for
+    these coordinates should be stored in dwc:verbatimSRS and the coordinate system
+    should be stored in dwc:verbatimCoordinateSystem.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates
+- term: verbatimCoordinateSystem
+  definition: The coordinate format for the dwc:verbatimLatitude and dwc:verbatimLongitude
+    or the dwc:verbatimCoordinates of the dcterms:Location.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimCoordinateSystem
+- term: verbatimCoordinateSystem
+  definition: The spatial coordinate system for the dwc:verbatimLatitude and dwc:verbatimLongitude
+    or the dwc:verbatimCoordinates of the dcterms:Location.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimCoordinateSystem
+- term: verbatimDepth
+  definition: The original description of the depth below the local surface.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimDepth
+- term: verbatimElevation
+  definition: The original description of the elevation (altitude, usually above sea
+    level) of the Location.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimElevation
+- term: verbatimEventDate
+  definition: The verbatim original representation of the date and time information
+    for a dwc:Event.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimEventDate
+- term: verbatimIdentification
+  definition: A string representing the taxonomic identification as it appeared in
+    the original record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimIdentification
+- term: verbatimLabel
+  definition: "The content of this term should include no embellishments, prefixes,\
+    \ headers or other additions made to the text. Abbreviations must not be expanded\
+    \ and supposed misspellings must not be corrected. Lines or breakpoints between\
+    \ blocks of text that could be verified by seeing the original labels or images\
+    \ of them may be used. Examples of material entities include preserved specimens,\
+    \ fossil specimens, and material samples. Best practice is to use UTF-8 for all\
+    \ characters. Best practice is to add comment \u201CverbatimLabel derived from\
+    \ human transcription\u201D in dwc:occurrenceRemarks."
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimLabel
+- term: verbatimLatitude
+  definition: The verbatim original latitude of the dcterms:Location. The coordinate
+    ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates
+    should be stored in dwc:verbatimSRS and the coordinate system should be stored
+    in dwc:verbatimCoordinateSystem.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimLatitude
+- term: verbatimLocality
+  definition: The original textual description of the place.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimLocality
+- term: verbatimLongitude
+  definition: The verbatim original longitude of the dcterms:Location. The coordinate
+    ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates
+    should be stored in dwc:verbatimSRS and the coordinate system should be stored
+    in dwc:verbatimCoordinateSystem.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimLongitude
+- term: verbatimMeasurementType
+  definition: A string representing the type of measurement or fact as it appeared
+    in the original record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimMeasurementType
+- term: verbatimSRS
+  definition: The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+    which coordinates given in dwc:verbatimLatitude and dwc:verbatimLongitude, or
+    dwc:verbatimCoordinates are based.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimSRS
+- term: verbatimSRS
+  definition: The ellipsoid, geodetic datum, or spatial reference system (SRS) upon
+    which coordinates given in dwc:verbatimLatitude and dwc:verbatimLongitude, or
+    dwc:verbatimCoordinates are based.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimSRS
+- term: verbatimTaxonRank
+  definition: The taxonomic rank of the most specific name in the dwc:scientificName
+    as it appears in the original record.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verbatimTaxonRank
+- term: vernacularName
+  definition: A common or vernacular name.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:vernacularName
+- term: verticalDatum
+  definition: The vertical datum used as the reference upon which the values in the
+    elevation terms are based.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verticalDatum
+- term: verticalDatum
+  definition: The vertical datum used as the reference upon which the values in the
+    elevation terms are based.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:verticalDatum
+- term: vitality
+  definition: An indication of whether a dwc:Organism was alive or dead at the time
+    of collection or observation.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:vitality
+- term: vitality
+  definition: An indication of whether a dwc:Organism was alive or dead at the time
+    of collection or observation.
+  namespace: dwciri
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:vitality
+- term: waterBody
+  definition: The name of the water body in which the dcterms:Location occurs.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:waterBody
+- term: year
+  definition: The four-digit year in which the dwc:Event occurred, according to the
+    Common Era Calendar.
+  namespace: dwc
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:year

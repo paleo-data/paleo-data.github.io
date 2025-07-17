@@ -96,9 +96,6 @@ if __name__ == "__main__":
             shutil.copy2(path_, upd_path)
             print(f" Copied {path_.name}")
 
-    print("Updating glossary")
-    glossary = add_dwc_terms(session)
-
     # Construct the navigation and build a tag index using file front matter. This
     # section should generally not be modified.
 
@@ -115,4 +112,4 @@ if __name__ == "__main__":
     build_nav(fms, include_main=["topics.md"])
 
     print("Adding glossary tooltips")
-    add_tooltips(BASEPATH, glossary)
+    add_tooltips(BASEPATH)
