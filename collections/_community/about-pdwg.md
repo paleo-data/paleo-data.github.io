@@ -35,7 +35,7 @@ We also frequently use [EasyRetro](https://easyretro.io) as a feedback tool for 
 
 ## List of institutions and people involved
 
-Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions. Participants vary in their engagement levels and come from a wide range of institutions, including independent museums, university collections, and representatives from US federal agencies. Current members of this group are largely based in the United States, though with some international (and very welcome) participation. Active PDWG members who wish to be acknowledged are listed in the table below. If you should be added to this list, or your affiliation should be updated, please let us know by emailing _paleodatawg@gmail.com_!
+Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions. Participants vary in their engagement levels and come from a wide range of institutions, including independent museums, university collections, and representatives from US federal agencies. Current members of this group are largely based in the United States, but international members are very welcome. Active PDWG members who wish to be acknowledged are listed in the table below. If you should be added to this list, or your affiliation should be updated, please let us know by emailing _paleodatawg@gmail.com_!
 
 | Affiliation | PDWG Member(s) |
 | - | - |
@@ -57,4 +57,4 @@ Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions.
 
 ### What is the logo??
 
-The PDWG logo is of our working group mascot, the trilocorn (i.e. a trilobite + a unicorn). The trilocorn lives and thrives in our souls, encouraging us to be the best data and collections managers we can be. Consider the trilocorn as the [patronus](https://en.wikipedia.org/wiki/Fictional_universe_of_Harry_Potter#Patronuses) of paleo collections, protecting against the slippery slope of data chaos.
+The PDWG logo, the trilocorn (i.e. a trilobite + a unicorn), is our working group mascot. The trilocorn lives and thrives in our souls, encouraging us to be the best data and collections managers we can be. Consider the trilocorn as the [patronus](https://en.wikipedia.org/wiki/Fictional_universe_of_Harry_Potter#Patronuses) of paleo collections, protecting against the slippery slope of data chaos.
