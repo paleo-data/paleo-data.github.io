@@ -1,0 +1,11 @@
+doi: 
+title: The Fuzzy Gazetteer
+annotation: A gazetteer useful for querying place names that are potentially misspelled. Geographic scope is global.
+creators: Christian Kohlschütter, Jürgen Ott
+publication_date: 2025
+access_url: https://isodp.hof-university.de/fuzzyg/query/
+access_date: 2025-07-08
+last_updated_date: 2025-07-08
+resource_type: website
+license: 
+topics: [georeference, geography]
