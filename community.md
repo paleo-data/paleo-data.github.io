@@ -1,6 +1,6 @@
 ---
 title: Community
-status: draft
+status: published
 nav_order: 1
 sidebar:
   nav: [sidebar]

@@ -1,6 +1,6 @@
 ---
 title: Data Ecosystem
-status: draft
+status: published
 nav_order: 2
 sidebar:
   nav: [sidebar]

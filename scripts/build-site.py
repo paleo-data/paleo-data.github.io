@@ -109,7 +109,7 @@ if __name__ == "__main__":
     index_tags(fms, "topics")
 
     print("Building navigation")
-    build_nav(fms, include_main=["topics.md"])
+    build_nav(fms, include_main=["topics.md"], exclude_sidebar=["topics.md"])
 
     print("Adding glossary tooltips")
     add_tooltips(BASEPATH)
