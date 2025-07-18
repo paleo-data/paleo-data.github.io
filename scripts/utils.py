@@ -263,7 +263,12 @@ def build_nav(
         )
     )
     for title, fm in fms.items():
-        if not fm.get("nav_exclude") and fm["key"] and fm["heading"]:
+        if (
+            not fm.get("nav_exclude")
+            and fm.get("status") == "published"
+            and fm["key"]
+            and fm["heading"]
+        ):
 
             try:
                 heading = headers[fm["heading"]]
