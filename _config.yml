@@ -4,6 +4,9 @@ repository: paleo-data/knowledge-hub
 url: https://paleo-data.github.io
 baseurl: /knowledge-hub
 theme: minimal-mistakes-jekyll
+logo: /assets/images/trilocorn.png
+logo_alt: A trilobite with a unicorn horn and ears
+og_image: /assets/images/trilocorn.png
 exclude: [scripts, templates]
 
 atom_feed:
