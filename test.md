@@ -6,6 +6,8 @@ sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [community]
+contributors: ["Mansur, A."]
+last_modified_at: 2025-07-01
 ---
 
 This page is used to test widgets and other features.
