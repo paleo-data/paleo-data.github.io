@@ -227,6 +227,7 @@ def build_nav(
     headers: dict = None,
     include_main: list = None,
     exclude_main: list = None,
+    exclude_sidebar: list = None,
 ) -> None:
     """Builds a navigation sidebar"""
     if headers is None:
@@ -244,6 +245,8 @@ def build_nav(
 
     for fm in main:
         if fm["path"].name not in {"index.md", "test.md"}:
+
+            # Build topbar navigation
             if (
                 not (include_main or exclude_main)
                 or (include_main and fm["path"].name in include_main)
@@ -252,9 +255,12 @@ def build_nav(
                 nav.setdefault("main", []).append(
                     {"title": fm["title"], "url": fm["url"]}
                 )
-            nav.setdefault("sidebar", []).append(
-                {"title": fm["title"], "url": fm["url"]}
-            )
+
+            # Build sidebar navigation
+            if not exclude_sidebar or fm["path"].name not in exclude_sidebar:
+                nav.setdefault("sidebar", []).append(
+                    {"title": fm["title"], "url": fm["url"]}
+                )
 
     fms = dict(
         sorted(
