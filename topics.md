@@ -1,5 +1,6 @@
 ---
 title: Topics
+status: published
 nav_order: 2.5
 layout: faceted
 facet_data: topics

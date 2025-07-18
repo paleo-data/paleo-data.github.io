@@ -1,6 +1,6 @@
 ---
 title: How To Guides
-status: draft
+status: published
 nav_order: 4
 sidebar:
   nav: [sidebar]
