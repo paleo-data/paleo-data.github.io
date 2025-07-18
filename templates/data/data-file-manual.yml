@@ -51,6 +51,13 @@ resource_type:
 # The license the resource has been released under, for example, CC0. Optional.
 license:
 
+# The in-text citation to use when this resource is cited using the resource_link
+# widget. The citation format is:
+# - One author: Smith (2025)
+# - Two authors: Smith and Jones (2025)
+# - More than two authors: Smith et al. (2025)
+citation: 
+
 # A list of topics relevant to the resource, for example, [data sharing, people].
 # A full list of topics is available at https://github.com/paleo-data/knowledge-hub.
 # Required.
