@@ -56,7 +56,7 @@ layout: default
           <p><b>Draft:</b> The content on this page has not been finalized. Contributors can mark a page as complete and remove this warning by adding <code>status: published</code> to the front matter in the Markdown source file.</p>
         </div>
         {% endif %}
-        {% if page.last_modified_at == %}
+        {% if page.last_modified_at == nil %}
         <div class="notice--warning">
           <p><b>Last modifed date missing:</b> No modified date was found for this page. Please add <code>last_modified_at: yyyy-mm-dd</code> to the front matter in the Markdown source file.</code></p>
         </div>
