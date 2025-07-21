@@ -52,7 +52,7 @@ Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions.
 | Smithsonian National Museum of Natural History (NMNH) | [Holly Little](https://orcid.org/0000-0001-7909-4166), [Amanda Millhouse](https://orcid.org/0000-0002-8679-4774), [Jessie Nakano](https://orcid.org/0000-0002-7652-3663), Matt Miller, [Alex Lawrence](https://orcid.org/0009-0004-7918-4208) |
 | Stanford University (LSJU) | [Chrissy Garcia](https://orcid.org/0000-0002-9728-3670) |
 | University of Colorado Museum of Natural History (CUMNH) | [Talia Karim](https://orcid.org/0000-0001-6514-963X), [Jacob Van Veldhuizen](https://orcid.org/0000-0001-6770-0181) |
-| University of Kansas Natural History Museum & Biodiversity Institute |  [Natalia López Carranza](https://orcid.org/0000-0002-1393-2902) (KUMIP), [Lindsay Walker](https://orcid.org/0000-0002-2162-6593) (Symbiota) |
+| University of Kansas Natural History Museum & Biodiversity Institute |  [Natalia López Carranza](https://orcid.org/0000-0002-1393-2902), [Lindsay Walker](https://orcid.org/0000-0002-2162-6593) |
 | University of St. Thomas, St. Paul, MN | [Thomas Hickson](https://orcid.org/0000-0002-7878-3565) |
 | University of Wisconsin Geology Museum (UWGM) | [Carrie Eaton](https://orcid.org/0000-0001-6647-1751) |
 | Yale Peabody Museum (YPM) | [Jessica Utrup](https://orcid.org/0000-0001-5201-8235) |
