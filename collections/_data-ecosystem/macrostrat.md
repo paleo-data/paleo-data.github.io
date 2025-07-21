@@ -1,7 +1,9 @@
 ---
 title: Macrostrat
-status: draft
 topics: [macrostrat, lithostratigraphy, chronostratigraphy]
+status: draft
+contributors: []
+last_modified_at: 2025-07-21
 ---
 
 ## Description
