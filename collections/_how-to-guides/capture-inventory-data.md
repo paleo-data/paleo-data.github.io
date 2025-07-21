@@ -1,7 +1,7 @@
 ---
 title: Capture inventory data
-status: draft
 topics: [capture data, inventory]
+status: published
 contributors: [Erica Krimmel]
 last_modified_at: 2025-07-21
 ---
