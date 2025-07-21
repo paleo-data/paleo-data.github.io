@@ -1,6 +1,8 @@
 ---
 title: Workshops and other events
 status: published
+contributors: []
+last_modified_at: 2025-07-21
 ---
     
 # Workshops
