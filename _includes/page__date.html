@@ -35,7 +35,7 @@ https://github.com/{{ site.repository }}/issues/new?title={{ title | url_encode 
 {% endif %}
 
 {% capture citation %}
-<i>{{ page.title }}</i>. ({{ last_modified_at }}). Paleo Data Knowledge Hub. Retrieved {{ "today" | date: "%B %-d, %Y" }}, from <a href="{{site.url}}{{page.url}}">{{{site.url}}{{page.url}}</a>
+<i>{{ page.title }}</i>. ({{ last_modified_at }}). Paleo Data Knowledge Hub. <a href="{{site.url}}{{page.url}}">{{{site.url}}{{page.url}}</a>
 {% endcapture %}
 
 {% if page.last_modified_at %}
