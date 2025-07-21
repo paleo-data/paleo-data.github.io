@@ -2,7 +2,7 @@
 title: Manage data about sensitive localities
 topics: [manage data, sensitive locality, georeference]
 status: published
-contributors: [Erica Krimmel]
+contributors: ["Erica Krimmel"]
 last_modified_at: 2025-07-21
 ---
 Specific locality information may be restricted for some or all paleontological specimens due to federal regulations as well as the preferences of private landowners. 
