@@ -102,8 +102,14 @@ This type of notice is used for ...
 This type of notice is used for ...
 ```
 
+Embed a Google Slide deck, for example:
 ```
 <iframe src="https://docs.google.com/presentation/d/1yJFsaCnBC28zW8UtLfl3tnJayk3w-BRDtVzyZYpD1TI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+Embed a PDF hosted on Google Drive, for example:
+```
+<iframe src="https://drive.google.com/file/d/1aK_8LZoIgt6qETTHpbH_ZOjMRT7pghKX/preview" width="640" height="480" allow="autoplay"></iframe>
 ```
 
 #### Add widgets to pull in content
