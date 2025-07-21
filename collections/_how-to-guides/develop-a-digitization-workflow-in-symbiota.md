@@ -8,7 +8,7 @@ sidebar:
 toc: true
 toc_sticky: true
 status: published
-contributors: [Lindsay Walker]
+contributors: ["Lindsay Walker"]
 last_modified_at: 2025-07-10
 ---
 
