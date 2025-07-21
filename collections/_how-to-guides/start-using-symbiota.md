@@ -1,13 +1,15 @@
 ---
 title: Start using Symbiota
-last_modified_at: 2025-07-09
+topics: [symbiota]
 sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [how-to-guides]
 toc: true
 toc_sticky: true
-topics: [symbiota]
+status: published
+contributors: [Lindsay Walker]
+last_modified_at: 2025-07-09
 ---
 
 {: .notice--primary } 
