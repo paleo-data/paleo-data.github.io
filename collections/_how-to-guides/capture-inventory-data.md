@@ -2,6 +2,8 @@
 title: Capture inventory data
 status: draft
 topics: [capture data, inventory]
+contributors: [Erica Krimmel]
+last_modified_at: 2025-07-21
 ---
 In the collections context, an inventory typically refers to data captured at a level of granularity above “specimen.” Inventories are grouped thematically, sometimes based on themes related to research use, physical collection arrangement, or collection acquisition. Collection inventory data can be useful for internal collections management and planning, including calculating physical storage needs. Such data may also be essential to find specimens that do not yet have a digitized catalog record but which might be suited for a research request.
 
