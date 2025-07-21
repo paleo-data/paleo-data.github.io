@@ -1,9 +1,9 @@
 ---
 title: Manage data about taxonomy
+topics: [manage data, taxonomy]
 status: draft
-topics:
-- manage data
-- taxonomy
+contributors: [Erica Krimmel]
+last_modified_at: 2025-07-21
 ---
 
 # Content to expand on
