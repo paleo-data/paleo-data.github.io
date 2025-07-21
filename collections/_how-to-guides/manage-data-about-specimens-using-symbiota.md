@@ -1,14 +1,15 @@
 ---
 title: Manage data about fossil specimens using Symbiota
-last_modified_at: 2025-07-20
-authors: [Lindsay Walker]
+topics: [symbiota, extended specimen, manage data]
 sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [how-to-guides]
 toc: true
 toc_sticky: true
-topics: [symbiota, extended specimen, manage data]
+status: published
+contributors: [Lindsay Walker]
+last_modified_at: 2025-07-20
 ---
 
 {: .notice--primary }
