@@ -8,7 +8,7 @@ sidebar:
   expanded: [how-to-guides]
 toc: true
 toc_sticky: true
-topics: [data wrangling, extended specimen, symbiota]
+topics: [symbiota, extended specimen, manage data]
 ---
 
 {: .notice--primary }
@@ -64,8 +64,8 @@ When preparing your data, refer to [Symbiota’s Data Import Fields](https://doc
 
 ## How to import your data into Symbiota
 There are multiple ways to import new records into a Symbiota portal. This action can only be completed by users with Administrator permissions through the Administration Control Panel.
-- To import a spreadsheet of specimen occurrence data, use the “[Full Text File Import](https://biokic.github.io/symbiota-docs/coll_manager/upload/)” option.
-- To import a spreadsheet of extended specimen data, use the “[Extended Data Import](https://biokic.github.io/symbiota-docs/coll_manager/upload/links/)” option. [See below]() for more information about how to extend your specimens using Symbiota.
+- To import a spreadsheet of specimen occurrence data, use the “[Full Text File Import](https://docs.symbiota.org/docs/Collection_Manager_Guide/Importing_Uploading/)” option.
+- To import a spreadsheet of extended specimen data, use the “[Extended Data Import](https://docs.symbiota.org/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources)” option. [See below](#extending-your-specimens) for more information about how to extend your specimens using Symbiota.
 
 {: .notice--danger }
 **Recommendation:** Import one or a very small number of representative records prior to initiating a larger import, especially if you are new to this process. Doing so will allow you to assess how your records will look in the portal. Similar to bulk data ingestion, only users with Administrator permissions can delete records, and this action cannot be done in bulk; records can only be deleted one-by-one using the Admin tab interface on the Occurrence Editor.
@@ -73,39 +73,39 @@ There are multiple ways to import new records into a Symbiota portal. This actio
 ## Steps you can take immediately after your records are in Symbiota
 - Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.
 - Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.
-- Run your portal's [built-in data cleaning tools](https://biokic.github.io/symbiota-docs/coll_manager/data_cleaning/) to ingest new taxonomy and clean geographic location details.
-- Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/).
+- Run your portal's [built-in data cleaning tools](https://docs.symbiota.org/docs/Collection_Manager_Guide/Data_Cleaning/) to ingest new taxonomy and clean geographic location details.
+- Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://docs.symbiota.org/docs/Editor_Guide/data_quality_toolkit).
 - [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
 
 {: .notice--primary }
 💡 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 # Direct data entry
-The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://biokic.github.io/symbiota-docs/editor/edit/fields/). This guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers are thus strongly encourged to conform with the recommendations outlined in this section.
+The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). This guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers are thus strongly encourged to conform with the recommendations outlined in this section.
 
 <iframe src="https://docs.google.com/presentation/d/1yJFsaCnBC28zW8UtLfl3tnJayk3w-BRDtVzyZYpD1TI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # How do I keep my records clean once they’re available in Symbiota?
 ## Prevent new errors
-When training new staff or volunteers on data entry or management, it is **highly** recommended that you point them toward this Knowledge Hub, but more specifically, have them become familiar with the [Symbiota Data Fields] and the [data formatting checklist](#data-formatting-checklist). The content on this page 
+When training new staff or volunteers on data entry or management, it is **highly** recommended that you point them toward this Knowledge Hub, but more specifically, have them become familiar with the [Symbiota Data Fields](https://docs.symbiota.org/docs/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) and the [data formatting checklist](#data-formatting-checklist).
 
 ## Mitigate existing errors
 Mistakes are likely to happen, even in carefully curated datasets. It is therefore recommended that you routinely assess your data using the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/). This guide is designed to enable users with either Administrator or Editor permissions to your Collection Profile to “clean” your data–i.e. find and correct errors–using the portal’s built-in features wherever possible.
 
 ## Crowdsource quality control
-Symbiota maintains several built-in tools to facilitate collaborative data entry and data cleaning when enabled for your collection.  For example, Administrators of a given collection can enable any portal user who is logged in with an account to suggest edits to your records in the portal. Suggestions must be reviewed by an Administrator before they become public. By default, this option is turned **off**, but it can be activated through your Administrator Control Panel. Review [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/public_feedback/public_edits/) for more information about this feature. 
+Symbiota maintains several built-in tools to facilitate collaborative data entry and data cleaning when enabled for your collection.  For example, Administrators of a given collection can enable any portal user who is logged in with an account to suggest edits to your records in the portal. Suggestions must be reviewed by an Administrator before they become public. By default, this option is turned **off**, but it can be activated through your Administrator Control Panel. Review [Symbiota Docs](https://docs.symbiota.org/docs/Collection_Manager_Guide/Comments_Feedback/public_edits/) for more information about this feature. 
 
 ## Set up a data import profile
-If you intend to repeatidly import data using a standard import template--for example, if you intend to cataloging using a spreadsheet method--you can set up a new data [import profile](https://biokic.github.io/symbiota-docs/coll_manager/upload/) based on your cleaned spreadsheet.
+If you intend to repeatidly import data using a standard import template--for example, if you intend to cataloging using a spreadsheet method--you can set up a new data [import profile](https://docs.symbiota.org/docs/Collection_Manager_Guide/Importing_Uploading/#initiating-the-upload) based on your cleaned spreadsheet.
 
 # Extending your specimens
-Once your occurrence records are available in Symbiota, associations can be created between your specimen data in Symbiota and external resources, including digitally available literature and other occurrence records (both in and external to your Symbiota portal). This can be accomplished using two methods. Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://biokic.github.io/symbiota-docs/editor/links/); additionally, users with Administrator permissions can create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://biokic.github.io/symbiota-docs/coll_manager/upload/links/). The latter option contains several fields that are not available in the Linked Resources tab, such as _accordingTo_.
+Once your occurrence records are available in Symbiota, associations can be created between your specimen data in Symbiota and external resources, including digitally available literature and other occurrence records (both in and external to your Symbiota portal). This can be accomplished using two methods. Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/docs/Editor_Guide/linking_records); additionally, users with Administrator permissions can create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/docs/Collection_Manager_Guide/Importing_Uploading/linked_resources). The latter option contains several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
 {: .notice--warning }
 **Tip:** When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible.
 
 {: .notice--primary }
-Examples of "Extended Specimens" in Symbiota are available in [this dataset](https://paleo.symbiota.org/portal/collections/list.php?datasetid=4). 
+Examples of "Extended Specimens" in Symbiota are available in [this dataset] [URL forthcoming].
 
 ### Type and referred specimens
 You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
