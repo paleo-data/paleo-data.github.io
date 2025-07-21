@@ -1,13 +1,15 @@
 ---
 title: Develop a digitization workflow using Symbiota
-last_modified_at: 2025-07-10
+topics: [symbiota, workflows]
 sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [how-to-guides]
 toc: true
 toc_sticky: true
-topics: [symbiota, workflows]
+status: published
+contributors: [Lindsay Walker]
+last_modified_at: 2025-07-10
 ---
 
 {: .notice--primary }
