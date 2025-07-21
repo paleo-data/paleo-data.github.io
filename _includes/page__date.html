@@ -3,9 +3,49 @@
 {% if first == "_" %}
   {% capture path %}collections/{{ path }}{% endcapture %}
 {% endif %}
+
+{% capture source_url -%}
+https://github.com/{{ site.repository }}/blob/main/{{ path }}
+{%- endcapture %}
+
+{% capture title -%}
+Content suggestion for "{{ page.title }}"
+{%- endcapture %}
+
+{% capture body -%}
+**URL:** {{ site.url }}{{ page.url }}
+
+**Source file:** {{ source_url }}
+
+*==== Please do not change anything above this line ====*
+
+**Suggest a change to this page:**
+
+{% endcapture %}
+
+{% capture new_issue_url -%}
+https://github.com/{{ site.repository }}/issues/new?title={{ title | url_encode }}&body={{ body | url_encode }}
+{%- endcapture %}
+
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+{% if page.last_modified_at != nil %}
+  {% assign last_modified_at = page.last_modified_at | date: "%Y, %B %-d" %}
+{% else %}
+  {% assign last_modified_at = "n.d." %}
+{% endif %}
+
+{%- assign canonical_url = page.canonical_url | default: page.url | replace: "/index.html", "/" | replace: ".html" "" | absolute_url %}
+
+{% capture citation %}
+<i>{{ page.title }}</i>. ({{ last_modified_at }}). Paleo Data Knowledge Hub. <a href="{{ canonical_url }}">{{ canonical_url }}</a>
+{% endcapture %}
+
 {% if page.last_modified_at %}
   <p class="page__meta_elem"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time class="dt-published" datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: date_format }}</time></p>
 {% endif %}
-<p class="page__meta_elem"><strong><i class="fas fa-fw fa-brands fa-github" aria-hidden="true"></i>View on GitHub:</strong> <a href="https://github.com/{{ site.repository }}/blob/main/{{ path }}">{{ path | split: "/" | last }}</a></p>
-<p class="page__meta_elem"><strong><i class="fas fa-fw fa-file" aria-hidden="true"></i>Cite this page:</strong><br />{{ page.contributors | join: ", " }} "{{ page.title }}." Paleo Data Knowledge Hub. {{ page.last_modified_at | date: "%B %-d, %Y" }}. <a href="{{site.url}}{{page.url}}">{{{site.url}}{{page.url}}</a>.</strong></p>
+{% if page.contributors != nil %}
+  <p class="page__meta_elem"><strong><i class="fas fa-fw fa-user" aria-hidden="true"></i>Contributors:</strong> {{ page.contributors | join: "; "}}</p>
+{% endif %}
+<p class="page__meta_elem"><strong><i class="fas fa-fw fa-brands fa-github" aria-hidden="true"></i>GitHub:</strong> <a href="{{ source_url }}">View source</a> | <a href="{{ new_issue_url }}">Suggest a change to this page</a></p>
+<p class="page__meta_elem"><strong><i class="fas fa-fw fa-file" aria-hidden="true"></i>Cite this page:</strong> {{ citation }}</strong></p>
