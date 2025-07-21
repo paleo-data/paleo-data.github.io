@@ -1,10 +1,9 @@
 ---
 title: Identifiers
-status: draft
+topics: [manage data, identifier]
+status: published
+contributors: ["Erica Krimmel"]
 last_modified_at: 2025-07-07
-topics:
-- manage data
-- identifier
 ---
 
 {: .notice--primary }
