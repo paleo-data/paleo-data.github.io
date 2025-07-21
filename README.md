@@ -32,19 +32,21 @@ Open the Markdown file you just created and add the [front matter](https://jekyl
 The front matter should include:
 
 - The `title` of the page
-- The publication `status` of the page. Pages with `status: published` are considered complete. Pages with any other value will include a warning that the
-  page is still in draft form.
-- A `last_modified_at` date, formatted as `YYYY-MM-DD`. For new pages, this should be the date the file was created.
 - Associated `topics` formatted as a list that is comma-delimited within square brackets. Topics must come from [this TBD site-wide list]().
+- The publication `status` of the page. Pages with `status: published` are considered complete. Pages with any other value will include a visual warning that the
+  page is still in draft form, and will not appear in the site navigation. Draft pages can still be viewed on the site by entering the direct URL, e.g. "https://paleo-data.github.io/knowledge-hub/how-to-guides/capture-inventory-data" for a file named `capture-inventory-data.md` in the how-to guides collection.
+- A list of `contributors` comma-delimited within square brackets. Contributors include any individuals who have added or edited content to the page. This list is comprehensive, i.e. names should only be added, never deleted.
+- A `last_modified_at` date, formatted as `YYYY-MM-DD`. For new pages, this should be the date the file was created.
 
 Metadata for the file [treatise-ip.md](/collections/_data-ecosystem/treatise-ip.md) might look like this:
 
 ```yaml
 ---
 title: Treatise on Invertebrate Paleontology
-status: draft
-last_modified_at: 2025-03-14
 topics: [treatise ip, taxonomy]
+status: published
+contributors: ["Jane Doe", "John Johnson"]
+last_modified_at: 2025-07-21
 ---
 ```
 
