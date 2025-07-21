@@ -6,7 +6,7 @@ sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [community]
-contributors: ["Mansur, A."]
+contributors: ["Adam Mansur"]
 last_modified_at: 2025-07-01
 ---
 
