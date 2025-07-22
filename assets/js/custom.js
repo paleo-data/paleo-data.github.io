@@ -140,6 +140,12 @@ $(document).ready(function() {
             // Add handler
             $facets = $("ul.faceted").find("li");
             $facets.find("a").on("click", pkh.toggleFacet);
+
+            // Show reset button if any facets selected
+            console.log(pkh.selected)
+            if (pkh.selected.length) {
+                $("#reset").show();
+            } else { $("#reset").hide(); }
         }
 
         pkh.pushState = function() {
@@ -154,6 +160,11 @@ $(document).ready(function() {
             if (href != window.location.href) {
                 window.history.pushState( {} , "", href );
             }
+        }
+
+        pkh.resetFilters = function() {
+            window.history.pushState( {} , "", window.location.href.split("?")[0]);
+            pkh.toggleFacetsFromURL();
         }
 
         pkh.resizeIframe = function() {
@@ -173,6 +184,7 @@ $(document).ready(function() {
         // $("ul.collapsible li:has(ul) span.nav__sub-title").on("click", pkh.toggleSubmenu);
         $("ul.faceted a").on("click", pkh.toggleFacet);
         $("table.faceted tr td:nth-child(2) a").on("click", pkh.toggleFacet);
+        $("#reset").on("click", pkh.resetFilters);
         $sortButtons.on("click", pkh.changeFacetSort);
         $(window).on("resize", pkh.resizeIframe);
         window.onpopstate = (event) => pkh.toggleFacetsFromURL();
