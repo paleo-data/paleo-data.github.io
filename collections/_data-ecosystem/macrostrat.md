@@ -35,5 +35,3 @@ Macrostrat lacks coverage for lithostratigraphic names and hierarchies, as well 
 Macrostrat provides data under a Creative Commons Attribution 4.0 International license (CC-BY-4.0), and suggests additionally acknowledging the original references for data presented by Macrostrat. 
 
 {% include resource_card filename='peters-et-al-2018.yml' %}
-
-{% include resource_list topics='macrostrat' %}
