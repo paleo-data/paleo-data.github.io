@@ -13,7 +13,7 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-09-11, TBD ([notes](https://docs.google.com/document/d/1ccoVwC0emYINGh45raIAxsBE347JkyrOqLD3cCH2YrY/edit?usp=sharing))
 - 2025-09-25, TBD ([notes](https://docs.google.com/document/d/17BmEcrRimcO2IQQmUaaFZ7sPCz6LgW8oLRPdu4WZ1jY/edit?usp=sharing))
 - 2025-10-09, TBD ([notes](https://docs.google.com/document/d/1pVq6qIsfHsq4r7iTrXpn4lCRmNLZEdfdkEA4FZgrKkM/edit?usp=sharing))
-- 2025-10-23, TBD ([notes](https://docs.google.com/document/d/1bstTMLn1qZUTC10zvMI_EULzofQ5TLiQD7ujUZlcevY/edit?usp=sharing))
+- 2025-10-23, IGSNs, SESAR, and Biodiversity Collections ([notes](https://docs.google.com/document/d/1bstTMLn1qZUTC10zvMI_EULzofQ5TLiQD7ujUZlcevY/edit?usp=sharing))
 - 2025-11-06, TBD ([notes](https://docs.google.com/document/d/1LBnzq5ggEsg7DhqwoQD5DPQcXckkiXvLiSPtiSyaSoA/edit?usp=sharing))
 - 2025-11-20, TBD ([notes](https://docs.google.com/document/d/1PlplLoPnWRCoKK9FNs4dPLZglOSZUVt4PP1cHaNuK2w/edit?usp=sharing))
 - 2025-12-04, TBD ([notes](https://docs.google.com/document/d/1ZrVAkfEhVZJUtAHeZD_s1DGUeGJNkefI0n7QVgAtP7U/edit?usp=sharing))
