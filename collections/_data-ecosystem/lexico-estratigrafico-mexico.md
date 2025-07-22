@@ -1,5 +1,5 @@
 ---
-title: Léxico Estratigráfico de México
+title: 'Léxico Estratigráfico de México'
 topics: [chronostratigraphy, lithostratigraphy]
 status: published
 contributors: [Talia Karim]
