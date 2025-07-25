@@ -2,7 +2,7 @@
 name: Content request
 about: Suggest content for the Knowledge Hub
 title: ''
-labels: ['content','community request']
+labels: [content,community request]
 assignees: ''
 
 ---
