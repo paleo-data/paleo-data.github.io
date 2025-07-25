@@ -1,9 +1,9 @@
 ---
-title: USGS National Geologic Map Database (Geolex)
-topics: [chronostratigraphy, lithostratigraphy, usgs geolex]
+title: USGS Geolex
+topics: [chronostratigraphy, lithostratigraphy]
 status: published
 contributors: [Talia Karim]
-last_modified_at: 2025-07-22
+last_modified_at: 2025-07-25
 ---
 
 The [Geolex](https://ngmdb.usgs.gov/Geolex/search) is part of the United States Geological Survey (USGS) National Geologic Map Database, and covers lithostratigraphy of the United States. Data are sourced from the USGS and State Geological Surveys. Many collections use this as an authoritative source for lithostratigraphy in the US.
@@ -12,13 +12,9 @@ The [Geolex](https://ngmdb.usgs.gov/Geolex/search) is part of the United States 
 **TIP**
 This resource can be used to verify a lithostratigraphic unit (e.g., the age of the unit, spelling, geographic extent, etc). It also links to publications about the unit which can be helpful for various verification tasks.
 
-## Coverage
+## Coverage and gaps
 
-Lithostratigraphy of the United States.
-
-### Known gaps in coverage
-
-Anecdotally, some lithostratigraphic units do not have the most up to date geologic ages associated. 
+Lithostratigraphy of the United States. Anecdotally, some lithostratigraphic units do not have the most up to date geologic ages associated. 
 
 ## Data reuse
 
