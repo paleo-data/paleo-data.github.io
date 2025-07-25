@@ -1,20 +1,23 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
+about: Suggest a feature for the Knowledge Hub site
 title: ''
-labels: ''
+type: 'feature'
+labels: 'community request'
 assignees: ''
 
 ---
+**Is your feature request related to a problem? If so, please describe.**
+_Include a clear and concise description of what the problem is._
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Describe the feature you would like**
+_Include details about how you imagine this feature might work, and (if relevant) how this feature would resolve the problem described above._
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+
+**Priority to you**
+_The Knowledge Hub does not have a significant amount of development time available, so prioritizing requests is important. In your opinion, how important is this feature request and to whom?_
+
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+_Add any other context or screenshots about the feature request here._
