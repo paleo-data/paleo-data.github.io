@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Let us know about bugs or other unexpected technical behaviors
 title: ''
 type: 'bug'
 labels: 'community request'
