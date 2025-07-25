@@ -1,5 +1,5 @@
 ---
-title: Browse by Topic
+title: Browse by topic
 status: published
 nav_order: 2.5
 layout: faceted
