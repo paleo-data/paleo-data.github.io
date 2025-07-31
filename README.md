@@ -7,7 +7,7 @@ This repository contains files for the [Paleo Data Knowledge Hub](https://paleo-
 
 ## Site design
 
-_[TBD description of technical design, including directory structure in this repo]_
+_[TBD description of some technical design, including directory structure in this repo]_
 
 ## How to contribute to content
 
