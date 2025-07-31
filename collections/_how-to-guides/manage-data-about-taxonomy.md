@@ -2,7 +2,7 @@
 title: Manage data about taxonomy
 topics: [manage data, taxonomy]
 status: draft
-contributors: ["Erica Krimmel", "Holy Little"]
+contributors: ["Erica Krimmel", "Holly Little"]
 last_modified_at: 2025-07-31
 ---
 
