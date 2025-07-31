@@ -7,19 +7,32 @@ This repository contains files for the [Paleo Data Knowledge Hub](https://paleo-
 
 ## Site design
 
-TBD
+_[TBD description of technical design, including directory structure in this repo]_
 
 ## How to contribute to content
 
-Site content is written in Markdown and resource metadata is written in YAML. Where resources are hosted on Zenodo, some metadata is pulled automatically from Zenodo.
+Site content is written in Markdown and resource metadata is written in YAML. Where resources are hosted on Zenodo, some metadata is pulled automatically from Zenodo. Most users do not have write access to this repository, so you will need to fork this repo by clicking on the <img width="85.2" height="20.4" alt="Screenshot 2025-07-31 at 12 25 28" src="https://github.com/user-attachments/assets/925a292c-5c8b-413b-b0a2-d420c397f139" />
+ button and follow the steps below in your own fork. Learn more about [forking on GitHub here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
 ### Edit an existing page
 
-TBD
+#### Step 1. Find the file
+
+_[TBD content]_
+
+#### Step 2. Make edits
+
+_[TBD content]_
+
+#### Step 3. Update page metadata
+
+_[TBD content]_
+
+#### Step 4. 
 
 ### Add a new page
 
-See [TBD social process]().
+See also [TBD social process]().
 
 #### Step 1. Create the file
 
@@ -52,7 +65,7 @@ last_modified_at: 2025-07-21
 
 Additional YAML metadata (for example, related to page layouts and navigation) are added automatically based on the collection the page appears in.
 
-### Step 3. Write content
+## How to write content
 
 > [!IMPORTANT]  
 > _See also [this TBD content style guide]()_.
@@ -61,7 +74,7 @@ Content is written in Markdown, which is a simple, readable syntax used to forma
 
 Jekyll also supports [Liquid](https://shopify.github.io/liquid/), which is a template language that can be used to add dynamic content to pages. Liquid tags should also be used sparingly, with the primary exceptions being (1) use of the `relative_url` filter to link to pages elsewhere on the site and (2) use of `include` tags to display widgets defined by either the Minimal Mistakes template or created specifically for this site. Each of these situations is described in more detail below.
 
-#### Link within the site
+### Link within the site
 
 Use Jekyll's `relative_url` filter to link to other pages on the site. This filter accepts a root-relative URL. Note that the collections directory is not part of the URL for pages in a collection and that page names do not need to include a file extension.
 
@@ -77,7 +90,7 @@ You can also link to a top-level page, i.e. a collection:
 [Community]{{ "/community" | relative_url }}
 ```
 
-#### Use widgets to format types of content
+### Use widgets to format types of content
 
 Include a 
 [callout box](https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/#notices):
@@ -132,22 +145,22 @@ Include a resource card to highlight a single resource defined in the [_data/res
 {% include resource_card filename='pearson-2022.yml' %}
 ```
 
-## External resources
+## How to create and reference external resources
 
-Information from external resources, like websites or publications, can also be included on the site. Resources are defined as YAML files in the `_data/resources` directory. Two templates for defining resources are available in the `templates/data` folder:
+Information from external resources, like publications or websites, can also be included on the site. Resources are defined as YAML files in the `_data/resources` directory. Two templates for defining resources are available in the `templates/data` folder:
 
 - `data-file-zenodo.yml` can be used for resources published on Zenodo. It includes only the metadata fields needed to identify and annotate a resource. Additional metadata is pulled from Zenodo when the site is built.
 - `data-file-manual.yml` is intended for non-Zenodo resources (like websites) and includes the metadata fields needed to construct a complete reference.
 
 Both files include the topics field, which can be used to tag the resources in the same way that internal pages are tagged.
 
-## Building the site
+## How to build the site
 
 It can be useful to build the site locally before submitting a pull request or committing changes to the main repository. The build process uses a combination of Python and Ruby to index the site, update metadata for external resources, and build the HTML pages from the Markdown files.
 
 Note that files created during the build process are not committed to GitHub. The build process runs automatically through a GitHub Action when changes are pushed to the repository.
 
-### Initial setup
+### Do initial setup
 
 Building the site locally requires that the following three applications are installed:
 
