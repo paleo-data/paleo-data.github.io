@@ -2,13 +2,14 @@
 title: Manage data about taxonomy
 topics: [manage data, taxonomy]
 status: draft
-contributors: ["Erica Krimmel"]
-last_modified_at: 2025-07-30
+contributors: ["Erica Krimmel", "Holly Little"]
+last_modified_at: 2025-07-31
+
 ---
 
 # Content to expand on
 
-Taxonomic data are stored differently in different [Collections Management Systems](). Options include:
+Taxonomic data are stored differently in different [Collections Management Systems](https://paleo-data.github.io/knowledge-hub/how-to-guides). Options include:
 - Multiple flat hierarchical trees for each taxon (Arctos, Symbiota)
 - Hierarchy through parent-child relationships, with stepchildren / synonyms (MS SQLServer, Specify)
 - Hierarchy through parent-child relationships (EMu, Specify)
