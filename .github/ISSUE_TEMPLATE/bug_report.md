@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Let us know about bugs or other unexpected technical behaviors
+about: Report a bug or other unexpected technical behavior
 title: ''
 type: 'bug'
 labels: 'community request'
