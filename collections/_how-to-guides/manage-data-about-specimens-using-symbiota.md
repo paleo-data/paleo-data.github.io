@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-07-30
+last_modified_at: 2025-07-31
 ---
 
 {: .notice--primary }
@@ -21,7 +21,7 @@ There are two ways specimen records are typically entered into a Symbiota portal
 Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 {: .notice--success }
-📌 [Exemplar catalog records](https://paleo.symbiota.org/portal/collections/list.php?db=6) have been created as a reference to guide data entry for fossil specimens in Symbiota portals. It may be helpful to bookmark this page for ease of access. 
+[Exemplar catalog records](https://paleo.symbiota.org/portal/collections/list.php?db=6) are in the process of being created as a reference to guide data entry for fossil specimens in Symbiota portals. It may be helpful to bookmark this page for ease of access.
 
 # Bulk data import
 ## Formatting data for import
@@ -29,7 +29,7 @@ This section outlines actions you can take to prepare and import existing digita
 
 ### Steps you can take to ready your records for ingestion
 1. If you maintain existing catalog records to be imported into Symbiota, perform some data cleaning to align your records to Symbiota's data fields and formatting requirements. The [data formatting checklist](#data-formatting-checklist) is intended to inform this process, and [OpenRefine](https://openrefine.org) is free software that can be used for this purpose. Additional data cleaning can be performed once your records have been imported into Symbiota. 
-2. If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Your spreadsheet must be converted to CSV format prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC).
+2. If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Your spreadsheet must be converted to CSV format (use UTF-8 character encoding) prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC). An expanded version of this spreadsheet can be provided [upon request](mailto:paleoinformatics@gmail.com).
 
 {% include resource_card filename='krimmel-walker-2022.yml' %}
 
