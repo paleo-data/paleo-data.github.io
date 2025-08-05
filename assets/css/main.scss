@@ -27,9 +27,15 @@ search: false
   h2 { font-size: 1.5em; }
   h3, h4, h5, h6 { font-size: 1em; }
   a[href]:after { content: none !important; }
-  .notice--primary, .notice--info, .notice--warning { 
-    background-color: #fff; border: 1px solid #000;
+  .notice, .notice--primary, .notice--info, .notice--warning, .notice--danger, .notice--success {
+    background-color: #fff; 
   }
+  .notice { border: 1px solid #f2f3f3; }
+  .notice--primary { border: 1px solid #e2e4e5; }
+  .notice--info { border: 1px solid #d8ebf1; }
+  .notice--warning { border: 1px solid #f7e5cd; }
+  .notice--danger {border: 1px solid #fcdfde; }
+  .notice--success {border: 1px solid #e2f5ef; }
 }
 
 // Set font size
@@ -86,6 +92,9 @@ a.external::after {
     margin-left: 0.25em;
     margin-bottom: 0.2em;
 }
+
+// Notices
+.notice code, .notice--primary code, .notice--info code, .notice--warning code, .notice--danger code, .notice--success code { background-color: inherit !important; }
 
 // Faceted tables
 table.faceted { width: 95%; display: table; }
