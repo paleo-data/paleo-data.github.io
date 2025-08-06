@@ -45,9 +45,17 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
+          {% if page.section -%}
+          <div class="section-title"><a href="{{ page.section | downcase | replace: ' ', '-' | relative_url}}">{{ page.section }}</a></div>
+          {%- endif %}
           {% if page.title -%}
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="{{ page.url | absolute_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+            {% if page.display_title %}
+              {% assign title = page.display_title %}
+            {% else %}
+              {% assign title = page.title %}
+            {% endif %}
+            <a href="{{ page.url | relative_url }}" itemprop="url">{{ title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>
           {%- endif %}
           {% include page__meta.html %}
@@ -65,7 +73,7 @@ layout: default
                 </nav>
               {% endif %}
               <nav class="toc">
-                <header><h4 class="nav__title">{{ tag[0] | capitalize | replace: "Tags", "Topics" }}<img class="sortFacet alpha" src="{{ '/assets/images/ri--sort-alphabet-asc.png' | relative_url }}"><img class="sortFacet count selected" src="{{ '/assets/images/ri--sort-number-asc.png' | relative_url }}"></h4></header>
+                <header><h2 class="nav__title">{{ tag[0] | capitalize | replace: "Tags", "Topics" }}<img class="sortFacet alpha" src="{{ '/assets/images/ri--sort-alphabet-asc.png' | relative_url }}"><img class="sortFacet count selected" src="{{ '/assets/images/ri--sort-number-asc.png' | relative_url }}"></h2></header>
                 <ul id="{{ tag[0] }}" class="toc__menu faceted">
               {% assign last = tag[0] %}
             {% endif %}
@@ -75,14 +83,23 @@ layout: default
           </nav>
           <button id="reset">Reset filters</button>
         </aside>
+        {% if page.status != "published" %}
+        <div class="notice--warning">
+          <p>The content on this page has not been finalized. Contributors can mark a page as complete and remove this warning by adding <code>status: published</code> to the front matter in the Markdown source file.</p>
+        </div>
+        {% endif %}
+        {% if page.last_modified_at == nil %}
+        <div class="notice--warning">
+          <p>No modified date was found for this page. Please add <code>last_modified_at: yyyy-mm-dd</code> to the front matter in the Markdown source file.</code></p>
+        </div>
+        {% endif %}
         {{ content }}
-
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+          <h2 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h2>
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
