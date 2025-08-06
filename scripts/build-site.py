@@ -4,20 +4,16 @@ import re
 import shutil
 from pathlib import Path
 
-import html5lib
-import pandas as pd
-import requests
 import yaml
 from bs4 import BeautifulSoup
 
 try:
     import requests_cache
 except ModuleNotFoundError:
-    pass
+    import requests
 
 from const import BASEPATH, GLOSSARY
 from utils import (
-    add_dwc_terms,
     add_tooltips,
     autolink,
     build_nav,
@@ -25,7 +21,6 @@ from utils import (
     index_tags,
     read_fms,
     to_slug,
-    write_fm,
 )
 
 if __name__ == "__main__":
@@ -96,6 +91,21 @@ if __name__ == "__main__":
             shutil.copy2(path_, upd_path)
             print(f" Copied {path_.name}")
 
+    # Get tags from happy hours
+    tagged = []
+    with open(BASEPATH / "_data" / "pdwg-happy-hours.yml", encoding="utf-8") as f:
+        for event in yaml.safe_load(f):
+            event["url"] = f"/community/pdwg-happy-hours#{event['date']}"
+            event["kind"] = "PDWG happy hour"
+            event["tags"] = event.get(key, [])
+            tagged.append(
+                {
+                    k: v
+                    for k, v in event.items()
+                    if k in {"title", "kind", "url", "tags"}
+                }
+            )
+
     # Construct the navigation and build a tag index using file front matter. This
     # section should generally not be modified.
 
@@ -106,7 +116,7 @@ if __name__ == "__main__":
     compute_urls(fms)
 
     print("Indexing tags")
-    index_tags(fms, "topics")
+    index_tags(fms, "topics", tagged=tagged)
 
     print("Building navigation")
     build_nav(fms, include_main=["topics.md"], exclude_sidebar=["topics.md"])

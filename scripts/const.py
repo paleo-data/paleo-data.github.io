@@ -21,7 +21,7 @@ print(f"Basepath: {BASEPATH}")
 with open(BASEPATH / "_data" / "topics.txt") as f:
     VALID_TAGS = set(f.read().splitlines())
 
-with open(BASEPATH / "_data" / "glossary.yml") as f:
+with open(BASEPATH / "_data" / "glossary.yml", encoding="utf-8") as f:
 
     try:
         GLOSSARY = {

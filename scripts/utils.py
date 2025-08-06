@@ -11,14 +11,16 @@ from unidecode import unidecode
 from const import BASEPATH, GLOSSARY, IS_GITHUB, VALID_TAGS
 
 
-def autolink(text: str, fmt: str = "markdown") -> str:
+def autolink(text: str, fmt: str = "markdown", class_: str = None) -> str:
     """Locates and adds anchor tags to external links in text"""
     for url in set(re.findall(r"https?://[^\s]+", text)):
         strip_chars = ",."
         if "(" not in url:
             strip_chars += ")"
         url = url.rstrip(strip_chars)
-        if fmt == "html":
+        if fmt == "html" and class_:
+            text = text.replace(url, f'<a href="{url}" class="{class_}">{url}</a>')
+        elif fmt == "html":
             text = text.replace(url, f'<a href="{url}">{url}</a>')
         elif fmt == "markdown":
             text = text.replace(url, f"[{url}]({url})")
@@ -91,6 +93,8 @@ def compute_urls(fms: dict) -> dict:
             path[-1] = Path(path[-1]).stem
             key = path[0]
             heading = path[-2]
+            if path[-1] == "index":
+                path = path[:-1]
 
         # Build paths to non-collection content using the parent attribute
         else:
@@ -136,10 +140,11 @@ def compute_urls(fms: dict) -> dict:
     return fms
 
 
-def index_tags(fms: dict, key: str = "tags") -> dict:
+def index_tags(fms: dict, key: str = "tags", tagged: list = None) -> dict:
     """Indexes front matter tags"""
 
-    tagged = []
+    if tagged is None:
+        tagged = []
 
     # Get tags from front matter of pages
     for fm in fms.values():
@@ -175,49 +180,9 @@ def index_tags(fms: dict, key: str = "tags") -> dict:
                 }
             )
 
-    # Get tags from happy hours
-    with open(BASEPATH / "_data" / "pdwg-happy-hours.yml", encoding="utf-8") as f:
-        for event in yaml.safe_load(f):
-            event["url"] = f"/community/pdwg-happy-hours#{event['date']}"
-            event["kind"] = "PDWG happy hour"
-            event["tags"] = event.get(key, [])
-            tagged.append(
-                {
-                    k: v
-                    for k, v in event.items()
-                    if k in {"title", "kind", "url", "tags"}
-                }
-            )
-
     tagged.sort(key=lambda t: t["title"])
     with open(BASEPATH / "_data" / f"{key}.yml", "w", encoding="utf-8") as f:
         yaml.safe_dump(tagged, f)
-
-    """
-    # Create tag collection
-    path = BASEPATH / "collections" / f"_{key}"
-    path.mkdir(parents=True, exist_ok=True)
-
-    with open(path / "index.md", "w") as f:
-        f.write(write_fm({"title": "Topics"}))
-
-    with open(BASEPATH / "templates" / "pages" / "tag", encoding="utf-8") as f:
-        template = f.read()
-
-    for tag, pages in tags.items():
-        fpath = path / f"{to_slug(tag)}.md"
-        with open(fpath, "w", encoding="utf-8") as f:
-            f.write(write_fm({"title": tag, "pages": pages}))
-            f.write("\n")
-            f.write(template)
-        print(f"Wrote {fpath.name}")
-        fms[tag] = {
-            "key": key,
-            "heading": key,
-            "title": tag,
-            "url": f"/{key}/{to_slug(tag)}",
-        }
-    """
 
     return tags
 
@@ -268,6 +233,9 @@ def build_nav(
             key=lambda kv: (kv[1].get("nav_order", 100), kv[1]["title"].lower()),
         )
     )
+
+    # Add top-level pages from collections to navigation
+    children = {}
     for title, fm in fms.items():
         if (
             not fm.get("nav_exclude")
@@ -275,14 +243,36 @@ def build_nav(
             and fm["key"]
             and fm["heading"]
         ):
-
             try:
                 heading = headers[fm["heading"]]
             except KeyError:
                 heading = " ".join(fm["heading"].split("-")).title()
+            page = {"title": fm.get("display_title", title), "url": fm["url"]}
 
-            group = [g for g in nav.get("sidebar", []) if g["title"] == heading][0]
-            group.setdefault("children", []).append({"title": title, "url": fm["url"]})
+            # Only top-level pages should be pulled in at this point
+            try:
+                group = [g for g in nav.get("sidebar", []) if g["title"] == heading][0]
+            except IndexError:
+                pass
+            else:
+                group.setdefault("children", []).append(page)
+                children[title] = page
+
+    # Add pages that specify a parent to navigation
+    while True:
+        last = len(fms)
+        for title, fm in fms.items():
+            if (
+                title not in children
+                and not fm.get("nav_exclude")
+                and fm.get("parent") in children
+            ):
+                page = {"title": fm.get("display_title", title), "url": fm["url"]}
+                children[fm.get("parent")].setdefault("children", []).append(page)
+                children[title] = page
+        fms = {k: v for k, v in fms.items() if k not in children}
+        if len(fms) == last:
+            break
 
     fpath = BASEPATH / "_data" / "navigation.yml"
     with open(fpath, "w", encoding="utf-8") as f:
@@ -292,6 +282,14 @@ def build_nav(
 def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")):
     """Adds definitions as tooltips"""
 
+    try:
+        with open(BASEPATH / "_data" / "test.txt") as f:
+            test_files = f.read().strip().splitlines()
+    except FileNotFoundError:
+        test_files = []
+    else:
+        print("Test files:", test_files)
+
     if glossary is None:
         glossary = GLOSSARY
 
@@ -300,7 +298,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
         r"#.*?\n",  # markdown headers
         r"\[.*?\]\(.*?\)",  # markdown links
         r"{%.*?%}",  # Jekyll includes
-        r"<*?>.*?</*?>",  # HTML tags
+        r"<a *?>.*?</a>",  # HTML anchor tags
     )
     pattern = f"({'|'.join(subpatterns)})"
 
@@ -308,7 +306,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
 
         # This function modifies the markdown files. The modified files should not
         # be committed, so it only runs on test.md if run locally.
-        if not IS_GITHUB and path.name != "test.md":
+        if not IS_GITHUB and path.name not in test_files:
             continue
 
         # Skip files including any of the exclude keywords
@@ -318,12 +316,15 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
         # Create a copy of the glossary. Terms are removed as they are found so that
         # only the first occurrence in each document has the tooltip.
         glossary_ = glossary.copy()
+        found = {}
 
         with open(path, encoding="utf-8") as f:
             try:
                 _, fm, content = f.read().split("---", 2)
             except Exception as exc:
                 raise ValueError(f"No YAML header: {path}") from exc
+            else:
+                fm_ = yaml.safe_load(fm)
             parts = re.split(pattern, content)
             for i, part in enumerate(parts):
                 if not re.match(pattern, part):
@@ -337,11 +338,14 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
                                 namespace, term = term.split(":")
                             except ValueError:
                                 namespace = ""
-                            include = f'{{% include glossary term="{term}" namespace="{namespace}" %}}'
+                            if fm_.get("highlight_all_terms") or not found.get(key):
+                                include = f'{{% include glossary term="{term}" namespace="{namespace}" %}}'
+                            else:
+                                include = f'{{% include glossary term="{term}" namespace="{namespace}" link="false" %}}'
                             parts[i] = re.sub(
-                                rf"\b{match.group()}\b", include, parts[i], 1
+                                rf"\b{match.group()}\b", include, parts[i]
                             )
-                            del glossary_[key]
+                            found[key] = True
             content_ = "---" + fm + "---" + "".join(parts)
 
         # Do not mess with the file unless it has been changed
@@ -389,7 +393,7 @@ def add_dwc_terms(session):
     glossary.sort(key=lambda t: t["term"].lower())
 
     with open(BASEPATH / "_data" / "glossary.yml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(glossary, f, sort_keys=False)
+        yaml.safe_dump(glossary, f, allow_unicode=True, sort_keys=False)
 
     return {
         (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t

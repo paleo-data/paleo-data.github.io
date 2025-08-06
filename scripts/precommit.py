@@ -1,14 +1,11 @@
-"""Removes elements from local build that do not need to be committed"""
+"""Removes elements from local build that should not be committed"""
 
 import re
-from pathlib import Path
-
-import yaml
 
 try:
     import requests_cache
 except ModuleNotFoundError:
-    pass
+    import requests
 
 from const import BASEPATH
 from utils import add_dwc_terms
