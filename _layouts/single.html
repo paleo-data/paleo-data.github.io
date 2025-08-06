@@ -31,7 +31,7 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.section -%}
-          <div class="section-title"><a href="{{ page.section | downcase | replace: ' ', '_' | relative_url}}">{{ page.section }}</a></div>
+          <div class="section-title"><a href="{{ page.section | downcase | replace: ' ', '-' | relative_url}}">{{ page.section }}</a></div>
           {%- endif %}
           {% if page.title -%}
           <h1 id="page-title" class="page__title" itemprop="headline">
