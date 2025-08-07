@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-07-31
+last_modified_at: 2025-08-07
 ---
 
 {: .notice--primary }
@@ -76,6 +76,9 @@ Before importing existing catalog records into Symbiota, complete this checklist
 
 {: .notice--success }
 When preparing your data, refer to [Symbiota’s Data Import Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) for field definitions, as well as [this page](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/data_import_fields) to learn what types of data can be imported, e.g., which fields can only contain numbers, dates, textual data, etc.
+
+{: .notice--success }
+GBIF maintains [an additional list](https://www.gbif.org/data-quality-requirements-occurrences) of data requirements and recommendations to improve data quality and completeness.
  
 | Checklist Item | Recommendation |
 | - | - |
