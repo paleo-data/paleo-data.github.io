@@ -1,0 +1,11 @@
+doi: 
+title: USGS Geolex
+annotation: The Geolex is part of the United States Geological Survey (USGS) National Geologic Map Database, and covers lithostratigraphy of the United States. Data are sourced from the USGS and State Geological Surveys. Many collections use this as an authoritative source for lithostratigraphy in the US. This resource can be used to verify a lithostratigraphic unit (e.g., the age of the unit, spelling, geographic extent, etc). It also links to publications about the unit which can be helpful for various verification tasks. Although lithostratigraphic concepts are associated with an identifer in the Geolex URL (e.g. "5841" for the Ladd Formation), it is unclear whether or not these identifiers are stable and the full URL should be used.
+creators: U.S. Geological Survey
+publication_date: 
+access_url: https://ngmdb.usgs.gov/Geolex/search
+access_date: 2025-07-08
+last_updated_date: 2025-8-14
+resource_type: website
+license: 
+topics: [usgs geolex, lithostratigraphy]
