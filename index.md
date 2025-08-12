@@ -16,7 +16,7 @@ feature_row:
       url: /community
     - image_path: /assets/images/ri--node-tree.png
       alt: "A line drawing showing three rectangles connected by lines"
-      title: "Data Ecosystem"
+      title: "Highlighted Resources"
       excerpt: 
       url: /data-ecosystem
     - image_path: /assets/images/ri--info-card-line.png
