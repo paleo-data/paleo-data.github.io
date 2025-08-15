@@ -33,9 +33,6 @@ But these should:
 {: .notice}
 Created with `{: .notice}`
 
-{: .notice--primary}
-Created with `{: .notice--primary}`
-
 {: .notice--info}
 Created with `{: .notice--info}`
 
@@ -45,5 +42,5 @@ Created with `{: .notice--warning}`
 {: .notice--danger}
 Created with `{: .notice--danger}`
 
-{: .notice--success}
-Created with `{: .notice--success}`
+{: .notice--tip}
+Created with `{: .notice--tip}`
