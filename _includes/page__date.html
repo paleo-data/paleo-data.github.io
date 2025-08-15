@@ -9,7 +9,7 @@ https://github.com/{{ site.repository }}/blob/main/{{ path }}
 {%- endcapture %}
 
 {% capture title -%}
-Content suggestion for "{{ page.title }}"
+Suggestion for "{{ page.title }}"
 {%- endcapture %}
 
 {% capture body -%}
@@ -24,7 +24,7 @@ Content suggestion for "{{ page.title }}"
 {% endcapture %}
 
 {% capture new_issue_url -%}
-https://github.com/{{ site.repository }}/issues/new?title={{ title | url_encode }}&body={{ body | url_encode }}
+https://github.com/{{ site.repository }}/issues/new?title={{ title | url_encode }}&body={{ body | url_encode }}&labels=community+request
 {%- endcapture %}
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
