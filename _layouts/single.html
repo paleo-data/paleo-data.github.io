@@ -66,6 +66,9 @@ layout: default
           <p>No modified date was found for this page. Please add <code>last_modified_at: yyyy-mm-dd</code> to the front matter in the Markdown source file.</code></p>
         </div>
         {% endif %}
+        {% if page.description -%}
+          {{ page.description | markdownify | replace: '<p>', '<p class="description">' }}
+        {%- endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
