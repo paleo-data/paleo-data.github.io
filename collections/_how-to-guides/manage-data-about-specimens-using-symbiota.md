@@ -108,6 +108,7 @@ Suggested solutions to several commonly encountered cataloging scenarios--such a
 Associations can be created between your records in Symbiota and external resource to "extend" your specimen data. Examples include creating links between your records and digitally available literature (e.g. for published specimens) and between your records and other cataloged specimens, both within and external to your Symbiota portal. Creating these associations, or "[extended specimens](/knowledge-hub/explanations/extended-specimen)", can be accomplished two ways:
 
 1) Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records).
+
 2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
 {: .notice--warning }
@@ -119,12 +120,13 @@ You can create linkages between occurrence records in your Symbiota portal and d
 **Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
 - _Association Type_ = `Non-occurrence Resource`
 - _Relationship Type_ = `isReferencedBy`
-- 
+  
 ### Option 1: How to make associations directly in your portal
 _Content forthcoming!_
 
 ### Option 2: How to ready associations data in a CSV for bulk import
 Here is an example of what your spreadsheet (CSV) should look like:
+
 | subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
 | - | - | - | - |
 | USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
