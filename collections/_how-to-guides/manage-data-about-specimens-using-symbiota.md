@@ -101,37 +101,6 @@ GBIF maintains [an additional list](https://www.gbif.org/data-quality-requiremen
 {: .notice--warning }
 **A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it cannot be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _stratigraphicRemarks_ as a delimited key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `[VERBATIM CHRONOSTRATIGRAPHY: Permian?]` `[VERBATIM GEOLOGICAL CONTEXT: Pittsburgh Coal, Pennsylvanian`
 
-{: .notice--success }
-Suggested solutions to several commonly encountered cataloging scenarios--such as dealing with "part-counterpart" specimens and similar scenarios--are further detailed [below](#part-counterpart-specimens).
-
-### Extending your specimens
-Associations can be created between your records in Symbiota and external resource to "extend" your specimen data. Examples include creating links between your records and digitally available literature (e.g. for published specimens) and between your records and other cataloged specimens, both within and external to your Symbiota portal. Creating these associations, or "[extended specimens](/knowledge-hub/explanations/extended-specimen)", can be accomplished two ways:
-
-1) Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records).
-
-2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
-
-{: .notice--warning }
-When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
-
-#### Type and referred specimens
-You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
-
-**Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
-- _Association Type_ = `Non-occurrence Resource`
-- _Relationship Type_ = `isReferencedBy`
-  
-##### Option 1: Create links directly in your portal
-_Content forthcoming!_
-
-##### Option 2: Create links by uploading a spreadsheet
-Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
-
-| subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
-| - | - | - | - |
-| USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
-| USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
-
 ### Part-counterpart specimens
 "Part and counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, split shale and broken concretions commonly result in part-counterpart specimens. PDWG is working to define best practices for managing data associated with newly curated part-counterpart specimens (the [first scenario](#pieces-of-a-part-counterpart-specimen-are-cataloged-together) below).  However, part-counterpart specimens were often treated inconsistently in the past; thus, additional guidance is also provided for recording data associated with historically treated (legacy) part-counterpart specimens.
 
@@ -185,3 +154,31 @@ Occasionally, ownership of different pieces of the same individual organism, inc
 
 ### Other cataloging scenarios
 The Paleo Data Working Group (PDWG) is actively working to define best practices for the management of fossil specimen data. If you would like guidance on how to treat your fossil specimen data, Symbiota users are strongly encouraged to ask questions in the [PDWG Slack space](/knowledge-hub/community/about-pdwg#get-involved) or bring questions to [PDWG meetings](/knowledge-hub/community/pdwg-happy-hours) for assistance.
+
+### Extending your specimens
+Associations can be created between your records in Symbiota and external resource to "extend" your specimen data. Examples include creating links between your records and digitally available literature (e.g. for published specimens) and between your records and other cataloged specimens, both within and external to your Symbiota portal. Creating these associations, or "[extended specimens](/knowledge-hub/explanations/extended-specimen)", can be accomplished two ways:
+
+1) Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records).
+
+2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
+
+{: .notice--warning }
+When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
+
+#### Type and referred specimens
+You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
+
+**Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
+- _Association Type_ = `Non-occurrence Resource`
+- _Relationship Type_ = `isReferencedBy`
+  
+##### Option 1: Create links directly in your portal
+_Content forthcoming!_
+
+##### Option 2: Create links by uploading a spreadsheet
+Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
+
+| subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
+| - | - | - | - |
+| USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
+| USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
