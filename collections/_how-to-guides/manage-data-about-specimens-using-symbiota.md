@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-08-07
+last_modified_at: 2025-08-15
 ---
 
 {: .notice--primary }
@@ -101,17 +101,17 @@ GBIF maintains [an additional list](https://www.gbif.org/data-quality-requiremen
 {: .notice--warning }
 **A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it cannot be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _stratigraphicRemarks_ as a delimited key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `[VERBATIM CHRONOSTRATIGRAPHY: Permian?]` `[VERBATIM GEOLOGICAL CONTEXT: Pittsburgh Coal, Pennsylvanian`
 
-{: .notice--warning }
-**A note on commonly encountered scenarios:** Suggested solutions to several commonly encountered cataloging scenarios--such as dealing with "part-counterpart" specimens and similar scenarios--are further detailed [below](#part-counterpart-specimens-and-similar-scenarios).
+{: .notice--success }
+Suggested solutions to several commonly encountered cataloging scenarios--such as dealing with "part-counterpart" specimens and similar scenarios--are further detailed [below](#part-counterpart-specimens).
 
 ## Extending your specimens
-Once your occurrence records are available in Symbiota, associations can be created between your specimen data in Symbiota and external resources, including digitally available literature and other occurrence records (both in and external to your Symbiota portal). This can be accomplished using two methods. Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records); additionally, users with Administrator permissions can create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). The latter option contains several fields that are not available in the Linked Resources tab, such as _accordingTo_.
+Associations can be created between your records in Symbiota and external resource to "extend" your specimen data. Examples include creating links between your records and digitally available literature (e.g. for published specimens) and between your records and other cataloged specimens, both within and external to your Symbiota portal. Creating these associations, or "[extended specimens](/knowledge-hub/explanations/extended-specimen)", can be accomplished two ways:
+
+1) Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records).
+2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
 {: .notice--warning }
-**Tip:** When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible.
-
-{: .notice--primary }
-Examples of "Extended Specimens" in Symbiota are available in [this dataset] [URL forthcoming].
+**Tip:** When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
 
 ### Type and referred specimens
 You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
