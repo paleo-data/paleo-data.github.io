@@ -121,11 +121,11 @@ You can create linkages between occurrence records in your Symbiota portal and d
 - _Association Type_ = `Non-occurrence Resource`
 - _Relationship Type_ = `isReferencedBy`
   
-### Option 1: How to make associations directly in your portal
+### Option 1: Create links directly in your portal
 _Content forthcoming!_
 
-### Option 2: How to ready associations data in a CSV for bulk import
-Here is an example of what your spreadsheet (CSV) should look like:
+### Option 2: Create links by uploading a spreadsheet
+Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
 
 | subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
 | - | - | - | - |
