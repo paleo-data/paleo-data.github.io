@@ -133,25 +133,26 @@ Here is an example of what your spreadsheet (CSV) should look like. You can inge
 | USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
 
 ### Part-counterpart specimens
-"Part and counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, split shale and broken concretions commonly result in part-counterpart specimens. PDWG is working to define best practices for managing data associated with newly curated part-counterpart specimens (Scenario A, below).  However, part-counterpart specimens were often treated inconsistently in the past; thus, scenarios B-C (outlined below) provide guidance for recording data associated with historically treated (legacy) part-counterart specimens using Symbiota.
+"Part and counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, split shale and broken concretions commonly result in part-counterpart specimens. PDWG is working to define best practices for managing data associated with newly curated part-counterpart specimens (Scenario A, below).  However, part-counterpart specimens were often treated inconsistently in the past; thus, scenarios B-C (outlined below) provide guidance for recording data associated with historically treated (legacy) part-counterpart specimens using Symbiota.
 
 {: .notice--success }
-**In all scenarios, catalog records representing part-counterpart specimens should have `part-counterpart` recorded in _Preparations_**. Further, cataloged fossil material should be additional contextualized by using [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-count) and [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description), as well as by providing an image of the cataloged fossil material when possible.
+**In all scenarios, catalog records representing part-counterpart specimens should have `part-counterpart` recorded in _Preparations_**. Further, cataloged fossil material should be additionally contextualized by using [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-count) and [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description), as well as by providing an image of the cataloged fossil material when possible.
 
-#### Scenario A (Ideal): Pieces of a part-counterpart specimen are cataloged together
-Gudidance regarding newly collected or identified part-counterpart specimens is actively in development by PDWG. Until this information is formalized, the following method is generally recommended for treating these specimens using Symbiota. This guidance may evolve, and thus consistency is advised. 
+#### Scenario A: Pieces of a part-counterpart specimen are cataloged together
+Guidance regarding newly curated part-counterpart specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following method is recommended for treating these specimens using Symbiota. This guidance is expected to evolve.
 
-* Create one catalog record. Doing so will avoid confusion for downstream data users (creating multiple records for one biological individual is currently not advised).
+* **Create one catalog record corresponding to all pieces of a part-counterpart specimen.** Doing so will avoid confusion for downstream data users, as creating multiple records for one biological individual is currently not advised at this time.
 * Include all data available, per usual (collector info, locality, geological context, etc.).
 * Additionally, the record should include:
     * _Preparations_ = `part-counterpart` to identify the general nature of the record
-    * An [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) and a [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) to quantify and further contextualize what the record represents
+    * An [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) and a [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) to further contextualize what the record represents
     * Whenever possible, an image of the cataloged fossil material
 
 #### Scenario B1 (Legacy Curation Only): Pieces of a part-counterpart specimen are cataloged together with suffixed numbers
 If pieces of a part-counterpart specimen have been assigned one catalog number with a suffix (such that each piece has an identical catalog number but that number is also associated with a letter or a similar suffix, e.g. "UCM1234a", "UCM1234b", etc), each suffixed piece should be listed in the _Alternative Identifiers_ table. Use `part` or `counterpart` as the _Tag Name_ if specific pieces of the specimen have been explicitly identified as such.
 
 For example:
+
 | Tag Name | Alternative Identifier |
 | - | - |
 | `part` | `UCM1234a` |
