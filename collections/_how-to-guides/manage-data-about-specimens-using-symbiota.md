@@ -48,8 +48,8 @@ Import one or a very small number of representative records prior to initiating 
 - Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://docs.symbiota.org/Editor_Guide/data_quality_toolkit).
 - [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
 
-{: .notice--primary }
-💡 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
+{: .notice--success }
+The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 ## Direct data entry
 The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). This guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers are thus strongly encourged to conform with the recommendations outlined in this section.
