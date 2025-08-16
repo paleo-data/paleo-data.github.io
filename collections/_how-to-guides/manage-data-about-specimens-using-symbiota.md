@@ -111,7 +111,7 @@ Associations can be created between your records in Symbiota and external resour
 2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
 {: .notice--warning }
-**Tip:** When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
+When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
 
 ### Type and referred specimens
 You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
@@ -119,7 +119,12 @@ You can create linkages between occurrence records in your Symbiota portal and d
 **Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
 - _Association Type_ = `Non-occurrence Resource`
 - _Relationship Type_ = `isReferencedBy`
+- 
+### Option 1: How to make associations directly in your portal
+_Content forthcoming!_
 
+### Option 2: How to ready associations data in a CSV for bulk import
+Here is an example of what your spreadsheet (CSV) should look like:
 | subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
 | - | - | - | - |
 | USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
