@@ -107,7 +107,6 @@ GBIF maintains [an additional list](https://www.gbif.org/data-quality-requiremen
 **In all scenarios**, catalog records representing part-counterpart specimens should have `part-counterpart` recorded in _Preparations_. Further, cataloged fossil material should be additionally contextualized by using [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-count) and [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description), as well as by providing an image of the cataloged fossil material when possible.
 
 #### Pieces of a part-counterpart specimen are cataloged together
-{: .notice--success }
 **Guidance regarding newly curated part-counterpart specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following method is recommended for treating these specimens using Symbiota.** This guidance is expected to evolve.
 
 * Create one catalog record corresponding to all pieces of a part-counterpart specimen. Doing so will avoid confusion for downstream data users, as creating multiple records for one biological individual is not advised at this time.
