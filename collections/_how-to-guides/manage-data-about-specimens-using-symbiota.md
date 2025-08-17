@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-08-15
+last_modified_at: 2025-08-17
 ---
 
 {: .notice--primary }
@@ -71,6 +71,94 @@ If you intend to repeatidly import data using a standard import template--for ex
 
 ## Appendices
 
+### Cataloging scenarios unique to fossils
+
+#### Part-counterpart specimens
+"Part" and "counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, [split shale](https://www.gbif.org/occurrence/1950905513) and [broken concretions](https://www.gbif.org/occurrence/4029672311) commonly result in part-counterpart specimens.
+
+##### Recommended method
+Guidance regarding newly curated part-counterpart specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following method is recommended for treating these specimens using Symbiota. This guidance is expected to evolve.
+
+* Create one catalog record corresponding to all pieces of a part-counterpart specimen. Doing so will avoid confusion for downstream data users, as creating multiple records for one biological individual is not advised at this time.
+* Include all data available, per usual (collector info, locality, geological context, etc.).
+* Additionally, the record should include:
+    * _Preparations_ = `part-counterpart` to identify the general nature of the record
+    * An [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) and a [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) to further contextualize what the record represents
+    * An image of the cataloged fossil material when possible
+
+##### Historic (legacy) treatments
+Although PDWG is working to define best practices for managing data associated with newly curated part-counterpart specimens, in the past, part-counterpart specimens were inconsistently curated across fossil collections; thus, additional guidance is provided below for representing data associated with common scenarios resulting from historic practices. The intention here is provide guidance for capturing this legacy information consistently using Symbiota, but not to imply best practice.
+
+All records representing part-counterpart specimens cataloged in Symbiota should include the data recommended above (all metadata + _Preparations_ = `part-counterpart` + [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) + [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) + an image (when possible). 
+
+Additionally, the following suggestions are made for several specific scenarios.
+
+**Legacy Curation Only: Pieces of a part-counterpart specimen were cataloged together with suffixed numbers**
+If pieces of a part-counterpart specimen have been assigned one catalog number with a suffix (such that each piece has an identical catalog number but that number is also associated with a letter or a similar suffix, e.g. "UCM1234a", "UCM1234b", etc), each suffixed piece should be listed in the _Alternative Identifiers_ table. Use `part` or `counterpart` as the _Tag Name_ if specific pieces of the specimen have been explicitly identified as such.
+
+For example:
+
+| Tag Name | Alternative Identifier |
+| - | - |
+| `part` | `UCM1234a` |
+| `counterpart` | `UCM1234b` |
+
+Or:
+
+| Tag Name | Alternative Identifier |
+| - | - |
+| `part-counterpart` | `UCM1234a` |
+| `part-counterpart` | `UCM1234b` |
+| `part-counterpart` | `UCM1234c` |
+| etc. | etc. |
+
+**Legacy Curation Only: Pieces of a part-counterpart specimen were cataloged separately**
+Ideally, part-counterpart specimens should be united as one catalog record to avoid confusion for downstream data users (as in the recommended method). However, if this is not possible or practical for some historically curated specimens, once entered into Symbiota, these records can be linked using the Linked Resources tab and the _Relationship Type_ = `partOf`.
+
+**Legacy Curation Only: Pieces of the same organism are owned by multiple institutions**
+Occasionally, ownership of different pieces of the same individual organism, including but not limited to part-counterpart specimens, may have been split between institutions. This scenario is generally not advised for newly curated fossils and occasionally occurs in historically curated collections. In these cases, associations can be created between specimen records in your Symbiota portal, as well as to records in other (external) data portals.
+
+**Example:** [USNM PAL 603860](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763802) (cataloged in Symbiota) is a cast of [YPM VP 058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) (cataloged in an external database). An association has been created between these records in Symbiota, whereby:
+- _Association Type_ = `Occurrence - External Link`
+- _Relationship Type_ = value varies depending on the association to be created
+
+| subjectCatalogNumber | objectID | basisOfRecord | verbatimSciname | resourceURL |
+| - | - | - | - | - |
+| USNMPAL603860 | YPMVP058990 | FossilSpecimen | Goleroconus alfi | [https://collections.peabody.yale.edu/search/Record/YPM-VP-058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) 
+
+**Tip:** When formatting a spreadsheet for this purpose, the _subjectCatalogNumber_ is the fossil material retained in your collection (cataloged in Symbiota) and the _objectID_ refers to the corresponding material retained in the external collection, as does the _verbatimSciName_.
+
+#### Other cataloging scenarios
+The Paleo Data Working Group (PDWG) is actively working to define best practices for the management of fossil specimen data. If you would like guidance on how to treat your fossil specimen data, Symbiota users are strongly encouraged to ask questions in the [PDWG Slack space](/knowledge-hub/community/about-pdwg#get-involved) or bring questions to [PDWG meetings](/knowledge-hub/community/pdwg-happy-hours) for assistance.
+
+### Extending your specimens
+Associations can be created between your records in Symbiota and external resource to "extend" your specimen data. Examples include creating links between your records and digitally available literature (e.g. for published specimens) and between your records and other cataloged specimens, both within and external to your Symbiota portal. Creating these associations, or "[extended specimens](/knowledge-hub/explanations/extended-specimen)", can be accomplished two ways:
+
+1) Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records).
+
+2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
+
+{: .notice--warning }
+When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
+
+#### Example: Type and referred specimens
+You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
+
+**Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
+- _Association Type_ = `Non-occurrence Resource`
+- _Relationship Type_ = `isReferencedBy`
+  
+**Option 1: Create links directly in your portal**
+_Content forthcoming!_
+
+**Option 2: Create links by uploading a spreadsheet**
+Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
+
+| subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
+| - | - | - | - |
+| USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
+| USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
+
 ### Data formatting checklist
 Before importing existing catalog records into Symbiota, complete this checklist to prepare your data for ingestion. **The aim is to maximize interoperability between records in your dataset and other fossil collections, ultimately making your data more discoverable and useful for research**. The checklist below has been compiled based on commonly encountered scenarios in fossil collections; however, it is not comprehensive and should only serve as a starting point.
 
@@ -100,84 +188,3 @@ GBIF maintains [an additional list](https://www.gbif.org/data-quality-requiremen
 
 {: .notice--warning }
 **A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it cannot be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _stratigraphicRemarks_ as a delimited key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `[VERBATIM CHRONOSTRATIGRAPHY: Permian?]` `[VERBATIM GEOLOGICAL CONTEXT: Pittsburgh Coal, Pennsylvanian`
-
-### Part-counterpart specimens
-"Part and counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, split shale and broken concretions commonly result in part-counterpart specimens. PDWG is working to define best practices for managing data associated with newly curated part-counterpart specimens (the [first scenario](#pieces-of-a-part-counterpart-specimen-are-cataloged-together) below).  However, part-counterpart specimens were often treated inconsistently in the past; thus, additional guidance is also provided for recording data associated with historically treated (legacy) part-counterpart specimens.
-
-**In all scenarios**, catalog records representing part-counterpart specimens should have `part-counterpart` recorded in _Preparations_. Further, cataloged fossil material should be additionally contextualized by using [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-count) and [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description), as well as by providing an image of the cataloged fossil material when possible.
-
-#### Pieces of a part-counterpart specimen are cataloged together
-**Guidance regarding newly curated part-counterpart specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following method is recommended for treating these specimens using Symbiota.** This guidance is expected to evolve.
-
-* Create one catalog record corresponding to all pieces of a part-counterpart specimen. Doing so will avoid confusion for downstream data users, as creating multiple records for one biological individual is not advised at this time.
-* Include all data available, per usual (collector info, locality, geological context, etc.).
-* Additionally, the record should include:
-    * _Preparations_ = `part-counterpart` to identify the general nature of the record
-    * An [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) and a [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) to further contextualize what the record represents
-    * An image of the cataloged fossil material when possible
-
-#### Legacy Curation: Pieces of a part-counterpart specimen are cataloged together with suffixed numbers
-If pieces of a part-counterpart specimen have been assigned one catalog number with a suffix (such that each piece has an identical catalog number but that number is also associated with a letter or a similar suffix, e.g. "UCM1234a", "UCM1234b", etc), each suffixed piece should be listed in the _Alternative Identifiers_ table. Use `part` or `counterpart` as the _Tag Name_ if specific pieces of the specimen have been explicitly identified as such.
-
-For example:
-
-| Tag Name | Alternative Identifier |
-| - | - |
-| `part` | `UCM1234a` |
-| `counterpart` | `UCM1234b` |
-
-Or:
-
-| Tag Name | Alternative Identifier |
-| - | - |
-| `part-counterpart` | `UCM1234a` |
-| `part-counterpart` | `UCM1234b` |
-| `part-counterpart` | `UCM1234c` |
-| etc. | etc. |
-
-#### Legacy Curation: Pieces of a part-counterpart specimen are cataloged separately
-Ideally, part-counterpart specimens should be united as one catalog record to avoid confusion for downstream data users (as in Scenario A). However, if this is not possible or practical for some historically curated specimens, once entered into Symbiota, these records can be linked using the Linked Resources tab and the _Relationship Type_ = `partOf`.
-
-#### Legacy Curation: Pieces of the same organism are owned by multiple institutions
-Occasionally, ownership of different pieces of the same individual organism, including part-counterpart specimens, may have been split between institutions. This scenario is generally not advised for newly curated fossils and occasionally occurs in historically curated collections. In these cases, associations can be created between specimen records in your Symbiota portal, as well as to records in other (external) data portals.
-
-**Example:** [USNM PAL 603860](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763802) (cataloged in Symbiota) is a cast of [YPM VP 058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) (cataloged in an external database). An association has been created between these records in Symbiota, whereby:
-- _Association Type_ = `Occurrence - External Link`
-- _Relationship Type_ = value varies depending on the association to be created
-
-| subjectCatalogNumber | objectID | basisOfRecord | verbatimSciname | resourceURL |
-| - | - | - | - | - |
-| USNMPAL603860 | YPMVP058990 | FossilSpecimen | Goleroconus alfi | [https://collections.peabody.yale.edu/search/Record/YPM-VP-058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) 
-
-**Tip:** When formatting a spreadsheet for this purpose, the _subjectCatalogNumber_ is the fossil material retained in your collection (cataloged in Symbiota) and the _objectID_ refers to the corresponding material retained in the external collection, as does the _verbatimSciName_.
-
-### Other cataloging scenarios
-The Paleo Data Working Group (PDWG) is actively working to define best practices for the management of fossil specimen data. If you would like guidance on how to treat your fossil specimen data, Symbiota users are strongly encouraged to ask questions in the [PDWG Slack space](/knowledge-hub/community/about-pdwg#get-involved) or bring questions to [PDWG meetings](/knowledge-hub/community/pdwg-happy-hours) for assistance.
-
-### Extending your specimens
-Associations can be created between your records in Symbiota and external resource to "extend" your specimen data. Examples include creating links between your records and digitally available literature (e.g. for published specimens) and between your records and other cataloged specimens, both within and external to your Symbiota portal. Creating these associations, or "[extended specimens](/knowledge-hub/explanations/extended-specimen)", can be accomplished two ways:
-
-1) Users with Editor or Administrator permissions can create these linkages one-by-one using the [Linked Resources tab](https://docs.symbiota.org/Editor_Guide/linking_records).
-
-2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
-
-{: .notice--warning }
-When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
-
-#### Type and referred specimens
-You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
-
-**Examples:** 1) [USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793) (holotype of _Ceratosaurus nasicornis_); 2) [USNM P34765](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763783) (specimen of _Carya libbeyii_ that has been referenced in several publications) 
-- _Association Type_ = `Non-occurrence Resource`
-- _Relationship Type_ = `isReferencedBy`
-  
-##### Option 1: Create links directly in your portal
-_Content forthcoming!_
-
-##### Option 2: Create links by uploading a spreadsheet
-Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
-
-| subjectCatalogNumber | basisOfRecord | accordingTo | resourceURL |
-| - | - | - | - |
-| USNMP34765 | ReferenceCitation | Knowlton; 1916; Proceedings of the National Museum | [https://www.biodiversitylibrary.org/page/7764079](https://www.biodiversitylibrary.org/page/7764079) |
-| USNMV4735 | ReferenceCitation | Carrano & Choinier; 2016; Journal of Vertebrate Paleontology | [https://doi.org/10.1080/02724634.2015.1054497](https://doi.org/10.1080/02724634.2015.1054497) |
