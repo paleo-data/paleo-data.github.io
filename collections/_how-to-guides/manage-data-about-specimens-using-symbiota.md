@@ -24,10 +24,9 @@ Regardless of data entry method, it is important that all data providers become 
 [Exemplar catalog records](https://paleo.symbiota.org/portal/collections/list.php?db=6) are in the process of being created as a reference to guide data entry for fossil specimens in Symbiota portals. It may be helpful to bookmark this page for ease of access.
 
 ## Bulk data import
-### Formatting data for import
 This section outlines actions you can take to prepare and import (ingest) existing digital catalog records from your fossil collection into a Symbiota portal.
 
-**I. Prepare your records for import:** <br>
+**1. Prepare your records for import:** <br>
 - If you maintain existing catalog records to be imported into Symbiota, perform some data cleaning to align your records to Symbiota's data fields and formatting requirements. The [data formatting checklist](#data-formatting-checklist) is intended to inform this process, and [OpenRefine](https://openrefine.org) is free software that can be used for this purpose. Additional data cleaning can be performed once your records have been imported into Symbiota.
 - If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Your spreadsheet must be converted to CSV format (use UTF-8 character encoding) prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC). An expanded version of this spreadsheet can be provided [upon request](mailto:paleoinformatics@gmail.com).
 
@@ -52,12 +51,12 @@ Import one or a very small number of representative records prior to initiating 
 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
 ## Direct data entry
-The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields). This guide is intentionally designed help make your data more easily managed, discovered, and used for research; data providers are thus strongly encouraged to conform with the recommendations outlined in this section.
+The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 <iframe src="https://docs.google.com/presentation/d/1yJFsaCnBC28zW8UtLfl3tnJayk3w-BRDtVzyZYpD1TI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Data quality maintenance
-Once your records are imported or entered directly into Symbiota, some effort will be required to correct, maintain, or improve the quality of your specimen data. These activities will be ongoing, and the following recommendations are made to help you begin this process.
+## Data maintenance
+Once your records are imported or entered directly into Symbiota, some effort will be required to correct, maintain, or improve the quality of your specimen data. These activities are important to keeping your records easily managed, discoverable, and useful for research. The following recommendations are made to help you begin this process. 
 
 **Prevent new errors** <br>
 When training new staff or volunteers on data entry or management, it is **highly** recommended that you point them toward this Knowledge Hub, but more specifically, have them become familiar with the [Symbiota Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) and the [data formatting checklist](#data-formatting-checklist).
@@ -78,7 +77,7 @@ If you intend to routinely import data using a standard import template--for exa
 #### Part-counterpart specimens
 "Part" and "counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, [split shale](https://www.gbif.org/occurrence/1950905513) and [broken concretions](https://www.gbif.org/occurrence/4029672311) commonly result in part-counterpart specimens.
 
-##### Recommended method
+**Recommended method** <br>
 Guidance regarding newly curated part-counterpart specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following method is recommended for treating these specimens using Symbiota. This guidance is expected to evolve.
 
 * Create one catalog record corresponding to all pieces of a part-counterpart specimen. Doing so will avoid confusion for downstream data users, as creating multiple records for one biological individual is not advised at this time.
@@ -88,7 +87,7 @@ Guidance regarding newly curated part-counterpart specimens is actively in devel
     * An [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) and a [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) to further contextualize what the record represents
     * An image of the cataloged fossil material when possible
 
-##### Historic (legacy) treatments
+**Historic (legacy) treatments** <br>
 Although PDWG is working to define best practices for managing data associated with newly curated part-counterpart specimens, in the past, part-counterpart specimens were inconsistently curated across fossil collections; thus, additional guidance is provided below for representing data associated with common scenarios resulting from historic practices. The intention here is provide guidance for capturing this legacy information consistently using Symbiota, but not to imply best practice.
 
 All records representing part-counterpart specimens cataloged in Symbiota should include the data recommended above (all metadata + _Preparations_ = `part-counterpart` + [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) + [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) + an image (when possible). 
