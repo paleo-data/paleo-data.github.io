@@ -91,9 +91,9 @@ Although PDWG is working to define best practices for managing data associated w
 
 All records representing part-counterpart specimens cataloged in Symbiota should include the data recommended above (all metadata + _Preparations_ = `part-counterpart` + [_Individual Count_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#individual-coun) + [_Description_](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields#description) + an image (when possible). 
 
-Additionally, the following suggestions are made for several specific scenarios.
+Additionally, the following suggestions are made for several specific scenarios:
 
-**Legacy Curation Only: Pieces of a part-counterpart specimen were cataloged together with suffixed numbers**
+**_Pieces of a part-counterpart specimen were cataloged together with suffixed numbers:_**
 If pieces of a part-counterpart specimen have been assigned one catalog number with a suffix (such that each piece has an identical catalog number but that number is also associated with a letter or a similar suffix, e.g. "UCM1234a", "UCM1234b", etc), each suffixed piece should be listed in the _Alternative Identifiers_ table. Use `part` or `counterpart` as the _Tag Name_ if specific pieces of the specimen have been explicitly identified as such.
 
 For example:
@@ -112,11 +112,11 @@ Or:
 | `part-counterpart` | `UCM1234c` |
 | etc. | etc. |
 
-**Legacy Curation Only: Pieces of a part-counterpart specimen were cataloged separately**
+**_Pieces of a part-counterpart specimen were cataloged separately:_**
 Ideally, part-counterpart specimens should be united as one catalog record to avoid confusion for downstream data users (as in the recommended method). However, if this is not possible or practical for some historically curated specimens, once entered into Symbiota, these records can be linked using the Linked Resources tab and the _Relationship Type_ = `partOf`.
 
-**Legacy Curation Only: Pieces of the same organism are owned by multiple institutions**
-Occasionally, ownership of different pieces of the same individual organism, including but not limited to part-counterpart specimens, may have been split between institutions. This scenario is generally not advised for newly curated fossils and occasionally occurs in historically curated collections. In these cases, associations can be created between specimen records in your Symbiota portal, as well as to records in other (external) data portals.
+**_Pieces of the same organism are owned by multiple institutions:_**
+Occasionally, ownership of different pieces of the same individual organism--including but not limited to part-counterpart specimens--may have been divided between institutions. This scenario is generally not advised for newly curated fossils and occasionally occurs in historically curated collections. In these cases, associations can be created between specimen records in your Symbiota portal, as well as to records in other (external) data portals.
 
 **Example:** [USNM PAL 603860](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763802) (cataloged in Symbiota) is a cast of [YPM VP 058990](https://collections.peabody.yale.edu/search/Record/YPM-VP-058990) (cataloged in an external database). An association has been created between these records in Symbiota, whereby:
 - _Association Type_ = `Occurrence - External Link`
