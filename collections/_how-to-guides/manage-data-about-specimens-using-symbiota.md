@@ -31,6 +31,7 @@ This section outlines actions you can take to prepare and import (ingest) existi
 - If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Your spreadsheet must be converted to CSV format (use UTF-8 character encoding) prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC). An expanded version of this spreadsheet can be provided [upon request](mailto:paleoinformatics@gmail.com).
 
 {% include resource_card filename='krimmel-walker-2022.yml' %}
+{% include resource_card filename='krimmel-2022-data-wrangling.yml' %}
 
 **2. Import your data into Symbiota:** <br>
 There are multiple ways to import new records into a Symbiota portal. This action can only be completed by users with Administrator permissions through the Administration Control Panel.
