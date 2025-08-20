@@ -17,7 +17,7 @@ This guide is intended to help data providers develop digitization workflows for
 
 ## Introduction
 
-### Digitization workflows for fossil collections
+**Digitization workflows for fossil collections** <br>
 In the context of this guide and other Knowledge Hub documentation, "digitization" is act of translating and capturing metadata describing a physical specimen into a digital form ([Nelson & Ellis, 2018](https://doi.org/10.1098/rstb.2017.0391)). It can encompass tasks related to [cataloging](#cataloging), [georeferencing](#georeferencing), and [imaging](#imaging). 
 
 Many paleontological collections are highly heterogeneous in nature--taxonomically, geographically, geologically, and physically. That is, one collection might contain both long-extinct and geologically recent organisms and their traces, including vertebrates, invertebrates, and plants of varying sizes and shapes and in various states of physical preparation.
@@ -70,5 +70,6 @@ If your organization opts to associate media (images or audio) alongside its spe
 <iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Related resources
-{% include resource_card filename='krimmel-2022-workflows.yml' %}
+{% include resource_card filename='krimmel-2022-intro-digitization-1.yml' %}
+{% include resource_card filename='krimmel-2022-intro-digitization-2.yml' %}
 {% include resource_card filename='website-symbiota-workflows.yml' %}
