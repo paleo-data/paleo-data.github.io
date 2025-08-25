@@ -9,11 +9,11 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-08-17
+last_modified_at: 2025-08-25
 ---
 
 {: .notice--primary }
-This guide is intended to complement documentation for [getting started in the Symbiota Paleo Data Portal](/knowledge-hub/how-to-guides/start-using-symbiota), as well as the official Symbiota user documentation, [Symbiota Docs](https://docs.symbiota.org/about). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
+This guide is intended to complement [introductory documentation](/knowledge-hub/how-to-guides/start-using-symbiota) for Symbiota data providers, as well as the official Symbiota user documentation, [Symbiota Docs](https://docs.symbiota.org). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
 
 ## Introduction
 There are two ways specimen records are typically entered into a Symbiota portal: 1) as a [bulk data import](#bulk-data-import) or 2) [directly using the Occurrence Editor interface](#direct-data-entry). Additional methods exist, but these are the most commonly used options by collections that actively ("live") manage their specimen data using Symbiota. In all cases, the end goal is to make your data more easily managed, discovered, and used for research; thus, data providers are strongly encourged to follow the steps outlined in this how-to guide.
@@ -74,13 +74,12 @@ If you intend to routinely import data using a standard import template--for exa
 ## Appendices
 
 ### Cataloging scenarios unique to fossils
+Guidance regarding best practices and recommendations for cataloging fossil specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following methods are recommended for treating these specimens using Symbiota. This guidance is expected to evolve.
 
 #### Part-counterpart specimens
 "Part" and "counterpart" specimens refer to fossils that have been physically separated, such that the individual organism(s) originally contained in one piece of rock now exist in multiple pieces. For example, [split shale](https://www.gbif.org/occurrence/1950905513) and [broken concretions](https://www.gbif.org/occurrence/4029672311) commonly result in part-counterpart specimens.
 
 **_Recommended method_** <br>
-Guidance regarding newly curated part-counterpart specimens is actively in development by [PDWG](https://paleo-data.github.io/knowledge-hub/community/about-pdwg). Until this information is formalized, the following method is recommended for treating these specimens using Symbiota. This guidance is expected to evolve.
-
 * Create one catalog record corresponding to all pieces of a part-counterpart specimen. Doing so will avoid confusion for downstream data users, as creating multiple records for one biological individual is not advised at this time.
 * Include all data available, per usual (collector info, locality, geological context, etc.).
 * Additionally, the record should include:
