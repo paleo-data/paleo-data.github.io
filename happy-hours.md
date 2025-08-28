@@ -7,7 +7,6 @@ order: 1
 The Paleo Data Working Group “happy hours” are informal, biweekly discussions about various different topics, including those related to data standards for paleontology collections, digitizing collections, and general collections management. Discussion topics are collaboratively developed, presented, and discussed by working group members, and supplemented with invited speakers when appropriate. No registration is required and anyone is welcome to attend. Happy hours occur every other Thursday at 12pm Eastern (UTC-5), and the Zoom link to join is distributed via our [email list](https://groups.google.com/g/paleo-data/about) and [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-wtdqsnid-6Xe6cja4YuzFqmzIKfKzHw) prior to each meeting.
 
 ### 2025 - Upcoming
-- 2025-08-28, Open Working Session ([notes](https://docs.google.com/document/d/1f8kUDa2lMqoSIWoi1cxreJ80FgR6hEz5wAwKOw9ZZoU/edit?usp=sharing))
 - 2025-09-11, TBD ([notes](https://docs.google.com/document/d/1ccoVwC0emYINGh45raIAxsBE347JkyrOqLD3cCH2YrY/edit?usp=sharing))
 - 2025-09-25, Digitizing fossil preparation and conservation records ([notes](https://docs.google.com/document/d/17BmEcrRimcO2IQQmUaaFZ7sPCz6LgW8oLRPdu4WZ1jY/edit?usp=sharing))
 - 2025-10-09, TBD ([notes](https://docs.google.com/document/d/1pVq6qIsfHsq4r7iTrXpn4lCRmNLZEdfdkEA4FZgrKkM/edit?usp=sharing))
@@ -18,7 +17,8 @@ The Paleo Data Working Group “happy hours” are informal, biweekly discussion
 - 2025-12-18, TBD ([notes](https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=sharing))
 
 ### 2025 - Past
-- 2025-08-14, Working session on creating exemplar fossil specimen records, Part III ([notes](https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing))
+- 2025-08-28, Open Working Session ([notes](https://docs.google.com/document/d/1f8kUDa2lMqoSIWoi1cxreJ80FgR6hEz5wAwKOw9ZZoU/edit?usp=sharing))([recording](https://drive.google.com/file/d/16NCO1ftBgSqO9VVmboYU7Dncvr29Pdu6/view?usp=drive_link)
+- 2025-08-14, Working session on creating exemplar fossil specimen records, Part III ([notes](https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing))([recording](https://drive.google.com/file/d/1x3IYFSymDM9fyKaRMAsMydjOuj7CB9C2/view?usp=drive_link))
 - 2025-07-31, Working session on creating exemplar fossil specimen records, Part II ([notes](https://docs.google.com/document/d/1yVioLUI2_EB1E3C35xGg_5FtQGUGvqyfix5B6WFX3ro/edit?usp=sharing))([recording](https://drive.google.com/file/d/14KISDFAKv3c9eH1s5X7bxNTIlAqc6XDD/view?usp=sharing))
 - 2025-07-17, Working session on creating exemplar fossil specimen records, Part I ([notes](https://docs.google.com/document/d/1R-IvoaFgcwU2z8yOfbSbsYgmqBUbSXxQA4-wAbuf4ts/edit?usp=sharing))([recording](https://drive.google.com/file/d/1y-pUcMMjzE6_J54GbGb6MT6y2yhDwRky/view?usp=drive_link))
 - 2025-06-26, Indigenous data stewardship, Part II ([notes](https://docs.google.com/document/d/1lCs4S5vJH3m1Ypu7t4dtq_gIeCOnhCsxJoVw-D04wVU/edit?usp=sharing))([recording](https://drive.google.com/file/d/1YLaL-lHaRONh4BdT_FO2OBh7IA5jY_tR/view?usp=drive_link))
