@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-08-25
+last_modified_at: 2025-09-12
 ---
 
 {: .notice--primary }
@@ -150,7 +150,9 @@ You can create linkages between occurrence records in your Symbiota portal and d
 - _Relationship Type_ = `isReferencedBy`
   
 **Option 1: Create links directly in your portal**
-_Content forthcoming!_
+To create a link to a digitially available non-occurrence resource external to your portal, such as a publication, used the Occurrence Editor form's Linked Resources tab as shown below.
+
+<img style="float: center; margin: 0px 0px 0px 0px;" width="100%" src="/knowledge-hub/assets/images/symbiota_linkedresource-literatureexample.png" alt="Symbiota Linked Resources tab" caption="Links to external resources, like pubished literature, can be created directly in the portal using the Linked Resources tab.">
 
 **Option 2: Create links by uploading a spreadsheet**
 Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
