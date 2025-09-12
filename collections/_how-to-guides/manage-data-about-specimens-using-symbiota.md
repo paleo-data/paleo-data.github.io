@@ -21,7 +21,7 @@ There are two ways specimen records are typically entered into a Symbiota portal
 Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 {: .notice--success }
-[Exemplar catalog records](https://paleo.symbiota.org/portal/collections/list.php?db=6) are in the process of being created as a reference to guide data entry for fossil specimens in Symbiota portals. It may be helpful to bookmark this page for ease of access.
+A set of [example catalog records]([https://paleo.symbiota.org/portal/collections/list.php?db=6](https://paleo.symbiota.org/portal/collections/list.php?datasetid=6)) has been created to illustrate how to represent fossil specimen data in Symbiota.
 
 ## Bulk data import
 This section outlines actions you can take to prepare and import (ingest) existing digital catalog records from your fossil collection into a Symbiota portal.
@@ -152,7 +152,7 @@ You can create linkages between occurrence records in your Symbiota portal and d
 **Option 1: Create links directly in your portal** <br>
 To create a link to a digitially available non-occurrence resource external to your portal, such as a publication, used the Occurrence Editor form's Linked Resources tab as shown below.
 
-<img style="float: center; margin: 0px 0px 0px 0px;" width="85%" src="/knowledge-hub/assets/images/symbiota_linkedresource-literatureexample.png" alt="Symbiota Linked Resources tab" caption="Links to external resources, like pubished literature, can be created directly in the portal using the Linked Resources tab.">
+<img style="float: center; margin: 0px 0px 0px 0px;" width="90%" src="/knowledge-hub/assets/images/symbiota_linkedresource-literatureexample.png" alt="Symbiota Linked Resources tab" caption="Links to external resources, like pubished literature, can be created directly in the portal using the Linked Resources tab.">
 
 **Option 2: Create links by uploading a spreadsheet** <br>
 Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
