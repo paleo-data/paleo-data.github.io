@@ -21,7 +21,7 @@ There are two ways specimen records are typically entered into a Symbiota portal
 Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
 
 {: .notice--success }
-A set of [example catalog records]([https://paleo.symbiota.org/portal/collections/list.php?db=6](https://paleo.symbiota.org/portal/collections/list.php?datasetid=6)) has been created to illustrate how to represent fossil specimen data in Symbiota.
+A series of [example catalog records](https://paleo.symbiota.org/portal/collections/list.php?datasetid=6) has been created to illustrate how to represent fossil specimen data in Symbiota.
 
 ## Bulk data import
 This section outlines actions you can take to prepare and import (ingest) existing digital catalog records from your fossil collection into a Symbiota portal.
