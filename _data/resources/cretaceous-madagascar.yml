@@ -1,11 +1,11 @@
 doi: 
 title: Cretaceous Vertebrates of Madagascar
 annotation: Symbiota portal specific to a collaborative digitization project between the Denver Museum of Nature and Science and University of Antananarivo. Includes a curated taxonomic thesaurus.
-creators: 
-publication_date: 
-access_url: https://serv.biokic.asu.edu/madpaleo/portal/
+creators: https://cretaceousmadagascar.symbiota.org/portal/misc/contacts.php
+publication_date: 2022
+access_url: https://cretaceousmadagascar.symbiota.org/portal/taxa/taxonomy/taxonomydynamicdisplay.php
 access_date: 2025-07-09
-last_updated_date: 2025-07-09
+last_updated_date: 2025-09-12
 resource_type: website
 license: 
 topics: [taxonomy, symbiota]
