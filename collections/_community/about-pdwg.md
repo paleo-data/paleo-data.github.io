@@ -1,5 +1,6 @@
 ---
 title: About PDWG
+description: This page describes what the Paleo Data Working Group is, who is involved, and how you can get involved.
 status: published
 contributors: [Erica Krimmel, Talia Karim, Lindsay Walker]
 last_modified_at: 2025-08-14
