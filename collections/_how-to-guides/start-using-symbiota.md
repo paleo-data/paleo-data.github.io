@@ -1,5 +1,6 @@
 ---
 title: Start using Symbiota
+description: This guide is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
 topics: [symbiota]
 sidebar:
   nav: [sidebar]
@@ -11,9 +12,6 @@ status: published
 contributors: ["Lindsay Walker"]
 last_modified_at: 2025-08-20
 ---
-
-{: .notice--primary } 
-This guide is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
 
 ## Introduction
 ### What is Symbiota?
