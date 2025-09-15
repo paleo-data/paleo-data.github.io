@@ -1,8 +1,9 @@
 ---
 title: Workshops and other events
+description: This page describes workshops or other one-time events organized by or affiliated with the Paleo Data Working Group.
 status: published
 contributors: []
-last_modified_at: 2025-07-21
+last_modified_at: 2025-09-15
 ---
     
 # Workshops
