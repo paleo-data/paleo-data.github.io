@@ -1,11 +1,10 @@
 ---
 title: Workshops and other events
+description: This page describes workshops or other one-time events organized by or affiliated with the Paleo Data Working Group.
 status: published
 contributors: []
-last_modified_at: 2025-07-21
+last_modified_at: 2025-09-15
 ---
-    
-# Workshops
 
 ## Using Wikidata to capture and share information about paleontological collecting sites
 _4-5 October 2022, virtual_
