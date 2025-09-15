@@ -1,6 +1,6 @@
 ---
 title: Capture inventory data
-description: This page contains background information and makes suggestions related to how you might capture inventory data in your collection.
+description: This guide contains background information and makes suggestions related to how you might capture inventory data in your collection.
 topics: [capture data, inventory]
 status: published
 contributors: ["Erica Krimmel"]
