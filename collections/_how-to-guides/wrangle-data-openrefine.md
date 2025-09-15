@@ -1,9 +1,10 @@
 ---
 title: Wrangle data in OpenRefine
+description: This page contains information about how to manipulate and transform data using the OpenRefine software. It also links out to tutorials and additional resources.
 topics: [data wrangling, workflows]
 status: published
 contributors: ["Erica Krimmel"]
-last_modified_at: 2025-07-08
+last_modified_at: 2025-09-15
 ---
 
 [OpenRefine](https://openrefine.org/) is a free, open-source tool for manipulating small or large datasets in numerous formats (CSV, JSON, XML, etc.). Because of its low barrier to entry with no prior programming knowledge needed, OpenRefine is an excellent tool for the improvement and maintenance of data integrity for best practices in collections management. Data transformations are reversible and repeatable, and original data are locally preserved. OpenRefine runs locally on your computer, it is ideal for use with sensitive data and/or no internet connection.  The learning curve for OpenRefine is moderate, with a large community of users and shared knowledge base for help. You can use the resources here as a starting point! 
