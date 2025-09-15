@@ -1,5 +1,6 @@
 ---
 title: Test
+description: The test page includes widgets and other elements that have been customized for the Paleo Data Knowledge Hub.
 status: draft
 nav_order: 1
 sidebar:
@@ -7,7 +8,7 @@ sidebar:
   collapsible: true
   expanded: [community]
 contributors: ["Adam Mansur"]
-last_modified_at: 2025-08-05
+last_modified_at: 2025-08-15
 ---
 
 This page is used to test widgets and other features.
@@ -33,9 +34,6 @@ But these should:
 {: .notice}
 Created with `{: .notice}`
 
-{: .notice--primary}
-Created with `{: .notice--primary}`
-
 {: .notice--info}
 Created with `{: .notice--info}`
 
@@ -45,5 +43,5 @@ Created with `{: .notice--warning}`
 {: .notice--danger}
 Created with `{: .notice--danger}`
 
-{: .notice--success}
-Created with `{: .notice--success}`
+{: .notice--tip}
+Created with `{: .notice--tip}`
