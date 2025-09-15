@@ -25,7 +25,7 @@ collections:
   community:
     output: True
     sort_by: nav_order
-  "data-ecosystem":
+  "highlighted-resources":
     output: True
     sort_by: nav_order
   explanations:
@@ -74,11 +74,11 @@ defaults:
         expanded: [how-to-guides]
   - scope:
       path: ""
-      type: data-ecosystem
+      type: highlighted-resources
     values:
-      section: Data Ecosystem
+      section: Highlighted Resources
       sidebar:
-        expanded: [data-ecosystem]
+        expanded: [highlighted-resources]
   - scope:
       path: ""
       type: tutorials

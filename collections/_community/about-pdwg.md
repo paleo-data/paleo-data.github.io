@@ -1,15 +1,8 @@
 ---
 title: About PDWG
-nav_order: 1
-sidebar:
-  nav:
-  - sidebar
-  collapsible: true
-  expanded:
-  - community
 status: published
-contributors: ["Erica Krimmel", "Talia Karim", "Lindsay Walker"]
-last_modified_at: 2025-07-21
+contributors: [Erica Krimmel, Talia Karim, Lindsay Walker]
+last_modified_at: 2025-08-14
 ---
 
 This website is brought to you by the Paleo Data Working Group (PDWG, pronounced "pidwig"), which is a community of practice centered around collections-based paleo and informatics professionals. PDWG was launched in May 2020 as a driving force for broader conversations about paleontological data standards and integration of fossil data into larger data ecosystems. We formed as a result of a decade of increasing collaboration between paleontology professionals digitizing their collections, including as part of an earlier [Paleo Digitization Working Group](https://www.idigbio.org/wiki/index.php/Paleo_Digitization_Working_Group) hosted by iDigBio. Current activities include regular "[happy hour](/community/pdwg-happy-hours)" meetings, [workshops](/community/events), community outreach, and engagement with parallel groups and processes. We also maintain a community pipeline for carrying conversation through to documentation and guidelines, such as the content curated in this knowledge hub. Contact the PDWG Organizing Team at _paleodatawg@gmail.com_.
@@ -23,7 +16,7 @@ Any and all paleontology collections (or allied) professionals are encouraged to
 
 As a community of practice, we regularly use the following tools:
 
-- **GitHub**: PDWG has an [organization on GitHub](https://github.com/orgs/paleo-data) which hosts multiple repositories, including the one for this site. In addition to hosting content, we use GitHub for project management of our happy hour meetings. Any member of PDWG is welcome to request an invite to be a member of the GitHub organization.
+<use href="#ri--github-fill" /> **GitHub**: PDWG has an [organization on GitHub](https://github.com/orgs/paleo-data) which hosts multiple repositories, including the one for this site. In addition to hosting content, we use GitHub for project management of our happy hour meetings. Any member of PDWG is welcome to request an invite to be a member of the GitHub organization.
 
 - **Google Groups**: We use Google Groups as a listserv where we post announcements about upcoming happy hours, workshops, or other events of interest. [Request to join the Google Group here](https://groups.google.com/g/paleo-data/about). Anyone is welcome to post to the Group. We have received feedback that not everyone can use Google Groups with their work emails, which can be annoying; until/unless we move to a different mailing list platform, the solution is to subscribe with a separate and/or additional email.
 
