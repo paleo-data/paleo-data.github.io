@@ -1,5 +1,6 @@
 ---
 title: Manage data about fossil specimens using Symbiota
+description: 'This guide is intended to complement [introductory documentation](/knowledge-hub/how-to-guides/start-using-symbiota) for Symbiota data providers, as well as the official Symbiota user documentation, [Symbiota Docs](https://docs.symbiota.org). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.'
 topics: [symbiota, extended specimen, manage data]
 sidebar:
   nav: [sidebar]
@@ -11,9 +12,6 @@ status: published
 contributors: ["Lindsay Walker"]
 last_modified_at: 2025-09-12
 ---
-
-{: .notice--primary }
-This guide is intended to complement [introductory documentation](/knowledge-hub/how-to-guides/start-using-symbiota) for Symbiota data providers, as well as the official Symbiota user documentation, [Symbiota Docs](https://docs.symbiota.org). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.
 
 ## Introduction
 There are two ways specimen records are typically entered into a Symbiota portal: 1) as a [bulk data import](#bulk-data-import) or 2) [directly using the Occurrence Editor interface](#direct-data-entry). Additional methods exist, but these are the most commonly used options by collections that actively ("live") manage their specimen data using Symbiota. In all cases, the end goal is to make your data more easily managed, discovered, and used for research; thus, data providers are strongly encourged to follow the steps outlined in this how-to guide.

@@ -1,5 +1,6 @@
 ---
 title: Develop a digitization workflow using Symbiota
+description: This guide is intended to help data providers develop digitization workflows for fossil specimens using Symbiota. 
 topics: [symbiota, workflows]
 sidebar:
   nav: [sidebar]
@@ -11,9 +12,6 @@ status: published
 contributors: ["Lindsay Walker"]
 last_modified_at: 2025-07-10
 ---
-
-{: .notice--primary }
-This guide is intended to help data providers develop digitization workflows for fossil specimens using Symbiota.
 
 ## Introduction
 
