@@ -1,7 +1,7 @@
 ---
 title: Paleo Roadmap
 description: 
-status: unpublished
+status: draft
 contributors: []
 last_modified_at: 2025-09-15
 ---
