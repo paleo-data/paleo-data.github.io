@@ -1,7 +1,7 @@
 ---
 title: Manage data about lithostratigraphy
 description: This page contains general information about community practices for managing data about lithostratigraphy, and also aggregates links to additional resources with more specific information.
-topics: [lithostratigraphy, manage data]
+topics: [lithostratigraphy]
 status: published
 contributors: []
 last_modified_at: 2025-09-15
