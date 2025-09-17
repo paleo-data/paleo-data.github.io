@@ -1,7 +1,7 @@
 ---
 title: Identifiers
 description: This page explains what types of identifiers are important in the context of paleo data, and how they can be used.
-topics: [manage data, identifier]
+topics: [identifier]
 status: published
 contributors: ["Erica Krimmel"]
 last_modified_at: 2025-09-15
