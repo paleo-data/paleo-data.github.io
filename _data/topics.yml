@@ -125,6 +125,6 @@
 - topic: wikidata
   definition: 'related to the Wikidata, a free and open knowledge base that can
     be read and edited by both humans and machines'
-- topic: workflows
+- topic: workflow
   definition: 'related to procedures, guidlines, best practices, manuals, etc. created
     to facilitate work'
