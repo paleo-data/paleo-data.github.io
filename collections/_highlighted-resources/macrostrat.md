@@ -1,7 +1,7 @@
 ---
 title: Macrostrat
 description: This is a landing page that describes what Macrostrat is and why it is important in the context of paleo data. You can dive deeper via the links to related resources aggregated here.
-topics: [lithostratigraphy, chronostratigraphy]
+topics: [macrostrat, lithostratigraphy, chronostratigraphy]
 status: published
 contributors: [Erica Krimmel]
 last_modified_at: 2025-09-15
