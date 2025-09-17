@@ -1,7 +1,7 @@
 ---
 title: Manage data about sensitive localities
 description: This page contains general information about community practices for managing data about sensitive localities, and also aggregates links to additional resources with more specific information.
-topics: [manage data, sensitive locality, georeference]
+topics: [sensitive locality, georeference]
 status: published
 contributors: ["Erica Krimmel"]
 last_modified_at: 2025-09-15
