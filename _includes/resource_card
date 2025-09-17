@@ -4,8 +4,9 @@
     {% if filename == include.filename %}
       {% assign resource = res_hash[1] %}
       <strong><a class="external" href="{{ resource.access_url }}">{{ resource.title }}</a></strong>
-      <p>{{ resource.creators }} ({{ resource.publication_date }})</p>
+      <i>{{ resource.creators }}</i>
       <p>{{ resource.annotation }}</p>
+      <small>Metadata last updated: {{ resource.last_updated_date }})</small>
     {% break %}
     {% endif %}
   {% endfor %}
