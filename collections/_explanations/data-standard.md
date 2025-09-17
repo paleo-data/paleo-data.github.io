@@ -1,7 +1,7 @@
 ---
 title: Data standards
 description: This page explains what a data standard is and when you might use one. It links to How To Guide pages for the most widely used data standards in the paleo data community, and also links to external resources with additional information.
-topics: [data standard, share data]
+topics: [data standard]
 status: published
 contributors: []
 last_modified_at: 2025-09-15
