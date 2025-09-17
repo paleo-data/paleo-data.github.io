@@ -184,13 +184,13 @@ blockquote.notice--tip {
   font-size: inherit !important;
 }
 
-// .notice::before { content: "ⓘ NOTICE"; color: #464c4c; }
+.notice::before { content: " "; color: #464c4c; }
 .notice { border-color: #464c4c; }
 
-// .notice--primary::before { content: "ⓘ NOTICE"; color: #414548; }
+.notice--primary::before { content: " "; color: #414548; }
 .notice--primary { border-color: #414548; }
 
-.notice--info::before { font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f05a INFO"; color: #245565; }
+.notice--info::before { content: "ⓘ INFO"; color: #245565; }
 .notice--info { border-color: #245565; }
 
 .notice--warning::before { content: "⚠️ WARNING"; color: #754b13; }
