@@ -1,6 +1,8 @@
 ---
 title: Browse by topic
+description: Use the list on the right to facet results and browse Knowledge Hub content by topics.
 status: published
+last_modified_at: 2025-09-17
 nav_order: 2.5
 layout: faceted
 facet_data: topics
