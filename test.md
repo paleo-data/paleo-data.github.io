@@ -45,3 +45,7 @@ Created with `{: .notice--danger}`
 
 {: .notice--tip}
 Created with `{: .notice--tip}`
+
+{% include resource_list topics='collection management system' %}
+
+{% include related_list topics='collection management system' %}
