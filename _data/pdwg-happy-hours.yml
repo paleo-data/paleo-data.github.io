@@ -24,37 +24,37 @@
 
 - title: IGSNs, SESAR, and Biodiversity Collections
   date: 2025-10-23
-  topics: []
+  topics: [identifier]
   notes: https://docs.google.com/document/d/1bstTMLn1qZUTC10zvMI_EULzofQ5TLiQD7ujUZlcevY/edit?usp=sharing
   recording: 
 
 - title: Introducing the new Paleo Data Knowledge Hub
   date: 2025-10-09
-  topics: []
+  topics:
   notes: https://docs.google.com/document/d/1pVq6qIsfHsq4r7iTrXpn4lCRmNLZEdfdkEA4FZgrKkM/edit?usp=sharing
   recording: 
 
 - title: Digitizing fossil preparation and conservation records
   date: 2025-09-25
-  topics: []
+  topics: [preparation, physical collections care]
   notes: https://docs.google.com/document/d/17BmEcrRimcO2IQQmUaaFZ7sPCz6LgW8oLRPdu4WZ1jY/edit?usp=sharing
   recording: 
 
 - title: Digitization Workflow Roundup
   date: 2025-09-11
-  topics: []
+  topics: [workflows]
   notes: https://docs.google.com/document/d/1ccoVwC0emYINGh45raIAxsBE347JkyrOqLD3cCH2YrY/edit?usp=sharing
   recording: https://drive.google.com/file/d/1Znp6idfqsC-x5dQE48KsbYD0met07Iab/view?usp=drive_link
 
 - title: Open working session
   date: 2025-08-28
-  topics: []
+  topics: [paleo data specimen model]
   notes: https://docs.google.com/document/d/1f8kUDa2lMqoSIWoi1cxreJ80FgR6hEz5wAwKOw9ZZoU/edit?usp=sharing
   recording: https://drive.google.com/file/d/16NCO1ftBgSqO9VVmboYU7Dncvr29Pdu6/view?usp=drive_link
 
 - title: Working session on creating exemplar fossil specimen records, Part III
   date: 2025-08-14
-  topics: []
+  topics: [paleo data specimen model]
   notes: https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing
   recording: 
 
@@ -414,7 +414,7 @@
 
 - title: Open discussion, including a demo of new Wikidata integrations in CollectiveAccess
   date: 2022-08-09
-  topics: [collection management system]
+  topics: [collection management system, wikidata]
   notes:
 
 - title: Open discussion
@@ -489,7 +489,7 @@
 
 - title: 2022 Roadmap, including Wikidata workshop series, DwC topical working groups
   date: 2022-01-11
-  topics: [darwin core]
+  topics:
   notes: https://docs.google.com/document/d/1NO8643GhXqEz3S-MN1zoS1pHWjqQ9b77obCR7EBrscs/edit?usp=sharing
 
 - title: Holiday social hour
@@ -504,7 +504,7 @@
 
 - title: Working session to plan Wikidata workshop
   date: 2021-11-18
-  topics: [people, wikidata]
+  topics:
   notes:
 
 - title: Identifying connections between earlier Happy Hour topics and action items
@@ -534,7 +534,7 @@
 
 - title: Bias in paleo collections
   date: 2021-07-29
-  topics: []
+  topics:
   notes: https://docs.google.com/document/d/1-WpY5QOqhBEq9zKchXFG-fTKT_W48rxmRHn7ZcIYwFs/edit?usp=sharing
 
 - title: Open discussion
