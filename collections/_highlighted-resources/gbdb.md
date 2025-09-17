@@ -1,7 +1,7 @@
 ---
 title: Geobiodiversity Database (GBDB)
 description: This is a landing page that describes what the Geobiodiversity Database is and why it is important in the context of paleo data. You can dive deeper via the links to related resources aggregated here.
-topics: [chronostratigraphy, lithostratigraphy]
+topics: [gbdb, chronostratigraphy, lithostratigraphy]
 status: published
 contributors: [Talia Karim]
 last_modified_at: 2025-09-15
