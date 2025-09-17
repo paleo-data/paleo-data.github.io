@@ -1,7 +1,7 @@
 ---
 title: Manage data about fossil specimens using Symbiota
 description: 'This guide is intended to complement [introductory documentation](/knowledge-hub/how-to-guides/start-using-symbiota) for Symbiota data providers, as well as the official Symbiota user documentation, [Symbiota Docs](https://docs.symbiota.org). Symbiota Docs provides general guidance for working in Symbiota-based data portals and should be referenced for basic functions and workflows. This manual expands on this resource to provide discipline-specific information for fossil collections.'
-topics: [symbiota, extended specimen, manage data]
+topics: [symbiota, extended specimen]
 sidebar:
   nav: [sidebar]
   collapsible: true
