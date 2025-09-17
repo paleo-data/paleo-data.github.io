@@ -121,24 +121,21 @@ a.external::after {
     margin-bottom: 0.2em;
 }
 
-/* Notice tip
+// Notice tip
 
 .notice--tip {
-  // override
-  margin: 2em 0 !important;
+  margin: 2em 0 !important; /* override */
   padding: 1em;
   color: #3d4144;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em !important;
-  // override
-  text-indent: initial;
+  text-indent: initial; /* override */
   background-color: rgb(216.6, 237.2, 216.6);
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(63, 166, 63, 0.25);
 }
 .notice--tip h4 {
-  // override
-  margin-top: 0 !important; 
+  margin-top: 0 !important;  /* override */
   margin-bottom: 0.75em;
   line-height: inherit;
 }
@@ -149,8 +146,7 @@ a.external::after {
 }
 
 .notice--tip p:last-child {
-  // override
-  margin-bottom: 0 !important; 
+  margin-bottom: 0 !important;  /* override */
 }
 .notice--tip h4 + p {
   // remove space above paragraphs that appear directly after notice headline
@@ -176,24 +172,34 @@ blockquote.notice--tip {
 .notice--tip ul:last-child {
   // override
   margin-bottom: 0;
-} */
+}
 
 /* Base notice ::before styles */
-.notice::before,
-.notice--primary::before,
-.notice--info::before,
-.notice--warning::before,
-.notice--danger::before,
-.notice--success::before,
-.notice--tip::before { 
+
+.notice::before, .notice--primary::before, .notice--info::before, .notice--warning::before, .notice--danger::before, .notice--success::before, .notice--tip::before
+{ 
   display: block;
   font-size: 1rem;
   font-weight: normal;
   margin-bottom: 0.5em;
   font-family: "Font Awesome 6 Free"; /* Font Awesome font */
-  font-weight: 900; /* solid icons */
+  font-weight: 900; /* solid icons *//  
   margin-right: 0.5em; /* spacing between icon and text */
 }
+
+.notice, .notice--primary, .notice--info, .notice--warning, .notice--danger, .notice--success, .notice--tip 
+{ 
+  font-size: 0.9rem !important; padding: 0.5em 1em 1em 1em; border-left: 2px solid #fff;
+}
+
+.notice p, .notice--primary p, .notice--info p, .notice--warning p, .notice--danger p, .notice--success p, .notice--success p {
+  font-size: inherit !important;
+}
+
+.notice code, .notice--primary code, .notice--info code, .notice--warning code, .notice--danger code, .notice--success code, .notice--tip code
+{
+  font-size: inherit !important; background-color: #fff !important; border: 1px solid #ccc;
+} 
 
 /* Default notice */
 .notice::before {
@@ -246,15 +252,7 @@ blockquote.notice--tip {
 
 
 /* Notices
-.notice::before, .notice--primary::before, .notice--info::before, .notice--warning::before, .notice--danger::before, .notice--success::before, .notice--tip::before { 
-  display: block; font-size: 1rem; font-weight: normal; margin-bottom: 0.5em;
-}
-.notice, .notice--primary, .notice--info, .notice--warning, .notice--danger, .notice--success, .notice--tip  { 
-  font-size: 0.9rem !important; padding: 0.5em 1em 1em 1em; border-left: 2px solid #fff;
-}
-.notice p, .notice--primary p, .notice--info p, .notice--warning p, .notice--danger p, .notice--success p, .notice--success p {
-  font-size: inherit !important;
-}
+
 
 // .notice::before { content: "ⓘ NOTICE"; color: #464c4c; }
 .notice { border-color: #464c4c; }
@@ -277,9 +275,7 @@ blockquote.notice--tip {
 .notice--tip::before { content: "💡 TIP"; color: #246953; }
 .notice--tip { border-color: #246953; }
 
-.notice code, .notice--primary code, .notice--info code, .notice--warning code, .notice--danger code, .notice--success code, .notice--tip code {
-  font-size: inherit !important; background-color: #fff !important; border: 1px solid #ccc;
-} */
+*/
 
 // Private link signifier
 a.private::after {
