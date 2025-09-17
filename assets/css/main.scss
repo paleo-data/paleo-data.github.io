@@ -190,7 +190,7 @@ blockquote.notice--tip {
 // .notice--primary::before { content: "ⓘ NOTICE"; color: #414548; }
 .notice--primary { border-color: #414548; }
 
-.notice--info::before { content: "ℹ INFO"; color: #245565; }
+.notice--info::before { font-family: "Font Awesome 6 Free"; font-weight: 900; content: "\f05a INFO"; color: #245565; }
 .notice--info { border-color: #245565; }
 
 .notice--warning::before { content: "⚠️ WARNING"; color: #754b13; }
