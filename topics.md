@@ -1,6 +1,8 @@
 ---
 title: Browse by topic
+description: Use the list to facet results and browse Knowledge Hub content by topics. Sort by frequency or alphabetical using the icons at the top of the list.
 status: published
+last_modified_at: 2025-09-17
 nav_order: 2.5
 layout: faceted
 facet_data: topics

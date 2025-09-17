@@ -2,4 +2,4 @@ doi: https://doi.org/10.5281/zenodo.7259057
 title: Introduction to data wrangling for biodiversity collections
 annotation: Materials for a three-part short course introducing participants with different levels of existing technical expertise to core data management concepts in Microsoft Excel/Google Sheets and OpenRefine.
 access_url: 
-topics: [data wrangling, openrefine]
+topics: [data wrangling]

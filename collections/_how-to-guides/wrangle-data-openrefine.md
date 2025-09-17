@@ -1,7 +1,7 @@
 ---
 title: Wrangle data in OpenRefine
 description: This page contains information about how to manipulate and transform data using the OpenRefine software. It also links out to tutorials and additional resources.
-topics: [data wrangling, workflows]
+topics: [data wrangling, workflows, openrefine]
 status: published
 contributors: ["Erica Krimmel"]
 last_modified_at: 2025-09-15

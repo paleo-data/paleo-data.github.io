@@ -1,7 +1,7 @@
 ---
 title: Manage data about taxonomy
 description: This page contains general information about community practices for managing data about taxonomy, and also aggregates links to additional resources with more specific information.
-topics: [manage data, taxonomy]
+topics: [taxonomy]
 status: draft
 contributors: ["Erica Krimmel", "Holly Little"]
 last_modified_at: 2025-07-31

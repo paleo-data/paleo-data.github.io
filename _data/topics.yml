@@ -1,0 +1,130 @@
+- topic: abcd efg
+  definition: 'related to the Access to Biological Collection Data (ABCD) Extension
+    for Geoscience (EFG) data schema'
+- topic: authoritative source
+  definition: 'related to a resource that curates data produced by experts in a
+    particular domain and is recognized by users as being reliable and trustworthy'
+- topic: CARE
+  definition: 'related to the CARE Principles for Indigenous Data Governance (Collective
+    benefit, Authority to control, Responsibility, and Ethics)'
+- topic: cast
+  definition: 'related to cataloged objects that are a replica of the original fossil,
+    including casts, molds, etc.'
+- topic: catalog
+  definition: 'related to the process of cataloging specimens'
+- topic: catalogue of life
+  definition: 'related to Catalogue of Life (COL)'
+- topic: checklist bank
+  definition: 'related to Checklist Bank'
+- topic: chronostratigraphy
+  definition: 'related to chronostratigraphy, i.e. information about the ages of
+    rock strata in relation to time'
+- topic: collection management system
+  definition: 'related to collection management systems, also known as collection
+    information systems or collection databases'
+- topic: controlled vocabulary
+  definition: 'related to controlled vocabularies, including both the concept and
+    examples of'
+- topic: darwin core
+  definition: 'related to the Darwin Core (DwC) data standard'
+- topic: data standard
+  definition: 'related to data standards, especially those maintained by community
+    groups such as Biodiversity Information Standards (TDWG)'
+- topic: data storage
+  definition: 'related to storing data for access and preservation, e.g. on a server
+    or the cloud'
+- topic: data wrangling
+  definition: 'related to transforming and mapping data from one form into another
+    with the intent of making the data more appropriate for a specific use'
+- topic: digital asset management
+  definition: 'related to digital asset management, including all types of media'
+- topic: extended specimen
+  definition: 'related to the concept of the Extended Specimen, also known as the
+    Digital Extended Specimen'
+- topic: gbdb
+  definition: 'related to Geobiodiversity Database (GBDB)'
+- topic: gbif
+  definition: 'related to Global Biodiversity Information Facility (GBIF)'
+- topic: geography
+  definition: 'related to geography, primarily administrative but also including
+    physical; see also georeferencing'
+- topic: georeference
+  definition: 'related to the process of georeferencing, i.e. adding geospatial
+    information to collecting localities'
+- topic: global names
+  definition: 'related to Global Names Architecture'
+- topic: grscicoll
+  definition: 'related to Global Registry of Scientific Collections (GRSciColl)'
+- topic: identifier
+  definition: 'related to identifiers, including types of and applications for using'
+- topic: image
+  definition: 'related to the process of imaging specimens, including both 2D and
+    3D'
+- topic: intellectual property
+  definition: 'related to intellectual property concepts such as rights, licensing,
+    and usage agreements'
+- topic: inventory
+  definition: 'related to the process of inventorying collections, i.e. capturing
+    data at a level of granularity above the specimen'
+- topic: invertebrate
+  definition: 'related to fossils of invertebrate organisms'
+- topic: latimer core
+  definition: 'related to the Latimer Core (LtC) data standard'
+- topic: lithostratigraphy
+  definition: 'related to lithostratigraphy, i.e. information about geologic strata
+    or rock layers'
+- topic: macrostrat
+  definition: 'related to Macrostrat'
+- topic: microfossil
+  definition: 'related to fossils of typically between one micrometre and one millimetre
+    in size'
+- topic: mitigation
+  definition: ''
+- topic: morphology
+  definition: 'related to data about morphology and anatomy'
+- topic: openrefine
+  definition: 'related to the software tool OpenRefine'
+- topic: paleo specimen data model
+  definition: 'related to modeling data to fit a conceptual paleo specimen'
+- topic: paleobotany
+  definition: 'related to fossils of plants'
+- topic: pbdb
+  definition: 'related to Paleobiology Database (PBDB)'
+- topic: pbot
+  definition: 'related to PBot Integrative Paleobotany Portal'
+- topic: people
+  definition: 'related to data about people'
+- topic: physical collections care
+  definition: 'related to physical collections care, including preparation and preservation
+    of specimens (see also preparation)'
+- topic: policy
+  definition: 'related to relatively formal guidelines produced by an organization'
+- topic: preparation
+  definition: 'related to data about fossil preparation (see also physical collections
+    care)'
+- topic: sensitive locality
+  definition: 'related to data about sensitive localities, e.g. those where information
+    cannot be fully shared due to privacy concerns'
+- topic: shared locality
+  definition: 'related to localities where records for the same one exist at multiple
+    institutions'
+- topic: symbiota
+  definition: 'related to Symbiota, including both the open source software, its
+    implementation as data portals, and the Symbiota Support Hub team'
+- topic: taxonomy
+  definition: 'related to data about taxonomic classifications and identifications'
+- topic: taxonworks
+  definition: 'related to TaxonWorks'
+- topic: trace fossil
+  definition: 'related to ichnofossils, or fossil records of ancient organisms including
+    footprints, burrows, feeding marks, etc.'
+- topic: treatise ip
+  definition: 'related to the Treatise on Invertebrate Paleontology'
+- topic: vertebrate
+  definition: 'related to fossils of vertebrate organisms'
+- topic: wikidata
+  definition: 'related to the Wikidata, a free and open knowledge base that can
+    be read and edited by both humans and machines'
+- topic: workflows
+  definition: 'related to procedures, guidlines, best practices, manuals, etc. created
+    to facilitate work'
