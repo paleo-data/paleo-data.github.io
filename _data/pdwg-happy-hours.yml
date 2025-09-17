@@ -102,31 +102,31 @@
 
 - title: How to share collection workflows FAIRly with Zenodo
   date: 2025-04-10
-  topics: [share data]
+  topics: [workflows]
   notes: https://docs.google.com/document/d/1OeZIFD022JtqtlbEeqWIwBF7lD1-6Qye7V5c0dNa11g/edit?usp=sharing
   recording: https://drive.google.com/file/d/1kK-lM003VXZv9pnQunJhd-9SN323Snpx/view?usp=sharing
 
 - title: Connecting specimens and archival materials
   date: 2025-03-27
-  topics: [extended specimen, manage data]
+  topics: [extended specimen]
   notes: https://docs.google.com/document/d/1ASkwpvIJxwxdXbRiFtl6Suw5WJPtbZXCRJvKZHnNEKo/edit?usp=sharing
   recording: https://drive.google.com/file/d/1oaRUY9iwaTPlxFqdxomoGFznWI6uS6dH/view?usp=sharing
 
 - title: Case study on modeling and sharing data from the Amoco Collection
   date: 2025-03-13
-  topics: [paleo specimen data model, capture data]
+  topics: [paleo specimen data model]
   notes: https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing
   recording: https://drive.google.com/file/d/1-yCj0eeRMeZCbLs-SIhdLXTYewbX2EmO/view?usp=drive_link
 
 - title: Digital data storage options for paleo data archives
   date: 2025-02-27
-  topics: [manage data, share data]
+  topics: [data storage]
   notes: https://docs.google.com/document/d/1DhUIO_NUHlt-KAfSoY8vtBwaIWYETXbVJg6I0919eMU/edit?usp=sharing
   recording: https://drive.google.com/file/d/16M6gUgX4t14qxX5ODl5nKD0u60ynnQ_R/view?usp=drive_link
 
 - title: Digitization in the form of collection inventories
   date: 2025-02-13
-  topics: [inventory, share data, grscicoll]
+  topics: [inventory, grscicoll]
   notes: https://docs.google.com/document/d/1EC7zB3ulOabPtHv6IP0POrtMFReXLGLkD4znhnhl3Ks/edit?usp=sharing
   recording: https://drive.google.com/file/d/1QcEkhirqj3X4YcSKHQ75qrmy1pfHrf6F/view?usp=drive_link
 
@@ -159,7 +159,7 @@
 
 - title: Fossil dating standards for identification, reproduction and CAREful data management, Part II
   date: 2024-10-17
-  topics: [data standard, capture data, share data]
+  topics: [data standard]
   notes: https://docs.google.com/document/d/1z7Ydxzy49WyEr3MnxsH0BbBSsKDg1M1xKUk89lN2uH4/edit?usp=sharing
 
 - title: Open discussion
@@ -169,7 +169,7 @@
 
 - title: Fossil dating standards for identification, reproduction and CAREful data management, Part I
   date: 2024-09-19
-  topics: [data standard, capture data, share data]
+  topics: [data standard]
   notes: https://docs.google.com/document/d/1HtrB2jrWEgsqTOQKRyh97Q-hvU7WxIRty-gmB6dBU-I/edit?usp=sharing
 
 - title: Archival-grade materials and conservation resources
@@ -199,7 +199,7 @@
 
 - title: Revisiting preparations data, Part I
   date: 2024-06-13
-  topics: [controlled vocabulary, capture data]
+  topics: [controlled vocabulary]
   notes: https://docs.google.com/document/d/15jgyqK-2EV5GQ4ULab2NuntQvf467e0_m6GF9A3I3Aw/edit?usp=sharing
 
 - title: Open discussion
@@ -209,7 +209,7 @@
 
 - title: Casts
   date: 2024-05-16
-  topics: [catalog, capture data]
+  topics: [catalog]
   notes: https://docs.google.com/document/d/13nK54Bw6stZ7MWWPAMQ8MXuOA85rc_GT6E56xasGbQo/edit?usp=drive_link
 
 - title: Recap from meeting with Catalog of Life (COL) and GBIF
@@ -224,7 +224,7 @@
 
 - title: Microfossils
   date: 2024-04-04
-  topics: [catalog, capture data]
+  topics: [catalog]
   notes: https://docs.google.com/document/d/1Pf5wOKDWgTNihRFJ2OlVqD2MfoTrXRjfn-fDAvfyi_g/edit?usp=sharing
 
 - title: Ichnotaxonomy
@@ -239,7 +239,7 @@
 
 - title: Shared data stewardship
   date: 2024-02-22
-  topics: [shared locality, share data, discover data]
+  topics: [shared locality]
   notes: https://docs.google.com/document/d/1KtE2V34j0zzEhhT9sELBrAwnlIX-Bp-9a04wCG7G5vM/edit?usp=sharing
 
 - title: Extended Specimen, Part I
@@ -264,7 +264,7 @@
 
 - title: Brainstorming session on inventorying and sharing collector label information
   date: 2023-11-30
-  topics: [people, capture data, share data]
+  topics: [people]
   notes: https://docs.google.com/document/d/1WBq_v1FYBGlRGFU8iyVFtkw_nkA4ysG7aVIRPoE_J8U/edit?usp=sharing
 
 - title: Stratigraphy in the Geo Compound Specimen Model
@@ -284,7 +284,7 @@
 
 - title: Paleo digitization workflows
   date: 2023-10-05
-  topics: [catalog, image, capture data]
+  topics: [catalog, image]
   notes: https://docs.google.com/document/d/1-1wFrlS_Bk8DYYmbsJKud1C5gdOxJZMndu8on0-q040/edit?usp=sharing
 
 - title: Open discussion
@@ -294,12 +294,12 @@
 
 - title: GeoCASe
   date: 2023-09-07
-  topics: [collection management system, share data]
+  topics: [collection management system]
   notes: https://docs.google.com/document/d/1QwuK-I-1_mjk8KWoWlp4XxgfgKq7YuI8UDtIakQ1nqo/edit?usp=sharing
 
 - title: Revisiting people data
   date: 2023-07-27
-  topics: [people, share data]
+  topics: [people, wikidata]
   notes: https://docs.google.com/document/d/1wkjHNq9itfMUhaeECtaMxXpoBL_IoHkqZvYOI4GEYEM/edit?usp=sharing
 
 - title: GBIF Unified Data Model for paleo (and geo) specimens
@@ -354,7 +354,7 @@
 
 - title: MorphoSource
   date: 2023-02-09
-  topics: [share data, discover data, digital asset management, image]
+  topics: [digital asset management, image]
   notes: https://docs.google.com/document/d/1CJ3-THyUKNFblMzBgCbLj_b5c2-ddF8dzsQ73vy3XiE/edit?usp=sharing
 
 - title: Taxonomy, Part I
@@ -394,12 +394,12 @@
 
 - title: Wrap up from Wikidata workshop, Part II
   date: 2022-10-06
-  topics: [shared locality, geography, share data]
+  topics: [shared locality, geography, wikidata]
   notes: https://docs.google.com/document/d/1qkCbBwvJAxMe60TBePvamVlAGvWF2QkLKb10UAOvbsM/edit?usp=sharing
 
 - title: Drafting data models for paleo collecting sites and expeditions
   date: 2022-09-22
-  topics: [shared locality, geography, share data, paleo specimen data model]
+  topics: [shared locality, geography, wikidata, paleo specimen data model]
   notes: https://docs.google.com/document/d/1obBaJ0frwVnew3JfXxTZ8a-B10V7JmeKNINOF6q0qfc/edit?usp=sharing
 
 - title: Regrouping and looking ahead to the rest of 2022
@@ -454,17 +454,17 @@
 
 - title: Working session for geologic context data
   date: 2022-04-19
-  topics: [chronostratigraphy, lithostratigraphy, capture data, share data]
+  topics: [chronostratigraphy, lithostratigraphy]
   notes: https://docs.google.com/document/d/1Bj4A-lzcTgMt2bq9R1Kw8o-8M2Y0SPY_4gGXwgCNH_4/edit?usp=sharing
 
 - title: Working session for morphology data
   date: 2022-04-05
-  topics: [controlled vocabulary, morphology, capture data]
+  topics: [controlled vocabulary, morphology]
   notes: https://docs.google.com/document/d/1Erz_6zHbTH8yCxzImlKKTH5F0-sWLLMLZjh-fLizPVA/edit?usp=sharing
 
 - title: Working session for preparation data
   date: 2022-03-22
-  topics: [controlled vocabulary, capture data]
+  topics: [controlled vocabulary]
   notes: https://docs.google.com/document/d/1341e4riZGuByG1TqQXny7pFqc4Mof-RwJxoy1iF_iSY/edit?usp=sharing
 
 - title: Updates
@@ -504,7 +504,7 @@
 
 - title: Working session to plan Wikidata workshop
   date: 2021-11-18
-  topics: [people, share data]
+  topics: [people, wikidata]
   notes:
 
 - title: Identifying connections between earlier Happy Hour topics and action items
@@ -519,7 +519,7 @@
 
 - title: Sharing data about interactions in the fossil record, with Jorrit Poelen (GloBI)
   date: 2021-09-09
-  topics: [capture data, share data]
+  topics: [extended specimen]
   notes: https://docs.google.com/document/d/1ahCAd1iMI6dzf2FlB03HBQo8NvXYUP2SkUpPcQhv_Bg/edit?usp=sharing
 
 - title: Managing trace fossils and trackways
@@ -529,12 +529,12 @@
 
 - title: Managing plastercasts, murals, and other non-specimen objects
   date: 2021-08-12
-  topics: [catalog, manage data, share data]
+  topics: [catalog, cast]
   notes: https://docs.google.com/document/d/1-OB7Rzl4edgIaDf8O0xxzmwOcGMfqaXVyX-ZkfwKBJg/edit?usp=sharing
 
 - title: Bias in paleo collections
   date: 2021-07-29
-  topics: [discover data]
+  topics: []
   notes: https://docs.google.com/document/d/1-WpY5QOqhBEq9zKchXFG-fTKT_W48rxmRHn7ZcIYwFs/edit?usp=sharing
 
 - title: Open discussion
@@ -579,7 +579,7 @@
 
 - title: Getting started with Wikidata
   date: 2021-03-25
-  topics: [people, share data]
+  topics: [people, wikidata]
   notes: https://docs.google.com/document/d/1Zhq6StDmil7TPE_gYsHNYXFkdFyN4tYG_iHpFwBbhVw/edit?usp=sharing
 
 - title: Open discussion
@@ -589,12 +589,12 @@
   
 - title: How the Paleobiology Database (PBDB) relates to our shared datasets
   date: 2021-02-25
-  topics: [pbdb, taxonomy, discover data]
+  topics: [pbdb, taxonomy]
   notes: https://docs.google.com/document/d/164AtP3BmI4U2HxjR5iB3APKNwplX-OMJkMgVo5cCL88/edit?usp=sharing
   
 - title: Making people data discoverable with Bionomia and Wikidata, with David Shorthouse (Bionomia)
   date: 2021-02-11
-  topics: [people, share data, discover data]
+  topics: [people, wikidata]
   notes: https://docs.google.com/document/d/1-JWufe5JqORVzG5_l-mUe1YGxIVuBgjxcj5rPe2_NnY/edit?usp=sharing
 
 - title: Tools and strategies for tidying data
@@ -614,12 +614,12 @@
 
 - title: How do we count things, Part II
   date: 2020-11-19
-  topics: [catalog, capture data]
+  topics: [catalog]
   notes: https://docs.google.com/document/d/1rCCQiD9xz8K0bsb4jbMdwFl7tdT-6WoDfZrGFyjUzQI/edit?usp=sharing
 
 - title: How do we count things, Part I
   date: 2020-11-05
-  topics: [catalog, capture data]
+  topics: [catalog]
   notes: https://docs.google.com/document/d/12UvBOui8SOkoOM8gALOLaGW2jmoXH_dmETF9noO49dE/edit?usp=sharing
 
 - title: Conference recaps from SVP, TDWG Part II, GSA
