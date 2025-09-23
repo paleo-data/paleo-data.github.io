@@ -40,7 +40,7 @@ search: false
 
 // Set font size
 :root { font-size: 11pt; }
-table { font-size: 1rem; }
+pre, table { font-size: 0.9rem; }
 .page__meta_elem { font-size: 0.9rem; text-indent: -2em; padding-left: 3em; padding-top: 0.75em; }
 #site-nav { font-size: 1.5em; }
 .site-logo img { max-height: 2.2em; }
@@ -184,25 +184,25 @@ blockquote.notice--tip {
   font-size: inherit !important;
 }
 
-.notice::before { content: " "; color: #464c4c; }
+.notice::before { content: "ⓘ Notice"; color: #464c4c; }
 .notice { border-color: #464c4c; }
 
-.notice--primary::before { content: " "; color: #414548; }
+.notice--primary::before { content: "ⓘ Notice"; color: #414548; }
 .notice--primary { border-color: #414548; }
 
-.notice--info::before { content: "ⓘ INFO"; color: #245565; }
+.notice--info::before { content: "ⓘ Info"; color: #245565; }
 .notice--info { border-color: #245565; }
 
-.notice--warning::before { content: "⚠️ WARNING"; color: #754b13; }
+.notice--warning::before { content: "⚠ Warning"; color: #754b13; }
 .notice--warning { border-color: #754b13; }
 
-.notice--danger::before { content: "🔥 DANGER"; color: #82100c; }
+.notice--danger::before { content: "⚠ Danger"; color: #82100c; }
 .notice--danger { border-color: #82100c; }
 
-.notice--success::before { content: "✅ SUCCESS"; color: #246953; }
+.notice--success::before { content: "✓ Success"; color: #246953; }
 .notice--success { border-color: #246953; }
 
-.notice--tip::before { content: "💡 TIP"; color: #246953; }
+.notice--tip::before { content: "✎ Tip"; color: #246953; }
 .notice--tip { border-color: #246953; }
 
 .notice code, .notice--primary code, .notice--info code, .notice--warning code, .notice--danger code, .notice--success code, .notice--tip code {
@@ -224,7 +224,6 @@ a.private::after {
 }
 
 // Faceted tables
-table.faceted { display: table; width: 95%; }
 table.faceted td:last-child { width: 25%; }
 tr:hover { background-color: #eee; }
 
@@ -251,7 +250,7 @@ span.tooltip { border-bottom: 1px dotted #000; }
 .tooltip:hover .tooltiptext { visibility: visible; }
 
 // TDWG-style definitions
-h3.tdwg { width: 100%; font-weight: normal; background-color: #6f777d; color: #fff; padding: 0.5rem; border-bottom: none; margin-bottom: 0; }
+h3.tdwg { width: 100%; font-weight: bold; background-color: #6f777d; color: #fff; padding: 0.5rem; border-bottom: none; margin-bottom: 0; }
 table.tdwg { display: table; width: 100%; border-collapse: collapse; margin-top: 0; }
 table.tdwg th, td { vertical-align: top; padding: 1rem; border-bottom: 1px solid #ccc; }
 table.tdwg th { width: 20%; font-weight: normal; }
@@ -275,6 +274,8 @@ p.description { color: #6e7173; font-style: italic; }
 
 img.icon { width: 2em; height: 2em; }
 img.mhicon { width: 1.75em; height: 1.75em; }
+
+table { display: table; width: 95%; }
 
 .page__content p, .page__content li, .page__content dl { font-size: 1rem; }
 .hidden {display: none; }

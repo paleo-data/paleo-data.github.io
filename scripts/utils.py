@@ -1,7 +1,9 @@
 print("Loading utils")
 
+import hashlib
 import io
 import re
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -72,7 +74,9 @@ def to_slug(val: str) -> str:
 
 def write_fm(fm: dict) -> str:
     """Writes Jekyll front matter to a markdown file"""
-    return "\n".join(["---", yaml.dump(fm, sort_keys=False).rstrip(), "---", ""])
+    fm = "\n".join(["---", yaml.dump(fm, sort_keys=False).rstrip(), "---", ""])
+    fm = re.sub(r": '(\d{4}-\d{2}-\d{2})'", r": \1", fm)
+    return fm
 
 
 def compute_urls(fms: dict) -> dict:
@@ -364,6 +368,8 @@ def add_dwc_terms(session):
             return "dwciri"
         elif "dublincore" in val:
             return "dc"
+        elif "rs.tdwg.org/ac" in val:
+            return "ac"
         else:
             raise ValueError(f"Unknown namespace: {val}")
 
@@ -399,3 +405,37 @@ def add_dwc_terms(session):
         (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
         for t in glossary
     }
+
+
+def autodate(path, last_modified_at=None):
+    """Assign last_modified_at based on file content"""
+
+    if last_modified_at is None:
+        last_modified_at = datetime.now().strftime("%Y-%m-%d")
+
+    with open(path, encoding="utf-8") as f:
+        content = f.read()
+        # Simplistic check for front matter
+        if not content.startswith("---"):
+            return {}
+        _, fm, content = content.split("---", 2)
+    fm = yaml.safe_load(fm)
+
+    # Normalize content so that minor formatting changes do not update the mod date
+    norm_content = re.sub(r"\s", "", content).lower()
+
+    hash_new = hashlib.md5()
+    hash_new.update(norm_content.encode("utf-8"))
+    hash_new = hash_new.hexdigest()
+
+    hash_old = fm.pop("hash", None)
+    if hash_new != hash_old:
+        if hash_old:
+            fm["last_modified_at"] = last_modified_at
+        else:
+            fm.setdefault("last_modified_at", last_modified_at)
+        fm["hash"] = hash_new
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(write_fm(fm) + content)
+
+    return fm

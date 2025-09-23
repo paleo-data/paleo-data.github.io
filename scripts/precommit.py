@@ -8,7 +8,7 @@ except ModuleNotFoundError:
     import requests
 
 from const import BASEPATH
-from utils import add_dwc_terms
+from utils import add_dwc_terms, autodate
 
 
 if __name__ == "__main__":
@@ -34,6 +34,13 @@ if __name__ == "__main__":
             print(f"Removed glossary includes from {path}")
             with open(path, "w", encoding="utf-8") as f:
                 f.write(content_)
+
+    # Add update date
+    # for path in BASEPATH.glob("*.md"):
+    #    if path.name != "README.md":
+    #        autodate(path)
+    # for path in (BASEPATH / "collections").glob("**/*.md"):
+    #    autodate(path)
 
     # Update glossary
     add_dwc_terms(session)
