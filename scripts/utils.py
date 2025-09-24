@@ -10,7 +10,7 @@ import pandas as pd
 import yaml
 from unidecode import unidecode
 
-from const import BASEPATH, GLOSSARY, IS_GITHUB, VALID_TAGS
+from const import BASEPATH, GLOSSARY, IS_GITHUB, TAGS
 
 
 def autolink(text: str, fmt: str = "markdown", class_: str = None) -> str:
@@ -150,16 +150,18 @@ def index_tags(fms: dict, key: str = "tags", tagged: list = None) -> dict:
     if tagged is None:
         tagged = []
 
+    valid_tags = {t[key.rstrip("s")] for t in TAGS}
+
     # Get tags from front matter of pages
     for fm in fms.values():
         tags = fm.get(key, [])
         if tags:
             if not isinstance(tags, list):
                 tags = [tags]
-            invalid = set(tags) - VALID_TAGS
+            invalid = set(tags) - valid_tags
             if invalid:
                 print(f"Invalid tags omitted: {invalid} (url={fm['url']})")
-                tags = sorted(set(tags) & VALID_TAGS)
+                tags = sorted(set(tags) & valid_tags)
             tagged.append(
                 {
                     "title": fm["title"],
@@ -185,7 +187,7 @@ def index_tags(fms: dict, key: str = "tags", tagged: list = None) -> dict:
             )
 
     tagged.sort(key=lambda t: t["title"])
-    with open(BASEPATH / "_data" / f"{key}.yml", "w", encoding="utf-8") as f:
+    with open(BASEPATH / "_data" / f"indexed.yml", "w", encoding="utf-8") as f:
         yaml.safe_dump(tagged, f)
 
     return tags
@@ -333,7 +335,6 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
             for i, part in enumerate(parts):
                 if not re.match(pattern, part):
                     for key in list(glossary_):
-                        print(key)
                         # Find the first match for the term in the part
                         match = re.search(rf"\b{key}\b", part, flags=re.I)
                         if match is not None:
