@@ -6,7 +6,9 @@
       <strong><a class="external" href="{{ resource.access_url }}">{{ resource.title }}</a></strong>
       <p><i>{{ resource.creators }}</i></p>
       <p>{{ resource.annotation }}</p>
-      <small>Metadata shown above was last updated on {{ resource.last_updated_date }}</small>
+      {%- if resource.last_modified_at -%}
+      <small>Metadata record last updated on {{ resource.last_modified_at }}</small>
+      {% endif %}
     {% break %}
     {% endif %}
   {% endfor %}

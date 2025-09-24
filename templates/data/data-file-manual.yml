@@ -43,7 +43,7 @@ access_url:
 access_date:
 
 # The date the content was last updated, formatted as yyyy-mm-dd. Optional but recommended.
-last_updated_date:
+last_modified_at:
 
 # The type of resource, for example, website or publication. Optional.
 resource_type:
