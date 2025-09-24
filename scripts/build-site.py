@@ -2,6 +2,7 @@
 
 import re
 import shutil
+from datetime import date
 from pathlib import Path
 
 import yaml
@@ -12,7 +13,7 @@ try:
 except ModuleNotFoundError:
     import requests
 
-from const import BASEPATH, GLOSSARY
+from const import BASEPATH
 from utils import (
     add_tooltips,
     autolink,
@@ -70,6 +71,9 @@ if __name__ == "__main__":
                 "title": metadata["title"],
                 "creators": "; ".join(names),
                 "description": autolink(re.sub("\n{2,}", "\n\n", desc.text)),
+                "last_modified_at": date(
+                    *[int(n) for n in zrec["modified"][:10].split("-")]
+                ),
                 "resource_url": zrec["doi_url"],
                 "path": f"_resources/{to_slug(metadata['title'])}.md",
                 "nav_order": 1,
