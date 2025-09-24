@@ -6,7 +6,9 @@
 {%- endif -%}
 {%- endcapture -%}
 
-{%- for entry in site.data["glossary"] -%}
+{%- for file_hash in site.data["glossaries"] -%}
+{%- assign entries = file_hash[1] -%}
+{%- for entry in file_hash[1] -%}
 
 {%- capture eterm -%}
 {%- if entry.namespace.blank? -%}
@@ -24,4 +26,5 @@
 {%- endif -%}
 {%- break -%}
 {%- endif -%}
+{%- endfor -%}
 {%- endfor -%}

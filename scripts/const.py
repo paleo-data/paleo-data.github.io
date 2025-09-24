@@ -21,12 +21,15 @@ print(f"Basepath: {BASEPATH}")
 with open(BASEPATH / "_data" / "topics.txt") as f:
     VALID_TAGS = set(f.read().splitlines())
 
-with open(BASEPATH / "_data" / "glossary.yml", encoding="utf-8") as f:
-
+GLOSSARY = {}
+for _path in (BASEPATH / "_data" / "glossaries").glob("*.yml"):
     try:
-        GLOSSARY = {
-            (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
-            for t in yaml.safe_load(f)
-        }
+        with open(_path, encoding="utf-8") as f:
+            GLOSSARY.update(
+                {
+                    (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
+                    for t in yaml.safe_load(f)
+                }
+            )
     except TypeError:
-        GLOSSARY = {}
+        pass

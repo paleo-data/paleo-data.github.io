@@ -290,7 +290,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
         with open(BASEPATH / "_data" / "test.txt") as f:
             test_files = f.read().strip().splitlines()
     except FileNotFoundError:
-        test_files = []
+        test_files = ["test.md"]
     else:
         print("Test files:", test_files)
 
@@ -333,6 +333,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
             for i, part in enumerate(parts):
                 if not re.match(pattern, part):
                     for key in list(glossary_):
+                        print(key)
                         # Find the first match for the term in the part
                         match = re.search(rf"\b{key}\b", part, flags=re.I)
                         if match is not None:
@@ -398,13 +399,19 @@ def add_dwc_terms(session):
         )
     glossary.sort(key=lambda t: t["term"].lower())
 
-    with open(BASEPATH / "_data" / "glossary.yml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(glossary, f, allow_unicode=True, sort_keys=False)
+    with open(
+        BASEPATH / "_data" / "glossaries" / "dwc.yml", "w", encoding="utf-8"
+    ) as f:
+        dwc_terms = [t for t in glossary if t.get("source") == source]
+        yaml.safe_dump(dwc_terms, f, allow_unicode=True, sort_keys=False)
 
-    return {
-        (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
-        for t in glossary
-    }
+    GLOSSARY.update(
+        {
+            (t.get("namespace", "") + ":" + t["term"].lower()).lstrip(":"): t
+            for t in glossary
+        }
+    )
+    return GLOSSARY
 
 
 def autodate(path, last_modified_at=None):

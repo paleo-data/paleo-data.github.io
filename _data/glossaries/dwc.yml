@@ -234,12 +234,12 @@
   url: https://dwc.tdwg.org/terms/#dwc:digitalSpecimenID
 - term: discipline
   definition: The primary branch or branches of knowledge represented by the record.
-  namespace: dwciri
+  namespace: dwc
   source: Darwin Core
   url: https://dwc.tdwg.org/terms/#dwc:discipline
 - term: discipline
   definition: The primary branch or branches of knowledge represented by the record.
-  namespace: dwc
+  namespace: dwciri
   source: Darwin Core
   url: https://dwc.tdwg.org/terms/#dwc:discipline
 - term: disposition
@@ -454,6 +454,12 @@
   namespace: dwciri
   source: Darwin Core
   url: https://dwc.tdwg.org/terms/#dwc:fromLithostratigraphicUnit
+- term: fundingAttribution
+  definition: Text description of organizations or individuals who funded the creation
+    of the resource.
+  namespace: ac
+  source: Darwin Core
+  url: https://dwc.tdwg.org/terms/#dwc:fundingAttribution
 - term: fundingAttribution
   definition: An organization or agency that provided funding for a project.
   namespace: dwciri
@@ -1634,14 +1640,14 @@
   source: Darwin Core
   url: https://dwc.tdwg.org/terms/#dwc:verbatimIdentification
 - term: verbatimLabel
-  definition: "The content of this term should include no embellishments, prefixes,\
-    \ headers or other additions made to the text. Abbreviations must not be expanded\
-    \ and supposed misspellings must not be corrected. Lines or breakpoints between\
-    \ blocks of text that could be verified by seeing the original labels or images\
-    \ of them may be used. Examples of material entities include preserved specimens,\
-    \ fossil specimens, and material samples. Best practice is to use UTF-8 for all\
-    \ characters. Best practice is to add comment \u201CverbatimLabel derived from\
-    \ human transcription\u201D in dwc:occurrenceRemarks."
+  definition: The content of this term should include no embellishments, prefixes,
+    headers or other additions made to the text. Abbreviations must not be expanded
+    and supposed misspellings must not be corrected. Lines or breakpoints between
+    blocks of text that could be verified by seeing the original labels or images
+    of them may be used. Examples of material entities include preserved specimens,
+    fossil specimens, and material samples. Best practice is to use UTF-8 for all
+    characters. Best practice is to add comment “verbatimLabel derived from human
+    transcription” in dwc:occurrenceRemarks.
   namespace: dwc
   source: Darwin Core
   url: https://dwc.tdwg.org/terms/#dwc:verbatimLabel
@@ -1732,35 +1738,3 @@
   namespace: dwc
   source: Darwin Core
   url: https://dwc.tdwg.org/terms/#dwc:year
-- term: Uniform Resource Identifier
-  acronym: URI
-  definition: Includes URLs and URNs
-  topics: [identifier]
-- term: Internationalized Resource Identifier
-  acronym: IRI
-  definition: Variation of a URI that expands the characterset
-  topics: [identifier]
-- term: Universally Unique Identifier
-  acronym: UUID
-  definition:
-  topics: [identifier]
-- term: Globally Unique Identifier
-  acronym: GUID
-  definition:
-  topics: [identifier]
-- term: Persistent Identifier
-  acronym: PID
-  definition:
-  topics: [identifier]
-- term: Digital Object Identifier
-  acronym: DOI
-  definition:
-  topics: [identifier]
-- term: Archival Resource Key
-  acronym: ARK
-  definition:
-  topics: [identifier]
-- term: Life Science Identifier
-  acronym: LSID
-  definition:
-  topics: [identifier]
