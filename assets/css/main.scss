@@ -184,25 +184,25 @@ blockquote.notice--tip {
   font-size: inherit !important;
 }
 
-.notice::before { content: "ⓘ Notice"; color: #464c4c; }
+.notice::before { content: " "; color: #464c4c; }
 .notice { border-color: #464c4c; }
 
-.notice--primary::before { content: "ⓘ Notice"; color: #414548; }
+.notice--primary::before { content: "📁 RESOURCE"; color: #414548; }
 .notice--primary { border-color: #414548; }
 
-.notice--info::before { content: "ⓘ Info"; color: #245565; }
+.notice--info::before { content: "ⓘ INFO"; color: #245565; }
 .notice--info { border-color: #245565; }
 
-.notice--warning::before { content: "⚠ Warning"; color: #754b13; }
+.notice--warning::before { content: "⚠️ WARNING"; color: #754b13; }
 .notice--warning { border-color: #754b13; }
 
-.notice--danger::before { content: "⚠ Danger"; color: #82100c; }
+.notice--danger::before { content: "🔥 DANGER"; color: #82100c; }
 .notice--danger { border-color: #82100c; }
 
-.notice--success::before { content: "✓ Success"; color: #246953; }
+.notice--success::before { content: "✅ SUCCESS"; color: #246953; }
 .notice--success { border-color: #246953; }
 
-.notice--tip::before { content: "✎ Tip"; color: #246953; }
+.notice--tip::before { content: "💡 TIP"; color: #246953; }
 .notice--tip { border-color: #246953; }
 
 .notice code, .notice--primary code, .notice--info code, .notice--warning code, .notice--danger code, .notice--success code, .notice--tip code {
