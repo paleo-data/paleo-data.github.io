@@ -18,8 +18,8 @@ except KeyError:
 print(f"Basepath: {BASEPATH}")
 
 # Read list of valid tags
-with open(BASEPATH / "_data" / "topics.txt") as f:
-    VALID_TAGS = set(f.read().splitlines())
+with open(BASEPATH / "_data" / "topics.yml", encoding="utf-8") as f:
+    TAGS = yaml.safe_load(f)
 
 GLOSSARY = {}
 for _path in (BASEPATH / "_data" / "glossaries").glob("*.yml"):

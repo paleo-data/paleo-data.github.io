@@ -5,7 +5,7 @@ status: published
 last_modified_at: 2025-09-17
 nav_order: 2.5
 layout: faceted
-facet_data: topics
+facet_data: indexed
 facet_keys: [tags]
 sidebar:
   nav: [sidebar]
