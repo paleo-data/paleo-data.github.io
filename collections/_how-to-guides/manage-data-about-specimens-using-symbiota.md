@@ -191,37 +191,37 @@ GBIF maintains [an additional list](https://www.gbif.org/data-quality-requiremen
 **A note on verbatim values in geological context data:** Many fossil specimens are accompanied by labels, field notes, and other primary data sources containing values that are no longer accepted (e.g. "Tertiary"), informally used (e.g. "Precambrian"), or indicate uncertainty (e.g., "Upper Mio?"). This information is important and should be recorded; however, it cannot be captured using Symbiota's _earlyInterval_ and _lateInterval_ fields, which map to a portal's standardized geological time scale values (by default, these values are based on the [ICS Time Scale](https://stratigraphy.org/chart)). In the absence of an appropriate, standard-based term to record these data, this information should be captured in _stratigraphicRemarks_ as a delimited key:value pair.<br> **[Example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763806):** `[VERBATIM CHRONOSTRATIGRAPHY: Permian?]`
 
 ### Example Records
-A series of [example catalog records](https://paleo.symbiota.org/portal/collections/list.php?datasetid=6) has been created to illustrate how to represent fossil specimen data in Symbiota.
+A series of [example catalog records](https://paleo.symbiota.org/portal/collections/list.php?datasetid=6) has been created to illustrate how to represent fossil specimen data in Symbiota. Data, including images and locality details, associated with some records may be redacted; contact paleoinformatics@gmail.com for more information about these records.
 
-|Category|Example Record Description                                                                    |Record                                                                                          |
-|--------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-|VP      |one taxon, one individual, isolated element                                                   |[USNMV8814](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763812)    |
-|VP      |one taxon, whole articulated skeleton - composite                                             |[USNMV6721](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763813)    |
-|VP      |one taxon, whole articulated skeleton - composite                                             |[USNMV10304](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763814)   |
-|VP      |elements of composite mount                                                                   |[USNMV8126](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763815)    |
-|VP      |elements of composite mount                                                                   |[USNMV8179](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763816)    |
-|VP      |elements of composite mount                                                                   |[USNMV8188](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763817)    |
-|VP      |elements of composite mount                                                                   |[USNMV10301](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763818)   |
-|VP      |elements of composite mount                                                                   |[USNMV10302](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763819)   |
-|VP      |elements of composite mount                                                                   |[USNMV10303](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763820)   |
+|Category|Example Record Description                                                                    |Record |
+|--------|----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+|VP      |one taxon, one individual, isolated element                                       |[USNMV8814](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763812)    |
+|VP      |one taxon, whole articulated skeleton - composite                                 |[USNMV6721](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763813)    |
+|VP      |one taxon, whole articulated skeleton - composite                                 |[USNMV10304](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763814)   |
+|VP      |elements of composite mount                                                       |[USNMV8126](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763815)    |
+|VP      |elements of composite mount                                                       |[USNMV8179](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763816)    |
+|VP      |elements of composite mount                                                       |[USNMV8188](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763817)    |
+|VP      |elements of composite mount                                                       |[USNMV10301](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763818)   |
+|VP      |elements of composite mount                                                       |[USNMV10302](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763819)   |
+|VP      |elements of composite mount                                                       |[USNMV10303](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763820)   |
 |VP      |slab: single taxon, multiple pieces of one individual (e.g. scattered disarticulated skeleton)|[USNMV22753](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763821)   |
 |VP      |slab: single taxon, multiple pieces of one individual (e.g. scattered disarticulated skeleton)|[USNMV2395](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763822)    |
-|VP      |slab: bone bed (multiple individuals) - multiple numbers                                   |[USNMV21375](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763823)   |
-|VP      |slab: bone bed (multiple individuals) - multiple numbers                                   |[USNMPAL606789](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763824)|
-|VP      |ichno: trackway, à la vertebrate footprints                                                   |[USNMPAL617525](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763825)|
-|VP      |cast and fossil, one individual                                                               |[USNMV6720](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763826)    |
-|VP      |cast and fossil, one individual                                                               |[USNMPAL215070](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763827)|
-|VP      |cast of another institution specimen                                                          |[USNMPAL299545](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763828)|
-|PB      |one lot, one individual, part-counterpart pair - multiple numbers                             |[USNMP7427](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763803)    |
-|PB      |one lot, one individual, part-counterpart pair - multiple numbers                             |[USNMP7428](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763829)    |
-|PB      |one lot, one individual, part-counterpart pair - one number                                   |[USNMP42726](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763830)   |
-|IP      |slab: multiple taxa, multiple individuals                                                     |[USNMPAL83927](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763831) |
-|IP      |slab: multiple taxa, multiple individuals                                                     |[USNMPAL188127](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763832)|
-|IP      |slab: multiple taxa, multiple individuals                                                     |[USNMPAL449450](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763833)|
-|IP      |slab: multiple taxa, multiple individuals                                                     |[USNMPAL449451](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763834)|
-|IP      |slab: multiple taxa, multiple individuals                                                     |[USNMPAL449452](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763835)|
-|IP      |slab: multiple taxa, multiple individuals                                                     |[USNMPAL449453](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763836)|
-|IP      |one taxon, multiple individuals                                                               |[USNMPAL665453](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763837)|
-|IP+PB   |slab: multiple taxon, multiple individuals                                                    |[USNMPAL566311](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763846)|
-|VP      |cast and fossil, one individual                                                               |[USNMV6527](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763847)    |
-|IP      |single object (state fossil)                                                                  |[USNMMO647519](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763848) |
+|VP      |slab: bone bed, multiple individuals - multiple numbers                          |[USNMV21375](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763823)   |
+|VP      |slab: bone bed, multiple individuals - multiple numbers                          |[USNMPAL606789](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763824)|
+|VP      |ichno fossil (coprolite)                                                          |[USNMPAL617525](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763825)|
+|VP      |cast and fossil, one individual                                                   |[USNMV6720](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763826)    |
+|VP      |cast and fossil, one individual                                                   |[USNMPAL215070](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763827)|
+|VP      |cast of another institution specimen                                              |[USNMPAL299545](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763828)|
+|PB      |one lot, one individual, part-counterpart pair - multiple numbers                 |[USNMP7427](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763803)    |
+|PB      |one lot, one individual, part-counterpart pair - multiple numbers                 |[USNMP7428](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763829)    |
+|PB      |one lot, one individual, part-counterpart pair - one number                       |[USNMP42726](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763830)   |
+|IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL83927](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763831) |
+|IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL188127](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763832)|
+|IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL449450](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763833)|
+|IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL449451](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763834)|
+|IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL449452](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763835)|
+|IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL449453](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763836)|
+|IP      |one taxon, multiple individuals                                                   |[USNMPAL665453](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763837)|
+|IP+PB   |slab: multiple taxon, multiple individuals                                        |[USNMPAL566311](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763846)|
+|VP      |cast and fossil, one individual                                                   |[USNMV6527](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763847)    |
+|IP      |single object (state fossil)                                                      |[USNMMO647519](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763848) |
