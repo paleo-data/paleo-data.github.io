@@ -205,8 +205,7 @@ A series of [example catalog records](https://paleo.symbiota.org/portal/collecti
 |VP      |cast and fossil, one individual                                                   |[USNMV6720](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763826)    |
 |VP      |cast and fossil, one individual                                                   |[USNMPAL215070](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763827)|
 |VP      |cast of another institution specimen                                              |[USNMPAL299545](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763828)|
-|PB      |one lot, one individual, part-counterpart pair - multiple numbers                 |[USNMP7427](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763803)    |
-|PB      |one lot, one individual, part-counterpart pair - multiple numbers                 |[USNMP7428](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763829)    |
+|PB      |one lot, one individual, part-counterpart pair - multiple numbers                 |[USNMP7427](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763803) & [USNMP7428](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763829)   |
 |PB      |one lot, one individual, part-counterpart pair - one number                       |[USNMP42726](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763830)   |
 |IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL83927](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763831) |
 |IP      |slab: multiple taxa, multiple individuals                                         |[USNMPAL188127](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763832)|
