@@ -93,10 +93,6 @@
   acronym: DwC
   definition: Biodiversity data standard maintained by TDWG, with terms for sharing species occurrence and specimen data.
   topics: [data standard]
-- term: DwC
-  acronym: DwC
-  definition: Darwin Core. Biodiversity data standard maintained by TDWG, with terms for sharing species occurrence and specimen data.
-  topics: [data standard]
 - term: Darwin Core Archive
   acronym: DwC-A
   definition: Packaging format (ZIP + metadata) for sharing DwC records, used by GBIF and others. Simpler version of the newer Darwin Core Data Package.
