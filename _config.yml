@@ -1,5 +1,6 @@
 title: Paleo Data Knowledge Hub
 description: A clearinghouse for information about data related to paleontology specimens and collections
+repository: paleo-data/paleo-data.github.io
 url: https://paleo-data.github.io
 baseurl:
 theme: minimal-mistakes-jekyll
