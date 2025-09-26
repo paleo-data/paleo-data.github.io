@@ -1,3 +1,14 @@
+# Glossary of custom-curated terms relevant to content on this site
+#
+# This document is used to automatically populate tooltip definitions for terms used in site content. Terms that belong here include general concepts and common acronyms. For the most part, information about specific projects and resources should be curated as files in the _data/resources directory. Exceptions include resources which are commonly mention by their acronym, e.g. PBDB or WoRMS.
+#
+# Add new terms to this document as necessary. Only the 'term' and 'definition' keys are used on the site currently, but please include all keys to facilitate future editing. Copy-paste and uncomment the following block to insert a new term:
+#
+# - term: IF THIS TEXT APPEARS ON THE SITE, A TOOLTIP WILL PROVIDE THE DEFINITION WHEN A USER HOVERS THEIR MOUSE OVER
+#  acronym: INCLUDE IF RELEVENT, BEST PRACTICE IS TO INSERT TERMS FOR BOTH THE FULL NAME AND FOR THE ACRONYM SO THAT A TOOLTIP WILL APPEAR FOR EITHER
+#  definition: THIS TEXT WILL APPEAR IN THE TOOLTIP WHEN A USER HOVERS OVER THE TERM, KEEP THIS SUCCINCT
+#  topics: [] ADD COMMA-SEPARATED VALUES IN BETWEEN THE BRACKETS USING TOPICS FROM _data/topics.yml
+#
 - term: ADBC
   acronym: ADBC
   definition: Advancing Digitization of Biodiversity Collections. A major federal funding program in the United States that ran from 2010-2020 and improved access to digitized information and images related to vouchered scientific collections.
