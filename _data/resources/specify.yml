@@ -1,0 +1,11 @@
+title: Specify
+annotation: Specify Software handles the curatorial processing and publishing of data associated with specimens in biological collections, including museums, herbaria, and biorepositories of tissue and DNA samples. Specify manages data for collections management tasks associated with museum transactions and mobilizes collections data through the Specify Web Portal, and through IPT to caches such as GBIF and iDigBio. Specify 7 also integrates through APIs with aggregators and online services for retrieving records of information related to specimen catalog entries. 
+creators: Specify Collections Consortium
+publication_date: 
+access_url: https://www.specifysoftware.org/
+access_date: 2025-09-26
+last_modified_at: 2025-09-26
+resource_type: software
+license: 
+citation: 
+topics: [collection management system]
