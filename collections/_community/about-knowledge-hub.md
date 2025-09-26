@@ -3,7 +3,7 @@ title: About this Knowledge Hub
 description: This page describes the scope, design, and processes for contributing to the Paleo Data Knowledge Hub.
 status: published
 contributors: [Erica Krimmel]
-last_modified_at: 2025-09-15
+last_modified_at: 2025-09-26
 ---
 
 This website is a hub designed to enable open access to information for anyone producing, managing, or utilizing paleontological specimen data. Ideally, the hub facilitates ongoing engagement and continuous knowledge sharing across stakeholder communities, in particular by hosting resources that are broadly relevant, and even adaptable to domains beyond paleo. All community users (e.g., you) are invited to engage as both information seekers and knowledge contributors. In the initial implementation of this knowledge hub (ongoing throughout 2025), content creation will focus deeply on the information needs of paleo collections professionals, and intro-level on the needs of paleo researchers using collections-based data.
