@@ -8,7 +8,18 @@ logo: /assets/images/trilocorn.png
 logo_alt: A trilobite with a unicorn horn and ears
 og_image: /assets/images/trilocorn.png
 exclude: [scripts, templates]
-
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/orgs/paleo-data"
+    - label: "Slack"
+      icon: "fab fa-fw fa-slack-square"
+      url: "https://paleo-data.slack.com/"
+    - label: "Listserv"
+      icon: "fab fa-fw fa-envelope-square"
+      url: "https://groups.google.com/g/paleo-data/about"
+      
 atom_feed:
   hide: true
 
