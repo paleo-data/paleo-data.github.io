@@ -200,8 +200,7 @@ A series of [example catalog records](https://paleo.symbiota.org/portal/collecti
 |VP      |one taxon, whole articulated skeleton - composite                                 |[USNMV8126](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763815)    |
 |VP      |slab: single taxon, multiple pieces of one individual (e.g. scattered disarticulated skeleton)|[USNMV22753](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763821)   |
 |VP      |slab: single taxon, multiple pieces of one individual (e.g. scattered disarticulated skeleton)|[USNMV2395](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763822)    |
-|VP      |slab: bone bed, multiple individuals - multiple numbers                          |[USNMV21375](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763823)   |
-|VP      |slab: bone bed, multiple individuals - multiple numbers                          |[USNMPAL606789](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763824)|
+|VP      |slab: bone bed, multiple individuals - multiple numbers                          |[USNMV21375](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763823) & [USNMPAL606789](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763824)   |
 |VP      |ichno fossil (coprolite)                                                          |[USNMPAL617525](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763825)|
 |VP      |cast and fossil, one individual                                                   |[USNMV6720](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763826)    |
 |VP      |cast and fossil, one individual                                                   |[USNMPAL215070](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763827)|
