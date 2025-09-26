@@ -304,7 +304,8 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
         r"#.*?\n",  # markdown headers
         r"\[.*?\]\(.*?\)",  # markdown links
         r"{%.*?%}",  # Jekyll includes
-        r"<a *?>.*?</a>",  # HTML anchor tags
+        r"{{.*?}}",  # Jekyll tags
+        r"<a .*?>.*?</a>",  # HTML anchor tags
     )
     pattern = f"({'|'.join(subpatterns)})"
 
