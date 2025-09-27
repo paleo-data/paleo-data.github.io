@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-07-10
+last_modified_at: 2025-09-26
 ---
 
 ## Introduction
@@ -56,13 +56,13 @@ When resources allow, basic 2D digital photography can be highly beneficial to d
 - To facilitate data transciption from specimen label text, which can be completed without additional specimen handling and, when appropriate, remotely via the portal's interface.
 - To capture verbatim specimen label text, some of which may be difficult to accurately represent using the fields currently available using Symbiota and the Darwin Core data standard.
 
-2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools](https://biokic.github.io/symbiota-docs/editor/links/#linking-associations). 
+2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools](https://docs.symbiota.org/Editor_Guide/linking_records). 
 
 {: .notice--note }
-**Reminder:** All media files (including images) associated with specimen records where _Location Security_ has been applied will be redacted from public viewing. Users with Administrator permissions can give select individuals [read-only "Rare Species Reader" permissions](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/) to view media (and all other locality data) associated with a given collection through the _Administration Control Panel > Manage Permissions_.
+**Reminder:** All media files (including images) associated with specimen records where _Location Security_ has been applied will be redacted from public viewing. Users with Administrator permissions can give select individuals [read-only "Rare Species Reader" permissions](https://docs.symbiota.org/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) to view media (and all other locality data) associated with a given collection through the _Administration Control Panel > Manage Permissions_.
 
 **Image hosting** <br>
-If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/images/). 
+If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://docs.symbiota.org/Editor_Guide/Images_Media/uploading_images/). 
 
 ## Example workflows
 <iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
