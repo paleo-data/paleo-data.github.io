@@ -70,4 +70,4 @@ If your organization opts to associate media (images or audio) alongside its spe
 ## Related resources
 {% include resource_card filename='krimmel-2022-intro-digitization-1.yml' %}
 {% include resource_card filename='krimmel-2022-intro-digitization-2.yml' %}
-{% include resource_card filename='website-symbiota-workflows.yml' %}
+{% include resource_card filename='symbiota-workflows.yml' %}
