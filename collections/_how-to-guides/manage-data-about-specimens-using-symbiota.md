@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-09-26
+last_modified_at: 2025-09-29
 ---
 
 ## Introduction
@@ -117,7 +117,7 @@ Some of the following records include redacted data (images and locality details
 |PB      |one lot, one individual, part-counterpart pair - multiple numbers                 |[USNMP7427](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763803) & [USNMP7428](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763829)   |
 |VP      |one taxon, one individual, isolated element                                       |[USNMV8814](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763812)    |
 |VP      |one taxon, whole articulated skeleton - composite                                 |[USNMV6721](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763813)    |
-|VP      |one taxon, whole articulated skeleton - composite                                 |[USNMV8126](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763815) & assoc. records|
+|VP      |one taxon, whole articulated skeleton - composite                                 |[USNMV10304](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763814) & assoc. records|
 |VP      |slab: single taxon, multiple pieces of one individual                             |[USNMV22753](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763821)   |
 |VP      |slab: single taxon, multiple pieces of one individual                             |[USNMV2395](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763822)    |
 |VP      |slab: bone bed, multiple individuals - multiple numbers                           |[USNMV21375](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763823) & [USNMPAL606789](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763824)   |
