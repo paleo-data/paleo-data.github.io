@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-07-10
+last_modified_at: 2025-09-26
 ---
 
 ## Introduction
@@ -23,9 +23,9 @@ Many paleontological collections are highly heterogeneous in nature--taxonomical
 Careful planning is necessary to efficiently digitize fossil specimen data in paleontological collections, and workflow development a critical part of this process. By designing and streamlining a thoughtful digitization workflow, you can maximize your collection’s visibility and application for research and educational use, in turn generating further justification for its ongoing maintenance to administrators, prospective funders, and other potential stakeholders.
 
 **Where to start?** <br>
-Start by defining the goal of your digitization workflow. For instance, do you need to capture specimen records for a specific research project, or is your aim to document core specimen data to make your collection more discoverable? Defining the end goal will allow you to prioritize various workflow elements and digitization tasks given the nature of your collection and its available resources. The content in this guide is designed to facilitate the creation of workflows that output discoverable, interoperable data in the context of the [Paleo Data Ecosystem](/knowledge-hub/data-ecosystem).
+Start by defining the goal of your digitization workflow. For instance, do you need to capture specimen records for a specific research project, or is your aim to document core specimen data to make your collection more discoverable? Defining the end goal will allow you to prioritize various workflow elements and digitization tasks given the nature of your collection and its available resources. The content in this guide is designed to facilitate the creation of workflows that output discoverable, interoperable data in the context of the [Paleo Data Ecosystem](/data-ecosystem).
 
-Symbiota software is particularly well-suited to is enabling flexible digitization workflows to quickly increase the digital presence of your collection, for example, by facilitating the creation of skeletal specimen records that can be iteratively improved upon as time and resources allow. The content in this guide is tailored to data providers who wish to create Symbiota-based digitization workflows and is intended to be read in parallel with the Knowledge Hub’s various [Symbiota how-to guides](/knowledge-hub/topics?topic=symbiota) and related content.
+Symbiota software is particularly well-suited to is enabling flexible digitization workflows to quickly increase the digital presence of your collection, for example, by facilitating the creation of skeletal specimen records that can be iteratively improved upon as time and resources allow. The content in this guide is tailored to data providers who wish to create Symbiota-based digitization workflows and is intended to be read in parallel with the Knowledge Hub’s various [Symbiota how-to guides](/topics?topic=symbiota) and related content.
 
 ## Workflow components
 
@@ -56,13 +56,13 @@ When resources allow, basic 2D digital photography can be highly beneficial to d
 - To facilitate data transciption from specimen label text, which can be completed without additional specimen handling and, when appropriate, remotely via the portal's interface.
 - To capture verbatim specimen label text, some of which may be difficult to accurately represent using the fields currently available using Symbiota and the Darwin Core data standard.
 
-2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools](https://biokic.github.io/symbiota-docs/editor/links/#linking-associations). 
+2D images (e.g., photographs) can be displayed directly in a Symbiota portal, whereas 3D imagery (e.g., surface scans) should be maintained in an external repository/database, such as [MorphoSource](https://www.morphosource.org). In the latter case, links can then be created between your specimen records in Symbiota and the external respository using Symbiota's [resource linking tools](https://docs.symbiota.org/Editor_Guide/linking_records). 
 
 {: .notice--note }
-**Reminder:** All media files (including images) associated with specimen records where _Location Security_ has been applied will be redacted from public viewing. Users with Administrator permissions can give select individuals [read-only "Rare Species Reader" permissions](https://biokic.github.io/symbiota-docs/coll_manager/data_publishing/redaction/) to view media (and all other locality data) associated with a given collection through the _Administration Control Panel > Manage Permissions_.
+**Reminder:** All media files (including images) associated with specimen records where _Location Security_ has been applied will be redacted from public viewing. Users with Administrator permissions can give select individuals [read-only "Rare Species Reader" permissions](https://docs.symbiota.org/Collection_Manager_Guide/Data_Publishing/redacting_obscuring_data) to view media (and all other locality data) associated with a given collection through the _Administration Control Panel > Manage Permissions_.
 
 **Image hosting** <br>
-If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://biokic.github.io/symbiota-docs/coll_manager/images/). 
+If your organization opts to associate media (images or audio) alongside its specimen records in a Symbiota portal, images files can be hosted externally by your institution or with help from the Symbiota Support Hub (SSH). If you would like the SSH to host your images, please contact the [SSH Help Desk](https://symbiota.org/contact-the-support-hub/). The SSH can facilitate batch image ingestion (e.g., to create skeletal catalog records). Fees may apply for SSH-faciliated image hosting, which is currently limited to web-ready files (JPEG format, <10 MB/file). New Symbiota users are strongly encouraged to review related documentation in [Symbiota Docs](https://docs.symbiota.org/Editor_Guide/Images_Media/uploading_images/). 
 
 ## Example workflows
 <iframe src="https://docs.google.com/presentation/d/1_b6990eETxSRmIVEb8eamaAhEuK3jWLxTB41YYcX_so/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -70,4 +70,4 @@ If your organization opts to associate media (images or audio) alongside its spe
 ## Related resources
 {% include resource_card filename='krimmel-2022-intro-digitization-1.yml' %}
 {% include resource_card filename='krimmel-2022-intro-digitization-2.yml' %}
-{% include resource_card filename='website-symbiota-workflows.yml' %}
+{% include resource_card filename='symbiota-workflows.yml' %}

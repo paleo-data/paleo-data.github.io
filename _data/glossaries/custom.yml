@@ -29,6 +29,10 @@
   acronym: ARK
   definition: A decentralized, persistent identifier formatted as a URL. E.g. http://n2t.net/ark:/65665/3af2b96d2-a8a1-47c5-9895-b0af03b21674
   topics: [identifier]
+- term: Uniform Resource Identifier
+  acronym: URI
+  definition: Includes URLs and URNs
+  topics: [identifier]
 - term: ARK
   acronym: ARK
   definition: Archival Resource Key. A decentralized, persistent identifier formatted as a URL. E.g. http://n2t.net/ark:/65665/3af2b96d2-a8a1-47c5-9895-b0af03b21674
@@ -422,3 +426,7 @@
   acronym: 
   definition: A free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of Wikipedia.
   topics: []
+- term: Life Science Identifier
+  acronym: 
+  definition:
+  topics: [identifier]
