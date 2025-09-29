@@ -297,7 +297,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
         with open(BASEPATH / "_data" / "test.txt") as f:
             test_files = f.read().strip().splitlines()
     except FileNotFoundError:
-        test_files = ["test.md", "identifier.md"]
+        test_files = ["test.md"]
     else:
         print("Test files:", test_files)
 
