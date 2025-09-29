@@ -348,10 +348,13 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
                             except ValueError:
                                 namespace = ""
                             if fm_.get("highlight_all_terms") or not found.get(key):
-                                include = f'{{% include glossary term="{term}" namespace="{namespace}" %}}'
                                 parts[i] = re.sub(
-                                    rf"\b{match.group()}\b", include, parts[i], count=1
+                                    rf"\b{match.group()}\b",
+                                    f'{{% include glossary term="{term}" namespace="{namespace}" %}}',
+                                    parts[i],
+                                    count=1,
                                 )
+                            part = parts[i]
                             found[key] = True
             content_ = "---" + fm + "---" + "".join(parts)
 
