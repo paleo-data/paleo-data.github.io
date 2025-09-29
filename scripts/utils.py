@@ -303,6 +303,7 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
     subpatterns = (
         r"#.*?\n",  # markdown headers
         r"\[.*?\]\(.*?\)",  # markdown links
+        r"\|.*\|",  # markdown tables
         r"{%.*?%}",  # Jekyll includes
         r"{{.*?}}",  # Jekyll tags
         r"<a .*?>.*?</a>",  # HTML anchor tags
@@ -335,9 +336,9 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
             parts = re.split(pattern, content)
             for i, part in enumerate(parts):
                 if not re.match(pattern, part):
-                    for key in list(glossary_):
+                    for key in sorted(glossary_, key=len):
                         # Find the first match for the term in the part
-                        match = re.search(rf"\b{key}\b", part, flags=re.I)
+                        match = re.search(rf"\b{key}s?\b", part, flags=re.I)
                         if match is not None:
                             # Use the matched term so that case is preserved
                             term = match.group()
@@ -347,11 +348,9 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
                                 namespace = ""
                             if fm_.get("highlight_all_terms") or not found.get(key):
                                 include = f'{{% include glossary term="{term}" namespace="{namespace}" %}}'
-                            else:
-                                include = f'{{% include glossary term="{term}" namespace="{namespace}" link="false" %}}'
-                            parts[i] = re.sub(
-                                rf"\b{match.group()}\b", include, parts[i]
-                            )
+                                parts[i] = re.sub(
+                                    rf"\b{match.group()}\b", include, parts[i], count=1
+                                )
                             found[key] = True
             content_ = "---" + fm + "---" + "".join(parts)
 
