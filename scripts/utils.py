@@ -162,33 +162,38 @@ def index_tags(fms: dict, key: str = "tags", tagged: list = None) -> dict:
             if invalid:
                 print(f"Invalid tags omitted: {invalid} (url={fm['url']})")
                 tags = sorted(set(tags) & valid_tags)
-            tagged.append(
-                {
-                    "title": fm["title"],
-                    "kind": "page",
-                    "url": fm["url"],
-                    "tags": tags,
-                }
-            )
+            if tags:
+                tagged.append(
+                    {
+                        "title": fm["title"],
+                        "kind": fm["heading"].replace("-", " ").rstrip("s"),
+                        "annotation": fm.get("description", ""),
+                        "url": fm["url"],
+                        "tags": tags,
+                    }
+                )
 
     # Get tags from resources
     for path in (BASEPATH / "_data" / "resources-updated").glob("*.yml"):
         with open(path, encoding="utf-8") as f:
             resource = yaml.safe_load(f)
-            resource["kind"] = "external"
-            resource["url"] = resource["access_url"]
+            resource["kind"] = "resource"
+            resource["annoutation"] = resource.get("annotation", "")
+            resource["url"] = (
+                resource["access_url"] if resource["access_url"] else resource["doi"]
+            )
             resource["tags"] = resource[key]
             tagged.append(
                 {
                     k: v
                     for k, v in resource.items()
-                    if k in {"title", "kind", "url", "tags"}
+                    if k in {"title", "kind", "annotation", "url", "tags"}
                 }
             )
 
     tagged.sort(key=lambda t: t["title"])
     with open(BASEPATH / "_data" / f"indexed.yml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(tagged, f)
+        yaml.safe_dump(tagged, f, sort_keys=False)
 
     return tags
 
