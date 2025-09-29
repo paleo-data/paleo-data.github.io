@@ -15,7 +15,8 @@ except KeyError:
     BASEPATH = Path("..")
     IS_GITHUB = False
 
-print(f"Basepath: {BASEPATH}")
+print(f" BASEPATH: {BASEPATH}")
+print(f" IS_GITHUB: {IS_GITHUB}")
 
 # Read list of valid tags
 with open(BASEPATH / "_data" / "topics.yml", encoding="utf-8") as f:
