@@ -134,9 +134,6 @@ Associations can be created between your records in Symbiota and external resour
 
 2) Users with Administrator permissions can additionally create these linkages in batch by uploading a CSV-formatted spreadsheet using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources). This option may contain several fields that are not available in the Linked Resources tab, such as _accordingTo_.
 
-{: .notice--warning }
-When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
-
 #### Example: Type and referred specimens
 You can create linkages between occurrence records in your Symbiota portal and digitally available publications using the fields and parameters specified below.
 
@@ -148,6 +145,9 @@ You can create linkages between occurrence records in your Symbiota portal and d
 To create a link to a digitially available non-occurrence resource external to your portal, such as a publication, used the Occurrence Editor form's Linked Resources tab as shown below.
 
 <img style="float: center; margin: 0px 0px 0px 0px;" width="90%" src="/assets/images/symbiota_linkedresource-literatureexample.png" alt="Symbiota Linked Resources tab" caption="Links to external resources, like pubished literature, can be created directly in the portal using the Linked Resources tab.">
+
+{: .notice--warning }
+When creating associations with external resources, provide a **stable URL**—like a DOI or a permalink—for the _resourceURL_ whenever possible. Otherwise, your links may eventually break. 
 
 **Option 2: Create links by uploading a spreadsheet** <br>
 Here is an example of what your spreadsheet (CSV) should look like. You can ingest it into your portal using the [Extended Data Import tool](https://docs.symbiota.org/Collection_Manager_Guide/Importing_Uploading/linked_resources).
