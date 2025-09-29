@@ -9,35 +9,424 @@
 #  definition: THIS TEXT WILL APPEAR IN THE TOOLTIP WHEN A USER HOVERS OVER THE TERM, KEEP THIS SUCCINCT
 #  topics: [] ADD COMMA-SEPARATED VALUES IN BETWEEN THE BRACKETS USING TOPICS FROM _data/topics.yml
 #
+- term: ADBC
+  acronym: ADBC
+  definition: Advancing Digitization of Biodiversity Collections. A major federal funding program in the United States that ran from 2010-2020 and improved access to digitized information and images related to vouchered scientific collections.
+  topics: []
+- term: Advancing Digitization of Biodiversity Collections
+  acronym: ADBC
+  definition: A major federal funding program in the United States that ran from 2010-2020 and improved access to digitized information and images related to vouchered scientific collections.
+  topics: []
+- term: API
+  acronym: API
+  definition: Application Programming Interface. A way for computer applications to exchange data and for users to access data programmatically.
+  topics: [data wrangling]
+- term: Application Programming Interface
+  acronym: API
+  definition: A way for computer applications to exchange data and for users to access data programmatically.
+  topics: [data wrangling]
+- term: Archival Resource Key
+  acronym: ARK
+  definition: A decentralized, persistent identifier formatted as a URL. E.g. http://n2t.net/ark:/65665/3af2b96d2-a8a1-47c5-9895-b0af03b21674
+  topics: [identifier]
 - term: Uniform Resource Identifier
   acronym: URI
   definition: Includes URLs and URNs
   topics: [identifier]
+- term: ARK
+  acronym: ARK
+  definition: Archival Resource Key. A decentralized, persistent identifier formatted as a URL. E.g. http://n2t.net/ark:/65665/3af2b96d2-a8a1-47c5-9895-b0af03b21674
+  topics: [identifier]
+- term: BHL
+  acronym: BHL
+  definition: Biodiversity Heritage Library. Consortium providing open access to biodiversity literature.
+  topics: []
+- term: Biodiversity Heritage Library
+  acronym: BHL
+  definition: Consortium providing open access to biodiversity literature.
+  topics: []
+- term: CETAF
+  acronym: CETAF
+  definition: Consortium of European Taxonomic Facilities. Networked consortium of scientific institutions in Europe formed to promote training, research and understanding of systematic biology.
+  topics: [taxonomy]
+- term: Consortium of European Taxonomic Facilities
+  acronym: CETAF
+  definition: Networked consortium of scientific institutions in Europe formed to promote training, research and understanding of systematic biology.
+  topics: [taxonomy]
+- term: CMS
+  acronym: CMS
+  definition: Collection Management System. Software for curating, describing, and managing specimens. Also known as a Collection Information System (CIS).
+  topics: []
+- term: Collection Management System
+  acronym: CMS
+  definition: Software for curating, describing, and managing specimens. Also known as a Collection Information System (CIS).
+  topics: []
+- term: Catalogue of Life
+  acronym: COL
+  definition: A resource designed to compile and share the most complete authoritative list of the world's species, as maintained by hundreds of global taxonomists.
+  topics: [taxonomy]
+- term: COL
+  acronym: COL
+  definition: Catalogue of Life. A resource designed to compile and share the most complete authoritative list of the world's species, as maintained by hundreds of global taxonomists.
+  topics: [taxonomy]
+- term: DAMS
+  acronym: DAMS
+  definition: Digital Asset Management Systems. Computer software and hardware systems that aid in the management tasks and decisions surrounding the ingestion, annotation, cataloguing, storage, retrieval and distribution of digital assets such as image or video files.
+  topics: [image]
+- term: Digital Asset Management Systems
+  acronym: DAMS
+  definition: Computer software and hardware systems that aid in the management tasks and decisions surrounding the ingestion, annotation, cataloguing, storage, retrieval and distribution of digital assets such as image or video files.
+  topics: [image]
+- term: DiSSCo
+  acronym: DiSSCo
+  definition: Distributed System of Scientific Collections. A project with the aim to digitally unify all European natural science assets, sharing common access, curation, policies and practices across countries while ensuring that all the data complies with the FAIR principles.
+  topics: []
+- term: Distributed System of Scientific Collections
+  acronym: DiSSCo
+  definition: A project with the aim to digitally unify all European natural science assets, sharing common access, curation, policies and practices across countries while ensuring that all the data complies with the FAIR principles.
+  topics: []
+- term: Digital Object Identifier
+  acronym: DOI
+  definition: Widely used identifier format, mostly for digital publications and other documents. E.g. https://doi.org/10.5962/p.304567
+  topics: [identifier]
+- term: DOI
+  acronym: DOI
+  definition: Digital Object Identifier. Widely used identifier format, mostly for digital publications and other documents. E.g. https://doi.org/10.5962/p.304567
+  topics: [identifier]
+- term: Darwin Core
+  acronym: DwC
+  definition: Biodiversity data standard maintained by TDWG, with terms for sharing species occurrence and specimen data.
+  topics: [data standard]
+- term: Darwin Core Archive
+  acronym: DwC-A
+  definition: Packaging format (ZIP + metadata) for sharing DwC records, used by GBIF and others. Simpler version of the newer Darwin Core Data Package.
+  topics: [data standard]
+- term: DwC-A
+  acronym: DwC-A
+  definition: Darwin Core Archive. Packaging format (ZIP + metadata) for sharing DwC records, used by GBIF and others. Simpler version of the newer Darwin Core Data Package.
+  topics: [data standard]
+- term: Darwin Core Data Package
+  acronym: DwC-DP
+  definition: Packaging format (ZIP + metadata) for sharing DwC records, used by GBIF and others. Designed for more complex data than Darwin Core Archive.
+  topics: [data standard]
+- term: DwC-DP
+  acronym: DwC-DP
+  definition: Darwin Core Data Package. Packaging format (ZIP + metadata) for sharing DwC records, used by GBIF and others. Designed for more complex data than Darwin Core Archive.
+  topics: [data standard]
+- term: Exchangeable Image File Format
+  acronym: EXIF
+  definition: A standard for storing image metadata and interchange information in image files, especially those using JPEG compression. Most digital cameras now use the EXIF format.
+  topics: [image]
+- term: EXIF
+  acronym: EXIF
+  definition: Exchangeable Image File Format. A standard for storing image metadata and interchange information in image files, especially those using JPEG compression. Most digital cameras now use the EXIF format.
+  topics: [image]
+- term: GBIF
+  acronym: GBIF
+  definition: Global Biodiversity Information Facility. International network and data infrastructure providing open access to biodiversity data, including fossils.
+  topics: []
+- term: Global Biodiversity Information Facility
+  acronym: GBIF
+  definition: International network and data infrastructure providing open access to biodiversity data, including fossils.
+  topics: []
+- term: Global Registry of Scientific Collections
+  acronym: GRSciColl
+  definition: Worldwide catalogue of scientific collections supported by a community comprised of national editors and representatives from registered institutions who keep the information up to date.
+  topics: []
+- term: GRSciColl
+  acronym: GRSciColl
+  definition: Global Registry of Scientific Collections. Worldwide catalogue of scientific collections supported by a community comprised of national editors and representatives from registered institutions who keep the information up to date.
+  topics: []
+- term: Geological Time Scale
+  acronym: GTS
+  definition: Standardized chronology of Earth’s history, often linked to fossil occurrences.
+  topics: [chronostratigraphy]
+- term: GTS
+  acronym: GTS
+  definition: Geological Time Scale. Standardized chronology of Earth’s history, often linked to fossil occurrences.
+  topics: [chronostratigraphy]
+- term: Globally Unique Identifier
+  acronym: GUID
+  definition: A more generic version of a UUID that consists of an integer generated by an algorithm such that is unique enough to nullify the risk of generating the same GUID twice. E.g. fb51580402c14e03bfe0c69437e180ec
+  topics: [identifier]
+- term: GUID
+  acronym: GUID
+  definition: Globally Unique Identifier. A more generic version of a UUID that consists of an integer generated by an algorithm such that is unique enough to nullify the risk of generating the same GUID twice. E.g. fb51580402c14e03bfe0c69437e180ec
+  topics: [identifier]
+- term: ICBN
+  acronym: ICBN
+  definition: International Code on Botanical Nomenclature. Governing set of rules for the naming of plants and the resolution of nomenclatural problems.
+  topics: [taxonomy]
+- term: International Code on Botanical Nomenclature
+  acronym: ICBN
+  definition: Governing set of rules for the naming of plants and the resolution of nomenclatural problems.
+  topics: [taxonomy]
+- term: ICZN
+  acronym: ICZN
+  definition: International Code of Zoological Nomenclature. Governing set of rules for the naming of animals and the resolution of nomenclatural problems.
+  topics: [taxonomy]
+- term: International Code of Zoological Nomenclature
+  acronym: ICZN
+  definition: Governing set of rules for the naming of animals and the resolution of nomenclatural problems.
+  topics: [taxonomy]
+- term: iDigBio
+  acronym: iDigBio
+  definition: Integrated Digitized Biocollections. A project funded (2011-2026) by the U.S. National Science Foundation to develop an integrated national infrastructure for digitization of existing biodiversity collections in the United States.
+  topics: []
+- term: Integrated Digitized Biocollections
+  acronym: iDigBio
+  definition: A project funded (2011-2026) by the U.S. National Science Foundation to develop an integrated national infrastructure for digitization of existing biodiversity collections in the United States.
+  topics: []
+- term: IGSN
+  acronym: IGSN
+  definition: International Generic Sample Number. An identifier that is functionally a DOI registered in a namespace dedicated to physical samples.
+  topics: [identifier]
+- term: International Generic Sample Number
+  acronym: IGSN
+  definition: An identifier that is functionally a DOI registered in a namespace dedicated to physical samples.
+  topics: [identifier]
+- term: Integrated Publishing Toolkit
+  acronym: IPT
+  definition: Open source software that allows users to publish and share biodiversity datasets, especially using the Darwin Core and Ecological Metadata Language standards
+  topics: []
+- term: IPT
+  acronym: IPT
+  definition: Integrated Publishing Toolkit. Open source software that allows users to publish and share biodiversity datasets, especially using the Darwin Core and Ecological Metadata Language standards
+  topics: []
 - term: Internationalized Resource Identifier
   acronym: IRI
-  definition: Variation of a URI that expands the characterset
+  definition: Variation of a URI that expands the characterset.
+  topics: [identifier]
+- term: IRI
+  acronym: IRI
+  definition: Internationalized Resource Identifier. Variation of a URI that expands the characterset.
+  topics: [identifier]
+- term: Latimer Core
+  acronym: LtC
+  definition: Data standard for describing collections, and is designed to support the representation and discovery of groups of items.
+  topics: [data standard]
+- term: LtC
+  acronym: LtC
+  definition: Latimer Core. Data standard for describing collections, and is designed to support the representation and discovery of groups of items.
+  topics: [data standard]
+- term: OCR
+  acronym: OCR
+  definition: Optical Character Recognition. Technology that converts different types of documents, such as scanned paper documents, PDF files or images into editable and searchable data.
+  topics: []
+- term: Optical Character Recognition
+  acronym: OCR
+  definition: Technology that converts different types of documents, such as scanned paper documents, PDF files or images into editable and searchable data.
+  topics: []
+- term: Paleobiology Database
+  acronym: PBDB
+  definition: Global, community-driven database of fossil occurrence records supported by literature.
+  topics: []
+- term: PBDB
+  acronym: PBDB
+  definition: Paleobiology Database. Global, community-driven database of fossil occurrence records supported by literature.
+  topics: []
+- term: Paleo Data Working Group
+  acronym: PDWG
+  definition: Community of practice centered around collections-based paleo and informatics professionals
+  topics: []
+- term: PDWG
+  acronym: PDWG
+  definition: Paleo Data Working Group. Community of practice centered around collections-based paleo and informatics professionals
+  topics: []
+- term: persistent identifier
+  acronym: PID
+  definition: A unique, stable, and typically resolvable identifier. E.g. a DOI or an ARK
+  topics: [identifier]
+- term: PID
+  acronym: PID
+  definition: persistent identifier. A unique, stable, and typically resolvable identifier. E.g. a DOI or an ARK
+  topics: [identifier]
+- term: SQL
+  acronym: SQL
+  definition: Structured Query Language. A programming language designed for working with data in relational database management systems.
+  topics: [data wrangling]
+- term: Structured Query Language
+  acronym: SQL
+  definition: A programming language designed for working with data in relational database management systems.
+  topics: [data wrangling]
+- term: Biodiversity Information Standards
+  acronym: TDWG
+  definition: Formerly known as the Taxonomic Database Working Group. An international nonprofit organization focused on the development of standards for the exchange of biodiversity data.
+  topics: [data standard]
+- term: TDWG
+  acronym: TDWG
+  definition: Biodiversity Information Standards. Formerly known as the Taxonomic Database Working Group. An international nonprofit organization focused on the development of standards for the exchange of biodiversity data.
+  topics: [data standard]
+- term: Uniform Resource Identifier
+  acronym: URI
+  definition: A standardized string of characters used to uniquely identify a resource on the internet or within a dataset. E.g. a URL or a URN.
+  topics: [identifier]
+- term: URI
+  acronym: URI
+  definition: Uniform Resource Identifier. A standardized string of characters used to uniquely identify a resource on the internet or within a dataset. E.g. a URL or a URN.
+  topics: [identifier]
+- term: Uniform Resource Locator
+  acronym: URL
+  definition: A type of URI that specifies the location of a resource on the internet
+    by describing its primary access mechanism. E.g. https://...
+  topics: [identifier]
+- term: URL
+  acronym: URL
+  definition: Uniform Resource Locator. A type of URI that specifies the location of a resource on the internet by describing its primary access mechanism. E.g. https://...
+  topics: [identifier]
+- term: Uniform Resource Name
+  acronym: URN
+  definition: A type of URI that identifies a resource by name in a specific namespace, but does not provide its location. E.g. urn:lsid:zoobank.org:act:12345
+  topics: [identifier]
+- term: URN
+  acronym: URN
+  definition: Uniform Resource Name. A type of URI that identifies a resource by name in a specific namespace, but does not provide its location. E.g. urn:lsid:zoobank.org:act:12345
   topics: [identifier]
 - term: Universally Unique Identifier
   acronym: UUID
-  definition:
+  definition: Type of GUID where the format is a string of 32 hexadecimal digits displayed in five groups separated by hyphens. Not inherently resolvable. E.g.  fb515804-02c1-4e03-bfe0-c69437e180ec
   topics: [identifier]
-- term: Globally Unique Identifier
-  acronym: GUID
-  definition:
+- term: UUID
+  acronym: UUID
+  definition: Universally Unique Identifier. Type of GUID where the format is a string of 32 hexadecimal digits displayed in five groups separated by hyphens. Not inherently resolvable. E.g.  fb515804-02c1-4e03-bfe0-c69437e180ec
   topics: [identifier]
-- term: Persistent Identifier
-  acronym: PID
-  definition:
+- term: World Register of Marine Species
+  acronym: WoRMS
+  definition: Authoritative taxonomy database for global marine species.
+  topics: [taxonomy]
+- term: WoRMS
+  acronym: WoRMS
+  definition: World Register of Marine Species. Authoritative taxonomy database for global marine species.
+  topics: [taxonomy]
+- term: Extensible Markup Language
+  acronym: XML
+  definition: A simple, very flexible text format used frequently for a wide variety of data on the internet.
+  topics: [data standard]
+- term: XML
+  acronym: XML
+  definition: Extensible Markup Language. A simple, very flexible text format used frequently for a wide variety of data on the internet.
+  topics: [data standard]
+- term: accepted name
+  acronym: 
+  definition: The currently valid scientific name for a taxon, as opposed to synonyms or outdated names.
+  topics: [taxonomy]
+- term: authority
+  acronym: 
+  definition: The author(s) who formally published the scientific name of a taxon, often included after the species name.
+  topics: [taxonomy]
+- term: authority file
+  acronym: 
+  definition: Standardized list of names (e.g. for taxa, localities, collectors) provided to ensure consistency across records.
+  topics: []
+- term: biostratigraphy
+  acronym: 
+  definition: Correlation and relative dating of rock strata using fossil content.
+  topics: []
+- term: catalog number
+  acronym: 
+  definition: Unique identifier for a physical specimen in a collection. Typically human-readable.
+  topics: [physical collections care]
+- term: chronostratigraphy
+  acronym: 
+  definition: Study of relative time sequence of rock layers and their fossil content.
+  topics: []
+- term: clade
+  acronym: 
+  definition: A group of organisms consisting of a common ancestor and all its descendants.
+  topics: [taxonomy]
+- term: controlled vocabulary
+  acronym: 
+  definition: A defined list of allowed terms used to reduce ambiguity.
+  topics: []
+- term: determination history
+  acronym: 
+  definition: Record of taxonomic identifications applied to a specimen over time.
+  topics: [taxonomy]
+- term: diagnostic character
+  acronym: 
+  definition: A morphological trait that distinguishes one taxon from another.
+  topics: [taxonomy]
+- term: formation
+  acronym: 
+  definition: Stratigraphic unit of rock, used in paleontological context for provenance of fossils.
+  topics: [lithostratigraphy]
+- term: geochronology
+  acronym: 
+  definition: Absolute dating of rocks and fossils using radiometric techniques.
+  topics: []
+- term: Happy Hour
+  acronym: 
+  definition: Name of the regular meetings hosted by the Paleo Data Working Group
+  topics: []
+- term: holotype
+  acronym: 
+  definition: The single specimen designated as the type of a species when described.
+  topics: [taxonomy]
+- term: identification qualifier
+  acronym: 
+  definition: Notation that modifies a taxon name to reflect uncertainty (e.g. cf., aff., ?).
+  topics: [taxonomy]
+- term: lectotype
+  acronym: 
+  definition: A specimen later chosen as the single type specimen when the original author designated multiple specimens.
+  topics: [taxonomy]
+- term: lithostratigraphy
+  acronym: 
+  definition: Classification of rock layers based on lithology and stratigraphic relations.
+  topics: []
+- term: locality
+  acronym: 
+  definition: Geographic place where a specimen was collected; fossils often being connected to stratigraphic units.
+  topics: [geography]
+- term: metadata
+  acronym: 
+  definition: Information describing data, e.g., who collected it, where, when, how.
+  topics: []
+- term: morphospecies
+  acronym: 
+  definition: A taxon identified solely by morphology, common especially in paleobotany.
+  topics: [taxonomy]
+- term: occurrence record
+  acronym: 
+  definition: Evidence of a taxon at a place and time.
+  topics: []
+- term: ontology
+  acronym: 
+  definition: Structured framework of terms and their relationships for semantic biodiversity data. Similar to a controlled vocabulary but more complex.
+  topics: []
+- term: ORCiD
+  acronym: 
+  definition: A persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities.
   topics: [identifier]
-- term: Digital Object Identifier
-  acronym: DOI
-  definition:
-  topics: [identifier]
-- term: Archival Resource Key
-  acronym: ARK
-  definition:
-  topics: [identifier]
+- term: paratype
+  acronym: 
+  definition: Specimen cited in the original description of a species, not the holotype.
+  topics: [taxonomy]
+- term: repository
+  acronym: 
+  definition: Institution or collection that houses and curates specimens.
+  topics: [physical collections management]
+- term: rock unit
+  acronym: 
+  definition: Geological context recorded for a fossil specimen, mapped to lithostratigraphy.
+  topics: [lithostratigraphy]
+- term: synonym
+  acronym: 
+  definition: Different scientific name referring to the same taxon.
+  topics: []
+- term: taxon concept
+  acronym: 
+  definition: The circumscription of what a taxon name refers to in a particular context since interpretations may differ.
+  topics: []
+- term: valid name
+  acronym: 
+  definition: The correct scientific name for a taxon under nomenclatural rules.
+  topics: []
+- term: Wikidata
+  acronym: 
+  definition: A free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of Wikipedia.
+  topics: []
 - term: Life Science Identifier
-  acronym: LSID
+  acronym: 
   definition:
   topics: [identifier]
