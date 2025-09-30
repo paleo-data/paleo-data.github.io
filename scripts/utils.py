@@ -162,7 +162,7 @@ def index_tags(fms: dict, key: str = "tags", tagged: list = None) -> dict:
             if invalid:
                 print(f" {fm['path']}: Omitted invalid tags {invalid}")
                 tags = sorted(set(tags) & valid_tags)
-            if tags:
+            if tags and fm.get("status") == "published":
                 tagged.append(
                     {
                         "title": fm["title"],
