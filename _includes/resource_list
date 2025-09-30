@@ -1,4 +1,5 @@
 {%- assign topics = include.topics | default: '' | split: '|' -%}
+{%- assign kinds = include.kinds | default: 'explanation|highlighted resource|how to guide|reference guide|tutorial' | split: '|' -%}
 {%- assign max_items = include.max_items | default: 10 -%}
 
 {%- assign found = false -%}
@@ -43,16 +44,15 @@
   {%- assign num_items = 0 -%}
   {%- assign more = false -%}
   <h2>{{ heading }}</h2>
-  <p>See below for a list of pages related to this one. Browse additional related content, including PDWG Happy Hours and links out to external resources, for  {{ links }} on the Browse By Topic page.</p>
   <ul>
     {%- for item in site.data.indexed -%}
       {%- for topic in topics -%}
-        {%- if item.tags contains topic and item.title != page.title -%}
+        {%- if item.tags contains topic and item.title != page.title and kinds contains item.kind -%}
           {%- assign annotation = "" -%}
           {%- if item.annotation -%}
             {%- assign annotation = ": " | append: item.annotation -%}
           {%- endif -%}
-          {%- if item.kind != 'resource' -%}
+          {% if item.kind != 'resource' -%}
             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
           {%- elsif item.url -%}
             <li><a class="external" href="{{ item.url }}">{{ item.title }}</a> {{ annotation }}</li>
@@ -69,5 +69,5 @@
       {%- endif -%}
     {%- endfor -%}
   </ul>
-  {%- if more -%}<p><em>Find more content for {{ links }} on the Browse By Topic page</em></p>{%- endif -%}
+  <p><em>Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}</em></p>
 {%- endif -%}
