@@ -8,7 +8,8 @@ sidebar:
   collapsible: true
   expanded: [community]
 contributors: ["Adam Mansur"]
-last_modified_at: 2025-08-15
+topics: [invalid]
+last_modified_at: 2025-09-30
 ---
 
 This page is used to test widgets and other features.
@@ -48,6 +49,8 @@ Created with `{: .notice--danger}`
 {: .notice--tip}
 Created with `{: .notice--tip}`
 
-{% include resource_list topics='collection management system' %}
+{% include resource_list topics='geography' max_items=100 %}
 
-{% include related_list topics='collection management system' %}
+{% include resource_list topics='geography|georeference' %}
+
+{% include resource_list topics='geography|georeference|data wrangling' %}

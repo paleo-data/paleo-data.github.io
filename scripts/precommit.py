@@ -20,6 +20,7 @@ if __name__ == "__main__":
         session = requests.Session()
 
     # Remove glossary includes. These are added automatically when the site is built.
+    print("Removing glossary includes")
     for path in BASEPATH.glob("**/*.md"):
         with open(path, encoding="utf-8") as f:
             content = f.read()
@@ -31,7 +32,7 @@ if __name__ == "__main__":
                 term = f"{namespace}:{term}"
             content_ = content_.replace(match, term)
         if content_ != content:
-            print(f"Removed glossary includes from {path}")
+            print(f" {path}: Removed glossary includes")
             with open(path, "w", encoding="utf-8") as f:
                 f.write(content_)
 
