@@ -324,7 +324,8 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
             continue
 
         # Skip files including any of the exclude keywords
-        if any((s in str(path) for s in exclude)):
+        if any((s in str(path).split("/") for s in exclude)):
+            print(f" {path}: Skipped tooltip check")
             continue
 
         # Create a copy of the glossary. Terms are removed as they are found so that
