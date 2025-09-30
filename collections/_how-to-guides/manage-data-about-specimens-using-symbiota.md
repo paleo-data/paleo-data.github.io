@@ -10,13 +10,16 @@ toc: true
 toc_sticky: true
 status: published
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-09-29
+last_modified_at: 2025-09-30
 ---
 
 ## Introduction
 There are two ways specimen records are typically entered into a Symbiota portal: 1) as a [bulk data import](#bulk-data-import) or 2) [directly using the Occurrence Editor interface](#direct-data-entry). Additional methods exist, but these are the most commonly used options by collections that actively ("live") manage their specimen data using Symbiota. In all cases, the end goal is to make your data more easily managed, discovered, and used for research; thus, data providers are strongly encourged to follow the steps outlined in this how-to guide.
 
 Regardless of data entry method, it is important that all data providers become familiar with the [Darwin Core data standard](https://dwc.tdwg.org/terms/), which forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields).
+
+{: .notice--info }
+A set of [example records](#example-records) has been created to guide the capture of fossil specimen data using Symbiota. 
 
 ## Bulk data import
 This section outlines actions you can take to prepare and import (ingest) existing digital catalog records from your fossil collection into a Symbiota portal.
