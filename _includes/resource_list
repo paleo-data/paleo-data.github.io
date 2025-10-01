@@ -59,12 +59,14 @@
           {%- endif -%}
           {% if item.kind != 'resource' -%}
             <li><a href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong></a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
           {%- elsif item.url -%}
             <li><a class="external" href="{{ item.url }}"><strong>{{ item.title }}</strong></a> {{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
           {%- else -%}
             <li><strong>{{ item.title }}</strong> ({{ item.kind | capitalize }}){{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
           {%- endif -%}
-          {%- assign num_items = num_items | plus: 1 -%}
           {%- break -%}
         {%- endif -%}
       {%- endfor -%}
