@@ -76,5 +76,5 @@
       {%- endif -%}
     {%- endfor -%}
   </ul>
-  <p>{% if num_items %}<em>{%- endif -%}Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}{% if num_items %}</em>{%- endif -%}</p>
+  <p>{%- if num_items > 0 -%}<em>{%- endif -%}Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}{%- if num_items > 0 -%}</em>{%- endif -%}</p>
 {%- endif -%}
