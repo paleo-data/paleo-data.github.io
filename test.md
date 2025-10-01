@@ -9,7 +9,7 @@ sidebar:
   expanded: [community]
 contributors: ["Adam Mansur"]
 topics: [invalid]
-last_modified_at: 2025-09-30
+last_modified_at: 2025-10-01
 ---
 
 This page is used to test widgets and other features.
@@ -49,7 +49,7 @@ Created with `{: .notice--danger}`
 {: .notice--tip}
 Created with `{: .notice--tip}`
 
-{% include resource_list topics='geography' max_items=100 %}
+{% include resource_list topics='symbiota' %}
 
 {% include resource_list topics='geography|georeference' %}
 

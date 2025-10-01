@@ -52,12 +52,17 @@
           {%- if item.annotation -%}
             {%- assign annotation = ": " | append: item.annotation -%}
           {%- endif -%}
+          {%- if annotation -%}
+            {%- assign annotation = annotation | markdownify | remove_first: '<p>' -%}
+            {%- assign i = annotation | size | plus: -5 -%}
+            {%- assign annotation = annotation | slice: 0, i -%}
+          {%- endif -%}
           {% if item.kind != 'resource' -%}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
+            <li><a href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong></a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
           {%- elsif item.url -%}
-            <li><a class="external" href="{{ item.url }}">{{ item.title }}</a> {{ annotation }}</li>
+            <li><a class="external" href="{{ item.url }}"><strong>{{ item.title }}</strong></a> {{ annotation }}</li>
           {%- else -%}
-            <li>{{ item.title }} ({{ item.kind | capitalize }}){{ annotation }}</li>
+            <li><strong>{{ item.title }}</strong> ({{ item.kind | capitalize }}){{ annotation }}</li>
           {%- endif -%}
           {%- assign num_items = num_items | plus: 1 -%}
           {%- break -%}
@@ -69,5 +74,5 @@
       {%- endif -%}
     {%- endfor -%}
   </ul>
-  <p><em>Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}</em></p>
+  <p>{% if num_items %}<em>{%- endif -%}Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}{% if num_items %}</em>{%- endif -%}</p>
 {%- endif -%}
