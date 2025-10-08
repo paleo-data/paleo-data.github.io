@@ -1,11 +1,12 @@
-title: Symbiota Docs
-access_url: https://docs.symbiota.org/docs/about
 doi: 
+title: Symbiota Docs
+annotation: A central repository for documentation regarding Symbiota-based data portals. This site is maintained by the Symbiota Support Hub, but all Symbiota users may contribute. Information on Symbiota Docs complements documentation on the Paleo Data Knowledge Hub about using Symbiota for fossil specimens.
 creators: Symbiota Support Hub
-publication_date: 2022-09-01
-annotation: Documentation for users of Symbiota software.
-resource_type:  website
+publication_date: 
+access_url: https://docs.symbiota.org/docs/about
+access_date: 2025-10-08
+last_modified_at: 2025-10-08
+resource_type: website
 license: CC-BY-NC
-keywords: symbiota
-last_modified_at: 2025-07-09
-topics: [symbiota, collection management system]
+citation: 
+topics: [symbiota]
