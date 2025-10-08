@@ -9,7 +9,7 @@ last_modified_at: 2025-10-08
 
 ## What is Symbiota?
 <img style="float: left; margin: 0px 15px 0px 0px;" width="25%" src="/assets/images/symbiota_logo-lg.png" alt="Symbiota Logo" caption="Symbiota Logo">
-[Symbiota](https://github.com/Symbiota/Symbiota) is open source software guided by the Darwin Core data standard used to create data portals to help collections share and manage biodiversity data. While Symbiota has been widely used to share data from biological collections, support for the active management and publication of fossil specimen data is relatively new (NSF Awards #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)). The most commonly used version of Symbiota and a number of Symbiota-based portals are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us) (SSH).
+{% include resource_link filename='symbiota.yml' %} is open source software guided by the Darwin Core data standard used to create data portals to help collections share and manage biodiversity data. While Symbiota has been widely used to share data from biological collections, support for the active management and publication of fossil specimen data is relatively new (NSF Awards #[2324690](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2324690)/[2525603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2525603)). The most commonly used version of Symbiota and a number of Symbiota-based portals are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us) (SSH).
 
 {% include resource_card filename='symbiota-documentation.yml' %} 
 
@@ -17,7 +17,7 @@ last_modified_at: 2025-10-08
 Prospective data providers may wish to reference the complete directory of [Symbiota portals](https://symbiota.org/symbiota-portals).
 
 ## What is the "Paleo Data Portal"?
-The [Paleo Data Portal](https://paleo.symbiota.org) (PDP) is a Symbiota-based data portal that exists to:
+The {% include resource_link filename='pdp.yml' %} is a Symbiota-based data portal that exists to:
 - Provide a **low barrier-to-entry** data mobilization platform for fossil collections
 - **Increase access** to fossil specimen data for research use
 - **Build community** among fossil collections not previously engaged in digitization efforts
