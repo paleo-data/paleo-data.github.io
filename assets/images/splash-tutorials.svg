@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 324 252">
+  <!-- Generator: Adobe Illustrator 29.8.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 2)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 8px;
+      }
+
+      .st0, .st1, .st2 {
+        fill: #5b5c67;
+      }
+
+      .st3 {
+        fill: none;
+        stroke: #5b5c67;
+        stroke-miterlimit: 10;
+      }
+
+      .st2 {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .st4 {
+        fill: #663695;
+        opacity: .2;
+      }
+    </style>
+  </defs>
+  <rect class="st4" x="12.2" y="32.2" width="161.6" height="112" rx="12" ry="12" transform="translate(186 176.4) rotate(180)"/>
+  <line class="st3" x1="162" y1="110.7" x2="162" y2="159.1"/>
+  <line class="st3" x1="116.4" y1="135" x2="199.1" y2="135"/>
+  <text class="st0" transform="translate(160.5 63.2) rotate(90)"><tspan x="0" y="0">PRACTICAL</tspan></text>
+  <text class="st0" transform="translate(160.5 164.3) rotate(90)"><tspan x="0" y="0">THEORETICAL</tspan></text>
+  <text class="st2" transform="translate(43.4 87.8)"><tspan x="0" y="0">Tutorials</tspan></text>
+  <text class="st2" transform="translate(21.7 191.6)"><tspan x="0" y="0">Explanations</tspan></text>
+  <text class="st2" transform="translate(233.4 184.4)"><tspan x="0" y="0">Highlighted</tspan><tspan x="0" y="14.4">resources</tspan></text>
+  <text class="st2" transform="translate(233.4 80.6)"><tspan x="0" y="0">How to</tspan><tspan x="0" y="14.4">guides</tspan></text>
+  <text class="st0" transform="translate(21 136.5)"><tspan x="0" y="0">USEFUL FOR LEARNING</tspan></text>
+  <text class="st0" transform="translate(204.1 136.5)"><tspan x="0" y="0">USEFUL FOR WORKING</tspan></text>
+  <path class="st1" d="M206.1,178.1c.6,0,1,.4,1,1v4c0,.6-.4,1-1,1h-2v2h5v-1c0-.6.4-1,1-1h6c.6,0,1,.4,1,1v4c0,.6-.4,1-1,1h-6c-.6,0-1-.4-1-1v-1h-5v6h5v-1c0-.6.4-1,1-1h6c.6,0,1,.4,1,1v4c0,.6-.4,1-1,1h-6c-.6,0-1-.4-1-1v-1h-6c-.6,0-1-.4-1-1v-11h-2c-.6,0-1-.4-1-1v-4c0-.6.4-1,1-1h6ZM215.1,194.1h-4v2h4v-2ZM215.1,186.1h-4v2h4v-2ZM205.1,180.1h-4v2h4v-2Z"/>
+  <path class="st1" d="M115.2,79.6l-6-3-4.9,2.1v12.6l5.1-2.2,6,3,4.9-2.1v-12.6l-5.1,2.2ZM102.2,77.4l7-3,6,3,6.3-2.7c.3-.1.5,0,.7.3,0,0,0,.1,0,.2v16.2l-7,3-6-3-6.3,2.7c-.3.1-.5,0-.7-.3,0,0,0-.1,0-.2v-16.2ZM106.2,83.4h2v2h-2v-2ZM110.2,83.4h2v2h-2v-2ZM116.2,83.3l1.2-1.2,1.1,1.1-1.2,1.2,1.2,1.2-1.1,1.1-1.2-1.2-1.2,1.2-1.1-1.1,1.2-1.2-1.2-1.2,1.1-1.1,1.2,1.2Z"/>
+  <path class="st1" d="M200.1,75.4c-.6,0-1,.4-1,1v16c0,.6.4,1,1,1h10c.6,0,1-.4,1-1v-4.7l1,4.7c.1.5.6.9,1.2.8l3.9-.8c.5-.1.9-.6.8-1.2l-2.9-13.7c-.1-.5-.6-.9-1.2-.8l-2.8.6c0-.5-.5-.9-1-.9h-4c0-.6-.4-1-1-1h-5ZM206.1,78.4h3v8h-3v-8ZM206.1,91.4v-3h3v3h-3ZM204.1,77.4v10h-3v-10h3ZM204.1,89.4v2h-3v-2h3ZM213.4,89l2-.4.4,2-2,.4-.4-2ZM213,87l-1.7-7.8,2-.4,1.7,7.8-2,.4Z"/>
+  <path class="st1" d="M106,192.4h14.2v-12h-16v13.4l1.8-1.4ZM106.7,194.4l-4.5,3.5v-18.5c0-.6.4-1,1-1h18c.6,0,1,.4,1,1v14c0,.6-.4,1-1,1h-14.5ZM111.2,189.4h2v2h-2v-2ZM108.8,184.2c.3-1.6,1.7-2.8,3.4-2.8s3.5,1.6,3.5,3.5-1.6,3.5-3.5,3.5h-1v-2h1c.8,0,1.5-.7,1.5-1.5s-.7-1.5-1.5-1.5-1.3.5-1.5,1.2l-2-.4Z"/>
+</svg>
