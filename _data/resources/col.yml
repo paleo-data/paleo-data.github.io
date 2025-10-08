@@ -1,11 +1,11 @@
 doi: 
 title: Catalogue of Life
-annotation: Useful for higher taxonomy.
+annotation: Taxonomic resource with highly variable coverage for fossils.
 creators: 
 publication_date: 
 access_url: https://www.catalogueoflife.org/
 access_date: 2025-07-09
 last_modified_at: 2025-07-09
-resource_type: 
+resource_type: website
 license: 
 topics: [taxonomy, catalogue of life]

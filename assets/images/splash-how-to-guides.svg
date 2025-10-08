@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302.47 195.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5b5c67;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 9px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #5b5c67;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #231f20;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        fill: #663695;
+        opacity: .4;
+      }
+    </style>
+  </defs>
+  <rect class="cls-7" x="137.1" width="165.37" height="111.98" rx="12" ry="12"/>
+  <line class="cls-2" x1="146.8" y1="77.59" x2="146.8" y2="126.21"/>
+  <line class="cls-2" x1="111.43" y1="101.9" x2="182.17" y2="101.9"/>
+  <text class="cls-1" transform="translate(145.11 17.38) rotate(90)"><tspan x="0" y="0">PRACTICAL</tspan></text>
+  <text class="cls-1" transform="translate(145.11 135.34) rotate(90)"><tspan x="0" y="0">THEORETICAL</tspan></text>
+  <text class="cls-4" transform="translate(32.67 47.82)"><tspan class="cls-5" x="0" y="0">T</tspan><tspan class="cls-3" x="7.79" y="0">utorials</tspan></text>
+  <text class="cls-4" transform="translate(15.55 157.22)"><tspan x="0" y="0">Explanations</tspan></text>
+  <text class="cls-4" transform="translate(189.52 148.42)"><tspan x="0" y="0">Highlighted</tspan><tspan class="cls-6" x="5.38" y="18">r</tspan><tspan x="10.95" y="18">esou</tspan><tspan class="cls-6" x="45.67" y="18">r</tspan><tspan x="51.24" y="18">ces</tspan></text>
+  <text class="cls-4" transform="translate(204.92 42.44)"><tspan x="0" y="0">How to</tspan><tspan x="1.67" y="18">guides</tspan></text>
+  <text class="cls-1" transform="translate(0 103.59)"><tspan x="0" y="0">USEFUL FOR LEARNING</tspan></text>
+  <text class="cls-1" transform="translate(191.32 103.59)"><tspan x="0" y="0">USEFUL FOR WORKING</tspan></text>
+</svg>
