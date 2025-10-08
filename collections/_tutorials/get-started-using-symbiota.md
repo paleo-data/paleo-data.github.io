@@ -17,13 +17,13 @@ This tutorial is most appropriate for someone who has fossil specimens and is co
 
 <iframe src="https://docs.google.com/presentation/d/1KTuhJWM_dSGWAahTZhDVspilIthPrsy36JlVFDWDlG0/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## 2) Learn how to manage specimen data using Symbiota
+## Next steps
+
+### 1) Learn how to manage specimen data using Symbiota
 Carefully review [this guide](/how-to-guides/manage-data-about-specimens-using-symbiota) before contributing fossil specimen data to a Symbiota portal. 
 
 {: .notice--success }
 If you maintain existing digital catalog records in a spreadsheet, this information can be imported into Symbiota. Data providers should review the [data formatting guide](/how-to-guides/manage-data-about-specimens-using-symbiota#bulk-data-import) prior to ingesting fossil specimen records into Symbiota. 
 
-## 3) Develop a digitization workflow
+### 2) Develop a digitization workflow
 Once oriented to Symbiota's key features and requirements for managing fossil specimen data, [this guide](/how-to-guides/develop-a-digitization-workflow-in-symbiota) will help you develop a strategy for digitizing your fossil specimens using a Symbiota portal.
-
-{% include resource_list topics='symbiota' %}
