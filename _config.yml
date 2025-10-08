@@ -2,7 +2,7 @@ title: Paleo Data Knowledge Hub
 description: A clearinghouse for information about data related to paleontology specimens and collections
 repository: paleo-data/paleo-data.github.io
 url: https://paleo-data.github.io
-baseurl: /knowledge-hub
+baseurl: knowledge-hub
 theme: minimal-mistakes-jekyll
 logo: /assets/images/trilocorn.png
 logo_alt: A trilobite with a unicorn horn and ears
