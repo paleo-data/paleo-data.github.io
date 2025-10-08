@@ -9,3 +9,5 @@ sidebar:
   collapsible: true
   expanded: [how-to-guides]
 ---
+
+<img style="float: center; margin: 0px 0px 0px 0px;" width="90%" src="/assets/images/splash-how-to-guides.svg" alt="Diagram showing the relationship of this navigation section on this website to the others.">
