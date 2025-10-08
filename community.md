@@ -11,4 +11,4 @@ sidebar:
   expanded: [community]
 ---
 
-<img style="float: center; margin: 0px 0px 0px 0px;" width="90%" src="/assets/images/splash-community.svg" alt="Diagram showing the relationship of this section of the site to the other navigation sections.">
+<img style="float: center; margin: 0px 0px 0px 0px;" width="90%" src="/assets/images/splash-community.png" alt="Diagram showing the relationship of this section of the site to the other navigation sections.">
