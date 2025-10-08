@@ -10,3 +10,5 @@ sidebar:
   collapsible: true
   expanded: [explanations]
 ---
+
+<img style="float: center; margin: 0px 0px 0px 0px;" width="90%" src="/assets/images/splash-explanations.svg" alt="Diagram showing the relationship of this section of the site to the other navigation sections.">
