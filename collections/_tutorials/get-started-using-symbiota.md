@@ -9,6 +9,9 @@ last_modified_at: 2025-10-08
 
 Symbiota is a low-barrier-to-entry data mobilization platform for fossil collections, and you can get started easily.
 
+{: .notice--tip}
+This tutorial is most appropriate for someone who manages fossil specimens and is considering using Symbiota to facilitate collections data management.
+
 ## Learn how to access key features in Symbiota
 The following presentation provides an overview of Symbiota's most essential features used to access, manage, and publish fossil specimen data. More comprehensive documentation is available in {% include resource_link filename='symbiota-documentation.yml' %}.
 
