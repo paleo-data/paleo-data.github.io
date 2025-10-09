@@ -6,6 +6,10 @@ status: published
 contributors: ["Erica Krimmel"]
 last_modified_at: 2025-09-15
 ---
+
+{: .notice--warning }
+Content is actively being developed for this page by members of PDWG. Please contact us via the [#knowledge-hub channel](https://paleo-data.slack.com/archives/C09L9TKC5MW) in our Slack workspace if you are interested in contributing. 
+
 Specific locality information may be restricted for some or all paleontological specimens due to federal regulations as well as the preferences of private landowners. 
 
 If coordinates need to be shared with less precision than the data available
