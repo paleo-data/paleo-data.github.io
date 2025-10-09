@@ -3,11 +3,13 @@ title: Identifiers
 description: This page explains what types of identifiers are important in the context of paleo data, and how they can be used.
 topics: [identifier]
 status: published
+toc: true
+toc_sticky: true
 contributors: ["Erica Krimmel"]
 last_modified_at: 2025-10-08
 ---
 
-{: .notice--primary }
+{: .notice--info }
 A version of this content is also [published on the SPNHC wiki](https://spnhc.org/persistent-identifiers/).
 
 As we increasingly digitize specimens and share digital data about our collections, Persistent IDentifiers (PIDs) are often assigned to digital specimen records and can also be used to reference other elements of collections data, such as people or taxa. PIDs are foundational elements of data infrastructure because they enable automated and semi-automated linking between concepts (see {% include resource_link filename='meadows-et-al-2019.yml' %}), and also help make data FAIR, or "findable, accessible, interoperable and reusable" (see {% include resource_link filename='wilkinson-et-al-2016.yml' %}).
