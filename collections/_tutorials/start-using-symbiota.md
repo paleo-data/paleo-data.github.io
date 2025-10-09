@@ -10,7 +10,7 @@ last_modified_at: 2025-10-08
 ---
 
 {: .notice--tip}
-If you are unfamiliar with Symbiota, consider additionally reviewing [this page](/highlighted-resources/symbiota) about the Paleo Data Portal, which is an example of a Symbiota portal created for managing fossil specimen data.
+If you are unfamiliar with Symbiota, consider reviewing [this page](/highlighted-resources/symbiota) about the Paleo Data Portal, which is an example of a Symbiota portal created for managing fossil specimen data.
 
 ## Learn how to access key features in Symbiota
 {% include resource_link filename='symbiota.yml' %} is a low-barrier-to-entry data mobilization platform for fossil collections, and you can get started easily. The following presentation provides an overview of Symbiota's most essential features used to access, manage, and publish fossil specimen data. More comprehensive documentation is available in {% include resource_link filename='symbiota-documentation.yml' %}.
