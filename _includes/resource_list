@@ -52,14 +52,21 @@
           {%- if item.annotation -%}
             {%- assign annotation = ": " | append: item.annotation -%}
           {%- endif -%}
-          {% if item.kind != 'resource' -%}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
-          {%- elsif item.url -%}
-            <li><a class="external" href="{{ item.url }}">{{ item.title }}</a> {{ annotation }}</li>
-          {%- else -%}
-            <li>{{ item.title }} ({{ item.kind | capitalize }}){{ annotation }}</li>
+          {%- if annotation -%}
+            {%- assign annotation = annotation | markdownify | remove_first: '<p>' -%}
+            {%- assign i = annotation | size | plus: -5 -%}
+            {%- assign annotation = annotation | slice: 0, i -%}
           {%- endif -%}
-          {%- assign num_items = num_items | plus: 1 -%}
+          {% if item.kind != 'resource' -%}
+            <li><a href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong></a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
+          {%- elsif item.url -%}
+            <li><a class="external" href="{{ item.url }}"><strong>{{ item.title }}</strong></a> {{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
+          {%- else -%}
+            <li><strong>{{ item.title }}</strong> ({{ item.kind | capitalize }}){{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
+          {%- endif -%}
           {%- break -%}
         {%- endif -%}
       {%- endfor -%}
@@ -69,5 +76,5 @@
       {%- endif -%}
     {%- endfor -%}
   </ul>
-  <p><em>Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}</em></p>
+  <p>{%- if num_items > 0 -%}<em>{%- endif -%}Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}{%- if num_items > 0 -%}</em>{%- endif -%}</p>
 {%- endif -%}
