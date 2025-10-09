@@ -8,6 +8,6 @@ last_modified_at: 2025-10-07
 ---
 
 {: .notice--warning }
-Content is actively being developed for this page by members of PDWG. Please contact NAME via the [#knowledge-hub channel](LINK) in our Slack workspace if you are interested in contributing. 
+Content is actively being developed for this page by members of PDWG. Please contact us via the [#knowledge-hub channel](https://paleo-data.slack.com/archives/C09L9TKC5MW) in our Slack workspace if you are interested in contributing. 
 
 {% include resource_list topics='shared locality' %}
