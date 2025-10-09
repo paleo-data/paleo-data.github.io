@@ -217,6 +217,10 @@
   acronym: OCR
   definition: Technology that converts different types of documents, such as scanned paper documents, PDF files or images into editable and searchable data.
   topics: []
+- term: PDP
+  acronym: PDP
+  definition: Paleo Data Portal. Symbiota-based data portal for fossil collections
+  topics: [symbiota]
 - term: Paleobiology Database
   acronym: PBDB
   definition: Global, community-driven database of fossil occurrence records supported by literature.
@@ -237,6 +241,10 @@
   acronym: PID
   definition: persistent identifier. A unique, stable, and typically resolvable identifier. E.g. a DOI or an ARK
   topics: [identifier]
+- term: SSH
+  acronym: SSH
+  definition: Symbiota Support Hub. Group based at the University of Kansas that maintains the most commonly used version of Symbiota, as well as  a number of Symbiota-based portals.
+  topics: [symbiota]
 - term: SQL
   acronym: SQL
   definition: Structured Query Language. A programming language designed for working with data in relational database management systems.
