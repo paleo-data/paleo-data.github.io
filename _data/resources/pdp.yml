@@ -1,0 +1,12 @@
+doi: 
+title: Paleo Data Portal (PDP)
+annotation: A Symbiota portal that supports the management and sharing of data associated with paleontological specimens that are made available for research via permanent repositories. The scope of the PDP is limited to extinct organisms and their traces (i.e., fossils). Geological samples, archaeological and anthropological materials, as well as neontological specimen data fall outside this scope and should not be cataloged in this portal.
+creators: 
+publication_date: 
+access_url: https://paleo.symbiota.org
+access_date: 2025-10-08
+last_modified_at: 2025-10-08
+resource_type: website
+license: 
+citation: Paleo Data Portal (PDP)
+topics: [symbiota]

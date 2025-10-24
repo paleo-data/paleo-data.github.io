@@ -33,19 +33,18 @@ We also frequently use [EasyRetro](https://easyretro.io) as a feedback tool for 
 
 Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions. Participants vary in their engagement levels and come from a wide range of institutions, including independent museums, university collections, and representatives from US federal agencies. Current members of this group are largely based in the United States, but international members are very welcome. Active PDWG members who wish to be acknowledged are listed in the table below. If you should be added to this list, or your affiliation should be updated, please let us know by emailing _paleodatawg@gmail.com_!
 
-| Affiliation | PDWG Member(s) |
+| Affiliation | Active PDWG Member(s) |
 | - | - |
 | Academy of Natural Sciences of Drexel University (ANSP) | [Alejandra Martinez-Melo](https://orcid.org/0000-0003-2314-689X) |
 | independent | [Ben Norton](https://orcid.org/0000-0002-5819-9134), [Erica Krimmel](https://orcid.org/0000-0003-3192-0080) |
 | Indiana University, Bloomington (IUB) | [Jess Miller-Camp](https://orcid.org/0000-0003-4143-9514) |
 | Museum of Comparative Zoology, Harvard University (MCZ) | [Christina Byrd](https://orcid.org/0000-0001-7963-6092) |
 | Natural History Museum of Los Angeles County (NHMLA/LACM) | [Juliet Hook](https://orcid.org/0000-0003-0485-1112) |
-| Paleontological Research Institute (PRI) | Vicky Wang |
 | Sam Noble Oklahoma Museum of Natural History (SNOMNH) | [Margaret Landis](https://orcid.org/0000-0002-3297-9888), [Roger Burkhalter](https://orcid.org/0000-0001-5518-5661) |
 | Santa Cruz Museum of Natural History (SCMNH) | [Wayne Thompson](https://orcid.org/0000-0002-2603-0510) |
 | Smithsonian National Museum of Natural History (NMNH) | [Holly Little](https://orcid.org/0000-0001-7909-4166), [Amanda Millhouse](https://orcid.org/0000-0002-8679-4774), [Jessie Nakano](https://orcid.org/0000-0002-7652-3663), Matt Miller, [Alex Lawrence](https://orcid.org/0009-0004-7918-4208) |
 | Stanford University (LSJU) | [Chrissy Garcia](https://orcid.org/0000-0002-9728-3670) |
-| University of Colorado Museum of Natural History (CUMNH) | [Talia Karim](https://orcid.org/0000-0001-6514-963X), [Jacob Van Veldhuizen](https://orcid.org/0000-0001-6770-0181) |
+| University of Colorado Museum of Natural History (CUMNH) | [Talia Karim](https://orcid.org/0000-0001-6514-963X) |
 | University of Kansas Natural History Museum & Biodiversity Institute |  [Natalia López Carranza](https://orcid.org/0000-0002-1393-2902), [Lindsay Walker](https://orcid.org/0000-0002-2162-6593) |
 | University of St. Thomas, St. Paul, MN | [Thomas Hickson](https://orcid.org/0000-0002-7878-3565) |
 | University of Wisconsin Geology Museum (UWGM) | [Carrie Eaton](https://orcid.org/0000-0001-6647-1751) |

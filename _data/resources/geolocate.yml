@@ -1,0 +1,11 @@
+title: GEOLocate
+annotation: Software designed to georeference natural history collections data by interpreting locality data and converting them into specific geospatial coordinate pairs, including an estimate of precision based on the point-radius method. GeoLocate may be downloaded as a standalone desktop application, used via a web-based interface, or run as a web service against an existing online database. It is integrated into Symbiota, Arctos, and other CMS.
+creators: Nelson Rios et al.
+publication_date: 
+access_url: https://www.geo-locate.org
+access_date: 2025-09-26
+last_modified_at: 2025-09-26
+resource_type: software
+license: 
+citation: 
+topics: [georeference]

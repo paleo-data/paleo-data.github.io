@@ -160,35 +160,40 @@ def index_tags(fms: dict, key: str = "tags", tagged: list = None) -> dict:
                 tags = [tags]
             invalid = set(tags) - valid_tags
             if invalid:
-                print(f"Invalid tags omitted: {invalid} (url={fm['url']})")
+                print(f" {fm['path']}: Omitted invalid tags {invalid}")
                 tags = sorted(set(tags) & valid_tags)
-            tagged.append(
-                {
-                    "title": fm["title"],
-                    "kind": "page",
-                    "url": fm["url"],
-                    "tags": tags,
-                }
-            )
+            if tags and fm.get("status") == "published":
+                tagged.append(
+                    {
+                        "title": fm["title"],
+                        "kind": fm["heading"].replace("-", " ").rstrip("s"),
+                        "annotation": fm.get("description", ""),
+                        "url": fm["url"],
+                        "tags": tags,
+                    }
+                )
 
     # Get tags from resources
     for path in (BASEPATH / "_data" / "resources-updated").glob("*.yml"):
         with open(path, encoding="utf-8") as f:
             resource = yaml.safe_load(f)
-            resource["kind"] = "external"
-            resource["url"] = resource["access_url"]
+            resource["kind"] = "resource"
+            resource["annoutation"] = resource.get("annotation", "")
+            resource["url"] = (
+                resource["access_url"] if resource["access_url"] else resource["doi"]
+            )
             resource["tags"] = resource[key]
             tagged.append(
                 {
                     k: v
                     for k, v in resource.items()
-                    if k in {"title", "kind", "url", "tags"}
+                    if k in {"title", "kind", "annotation", "url", "tags"}
                 }
             )
 
     tagged.sort(key=lambda t: t["title"])
     with open(BASEPATH / "_data" / f"indexed.yml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(tagged, f)
+        yaml.safe_dump(tagged, f, sort_keys=False)
 
     return tags
 
@@ -303,8 +308,11 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
     subpatterns = (
         r"#.*?\n",  # markdown headers
         r"\[.*?\]\(.*?\)",  # markdown links
+        r"\|.*\|",  # markdown tables
         r"{%.*?%}",  # Jekyll includes
-        r"<a *?>.*?</a>",  # HTML anchor tags
+        r"{{.*?}}",  # Jekyll tags
+        r"<a .*?>.*?</a>",  # HTML anchor tags
+        r"https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&//=]*)",  # URLs (modified from https://stackoverflow.com/a/3809435)
     )
     pattern = f"({'|'.join(subpatterns)})"
 
@@ -316,7 +324,8 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
             continue
 
         # Skip files including any of the exclude keywords
-        if any((s in str(path) for s in exclude)):
+        if any((s in str(path).split("/") for s in exclude)):
+            print(f" {path}: Skipped tooltip check")
             continue
 
         # Create a copy of the glossary. Terms are removed as they are found so that
@@ -334,9 +343,9 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
             parts = re.split(pattern, content)
             for i, part in enumerate(parts):
                 if not re.match(pattern, part):
-                    for key in list(glossary_):
+                    for key in sorted(glossary_, key=len):
                         # Find the first match for the term in the part
-                        match = re.search(rf"\b{key}\b", part, flags=re.I)
+                        match = re.search(rf"\b{key}s?\b", part, flags=re.I)
                         if match is not None:
                             # Use the matched term so that case is preserved
                             term = match.group()
@@ -345,14 +354,19 @@ def add_tooltips(path, glossary=None, exclude=(".github", "README.md", "vendor")
                             except ValueError:
                                 namespace = ""
                             if fm_.get("highlight_all_terms") or not found.get(key):
-                                include = f'{{% include glossary term="{term}" namespace="{namespace}" %}}'
-                            else:
-                                include = f'{{% include glossary term="{term}" namespace="{namespace}" link="false" %}}'
-                            parts[i] = re.sub(
-                                rf"\b{match.group()}\b", include, parts[i]
-                            )
+                                parts[i] = re.sub(
+                                    rf"\b{match.group()}\b",
+                                    f'{{% include glossary term="{term}" namespace="{namespace}" %}}',
+                                    parts[i],
+                                    count=1,
+                                )
+                            part = parts[i]
                             found[key] = True
             content_ = "---" + fm + "---" + "".join(parts)
+
+            num_includes = content_.count("% include glossary")
+            if num_includes:
+                print(f" {path}: Added {num_includes} tooltips")
 
         # Do not mess with the file unless it has been changed
         if content != content_:

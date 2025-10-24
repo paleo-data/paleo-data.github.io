@@ -1,34 +1,80 @@
-{% assign topics = include.topics | default: '' | split: '|' %}
+{%- assign topics = include.topics | default: '' | split: '|' -%}
+{%- assign kinds = include.kinds | default: 'explanation|highlighted resource|how to guide|reference guide|tutorial' | split: '|' -%}
+{%- assign max_items = include.max_items | default: 10 -%}
 
-{% assign found = false %}
-{% for res_hash in site.data["resources-updated"] %}
-{% assign item = res_hash[1] %}
-  {% for topic in topics %}
-    {% if item.topics contains topic %}
-      {% assign found = true %}
-      {% break %}
-    {% endif %}
-    {% if found %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
-  {% if found %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{%- assign found = false -%}
+{%- for item in site.data.indexed -%}
+  {%- for topic in topics -%}
+    {%- if item.tags contains topic and item.title != page.title -%}
+      {%- assign found = true -%}
+      {%- break -%}
+    {%- endif -%}
+    {%- if found -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if found -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{% if found %}
-  {% assign heading = include.heading | default: 'External resources' %}
+{%- if found -%}
+
+  {%- assign links = "" | split: "" -%}
+  {%- assign base_url = 'topics?' -%}
+  {%- assign num_topics = topics | size -%}
+  {%- for topic in topics -%}
+
+    {%- assign url = '/topics?topic=' | append: topic -%}
+    {%- capture link -%}<a href="{{ url | relative_url}}">{{ topic }}</a>{%- endcapture -%}
+
+    {%- if num_topics == 2 and forloop.index != 1 -%}
+      {%- assign link = " and " | append: link -%}
+    {%- elsif forloop.last and forloop.index != 1 -%}
+      {%- assign link = "and " | append: link -%}
+    {%- endif -%}
+    {%- unless forloop.first or num_topics == 2 -%}
+      {%- assign link = ", " | append: link -%}
+    {%- endunless -%}
+    {%- assign links = links | push: link -%}
+    
+  {%- endfor -%}
+
+  {%- assign heading = include.heading | default: 'Related content' -%}
+  {%- assign num_items = 0 -%}
+  {%- assign more = false -%}
   <h2>{{ heading }}</h2>
   <ul>
-    {% for res_hash in site.data["resources-updated"] %}
-    {% assign item = res_hash[1] %}
-      {% for topic in topics %}
-        {% if item.topics contains topic %}
-          <li><a class="external" href="{{ item.doi }}">{{ item.title }}</a>: {{ item.annotation }}</li>
-          {% break %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
+    {%- for item in site.data.indexed -%}
+      {%- for topic in topics -%}
+        {%- if item.tags contains topic and item.title != page.title and kinds contains item.kind -%}
+          {%- assign annotation = "" -%}
+          {%- if item.annotation -%}
+            {%- assign annotation = ": " | append: item.annotation -%}
+          {%- endif -%}
+          {%- if annotation -%}
+            {%- assign annotation = annotation | markdownify | remove_first: '<p>' -%}
+            {%- assign i = annotation | size | plus: -5 -%}
+            {%- assign annotation = annotation | slice: 0, i -%}
+          {%- endif -%}
+          {% if item.kind != 'resource' -%}
+            <li><a href="{{ item.url | relative_url }}"><strong>{{ item.title }}</strong></a> ({{ item.kind | capitalize | replace: 'Pdwg', 'PDWG'}}){{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
+          {%- elsif item.url -%}
+            <li><a class="external" href="{{ item.url }}"><strong>{{ item.title }}</strong></a> {{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
+          {%- else -%}
+            <li><strong>{{ item.title }}</strong> ({{ item.kind | capitalize }}){{ annotation }}</li>
+            {%- assign num_items = num_items | plus: 1 -%}
+          {%- endif -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if num_items >= max_items -%}
+        {%- unless forloop.last -%}{%- assign more = true -%}{%- endunless -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
   </ul>
-{% endif %}
+  <p>{%- if num_items > 0 -%}<em>{%- endif -%}Browse additional related content, including PDWG Happy Hours and links out to external resources, via topic: {{ links }}{%- if num_items > 0 -%}</em>{%- endif -%}</p>
+{%- endif -%}

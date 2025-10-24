@@ -1,0 +1,11 @@
+title: Symbiota
+annotation: Symbiota is an adaptable, customizable software that enables self-defined and self-governed communities of practice to create collaborative biodiversity data portals. Data in web-based Symbiota portals can be instantly searchable via public search features, and there are many tools to connect these data to other collections and to aggregators (e.g., iDigBio, GBIF). Symbiota portals include many tools for efficient digitization, data import, and data mobilization, as well as duplicate matching tools (across and within collections), CSV and Darwin Core Archive import and export options, and linking tools to external sources or specimen records. 
+creators: Symbiota Support Hub
+publication_date: 
+access_url: https://symbiota.org/
+access_date: 2025-09-26
+last_modified_at: 2025-09-26
+resource_type: software
+license: 
+citation: Symbiota
+topics: [collection management system, symbiota]

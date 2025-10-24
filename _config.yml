@@ -2,13 +2,27 @@ title: Paleo Data Knowledge Hub
 description: A clearinghouse for information about data related to paleontology specimens and collections
 repository: paleo-data/paleo-data.github.io
 url: https://paleo-data.github.io
-baseurl:
+baseurl: 
 theme: minimal-mistakes-jekyll
 logo: /assets/images/trilocorn.png
 logo_alt: A trilobite with a unicorn horn and ears
 og_image: /assets/images/trilocorn.png
 exclude: [scripts, templates]
-
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fa-brands fa-github"
+      url: "https://github.com/orgs/paleo-data"
+    - label: "Slack"
+      icon: "fa-brands fa-slack"
+      url: "https://paleo-data.slack.com/"
+    - label: "Listserv"
+      icon: "fa-solid fa-envelope"
+      url: "https://groups.google.com/g/paleo-data/about"
+    - label: "Community Norms"
+      icon: "fa-solid fa-people-group"
+      url: "https://paleo-data.github.io/community/norms"
+      
 atom_feed:
   hide: true
 

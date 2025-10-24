@@ -2,6 +2,7 @@
 
 import re
 import shutil
+import time
 from datetime import date
 from pathlib import Path
 
@@ -39,7 +40,7 @@ if __name__ == "__main__":
         path.mkdir(parents=True, exist_ok=True)
 
     print("Updating resources")
-    for path_ in res_path.glob("*.yml"):
+    for path_ in sorted(res_path.glob("*.yml")):
 
         with open(path_, encoding="utf-8") as f:
             rec = yaml.safe_load(f.read())
@@ -48,8 +49,22 @@ if __name__ == "__main__":
         doi = rec.get("doi")
         match = re.search(r"https?://doi.org/10.5281/zenodo.(\d+)$", doi if doi else "")
         if match:
-            resp = session.get(f"https://zenodo.org/api/records/{match.group(1)}")
-            zrec = resp.json()
+            for i in range(7):
+                try:
+                    resp = session.get(
+                        f"https://zenodo.org/api/records/{match.group(1)}"
+                    )
+                    zrec = resp.json()
+                except requests.exceptions.JSONDecodeError:
+                    # Exponential backoff
+                    time.sleep(2**i)
+                else:
+                    break
+            else:
+                raise ValueError(
+                    f"Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
+                )
+
             metadata = zrec["metadata"]
             desc = BeautifulSoup(metadata["description"], "html5lib")
 

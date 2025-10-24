@@ -18,12 +18,9 @@
 {%- endif -%}
 {%- endcapture -%}
 
-{%- if eterm == term -%}
-{%- if entry.url -%}
-    <a class="external tooltip" href="{{ entry.url }}">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></a>
-{%- else - %}
-    <span class="tooltip">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></span>
-{%- endif -%}
+{%- assign plural = eterm | append: 's' -%}
+{%- if term == eterm or term == plural  -%}
+{%- if entry.url -%}<a class="external tooltip" href="{{ entry.url }}">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></a>{%- else - %}<span class="tooltip">{{ include.term }}<span class="tooltiptext">{{ entry.definition }}</span></span>{%- endif -%}
 {%- break -%}
 {%- endif -%}
 {%- endfor -%}
