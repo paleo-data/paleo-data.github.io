@@ -1,13 +1,25 @@
 - title: TBD
+  date: 2026-01-29
+  topics: []
+  notes: https://docs.google.com/document/d/11bTM7BJsdy5gNh_5C5JdD-NmhCoJlUkcabkq2tRVbzc/edit?usp=sharing
+  recording: 
+  
+- title: TBD
+  date: 2026-01-15
+  topics: []
+  notes: https://docs.google.com/document/d/1qZ7H5ppZ9PjWnqHLpFUBeYPu4q7x-g9RlgFVXnMICBs/edit?usp=sharing
+  recording: 
+  
+  - title: TBD
   date: 2025-12-18
   topics: []
-  notes: https://docs.google.com/document/d/1XqIWQVFEtP8UeaqBIIp2FaujHbk13J83aJ_yED70aS0/edit?usp=sharing
+  notes: https://docs.google.com/document/d/11Zkt5rts7E7kBeE-P89Z9jBGmaMpW_5BfEQFgxA-3Nk/edit?usp=drive_link
   recording: 
 
 - title: TBD
   date: 2025-12-04
   topics: []
-  notes: https://docs.google.com/document/d/1qxRYewvOtxDteDcDKliYTiBOIQfCMSirtpQNPacH4Uc/edit?usp=sharing
+  notes: https://docs.google.com/document/d/1ZrVAkfEhVZJUtAHeZD_s1DGUeGJNkefI0n7QVgAtP7U/edit?usp=drive_link
   recording: 
 
 - title: Community updates on conferences and Darwin Core public review
@@ -56,7 +68,7 @@
   date: 2025-08-14
   topics: [paleo specimen data model]
   notes: https://docs.google.com/document/d/15Qj9NKzwEL9WdGaEnaC-xOjii3NyC33GPoRkbCm9ge0/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1x3IYFSymDM9fyKaRMAsMydjOuj7CB9C2/view?usp=drive_link
 
 - title: Working session on creating exemplar fossil specimen records, Part II
   date: 2025-07-31
@@ -114,7 +126,7 @@
 
 - title: Case study on modeling and sharing data from the Amoco Collection
   date: 2025-03-13
-  topics: [paleo specimen data model]
+  topics: [paleo specimen data model, data wrangling]
   notes: https://docs.google.com/document/d/1YIRNPlthvLG8zEvJBO6wn_5FpIhYyg1mpvjkJECk3R8/edit?usp=sharing
   recording: https://drive.google.com/file/d/1-yCj0eeRMeZCbLs-SIhdLXTYewbX2EmO/view?usp=drive_link
 
