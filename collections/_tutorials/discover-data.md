@@ -13,3 +13,5 @@ Content is actively being developed for this page by members of PDWG. Please con
 Some commonly used repositories include:
 
 - {% include resource_link filename='morphosource.yml' %}
+- {% include resource_link filename='pangaea.yml' %}
+
