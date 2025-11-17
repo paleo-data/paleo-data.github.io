@@ -66,7 +66,10 @@ if __name__ == "__main__":
                 )
 
             metadata = zrec["metadata"]
-            desc = BeautifulSoup(metadata["description"], "html5lib")
+            try:
+                desc = BeautifulSoup(metadata["description"], "html5lib").text
+            except KeyError:
+                desc = ""
 
             names = [p["name"] for p in metadata["creators"]]
             year = metadata["publication_date"][:4]
@@ -85,7 +88,7 @@ if __name__ == "__main__":
                 "citation": citation,
                 "title": metadata["title"],
                 "creators": "; ".join(names),
-                "description": autolink(re.sub("\n{2,}", "\n\n", desc.text)),
+                "description": autolink(re.sub("\n{2,}", "\n\n", desc)),
                 "last_modified_at": date(
                     *[int(n) for n in zrec["modified"][:10].split("-")]
                 ),
