@@ -12,6 +12,14 @@ Content is actively being developed for this page by members of PDWG. Please con
 
 Some commonly used repositories include:
 
+- {% include resource_link filename='datacite.yml' %}
+- {% include resource_link filename='dataone.yml' %}
+- {% include resource_link filename='figshare.yml' %}
+- {% include resource_link filename='iodp.yml' %}
 - {% include resource_link filename='morphosource.yml' %}
+- {% include resource_link filename='morphobank.yml' %}
+- {% include resource_link filename='neotoma.yml' %}
+- {% include resource_link filename='open-science-framework.yml' %}
 - {% include resource_link filename='pangaea.yml' %}
+- {% include resource_link filename='sgp.yml' %}
 
