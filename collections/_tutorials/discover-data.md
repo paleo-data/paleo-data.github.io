@@ -14,6 +14,7 @@ Some commonly used repositories include:
 
 - {% include resource_link filename='datacite.yml' %}
 - {% include resource_link filename='dataone.yml' %}
+- {% include resource_link filename='dryad.yml' %}
 - {% include resource_link filename='figshare.yml' %}
 - {% include resource_link filename='iodp.yml' %}
 - {% include resource_link filename='morphosource.yml' %}
