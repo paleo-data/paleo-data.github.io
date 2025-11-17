@@ -18,7 +18,7 @@ search: false
    :root { filter: invert(100%); }
    div.page__hero--overlay, div.archive__item-teaser { filter: invert(100%); }
    img:not([src*=".svg"]), video { filter: invert(100%); }
-   img.mhicon { filter: invert(0); }
+   img.icon, img.mhicon { filter: invert(0); }
 }
 
 @media print {
