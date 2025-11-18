@@ -274,7 +274,7 @@ div.section-title a { color: #555; }
 p.description { color: #6e7173; font-style: italic; }
 
 img.icon { width: 2em; height: 2em; }
-img.mhicon { width: 1.75em; height: 1.75em; }
+img.mhicon { width: 1.75em; max-height: 1.75em; }
 
 table { display: table; width: 95%; }
 
