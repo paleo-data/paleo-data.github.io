@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_image: /assets/images/header2.jpg
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))
-  caption: "Photo credit: [NMNH](https://naturalhistory.si.edu/)"
+  caption: "Chip Clark / [NMNH](https://naturalhistory.si.edu/)"
   #actions:
   #  - label: "More Info"
   #    url: "/about"
