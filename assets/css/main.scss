@@ -18,7 +18,7 @@ search: false
    :root { filter: invert(100%); }
    div.page__hero--overlay, div.archive__item-teaser { filter: invert(100%); }
    img:not([src*=".svg"]), video { filter: invert(100%); }
-   img.mhicon { filter: invert(0); }
+   img.icon, img.mhicon { filter: invert(0); }
 }
 
 @media print {
@@ -274,7 +274,7 @@ div.section-title a { color: #555; }
 p.description { color: #6e7173; font-style: italic; }
 
 img.icon { width: 2em; height: 2em; }
-img.mhicon { width: 1.75em; height: 1.75em; }
+img.mhicon { width: 1.75em; max-height: 1.75em; }
 
 table { display: table; width: 95%; }
 
