@@ -16,6 +16,7 @@ Some commonly used repositories include:
 - {% include resource_link filename='dataone.yml' %}
 - {% include resource_link filename='dryad.yml' %}
 - {% include resource_link filename='figshare.yml' %}
+- {% include resource_link filename='harvard-dataverse.yml' %}
 - {% include resource_link filename='iodp.yml' %}
 - {% include resource_link filename='morphosource.yml' %}
 - {% include resource_link filename='morphobank.yml' %}
@@ -23,4 +24,5 @@ Some commonly used repositories include:
 - {% include resource_link filename='open-science-framework.yml' %}
 - {% include resource_link filename='pangaea.yml' %}
 - {% include resource_link filename='sgp.yml' %}
+- {% include resource_link filename='zenodo.yml' %}
 
