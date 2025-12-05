@@ -1,11 +1,11 @@
 doi: 
 title: System for Earth and Extraterrestrial Sample Registration (SESAR)
-annotation: Global digital index of samples and specimens.
+annotation: Community platform that facilitates discovery, access, and reuse of physical samples, by making sample metadata persistently accessible online for humans and machines through the use of Persistent IDs, as well as by aggregating & harmonizing sample metadata from distributed sources into a central metadata catalog. Users can acquire IGSNs for physical samples, such as fossil specimens, via SESAR. Examples of organizations using SESAR include the British Geological Survey, the International Ocean Drilling Program, the U.S. National Ecological Observation Network, etc.
 creators: 
 publication_date: 
 access_url: https://www.geosamples.org/
 access_date: 2025-11-13
-last_modified_at: 2025-11-13
+last_modified_at: 2025-12-05
 resource_type: website
 license: 
 citation: SESAR
