@@ -39,7 +39,6 @@ PIDs (and other identifiers) can be assigned to different types of objects withi
 | Wikidata QID (Q IDentifier) | [Wikidata](https://www.wikidata.org/) | [URI]+[numeric object identifier] <br /><br /> _https://www.wikidata.org/entity/Q43649390_ | generic |
 | DOI (Digital Object Identifier) | e.g. [DataCite](https://datacite.org/) or [CrossRef](https://www.crossref.org/) | Handle (DOI) <br /><br /> _https://doi.org/10.5962/p.304567_ | digital objects |
 | IGSN (International Generic Sample Number) | [DataCite](https://datacite.org/) | Handle (DOI) <br /><br /> https://_doi.org/10.58052/DSR0004SY_ or _igsn:10.58052/DSR0004SY_ | physical objects|
-| CETAF Stable Identifier | [Consortium of European Taxonomic Facilities (CETAF)](https://cetaf.org/) | [URI]+[alphanumeric object identifier] <br /><br /> _http://herbarium.bgbm.org/object/B100277113_ or _http://www.botanicalcollections.be/specimen/BR0000005516339_ or _http://data.rbge.org.uk/herb/E00421509_ | physical objects |
 | ORCID (Open Researcher and Contributor ID) | [ORCID](https://orcid.org/) | [URI]+[numeric object identifier] <br /><br /> _https://orcid.org/0000-0001-6514-963X_ | agents |
 | ROR (Research Organization Registry identifier) | [Research Organization Registry](https://ror.org/) | [URI]+[alphanumeric object identifier] <br /><br /> _https://ror.org/03pnyy777_ | agents |
 
