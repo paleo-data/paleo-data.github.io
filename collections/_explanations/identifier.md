@@ -41,6 +41,7 @@ PIDs (and other identifiers) can be assigned to different types of objects withi
 | IGSN (International Generic Sample Number) | [DataCite](https://datacite.org/) | Handle (DOI) <br /><br /> https://_doi.org/10.58052/DSR0004SY_ or _igsn:10.58052/DSR0004SY_ | physical objects|
 | ORCID (Open Researcher and Contributor ID) | [ORCID](https://orcid.org/) | [URI]+[numeric object identifier] <br /><br /> _https://orcid.org/0000-0001-6514-963X_ | agents |
 | ROR (Research Organization Registry identifier) | [Research Organization Registry](https://ror.org/) | [URI]+[alphanumeric object identifier] <br /><br /> _https://ror.org/03pnyy777_ | agents |
+| COL identifier | [Catalogue of Life](https://www.catalogueoflife.org) | [namespace]+[alphanumeric object identifier] <br /><br /> _col:4QHKG_ or _col:P_ | taxa |
 
 ### Generic identifiers
 
@@ -72,6 +73,10 @@ Identifiers for agents, such as people or organizations, can be incredibly usefu
 For people, identifiers may be used as values in the Darwin Core terms dwc:recordedByID and dwc:identifiedByID. [ORCIDs](https://orcid.org/) are commonly used to identify living people; individuals create an ORCID for themselves rather than being assigned one by a third party. [Wikidata QIDs (Q IDentifiers)](https://www.wikidata.org/wiki/Wikidata:Identifiers) are a generic type of identifier but frequently used for people, both living and dead. Learn more in {% include resource_link filename='bauer-et-al-2022.yml' %}.
 
 For institutions, [ROR (Research Organization Registry)](https://ror.org/) is the next generation of a similar identifier type called GRID (Global Research Identifier Database). RORs are designed to identify the top level institution, e.g. a university, and so can be difficult to apply to collections which may be, e.g. a department within a university.
+
+### Identifiers for taxa
+
+Similarly to identifiers for agents, identifiers for taxa are essential tools to link out to data maintained in other systems, such as taxonomic classifications or nomenclatural history. [Catalogue of Life (COL) identifiers](https://www.catalogueoflife.org/building/identifier) allow the same identifier to be used for the same name across all versions of COL, regardless of monthly, annual or extended releases. The "col" namespace is registered with identifiers.org, so users have to option to reference these in a resolvable way, e.g. [https://identifiers.org/col:4QHKG](https://identifiers.org/col:4QHKG). In Darwin Core, such identifiers may be used with the term dwc:taxonID.
 
 ## Assigning PIDs
 
