@@ -3,4 +3,5 @@ html5lib
 pandas
 pyyaml
 requests
+requests_cache
 unidecode

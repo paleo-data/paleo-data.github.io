@@ -27,9 +27,9 @@ from utils import (
 
 if __name__ == "__main__":
 
-    # Use cache when building the site locally. Cached requests expire after 8 hrs.
+    # Use cache when building the site locally. Cached requests expire after 3 days.
     try:
-        session = requests_cache.CachedSession(expire_after=28800)
+        session = requests_cache.CachedSession(expire_after=3 * 24 * 60 * 60)
     except NameError:
         session = requests.Session()
 
@@ -64,6 +64,13 @@ if __name__ == "__main__":
                 raise ValueError(
                     f"Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
                 )
+
+            # Pause after new requests to repect the Zenodo rate limit
+            if hasattr(resp, "from_cache") and resp.from_cache:
+                print(" Response restored from cache")
+            else:
+                print(" Response returned from server")
+                time.sleep(2)
 
             metadata = zrec["metadata"]
             try:
