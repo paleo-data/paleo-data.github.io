@@ -28,7 +28,6 @@ from utils import (
 )
 
 ZENODO_ACCESS_TOKEN = os.getenv("ZENODO_ACCESS_TOKEN")
-ZENODO_ACCESS_TOKEN = "pste03ORRwGtHWmBsq9FGUOEYyzGS27wbhDx3bW2cytDjqb8nmvOjjDIUgTG"
 
 if __name__ == "__main__":
 
