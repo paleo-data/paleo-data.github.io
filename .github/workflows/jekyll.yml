@@ -60,6 +60,8 @@ jobs:
           key: sqlite-${{ runner.os }}-${{ github.run_id }}
           restore-keys: sqlite-${{ runner.os }}-
       - name: Create additional markdown files with Python
+        env:
+          ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
         run: python ./scripts/build-site.py
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
