@@ -1,5 +1,6 @@
 """Creates and indexes pages based using YAML files in _data"""
 
+import os
 import re
 import shutil
 import time
@@ -26,6 +27,8 @@ from utils import (
     to_slug,
 )
 
+ZENODO_ACCESS_TOKEN = os.getenv("ZENODO_ACCESS_TOKEN")
+
 if __name__ == "__main__":
 
     # Use cache when building the site locally. Cached requests expire after 3 days.
@@ -41,6 +44,9 @@ if __name__ == "__main__":
         path.mkdir(parents=True, exist_ok=True)
 
     print("Updating resources")
+    headers = None
+    if ZENODO_ACCESS_TOKEN:
+        headers = {"Authorization": f"Bearer {ZENODO_ACCESS_TOKEN}"}
     for path_ in sorted(res_path.glob("*.yml")):
 
         with open(path_, encoding="utf-8") as f:
@@ -54,10 +60,13 @@ if __name__ == "__main__":
             print(f"Resolving {url}")
             for i in range(7):
                 try:
-                    resp = session.get(url)
+                    resp = session.get(url, headers=headers)
                     zrec = resp.json()
                 except requests.exceptions.JSONDecodeError:
-                    # Exponential backoff
+                    # Kill the script if code 429 is returned
+                    if resp.status_code == 429:
+                        raise
+                    # Exponential backoff otherwise
                     print(f" Request failed, retrying in {2**i} seconds")
                     time.sleep(2**i)
                 else:
