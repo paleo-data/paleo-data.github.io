@@ -54,17 +54,22 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Setup HTTP cache
-        uses: actions/cache@v4
+      - name: Restore HTTP cache
+        uses: actions/cache/restore@v4
         with:
           path: ./scripts/http_cache.sqlite
           key: sqlite-${{ runner.os }}-${{ github.run_id }}
           restore-keys: sqlite-${{ runner.os }}-
-          save-always: true
       - name: Create additional markdown files with Python
         env:
           ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
         run: python ./scripts/build-site.py
+      - name: Save HTTP cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: ./scripts/http_cache.sqlite
+          key: sqlite-${{ runner.os }}-${{ github.run_id }}
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
