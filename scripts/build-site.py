@@ -6,13 +6,14 @@ import time
 from datetime import date
 from pathlib import Path
 
+import requests
 import yaml
 from bs4 import BeautifulSoup
 
 try:
     import requests_cache
 except ModuleNotFoundError:
-    import requests
+    pass
 
 from const import BASEPATH
 from utils import (
@@ -49,20 +50,21 @@ if __name__ == "__main__":
         doi = rec.get("doi")
         match = re.search(r"https?://doi.org/10.5281/zenodo.(\d+)$", doi if doi else "")
         if match:
+            url = f"https://zenodo.org/api/records/{match.group(1)}"
+            print(f"Resolving {url}")
             for i in range(7):
                 try:
-                    resp = session.get(
-                        f"https://zenodo.org/api/records/{match.group(1)}"
-                    )
+                    resp = session.get(url)
                     zrec = resp.json()
                 except requests.exceptions.JSONDecodeError:
                     # Exponential backoff
+                    print(f" Request failed, retrying in {2**i} seconds")
                     time.sleep(2**i)
                 else:
                     break
             else:
                 raise ValueError(
-                    f"Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
+                    f" Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
                 )
 
             # Pause after new requests to repect the Zenodo rate limit
