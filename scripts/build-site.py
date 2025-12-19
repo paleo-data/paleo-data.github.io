@@ -66,10 +66,12 @@ if __name__ == "__main__":
                 try:
                     resp = session.get(url, headers=headers)
                     zrec = resp.json()
-                except requests.exceptions.JSONDecodeError:
+                except requests.exceptions.JSONDecodeError as exc:
                     # Kill the script if code 429 is returned
                     if resp.status_code == 429:
-                        raise
+                        raise ValueError(
+                            f" Could not resolve Zenodo DOI from {path.name} ({repr(resp.text)}, {resp.status_code})"
+                        ) from exc
                     # Exponential backoff otherwise
                     print(f" Request failed, retrying in {2**i} seconds")
                     time.sleep(2**i)
@@ -77,7 +79,7 @@ if __name__ == "__main__":
                     break
             else:
                 raise ValueError(
-                    f" Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
+                    f" Could not resolve Zenodo DOI from {path.name} ({repr(resp.text)}, {resp.status_code})"
                 )
 
             # Pause after new requests to repect the Zenodo rate limit
