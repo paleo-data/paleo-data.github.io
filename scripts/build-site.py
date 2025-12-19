@@ -72,7 +72,7 @@ if __name__ == "__main__":
                         rate_headers = {
                             k: v
                             for k, v in resp.headers.items()
-                            if k.startswith("x-ratelimit")
+                            if k.lower().startswith("x-ratelimit")
                         }
                         raise ValueError(
                             f" Could not resolve Zenodo DOI from {path.name} ({rate_headers}, {resp.status_code})"
