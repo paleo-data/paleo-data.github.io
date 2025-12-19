@@ -71,7 +71,9 @@ if __name__ == "__main__":
                     # Kill the script if code 429 is returned
                     if resp.status_code == 429:
                         rate_headers = {
-                            k: v for k, v in resp.headers if k.startswith("x-ratelimit")
+                            k: v
+                            for k, v in resp.headers.items()
+                            if k.startswith("x-ratelimit")
                         }
                         raise ValueError(
                             f" Could not resolve Zenodo DOI from {path.name} ({rate_headers}, {resp.status_code})"
