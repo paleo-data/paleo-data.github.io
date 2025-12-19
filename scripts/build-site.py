@@ -46,7 +46,11 @@ if __name__ == "__main__":
     print("Updating resources")
     headers = None
     if ZENODO_ACCESS_TOKEN:
+        print("Zenodo access token found")
         headers = {"Authorization": f"Bearer {ZENODO_ACCESS_TOKEN}"}
+    else:
+        print("Zenodo access token not found")
+
     for path_ in sorted(res_path.glob("*.yml")):
 
         with open(path_, encoding="utf-8") as f:
