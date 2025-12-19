@@ -75,7 +75,7 @@ if __name__ == "__main__":
                             if k.lower().startswith("x-ratelimit")
                         }
                         raise ValueError(
-                            f" Could not resolve Zenodo DOI from {path.name} ({rate_headers}, {resp.status_code})"
+                            f" Could not resolve Zenodo DOI from {path_.name} ({resp.headers}, {resp.status_code})"
                         ) from exc
                     # Exponential backoff otherwise
                     print(f" Request failed, retrying in {2**i} seconds")
