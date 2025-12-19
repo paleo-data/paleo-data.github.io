@@ -47,7 +47,7 @@ if __name__ == "__main__":
     headers = {"Content-Type": "application/json"}
     if ZENODO_ACCESS_TOKEN:
         print(f"Zenodo access token found: {ZENODO_ACCESS_TOKEN[:4]}" + "****")
-        headers = {"Authorization": f"Bearer {ZENODO_ACCESS_TOKEN}"}
+        headers["Authorization"] = f"Bearer {ZENODO_ACCESS_TOKEN}"
     else:
         print("Zenodo access token not found")
 
