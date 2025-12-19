@@ -44,7 +44,7 @@ if __name__ == "__main__":
         path.mkdir(parents=True, exist_ok=True)
 
     print("Updating resources")
-    headers = None
+    headers = {"Content-Type": "application/json"}
     if ZENODO_ACCESS_TOKEN:
         print(f"Zenodo access token found: {ZENODO_ACCESS_TOKEN[:4]}" + "****")
         headers = {"Authorization": f"Bearer {ZENODO_ACCESS_TOKEN}"}
