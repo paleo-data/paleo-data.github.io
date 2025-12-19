@@ -64,6 +64,8 @@ jobs:
         env:
           ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
         run: python ./scripts/build-site.py
+      - name: Verify SQLite file exists
+        run: ls -lh scripts/ test -f scripts/http_cache.sqlite && echo "File exists" || echo "File missing"
       - name: Save HTTP cache
         if: always()
         uses: actions/cache/save@v4
