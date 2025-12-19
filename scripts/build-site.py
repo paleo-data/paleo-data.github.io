@@ -28,12 +28,13 @@ from utils import (
 )
 
 ZENODO_ACCESS_TOKEN = os.getenv("ZENODO_ACCESS_TOKEN")
+ZENODO_ACCESS_TOKEN = "pste03ORRwGtHWmBsq9FGUOEYyzGS27wbhDx3bW2cytDjqb8nmvOjjDIUgTG"
 
 if __name__ == "__main__":
 
-    # Use cache when building the site locally. Cached requests expire after 3 days.
+    # Use cache when building the site locally. Cached requests expire after 30 days.
     try:
-        session = requests_cache.CachedSession(expire_after=3 * 24 * 60 * 60)
+        session = requests_cache.CachedSession(expire_after=30 * 24 * 60 * 60)
     except NameError:
         session = requests.Session()
 
@@ -69,8 +70,11 @@ if __name__ == "__main__":
                 except requests.exceptions.JSONDecodeError as exc:
                     # Kill the script if code 429 is returned
                     if resp.status_code == 429:
+                        rate_headers = {
+                            k: v for k, v in resp.headers if k.startswith("x-ratelimit")
+                        }
                         raise ValueError(
-                            f" Could not resolve Zenodo DOI from {path.name} ({repr(resp.text)}, {resp.status_code})"
+                            f" Could not resolve Zenodo DOI from {path.name} ({rate_headers}, {resp.status_code})"
                         ) from exc
                     # Exponential backoff otherwise
                     print(f" Request failed, retrying in {2**i} seconds")
@@ -79,7 +83,7 @@ if __name__ == "__main__":
                     break
             else:
                 raise ValueError(
-                    f" Could not resolve Zenodo DOI from {path.name} ({repr(resp.text)}, {resp.status_code})"
+                    f" Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
                 )
 
             # Pause after new requests to repect the Zenodo rate limit
