@@ -5,6 +5,10 @@ This repository contains files for the [Paleo Data Knowledge Hub](https://paleo-
 > [!IMPORTANT]  
 > _This readme describes the technical process for contributing, and is complemented by [this TBD description of the accompanying social process](), as well as [this TBD content style guide]()_.
 
+## Licensing
+
+The code for this site is provided freely under The MIT License (MIT), while the content contained within the [collections](/collections) directory is provided under a [CC 4.0 BY license](https://creativecommons.org/licenses/by/4.0/).
+
 ## Site design
 
 _[TBD description of some technical design, including directory structure in this repo]_
