@@ -56,12 +56,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Debug cache paths (pre-build)
         run: |
-          echo "Listing scripts/:"
-          ls -la scripts || echo "scripts/ does not exist"
+          echo "Root:"
+          ls -la
       - name: Restore HTTP cache
         uses: actions/cache/restore@v4
         with:
-          path: scripts/http_cache.sqlite
+          path: http_cache.sqlite
           key: sqlite-${{ runner.os }}-${{ github.run_id }}
           restore-keys: sqlite-${{ runner.os }}-
       - name: Create additional markdown files with Python
@@ -70,13 +70,13 @@ jobs:
         run: python scripts/build-site.py
       - name: Debug cache paths (pre-build)
         run: |
-          echo "Listing scripts/:"
-          ls -la scripts || echo "scripts/ does not exist"
+          echo "Root:"
+          ls -la
       - name: Save HTTP cache
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: scripts/http_cache.sqlite
+          path: http_cache.sqlite
           key: sqlite-${{ runner.os }}-${{ github.run_id }}
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
