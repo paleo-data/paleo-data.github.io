@@ -34,6 +34,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -42,7 +43,8 @@ jobs:
         with:
           python-version: 3.13
           cache: pip
-      - run: pip install -r requirements.txt
+      - name: Install Python modules
+        run: pip install -r requirements.txt
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1.213.0
         with:
@@ -52,9 +54,22 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Restore HTTP cache
+        uses: actions/cache/restore@v4
+        with:
+          path: http_cache.sqlite
+          key: sqlite-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: sqlite-${{ runner.os }}-
       - name: Create additional markdown files with Python
-        # Build and index some content with Python
-        run: python ./scripts/build-site.py
+        env:
+          ZENODO_ACCESS_TOKEN: ${{ secrets.ZENODO_ACCESS_TOKEN }}
+        run: python scripts/build-site.py
+      - name: Save HTTP cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: http_cache.sqlite
+          key: sqlite-${{ runner.os }}-${{ github.run_id }}
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
