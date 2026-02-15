@@ -1,12 +1,18 @@
 - title: TBD
+  date: 2026-04-23
+  topics: []
+  notes: https://docs.google.com/document/d/19SNCSerA8XXi2EYktT6XAarIyUxX-9w55AYiyn8J0Tw/edit?usp=drive_link
+  recording: 
+  
+  - title: TBD
   date: 2026-04-09
   topics: []
   notes: https://docs.google.com/document/d/1ugsXyZsXOYqj1FOR4iDFE3VmJ8w75wJajFvRsWNwLX4/edit?usp=sharing
   recording: 
   
-- title: TBD
+- title: Paleomidden/paleoecological collections records
   date: 2026-03-26
-  topics: []
+  topics: [workflow]
   notes: https://docs.google.com/document/d/1gtIlQFlHs47l8GYbCHkIcUratxqd_LPuECLE5dFuLXw/edit?usp=sharing
   recording: 
  
@@ -26,7 +32,7 @@
   date: 2026-02-12
   topics: [data wrangling]
   notes: https://docs.google.com/document/d/1tG4ecbRKBhhIYHanZozExrxyoLg2917gmm8aejBVcJg/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1pGBa2Np71ncj5j2S73C9xqCp4ZypvjwM/view?usp=drive_link
   
 - title: Check-in about happy hour topics and goals for 2026
   date: 2026-01-29
