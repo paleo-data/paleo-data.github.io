@@ -3,14 +3,14 @@ title: About PDWG
 description: This page describes what the Paleo Data Working Group is, who is involved, and how you can get involved.
 status: published
 contributors: [Erica Krimmel, Talia Karim, Lindsay Walker]
-last_modified_at: 2025-09-15
+last_modified_at: 2026-02-16
 ---
 
 This website is brought to you by the Paleo Data Working Group (PDWG, pronounced "pidwig"), which is a community of practice centered around collections-based paleo and informatics professionals. PDWG was launched in May 2020 as a driving force for broader conversations about paleontological data standards and integration of fossil data into larger data ecosystems. We formed as a result of a decade of increasing collaboration between paleontology professionals digitizing their collections, including as part of an earlier [Paleo Digitization Working Group](https://www.idigbio.org/wiki/index.php/Paleo_Digitization_Working_Group) hosted by iDigBio. Current activities include regular "[happy hour](/community/pdwg-happy-hours)" meetings, [workshops](/community/events), community outreach, and engagement with parallel groups and processes. We also maintain a community pipeline for carrying conversation through to documentation and guidelines, such as the content curated in this knowledge hub. Contact the PDWG Organizing Team at _paleodatawg@gmail.com_.
 
 ## Get involved
 
-Any and all paleontology collections (or allied) professionals are encouraged to participate in PDWG! We follow [these community norms](), including acting and interacting in ways that contribute to an open, welcoming, and diverse community.
+Any and all paleontology collections (or allied) professionals are encouraged to participate in PDWG! We follow [these community norms](/community/norms), including acting and interacting in ways that contribute to an open, welcoming, and diverse community.
 
 {: .notice--primary }
 **Quick start!** Show up to a [happy hour](/community/pdwg-happy-hours) meeting, join our [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg), and/or request to join our [Google Group ](https://groups.google.com/g/paleo-data/about).
