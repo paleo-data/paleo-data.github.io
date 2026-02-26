@@ -1,12 +1,18 @@
-- title: TBD
+- title: Digitizing collections from Nilpena Ediacara National Park: a case study
+  date: 2026-05-07
+  topics: [data wrangling, workflow]
+  notes: 
+  recording: 
+  
+- title: Spring Social Hour
   date: 2026-04-23
   topics: []
   notes: https://docs.google.com/document/d/19SNCSerA8XXi2EYktT6XAarIyUxX-9w55AYiyn8J0Tw/edit?usp=drive_link
   recording: 
   
-  - title: TBD
+- title: Treatise on Invertebrate Paleontology at KU
   date: 2026-04-09
-  topics: []
+  topics: [data discoverability]
   notes: https://docs.google.com/document/d/1ugsXyZsXOYqj1FOR4iDFE3VmJ8w75wJajFvRsWNwLX4/edit?usp=sharing
   recording: 
   
@@ -26,7 +32,7 @@
   date: 2026-02-26
   topics: [identifier, data standard, extended specimen]
   notes: https://docs.google.com/document/d/12Z9k7y0YuM-sJzczQ_SviYcgu5IZBjWnIwlC9XM_cBA/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1QYOsiZNQpgxl-RPq1LEir9C2fKqCgep4/view?usp=drive_link
  
 - title: Your Perfect Search - Key data points for finding your fossil match
   date: 2026-02-12
