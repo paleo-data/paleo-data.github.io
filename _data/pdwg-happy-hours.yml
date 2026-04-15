@@ -1,38 +1,68 @@
 - title: TBD
+  date: 2026-06-04
+  topics: []
+  notes: https://docs.google.com/document/d/1F3UviSXXWqz_p5BCFZp3QqqTXVgXABhV1didaY79hDM/edit?usp=drive_link
+  recording: 
+
+- title: TBD
+  date: 2026-05-21
+  topics: []
+  notes: https://docs.google.com/document/d/1FGoHYeH5G_S3UB00XjejCp7xTXmCkY6tXUaqs8dhaMk/edit?usp=drive_link
+  recording: 
+  
+- title: "Digitizing collections from Nilpena Ediacara National Park: a case study"
+  date: 2026-05-07
+  topics: [data wrangling, workflow]
+  notes: https://docs.google.com/document/d/18cdnl76zuu1ebCaT1MhR2ChEHKD8zQILra2bqWvepnY/edit?usp=sharing
+  recording: 
+
+- title: Spring Social Hour
+  date: 2026-04-23
+  topics: []
+  notes: https://docs.google.com/document/d/19SNCSerA8XXi2EYktT6XAarIyUxX-9w55AYiyn8J0Tw/edit?usp=drive_link
+  recording: 
+  
+- title: Treatise on Invertebrate Paleontology at KU
+  date: 2026-04-09
+  topics: [data discoverability]
+  notes: https://docs.google.com/document/d/1ugsXyZsXOYqj1FOR4iDFE3VmJ8w75wJajFvRsWNwLX4/edit?usp=sharing
+  recording: https://drive.google.com/file/d/1fE1-i6B-YT7GhDpcKoqsIIEclbEZXPLs/view?usp=sharing
+
+- title: Paleomidden/paleoecological collections records
   date: 2026-03-26
-  topics: []
+  topics: [workflow]
   notes: https://docs.google.com/document/d/1gtIlQFlHs47l8GYbCHkIcUratxqd_LPuECLE5dFuLXw/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1r1mhKVpGTUrkbpof4vRa62rh913qN85g/view?usp=drive_link
  
-- title: TBD
+- title: Shared Vocabulary for materialEntityType
   date: 2026-03-12
-  topics: []
+  topics: [data standard, darwin core]
   notes: https://docs.google.com/document/d/1e_O6jFUYKLe4TyvWZfFNsOdIiRsBSgvVnXktb7APT8o/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1iI-MTDFaCUD7Fa8CoIjfachc-Mb5sI6O/view?usp=drive_link
  
-- title: TBD
+- title: ESIP sample citation guidelines
   date: 2026-02-26
-  topics: []
+  topics: [identifier, data standard, extended specimen]
   notes: https://docs.google.com/document/d/12Z9k7y0YuM-sJzczQ_SviYcgu5IZBjWnIwlC9XM_cBA/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1QYOsiZNQpgxl-RPq1LEir9C2fKqCgep4/view?usp=drive_link
  
-- title: TBD
+- title: Your Perfect Search - Key data points for finding your fossil match
   date: 2026-02-12
-  topics: []
+  topics: [data wrangling, data discoverability]
   notes: https://docs.google.com/document/d/1tG4ecbRKBhhIYHanZozExrxyoLg2917gmm8aejBVcJg/edit?usp=sharing
-  recording: 
+  recording: https://drive.google.com/file/d/1pGBa2Np71ncj5j2S73C9xqCp4ZypvjwM/view?usp=drive_link
   
 - title: Check-in about happy hour topics and goals for 2026
   date: 2026-01-29
   topics: []
   notes: https://docs.google.com/document/d/11bTM7BJsdy5gNh_5C5JdD-NmhCoJlUkcabkq2tRVbzc/edit?usp=drive_link
-  recording: 
+  recording: https://drive.google.com/file/d/1U9U7_DMAiCBGwi_fGSuu9YizJDovnMtk/view?usp=drive_link
   
 - title: MIDS Review
   date: 2026-01-15
   topics: [data standard]
   notes: https://docs.google.com/document/d/1qZ7H5ppZ9PjWnqHLpFUBeYPu4q7x-g9RlgFVXnMICBs/edit?usp=drive_link
-  recording: 
+  recording: https://drive.google.com/file/d/1GPQ7FkJdGyaoKqWDBkCGOzbn5v2P89hh/view?usp=drive_link
   
 - title: Holiday Social Hour
   date: 2025-12-18

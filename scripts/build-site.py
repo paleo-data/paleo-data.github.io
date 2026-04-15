@@ -1,18 +1,20 @@
 """Creates and indexes pages based using YAML files in _data"""
 
+import os
 import re
 import shutil
 import time
 from datetime import date
 from pathlib import Path
 
+import requests
 import yaml
 from bs4 import BeautifulSoup
 
 try:
     import requests_cache
 except ModuleNotFoundError:
-    import requests
+    pass
 
 from const import BASEPATH
 from utils import (
@@ -25,11 +27,13 @@ from utils import (
     to_slug,
 )
 
+ZENODO_ACCESS_TOKEN = os.getenv("ZENODO_ACCESS_TOKEN")
+
 if __name__ == "__main__":
 
-    # Use cache when building the site locally. Cached requests expire after 8 hrs.
+    # Use cache when building the site locally. Cached requests expire after 30 days.
     try:
-        session = requests_cache.CachedSession(expire_after=28800)
+        session = requests_cache.CachedSession(expire_after=30 * 24 * 60 * 60)
     except NameError:
         session = requests.Session()
 
@@ -40,6 +44,13 @@ if __name__ == "__main__":
         path.mkdir(parents=True, exist_ok=True)
 
     print("Updating resources")
+    headers = {"Content-Type": "application/json"}
+    if ZENODO_ACCESS_TOKEN:
+        print(f"Zenodo access token found: {ZENODO_ACCESS_TOKEN[:4]}" + "****")
+        headers["Authorization"] = f"Bearer {ZENODO_ACCESS_TOKEN}"
+    else:
+        print("Zenodo access token not found")
+
     for path_ in sorted(res_path.glob("*.yml")):
 
         with open(path_, encoding="utf-8") as f:
@@ -49,21 +60,39 @@ if __name__ == "__main__":
         doi = rec.get("doi")
         match = re.search(r"https?://doi.org/10.5281/zenodo.(\d+)$", doi if doi else "")
         if match:
+            url = f"https://zenodo.org/api/records/{match.group(1)}"
+            print(f"Resolving {url}")
             for i in range(7):
                 try:
-                    resp = session.get(
-                        f"https://zenodo.org/api/records/{match.group(1)}"
-                    )
+                    resp = session.get(url, headers=headers)
                     zrec = resp.json()
-                except requests.exceptions.JSONDecodeError:
-                    # Exponential backoff
+                except requests.exceptions.JSONDecodeError as exc:
+                    # Kill the script if code 429 is returned
+                    if resp.status_code == 429:
+                        rate_headers = {
+                            k: v
+                            for k, v in resp.headers.items()
+                            if k.lower().startswith("x-ratelimit")
+                        }
+                        raise ValueError(
+                            f" Could not resolve Zenodo DOI from {path_.name} ({resp.headers}, {resp.status_code})"
+                        ) from exc
+                    # Exponential backoff otherwise
+                    print(f" Request failed, retrying in {2**i} seconds")
                     time.sleep(2**i)
                 else:
                     break
             else:
                 raise ValueError(
-                    f"Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
+                    f" Could not resolve Zenodo DOI from {path.name} ({resp.status_code})"
                 )
+
+            # Pause after new requests to repect the Zenodo rate limit
+            if hasattr(resp, "from_cache") and resp.from_cache:
+                print(" Response restored from cache")
+            else:
+                print(" Response returned from server")
+                time.sleep(2)
 
             metadata = zrec["metadata"]
             try:

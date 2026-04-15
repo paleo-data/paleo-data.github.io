@@ -13,9 +13,9 @@ from utils import add_dwc_terms, autodate
 
 if __name__ == "__main__":
 
-    # Use cache when building the site locally. Cached requests expire after 8 hrs.
+    # Use cache when building the site locally. Cached requests expire after 1 week.
     try:
-        session = requests_cache.CachedSession(expire_after=28800)
+        session = requests_cache.CachedSession(expire_after=60 * 60 * 24 * 7)
     except NameError:
         session = requests.Session()
 
