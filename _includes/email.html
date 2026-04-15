@@ -1,8 +1,4 @@
-<style>
-  .obf-email::before { content: "{{ include.user | default: site.email_user }}"; }
-  .obf-email::after { content: "@{{ include.domain | default: site.email_domain }}"; }
-</style>
-<a class="obf-email" href="#" id="obf-link"></a>
+<a class="obf-email" data-user="{{ include.user | default: site.email_user }}" data-domain="@{{ include.domain | default: site.email_domain }}" href="#" onclick="this.href='mailto:'+this.dataset.user+this.dataset.domain"></a>
 
 <script>
   (function() {
