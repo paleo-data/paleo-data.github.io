@@ -1,10 +1,1 @@
 <a class="obf-email" data-user="{{ include.user | default: site.email_user }}" data-domain="@{{ include.domain | default: site.email_domain }}" href="#" onclick="this.href='mailto:'+this.dataset.user+this.dataset.domain"></a>
-
-<script>
-  (function() {
-    var u = "{{ include.user | default: site.email_user }}";
-    var d = "{{ include.domain | default: site.email_domain }}";
-    var el = document.getElementById("obf-link");
-    el.href = "mailto:" + u + "@" + d;
-  })();
-</script>
