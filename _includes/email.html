@@ -1,0 +1,13 @@
+<style>
+  .obf-email::before { content: "paleodatawg"; }
+  .obf-email::after  { content: "@gmail.com"; }
+</style>
+<a class="obf-email" href="#" id="obf-link"></a>
+
+<script>
+  (function() {
+    var u = "hello", d = "example.com";
+    var el = document.getElementById("obf-link");
+    el.href = "mailto:" + u + "@" + d;
+  })();
+</script>
