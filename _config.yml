@@ -7,6 +7,8 @@ theme: minimal-mistakes-jekyll
 logo: /assets/images/trilocorn.png
 logo_alt: A trilobite with a unicorn horn and ears
 og_image: /assets/images/trilocorn.png
+email_user: paleodatawg
+email_domain: gmail.com
 exclude: [scripts, templates]
 footer:
   links:
