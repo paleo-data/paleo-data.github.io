@@ -59,6 +59,5 @@ Created with `{: .notice--tip}`
 
 <iframe src="https://docs.google.com/presentation/d/1yJFsaCnBC28zW8UtLfl3tnJayk3w-BRDtVzyZYpD1TI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe src="https://www.youtube.com/embed/MfXTtQ2A5hY?si=L5TZHf-BohPXUk52" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MfXTtQ2A5hY?si=L5TZHf-BohPXUk52" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="480" height="299" src="https://www.youtube.com/embed/MfXTtQ2A5hY?si=L5TZHf-BohPXUk52" title="test video from YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
