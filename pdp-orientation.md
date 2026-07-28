@@ -1,15 +1,15 @@
 ---
-title: Test
-description: The test page includes widgets and other elements that have been customized for the Paleo Data Knowledge Hub.
+title: Symbiota Paleo Data Portal Orientation
+description: Thank you for your interest in using the Paleo Data Portal, a Symbiota-based data portal, for managing and publishing fossil specimen data. This documentation is intended to help data providers 1) determine whether this resource will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging the portal’s built-in tools for data mobilization.
 status: draft
 nav_order: 1
 sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [community]
-contributors: ["Adam Mansur"]
+contributors: ["Lindsay Walker"]
 topics: [invalid]
-last_modified_at: 2025-10-01
+last_modified_at: 2026-07-28
 ---
 
 This page is used to test widgets and other features.
