@@ -2,18 +2,13 @@
 title: Symbiota Paleo Data Portal Orientation
 description: This page contains important information for Symbiota Paleo Data Portal data providers.
 status: draft
-nav_order: 1
-sidebar:
-  nav: [sidebar]
-  collapsible: true
-  expanded: []
 contributors: ["Lindsay Walker"]
 topics: []
 last_modified_at: 2026-07-28
 ---
 
 # Introduction
-Thank you for your interest in using the Paleo Data Portal, a Symbiota-based data portal, for managing and publishing fossil specimen data. This documentation is intended to help data providers 1) determine whether this resource will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging the portal’s built-in tools for data mobilization.
+Thank you for your interest in using the {% include resource_link filename='pdp.yml' %}, a Symbiota-based data portal, for managing and publishing fossil specimen data. This documentation is intended to help data providers 1) determine whether this resource will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging the portal’s built-in tools for data mobilization.
 
 # Portal Scope
 The Paleo Data Portal’s scope is described on the home page, [https://paleo.symbiota.org](paleo.symbiota.org). The portal is intended for managing and sharing specimen data from fossil collections that can be used for research and are held in public trust, for example, by a university collection or nonprofit museum. The portal’s scope is limited to extinct organisms and their traces (i.e., fossils) and collections that intend to use the portal for active data management. The Paleo Data Portal is not intended for use by teaching collections, collections that are not publicly accessible, geological samples that do not contain fossils, archaeological or anthropological materials, or neontological (extant) specimen data.
