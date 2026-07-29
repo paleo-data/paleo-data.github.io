@@ -1,16 +1,15 @@
 ---
-title: Symbiota Paleo Data Portal Orientation
-description: This page contains important information for Symbiota Paleo Data Portal data providers.
+title: Test
+description: The test page includes widgets and other elements that have been customized for the Paleo Data Knowledge Hub.
 status: draft
+nav_order: 1
 sidebar:
   nav: [sidebar]
   collapsible: true
   expanded: [community]
-toc: true
-toc_sticky: true
-contributors: ["Lindsay Walker"]
+contributors: ["Adam Mansur"]
 topics: [invalid]
-last_modified_at: 2026-07-28
+last_modified_at: 2025-10-01
 ---
 
 # Introduction
