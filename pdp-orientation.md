@@ -2,6 +2,10 @@
 title: Symbiota Paleo Data Portal Orientation
 description: This page contains important information for Symbiota Paleo Data Portal data providers.
 status: draft
+sidebar:
+  nav: []
+  collapsible: true
+  expanded: []
 toc: true
 toc_sticky: true
 contributors: ["Lindsay Walker"]
