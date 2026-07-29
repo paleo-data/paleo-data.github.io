@@ -5,7 +5,7 @@ status: draft
 sidebar:
   nav: [sidebar]
   collapsible: true
-  expanded: []
+  expanded: [community]
 toc: true
 toc_sticky: true
 contributors: ["Lindsay Walker"]
