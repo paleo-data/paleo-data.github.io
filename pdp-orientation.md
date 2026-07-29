@@ -18,6 +18,16 @@ Thank you for your interest in using the {% include resource_link filename='pdp.
 # Portal Scope
 The Paleo Data Portal’s scope is described on the home page, [https://paleo.symbiota.org](paleo.symbiota.org). The portal is intended for managing and sharing specimen data from fossil collections that can be used for research and are held in public trust, for example, by a university collection or nonprofit museum. The portal’s scope is limited to extinct organisms and their traces (i.e., fossils) and collections that intend to use the portal for active data management. The Paleo Data Portal is not intended for use by teaching collections, collections that are not publicly accessible, geological samples that do not contain fossils, archaeological or anthropological materials, or neontological (extant) specimen data.
 
+# Portal Sustainability
+The Paleo Data Portal’s underlying code and infrastructure are maintained by the Symbiota Support Hub (SSH) at the University of Kansas. As a result, the SSH incurs costs to make this resource available—for example, by responding to Help Desk tickets, developing and hosting webinars, improving the Symbiota code and fixing bugs, running data backups, and keeping the portal and its physical server [secure](https://symbiota.org/cybersecurity/). **_Therefore, while it is not required, data providers are strongly encouraged to budget support for the Symbiota Support Hub in funding proposals and/or your annual operating budget in a capacity is feasible for your collection._** Please write to the [SSH’s Help Desk](https://symbiota.org/contact-the-support-hub/) if you would like to contribute funds toward routine portal maintenance costs via the service center, [KU Symbiota](https://biodiversity.ku.edu/products-services), or in a forthcoming proposal. The SSH also accepts [donations](https://symbiota.org/donate/).
+
+# User Support
+## Technical
+The Paleo Data Portal runs on [Symbiota](https://github.com/Symbiota/Symbiota), which is open source software used for creating themed data portals to manage and share biodiversity specimen data. Symbiota is based on the [Darwin Core (DwC)](https://dwc.tdwg.org/terms/) data standard to enable easy data sharing with other Darwin Core-aligned databases, like the Global Biodiversity Information Facility, known as “[GBIF](https://www.gbif.org/)”. The portal itself is hosted and maintained by a team at the University of Kansas, the [Symbiota Support Hub](https://symbiota.org/about-us/) (aka “SSH”). The SSH develops the Symbiota code, maintains the software’s official user documentation, “Symbiota Docs”, and keeps the Paleo Data Portal’s software up-to-date (along with many [other](https://symbiota.org/symbiota-portals/) SSH-hosted Symbiota portals). The SSH also administers the portal’s underlying “backend” database and maintains its physical server at the University of Kansas. If you share data hosted on SSH-managed infrastructure, you should review the [SSH’s Data Sharing Policy](https://symbiota.org/data-sharing-policy/). 
+
+
+
+
 
 
 
