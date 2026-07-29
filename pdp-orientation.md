@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Test2
 description: The test page includes widgets and other elements that have been customized for the Paleo Data Knowledge Hub.
 status: draft
 nav_order: 1
