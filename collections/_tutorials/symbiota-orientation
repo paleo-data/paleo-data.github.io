@@ -1,7 +1,7 @@
 ---
 title: Symbiota Orientation
-description: The test page includes widgets and other elements that have been customized for the Paleo Data Knowledge Hub.
-status: draft
+description: This page is intended to help data providers 1) determine whether Symbiota will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging Symbiota's built-in tools for data mobilization. 
+status: published
 nav_order: 1
 sidebar:
   nav: [sidebar]
@@ -39,6 +39,19 @@ Inquiries about the Paleo Data Portal can be directed to:
 * The Symbiota Support Hub’s Help Desk: [help@symbiota.org](mailto:help@symbiota.org)
 * The Paleo Data Portal’s Steering Committee: [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com) 
 The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues. If you have more paleo/discipline-specific questions, such as how to represent fossil specimen data in the portal (e.g. “How do I catalog this fossil?”), please contact the Paleo Data Working Group by attending a biweekly meeting, posting a message in our shared Slack space, or by emailing the address listed above.
+
+# User Documentation
+To learn how to use the Paleo Data Portal and maximize the impact of your digitization efforts, data providers should become familiar with the resources made available for this purpose. Additional information to help you get started using the portal is outlined below. 
+
+## Symbiota Docs
+“[Symbiota Docs](https://docs.symbiota.org/)” is the official user documentation for Symbiota maintained by the Symbiota Support Hub.  This resource includes written instructions and recordings to help you learn how to navigate most features in your portal. The SSH also hosts regular [webinars](https://symbiota.org/symbiota-support-group/) for user training and networking purposes. Once your collection is set up in the Paleo Data Portal, you will occasionally receive email notifications about these events from the SSH.
+
+## Paleo Data Knowledge Hub
+Additional discipline/paleo-specific documentation has been created for the Paleo Data Portal and these resources are integrated into the Paleo Data Knowledge Hub. Links to this information are available in the portal’s main navigation menu for ease of reference. The [Symbiota "quick start" tutorial](/tutorials/start-using-symbiota) and [data management how-to guide](/how-to-guides/manage-data-about-specimens-using-symbiota) are essential resources for learning how to navigate the portal and catalog/digitally represent your fossil specimen data. An additional guide has been developed to help you think through possible [workflows](/how-to-guides/develop-a-digitization-workflow-in-symbiota) for digitizing your collection.
+
+
+
+
 
 
 
