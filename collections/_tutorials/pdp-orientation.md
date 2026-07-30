@@ -77,42 +77,4 @@ As you begin to use the Paleo Data Portal, you may notice that not all scientifi
 ### Paleo Ecosystem context
 The Paleo Data Portal is part of a larger initiative to address the inadequacies of existing cyberinfrastructure for fossil collections and research, which includes improving digitally available taxonomy for extinct organisms. For this reason, all higher taxonomy in the Paleo Data Portal is sourced from ChecklistBank’s {% include resource_link filename='col.yml' %} Catalog of Life (COL) [“Extended Release” taxonomic checklist](https://www.checklistbank.org/dataset/314231/metadata), which is a taxonomic compilation that draws from sources such as the World Register of Marine Species (WoRMS), the Interim Register of Marine and Nonmarine Genera (IRMNG), and the Paleobiology Database (PBDB). By using the ChecklistBank COL checklist to populate the portal’s Taxonomic Thesaurus, the Paleo Data Portal will help document shortcomings of existing taxonomic resources, allowing the Paleo Data Working Group to make recommendations for improvement to cyberinfrastructure maintainers. 
 
--------------
-
-
-This a resource with a tooltip: {% include resource_link filename='bauer-et-al-2022.yml' %}. It should display as a link to an external resource with a tooltip that appears on hover. Tooltips displayed using this widget are based on the annotation field. If that field contains any formatting code, it may break the tooltip. The first appearance of the word tooltip should be underlined and include a tooltip but no link.
-
-This paragraph includes a term defined manually in the glossaries/custom.yml file, {% include glossary term="Internationalized Resource Identifier" namespace="" %}.
-
-This is a paragraph including {% include glossary term="Darwin Core" namespace="" %} terms, like {% include glossary term="geodeticDatum" namespace="dwc" %} and {% include glossary term="maximumDistanceAboveSurfaceInMeters" namespace="dwc" %}. Those terms should display as links to the Darwin Core Quick Reference Guide and should show a definition on hover. Only the first appearance of a term on each page should include the tooltip, so geodeticDatum in this sentence should appear as plain text. Note that terms do not use a widget or any other syntax. The script that builds the page identifies them automatically.
-
-Here are some items that should not include tooltips:
-
-- # dwc:institutionID
-- [dwc:collectionID](#link)
-- <a href="#top">dwc:datasetID</a>
-
-But these should: 
-
-- {% include glossary term="institutionID" namespace="dwc" %}
-- {% include glossary term="collectionID" namespace="dwc" %}
-- {% include glossary term="datasetID" namespace="dwc" %}
-
-## Notices
-
-{: .notice}
-Created with `{: .notice}`
-
-{: .notice--info}
-Created with `{: .notice--info}`
-
-{: .notice--warning}
-Created with `{: .notice--warning}`
-
-{: .notice--danger}
-Created with `{: .notice--danger}`
-
-{: .notice--tip}
-Created with `{: .notice--tip}`
-
 {% include resource_list topics='symbiota' %}
