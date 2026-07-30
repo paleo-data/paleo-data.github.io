@@ -25,6 +25,22 @@ The Paleo Data Portal’s underlying code and infrastructure are maintained by t
 ## Technical
 The Paleo Data Portal runs on [Symbiota](https://github.com/Symbiota/Symbiota), which is open source software used for creating themed data portals to manage and share biodiversity specimen data. Symbiota is based on the [Darwin Core (DwC)](https://dwc.tdwg.org/terms/) data standard to enable easy data sharing with other Darwin Core-aligned databases, like the Global Biodiversity Information Facility, known as “[GBIF](https://www.gbif.org/)”. The portal itself is hosted and maintained by a team at the University of Kansas, the [Symbiota Support Hub](https://symbiota.org/about-us/) (aka “SSH”). The SSH develops the Symbiota code, maintains the software’s official user documentation, “Symbiota Docs”, and keeps the Paleo Data Portal’s software up-to-date (along with many [other](https://symbiota.org/symbiota-portals/) SSH-hosted Symbiota portals). The SSH also administers the portal’s underlying “backend” database and maintains its physical server at the University of Kansas. If you share data hosted on SSH-managed infrastructure, you should review the [SSH’s Data Sharing Policy](https://symbiota.org/data-sharing-policy/). 
 
+## Community
+The goals of the Paleo Data Portal overlap with several related projects.
+
+The Paleo Data Portal is part of a larger initiative working to improve cyberinfrastructure for fossil collections and paleontological research. In 2023, this project acquired funding from the US National Science Foundation, which enabled new software enhancements for Symbiota and provisioned for the establishment of the Paleo Data Portal and associated user documentation. This project is working to address long outstanding issues, such as improving digitally available taxonomy for extinct organisms and the alignment of existing data standards with the needs of fossil collections and researchers. The Paleo Data Portal integrates with this project in several ways, for example, by helping hone use cases demonstrating how the data needs in the domain of paleontology differ from that of extant biological research and collections. 
+
+The aforementioned initiative dovetails with the goals of the [Paleo Data Working Group](/community/about-pdwg) (aka “PDWG”), which is a community of practice for paleontological collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. If you join the Paleo Data Portal as a data provider, participation in PDWG is not mandatory but it is strongly encouraged. While the Symbiota Support Hub can help with technical issues, PDWG members can provide discipline-specific support to Paleo Data Portal users. For example, if you are unsure how to digitize something in your fossil collection, you can ask PDWG for assistance via one of its communication channels, such as Slack or attending a biweekly “Happy Hour” meeting. 
+
+If you join the Paleo Data Portal as a data provider, you will be invited to PDWG’s Slack space and Google Group. Please email [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com) if you have a preferred Google-enabled email that differs from the address associated with your user account in the portal.
+
+## Contacts
+Inquiries about the Paleo Data Portal can be directed to:
+* The Symbiota Support Hub’s Help Desk: [help@symbiota.org](mailto:help@symbiota.org)
+* The Paleo Data Portal’s Steering Committee: [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com) 
+The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues. If you have more paleo/discipline-specific questions, such as how to represent fossil specimen data in the portal (e.g. “How do I catalog this fossil?”), please contact the Paleo Data Working Group by attending a biweekly meeting, posting a message in our shared Slack space, or by emailing the address listed above.
+
+
 
 
 
