@@ -25,7 +25,7 @@ The Paleo Data Portal’s underlying code and infrastructure are maintained by t
 The Paleo Data Portal is part of the global {% include resource_link filename='symbiota.yml' %} Ecosystem, which is largely maintained by Symbiota Support Hub, as described [above](/tutorials/symbiota-orientation#portal-sustainability). The SSH administers the Paleo Data Portal’s underlying “backend” database and maintains its physical server at the University of Kansas. In addition to portal's specific scope and guidelines, data providers should also be aware that the SSH maintains its own [Data Sharing Policy](https://symbiota.org/data-sharing-policy/).
 
 {: .notice--tip}
-The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues: [help@symbiota.org](mailto:help@symbiota.org).
+The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues. You can contact the SSH's Help Desk by writing to [help@symbiota.org](mailto:help@symbiota.org) or submitting a ticket through this [interface](https://help.symbiota.org/).
 
 ## Community
 The goals of the Paleo Data Portal overlap with several related projects.
