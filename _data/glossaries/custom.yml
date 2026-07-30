@@ -193,6 +193,14 @@
   acronym: IPT
   definition: Integrated Publishing Toolkit. Open source software that allows users to publish and share biodiversity datasets, especially using the Darwin Core and Ecological Metadata Language standards
   topics: []
+- term: Interim Register of Marine and Nonmarine Genera
+  acronym: IRMNG
+  definition: a provisional compilation of genus and species names covering marine and non-marine or fossil and recent taxa
+  topics: [taxonomy]
+- term: IRMNG
+  acronym: IRMNG
+  definition: a provisional compilation of genus and species names covering marine and non-marine or fossil and recent taxa
+  topics: [taxonomy]
 - term: Internationalized Resource Identifier
   acronym: IRI
   definition: Variation of a URI that expands the characterset.
