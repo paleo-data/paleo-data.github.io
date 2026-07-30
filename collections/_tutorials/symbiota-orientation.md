@@ -1,6 +1,6 @@
 ---
 title: Paleo Data Portal Orientation
-description: This tutorial is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
+description: This page is intended to help data providers 1) determine whether the {% include resource_link filename='pdp.yml' %} will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging the portal’s built-in tools for data mobilization.
 topics: [symbiota]
 status: published
 toc: true
@@ -35,6 +35,7 @@ If you join the Paleo Data Portal as a data provider, you will be invited to PDW
 Inquiries about the Paleo Data Portal can be directed to:
 * The Symbiota Support Hub’s Help Desk: [help@symbiota.org](mailto:help@symbiota.org)
 * The Paleo Data Portal’s Steering Committee: [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com) 
+
 The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues. If you have more paleo/discipline-specific questions, such as how to represent fossil specimen data in the portal (e.g. “How do I catalog this fossil?”), please contact the Paleo Data Working Group by attending a biweekly meeting, posting a message in our shared Slack space, or by emailing the address listed above.
 
 # User Documentation
@@ -67,29 +68,17 @@ Accurately representing the physical state and historical/curatorial context of 
 
 If you opt to have the Symbiota Support Hub host your images, be aware that this service may result in fees due to SSH personnel time associated with media server management and the facilitation of batch image ingestion. The SSH’s media hosting rates are posted [here](https://biodiversity.ku.edu/products-services). The SSH only hosts “web ready” media  (<10 MB/each + JPEG format preferred) and does not offer “archival” media storage. If you would like to know more about the SSH’s image hosting services, please write to the [SSH’s Help Desk](https://symbiota.org/contact-the-support-hub/).
 
+## Taxonomy & Identifications/Determinations
+### Taxonomic Thesaurus
+Every Symbiota portal contains a “[Taxonomic Thesaurus](https://docs.symbiota.org/User_Guide/taxonomic_thesaurus)” that serves as the centralized source of taxonomy for all catalog records and associated resources in that portal. **_The Taxonomic Thesaurus in the Paleo Data Portal is not and should not be considered a taxonomic authority_**, as is true for most Symbiota portals; rather, **_it is primarily a tool for data discovery_**. The Taxonomic Thesaurus is used to automatically associate the scientific names assigned to cataloged specimens with higher taxonomy (e.g. Kingdom, Phylum, Order, etc.). For example, if you were to catalog a specimen/specimen lot as “[Trilobita](https://paleo.symbiota.org/portal/taxa/index.php?taxon=1674)”, the Taxonomic Thesaurus will automatically associate this catalog record with Kingdom = “Animalia” and Phylum = “Arthropoda” when the catalog record is searched on or its associated data are exported from the portal. Taxonomy in the Paleo Data Portal can be viewed using the [Taxonomy Explorer](https://paleo.symbiota.org/portal/taxa/taxonomy/taxonomydynamicdisplay.php) and [Tree Viewer](https://paleo.symbiota.org/portal/taxa/taxonomy/taxonomydisplay.php). 
 
+### Identifications/Determinations
+As you begin to use the Paleo Data Portal, you may notice that not all scientific names applied to your catalog records will correspond to higher taxonomy in the portal, and in some cases, the higher taxonomy may not align with your preferred higher taxonomy. (Again, this is because the portal’s Thesaurus is not a taxonomic authority.) For this reason, data providers are encouraged to include override values for dwc:family and dwc:scientificNameAuthorship (when applicable/known/feasible) when cataloging fossil specimens directly in the portal or importing this information using a spreadsheet to increase the discoverability of these catalog records. Other scenarios frequently encountered in fossil collections are the identification of specimens to higher taxon level (i.e., “Trilobita” instead of a species-level taxon), sometimes with the inclusion of identification qualifiers, like “?”, “aff.”, “cf.” (e.g. “Trilobita?”). In order for your catalog records to properly link to the Taxonomic Thesaurus, the qualifier should be recorded in dwc:identificationQualifier and rather than appended to the taxon name specified in dwc:scientificName.
 
+### Paleo Ecosystem Context
+The Paleo Data Portal is part of a larger initiative to address the inadequacies of existing cyberinfrastructure for fossil collections and research, which includes improving digitally available taxonomy for extinct organisms. For this reason, all higher taxonomy in the Paleo Data Portal is sourced from [ChecklistBank’s Catalog of Life (COL) “Extended Release” taxonomic checklist](https://www.checklistbank.org/dataset/314231/metadata), which is a taxonomic compilation that draws from sources such as the World Register of Marine Species (WoRMS), the Interim Register of Marine and Nonmarine Genera (IRMNG), and the Paleobiology Database (PBDB). By using the ChecklistBank COL checklist to populate the portal’s Taxonomic Thesaurus, the Paleo Data Portal will help document shortcomings of existing taxonomic resources, allowing the Paleo Data Working Group to make recommendations for improvement to cyberinfrastructure maintainers. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-------------
 
 
 This a resource with a tooltip: {% include resource_link filename='bauer-et-al-2022.yml' %}. It should display as a link to an external resource with a tooltip that appears on hover. Tooltips displayed using this widget are based on the annotation field. If that field contains any formatting code, it may break the tooltip. The first appearance of the word tooltip should be underlined and include a tooltip but no link.
