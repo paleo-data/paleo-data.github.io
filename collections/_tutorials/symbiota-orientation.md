@@ -37,7 +37,6 @@ If you join the Paleo Data Portal as a data provider, you will be invited to PDW
 Inquiries about the Paleo Data Portal can be directed to:
 * The Symbiota Support Hub’s Help Desk: [help@symbiota.org](mailto:help@symbiota.org)
 * The Paleo Data Portal’s Steering Committee: [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com)
-`{: .notice--info}`
 
 The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues. If you have more paleo/discipline-specific questions, such as how to represent fossil specimen data in the portal (e.g. “How do I catalog this fossil?”), please contact the Paleo Data Working Group by attending a biweekly meeting, posting a message in our shared Slack space, or by emailing the address listed above.
 
