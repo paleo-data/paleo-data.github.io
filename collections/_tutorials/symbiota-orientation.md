@@ -1,24 +1,24 @@
 ---
-title: Paleo Data Portal Orientation
+title: Paleo Data Portal orientation
 description: This page is intended to help data providers 1) determine whether the Paleo Data Portal will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging the portal’s built-in tools for data mobilization. If you are not already familiar with the portal, an introductory explanation can be found [here](/highlighted-resources/symbiota).
 topics: [symbiota]
 status: published
 toc: true
 toc_sticky: true
 contributors: ["Lindsay Walker"]
-last_modified_at: 2026-07-29
+last_modified_at: 2026-07-30
 ---
 
 # Portal scope & guidelines
 If you are interested in using the {% include resource_link filename='pdp.yml' %} to manage and share fossil specimen data, first consider the portal's scope and [community guidelines](https://paleo.symbiota.org/portal/includes/usagepolicy.php). The portal's scope is stated on its home page and below:
 > This portal supports the management and sharing of data associated with paleontological specimens that are made available for research via permanent repositories. Its scope is limited to extinct organisms and their traces (i.e., fossils). Geological samples, archaeological and anthropological materials, as well as neontological specimen data fall outside this scope and should not be cataloged in this portal.
 
-Further, the portal is intended for _actively_ managing and sharing specimen data from fossil collections that can be used for research and are held in public trust, for example, by a university collection or nonprofit museum. It is not intended for use by teaching collections and private collections. Publicly accessible research collections that have not directly benefited from the US National Digitization effort or do not have access to secure cyberinfrastructure to maintain their specimen data are especially encouraged to participate.
+Further, the portal is intended for _actively_ managing and sharing specimen data from fossil collections that can be used for research and are held in public trust, for example, by a university collection or nonprofit museum. It is not intended for use by teaching collections or private collections. Publicly accessible research collections that have not directly benefited from the US National Digitization effort or do not have access to secure cyberinfrastructure to maintain their specimen data are especially encouraged to participate.
 
-If the Paleo Data Portal does not meet the needs of your collection, alternative collection management systems (CMS) may be more suitable. You could also consider hosting your own Symbiota portal. {% include resource_link filename='krimmel-2022-intro-digitization-3.yml' %} provides an overview of different CMS options and what to consider when selecting one.
+If the Paleo Data Portal does not meet the needs of your collection, other collection management systems (CMS) may be more suitable. {% include resource_link filename='krimmel-2022-intro-digitization-3.yml' %} provides an overview of different CMS options and what to consider when selecting one.
 
 # Portal sustainability
-The Paleo Data Portal’s underlying code and infrastructure are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us/), aka "SSH", at the University of Kansas. The SSH incurs costs to make this resource available—for example, by responding to Help Desk tickets, developing and hosting webinars, improving the Symbiota code and fixing bugs, running data backups, and keeping the portal and its physical server [secure](https://symbiota.org/cybersecurity/). **_Therefore, while it is not required, data providers are strongly encouraged to budget support for the Symbiota Support Hub in funding proposals and/or your annual operating budget in a capacity is feasible for your collection._** Please write to the [SSH’s Help Desk](https://symbiota.org/contact-the-support-hub/) if you would like to contribute funds toward routine portal maintenance costs via the service center, [KU Symbiota](https://biodiversity.ku.edu/products-services), or in a forthcoming proposal. The SSH also accepts [donations](https://symbiota.org/donate/).
+The Paleo Data Portal’s underlying code and infrastructure are maintained by the [Symbiota Support Hub](https://symbiota.org/about-us/), aka "SSH", at the University of Kansas. The SSH incurs costs to make this resource available—for example, by responding to [Help Desk](https://help.symbiota.org/) tickets, developing and hosting [webinars](https://symbiota.org/symbiota-events/), improving the [Symbiota code](https://github.com/Symbiota/Symbiota) and fixing bugs, running data backups, and keeping the portal and its physical server [secure](https://symbiota.org/cybersecurity/). **_Therefore, while it is not required, data providers are strongly encouraged to budget support for the Symbiota Support Hub in funding proposals and/or your annual operating budget in a capacity is feasible for your collection._** Please [contact the SSH](/tutorials/symbiota-orientation#contacts) if you would like to contribute funds toward routine portal maintenance costs via the service center, [KU Symbiota](https://biodiversity.ku.edu/products-services), or in a forthcoming proposal. The SSH also accepts [donations](https://symbiota.org/donate/).
 
 # User support
 ## Technical
