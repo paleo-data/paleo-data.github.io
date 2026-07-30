@@ -57,6 +57,14 @@ Data providers should keep contacts for their collection up-to-date in the porta
 ## GRSciColl Registration
 Data providers are encouraged to additionally register their collection’s metadata with the [Global Registry of Scientific Collections](https://scientific-collections.gbif.org) (aka “GRSciColl”). This can happen before, during, or after your collection begins using the Paleo Data Portal. Conveniently, you can register new GRSciColl records and suggest changes to existing records associated with your institution and collection without a website log in ([instructions](https://scientific-collections.gbif.org/how-to)). Once your collection is established in the Paleo Data Portal, its unique URL in the portal can be added to its corresponding GRSciColl record ([example](https://scientific-collections.gbif.org/collection/bf818c22-0c35-4eff-802c-1da7d5303619)). 
 
+# Highlighted Features & Related Services
+## Cataloging Tools
+Once you are oriented to the portal’s essential features using the "quick start" [tutorial](/tutorials/start-using-symbiota), you should review the data management [how-to guide](/how-to-guides/manage-data-about-specimens-using-symbiota). This page will help you learn to catalog your specimen data, either by formatting and importing a spreadsheet of existing data, or by creating catalog records directly in the portal. If you maintain a spreadsheet of existing catalog records, this page contains tips and links to external resources to help you prepare your data for import, as well as a template file (and example file) that can be used for this purpose. This page also includes a number of [example records](/how-to-guides/manage-data-about-specimens-using-symbiota#example-records) to help you learn how Symbiota can be used to approach some frequently encountered cataloging scenarios in fossil collections—for example, how to represent part/counterpart relationships ([USNMP7427](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763803) & [USNMP7428](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763829), [USNMP42726](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763830)), multitaxon slabs with cataloged ([USNMPAL449450](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763833)) and uncataloged ([USNMPAL566311](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763846)) taxa, and associating cataloged specimens with digitally available literature ([USNMV4735](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763793)). 
+
+
+
+
+
 
 
 
