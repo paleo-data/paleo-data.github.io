@@ -22,7 +22,10 @@ The Paleo Data Portal’s underlying code and infrastructure are maintained by t
 
 # User support
 ## Technical
-The Paleo Data Portal is part of the global {% include resource_link filename='symbiota.yml' %} Ecosystem, which is largely maintained by Symbiota Support Hub, as described [above](/tutorials/symbiota-orientation#portal-sustainability). The SSH administers the Paleo Data Portal’s underlying “backend” database and maintains its physical server at the University of Kansas. In addition to portal's specific scope and guidelines, data providers should also be aware that the SSH maintains its own [Data Sharing Policy](https://symbiota.org/data-sharing-policy/). The SSH can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues: [help@symbiota.org](mailto:help@symbiota.org).
+The Paleo Data Portal is part of the global {% include resource_link filename='symbiota.yml' %} Ecosystem, which is largely maintained by Symbiota Support Hub, as described [above](/tutorials/symbiota-orientation#portal-sustainability). The SSH administers the Paleo Data Portal’s underlying “backend” database and maintains its physical server at the University of Kansas. In addition to portal's specific scope and guidelines, data providers should also be aware that the SSH maintains its own [Data Sharing Policy](https://symbiota.org/data-sharing-policy/).
+
+{: .notice--tip}
+The Symbiota Support Hub can assist with technical tasks, such as offering advice related to image hosting, “backend” database data manipulation, software bugs, and portal performance problems, among many other issues: [help@symbiota.org](mailto:help@symbiota.org).
 
 ## Community
 The goals of the Paleo Data Portal overlap with several related projects.
@@ -31,6 +34,7 @@ The Paleo Data Portal is part of a larger initiative working to improve cyberinf
 
 The aforementioned initiative dovetails with the goals of the [Paleo Data Working Group](/community/about-pdwg) (aka “PDWG”), which is a community of practice for paleontological collections and informatics professionals who aim to develop and promote best practices for managing and digitizing fossil specimens. If you join the Paleo Data Portal as a data provider, participation in PDWG is not mandatory but it is strongly encouraged. If you join the Paleo Data Portal as a data provider, you will be invited to PDWG’s Slack space and Google Group.
 
+{: .notice--tip}
 While the Symbiota Support Hub can help with technical issues, PDWG members can provide discipline-specific support to Paleo Data Portal users. For example, if you are unsure how to digitize something in your fossil collection, you can ask PDWG for assistance via one of its communication channels, such as Slack, attending a biweekly “Happy Hour” meeting, or contacting [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com).
 
 # User documentation
