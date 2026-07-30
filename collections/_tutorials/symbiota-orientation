@@ -49,6 +49,13 @@ To learn how to use the Paleo Data Portal and maximize the impact of your digiti
 ## Paleo Data Knowledge Hub
 Additional discipline/paleo-specific documentation has been created for the Paleo Data Portal and these resources are integrated into the Paleo Data Knowledge Hub. Links to this information are available in the portal’s main navigation menu for ease of reference. The [Symbiota "quick start" tutorial](/tutorials/start-using-symbiota) and [data management how-to guide](/how-to-guides/manage-data-about-specimens-using-symbiota) are essential resources for learning how to navigate the portal and catalog/digitally represent your fossil specimen data. An additional guide has been developed to help you think through possible [workflows](/how-to-guides/develop-a-digitization-workflow-in-symbiota) for digitizing your collection.
 
+# Collection Metadata & Contacts
+Data providers should keep contacts for their collection up-to-date in the portal ([instructions](https://docs.symbiota.org/Collection_Manager_Guide/editing_collection_metadata/#collection-contacts)). While this information is helpful for researchers, it is equally helpful to the Symbiota Support Hub and the portal’s Steering Committee; we may use this information to send you important updates about the portal, for instance, if it will be temporarily offline during routine server maintenance. New data providers are advised to add the following email addresses to your safe senders/contact lists to ensure related messages are not directed to spam: [help@symbiota.org](mailto:help@symbiota.org) | [hub@symbiota.org](mailto:hub@symbiota.org) | [PaleoDataWG@gmail.com](mailto:PaleoDataWG@gmail.com). The SSH’s “Communications FAQ” can be found [here](https://symbiota.org/symbiota-communications/). 
+
+## GRSciColl Registration
+Data providers are encouraged to additionally register their collection’s metadata with the [Global Registry of Scientific Collections](https://scientific-collections.gbif.org) (aka “GRSciColl”). This can happen before, during, or after your collection begins using the Paleo Data Portal. Conveniently, you can register new GRSciColl records and suggest changes to existing records associated with your institution and collection without a website log in ([instructions](https://scientific-collections.gbif.org/how-to)). Once your collection is established in the Paleo Data Portal, its unique URL in the portal can be added to its corresponding GRSciColl record ([example](https://scientific-collections.gbif.org/collection/bf818c22-0c35-4eff-802c-1da7d5303619)). 
+
+
 
 
 
