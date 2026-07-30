@@ -1,16 +1,11 @@
 ---
-title: Symbiota Orientation
-description: This page is intended to help data providers 1) determine whether Symbiota will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging Symbiota's built-in tools for data mobilization. 
+title: Paleo Data Portal Orientation
+description: This tutorial is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
+topics: [symbiota]
 status: published
 toc: true
 toc_sticky: true
-nav_order: 1
-sidebar:
-  nav: [sidebar]
-  collapsible: true
-  expanded: [tutorials]
 contributors: ["Lindsay Walker"]
-topics: [symbiota]
 last_modified_at: 2026-07-29
 ---
 
