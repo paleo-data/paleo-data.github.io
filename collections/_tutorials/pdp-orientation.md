@@ -2,6 +2,7 @@
 title: Get to know the Paleo Data Portal
 description: This page is intended to help data providers 1) determine whether the Paleo Data Portal will be an appropriate tool for managing and sharing data associated with their collection and 2) understand key information for leveraging the portal’s built-in tools for data mobilization. If you are not already familiar with the portal, an introductory explanation can be found [here](/highlighted-resources/symbiota).
 topics: [symbiota]
+status: published
 toc: true
 toc_sticky: true
 contributors: ["Lindsay Walker"]
