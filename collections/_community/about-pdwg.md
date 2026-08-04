@@ -12,18 +12,18 @@ This website is brought to you by the Paleo Data Working Group (PDWG, pronounced
 
 PDWG strives for low organizational overhead. That said, the following groups keep this community alive and functioning. See who belongs to each group in the list of people involved, below.
 
-The **Organizing Team** is composed of 3-5 members who volunteer to commit to leading the working group for at least a year and who meet regularly (approximately monthly). This group sets the vision and strategy for PDWG. They also coordinate and host [happy hours](/community/pdwg-happy-hours), and manage access to shared communication platforms including the Google Group, Slack Workspace, and Google Drive. Contact the Organizing Team at _paleodatawg@gmail.com_.
+The **Organizing Team** is composed of 3-5 members who volunteer to commit to leading the working group for at least a year and who meet regularly (approximately monthly). This group sets the vision and strategy for PDWG. They also coordinate and host [happy hours](/community/pdwg-happy-hours), and manage access to shared communication platforms including the Google Group, Slack Workspace, and Google Drive. Contact the Organizing Team at {% include email.html id="A" %}.
 
 The **Knowledge Hub Editorial Board** is composed of 3-5 members who set style guides and procedures for content contributions to the Paleo Data Knowledge Hub (this site). They manage the process of integrating community content, and may also generate content themselves. Contact the Knowledge Hub Editorial Board on [GitHub](https://github.com/orgs/paleo-data/teams/knowledge-hub-editorial-board).
 
-The **Paleo Data Portal Steering Committee** is composed of 2-3 members who actively use the {% include resource_link filename='pdp.yml' %} and who make operational decisions for it. This committee is modeled after other successful examples in the world of Symbiota. Contact the Paleo Data Portal Steering Committee at _paleodatawg@gmail.com_ and include "paleo data portal" or "PDP" in your subject line.
+The **Paleo Data Portal Steering Committee** is composed of 2-3 members who actively use the {% include resource_link filename='pdp.yml' %} and who make operational decisions for it. This committee is modeled after other successful examples in the world of Symbiota. Contact the Paleo Data Portal Steering Committee at {% include email.html id="B" %} and include "paleo data portal" or "PDP" in your subject line.
 
 ## Get involved
 
 Any and all paleontology collections (or allied) professionals are encouraged to participate in PDWG! We follow [these community norms](/community/norms), including acting and interacting in ways that contribute to an open, welcoming, and diverse community.
 
 {: .notice--tip }
-**Quick start!** Show up to a [happy hour](/community/pdwg-happy-hours) meeting, join our [Slack workspace](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg), and/or request to join our [Google Group ](https://groups.google.com/g/paleo-data/about).
+**Quick start!** Show up to a [happy hour](/community/pdwg-happy-hours) meeting, say hi in our [Slack workspace](https://paleo-data.slack.com/), and/or request to join our [Google Group](https://groups.google.com/g/paleo-data/about).
 
 As a community of practice, we regularly use the following tools:
 
@@ -33,7 +33,7 @@ As a community of practice, we regularly use the following tools:
 
 - **Google Drive**: Our [shared folder on Google Drive](https://drive.google.com/drive/folders/1Ne9B1bIGGzGhreEHMxoCVEwPaIhIILVx?usp=sharing) is a neutral, non-institutional space where community members can curate and manage access to collaborative working documents and resources that do not fit well (or yet) on this knowledge hub. Happy hour meeting materials live within this Google folder. Please request access if you think you should be enabled to edit files in this folder!
 
-- **Slack**: Our primary tool for asynchronous conversation between individual community members and interest groups within the PDWG community. [To join the Slack workspace click here](https://join.slack.com/t/paleo-data/shared_invite/zt-1nt02uuds-Yp40SwjPaHYSmwam1q3rZg). If you are unfamiliar with Slack, see this [3-minute video overview](https://vimeo.com/434234678) of how to use it up for the Paleo Data workspace. Ours is a free Slack workspace, which means messages are only accessible for a 90-day history.
+- **Slack**: Our primary tool for asynchronous conversation between individual community members and interest groups within the PDWG community. [To open the Slack workspace click here](https://paleo-data.slack.com/); if you are not already a member, please send an email to {% include email.html id="C" %}. If you are unfamiliar with Slack, see this [3-minute video overview](https://vimeo.com/434234678) of how to use it up for the Paleo Data workspace. Ours is a free Slack workspace, which means messages are only accessible for a 90-day history.
 
 - **Zoom**: We host happy hour and other synchronous meetings on [Zoom](https://www.zoom.com), and occasionally use Zoom's built-in collaboration tools like Whiteboard. Look for a link to the happy hour Zoom room in announcements posted to the Google Group and Slack.
 
@@ -41,7 +41,7 @@ We also frequently use [EasyRetro](https://easyretro.io) as a feedback tool for 
 
 ## List of institutions and people involved
 
-Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions. Participants vary in their engagement levels and come from a wide range of institutions, including independent museums, university collections, and representatives from US federal agencies. Current members of this group are largely based in the United States, but international members are very welcome. Active PDWG members who wish to be acknowledged are listed in the table below. If you should be added to this list, or your affiliation should be updated, please let us know by emailing _paleodatawg@gmail.com_!
+Since 2020, PDWG has engaged close to 200 individuals from over 50 institutions. Participants vary in their engagement levels and come from a wide range of institutions, including independent museums, university collections, and representatives from US federal agencies. Current members of this group are largely based in the United States, but international members are very welcome. Active PDWG members who wish to be acknowledged are listed in the table below. If you should be added to this list, or your affiliation should be updated, please let us know by emailing {% include email.html id="D" %} !
 
 | Affiliation | Active PDWG Member(s) |
 | - | - |

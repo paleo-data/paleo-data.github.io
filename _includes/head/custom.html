@@ -7,4 +7,10 @@
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}" />
 <meta name="apple-mobile-web-app-title" content="Paleo Data Knowledge Hub" />
 
+<!-- styling for obfuscated email addresses -->
+<style>
+  .obf-email::before { content: attr(data-user); }
+  .obf-email::after  { content: attr(data-domain); }
+</style>
+
 <!-- end custom head snippets -->
