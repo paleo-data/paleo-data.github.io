@@ -1,16 +1,16 @@
 ---
 title: Start using Symbiota
-description: This tutorial is designed orient new and prospective data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
+description: This tutorial is designed orient new data providers to using Symbiota, a tool for managing and publishing fossil specimen data.
 topics: [symbiota]
 status: published
 toc: true
 toc_sticky: true
 contributors: ["Lindsay Walker"]
-last_modified_at: 2025-10-08
+last_modified_at: 2026-08-07
 ---
 
 {: .notice--tip}
-If you are unfamiliar with Symbiota, consider reviewing [this page](/highlighted-resources/symbiota) about the Paleo Data Portal, which is an example of a Symbiota portal created for managing fossil specimen data.
+If you are unfamiliar with Symbiota, consider reviewing this [resource page](/highlighted-resources/symbiota) and this [tutorial](/tutorials/pdp-orientation) about the Paleo Data Portal, which is an example of a Symbiota portal created for managing fossil specimen data.
 
 ## Learn how to access key features in Symbiota
 {% include resource_link filename='symbiota.yml' %} is a low-barrier-to-entry data mobilization platform for fossil collections, and you can get started easily. The following presentation provides an overview of Symbiota's most essential features used to access, manage, and publish fossil specimen data. More comprehensive documentation is available in {% include resource_link filename='symbiota-documentation.yml' %}.
