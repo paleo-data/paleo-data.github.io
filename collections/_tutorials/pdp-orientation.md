@@ -75,7 +75,7 @@ If you opt to have the Symbiota Support Hub host your 2D images, be aware that t
 For 3D media hosting, the recommended workflow is to make your files accessible using an external service, like [MorphoSource](https://www.morphosource.org/), and then linking them to your catalog records using Symbiota's [extended specimen](/how-to-guides/manage-data-about-specimens-using-symbiota#extending-your-specimens) features.
 
 {: .notice--tip}
-Consistently naming your media files and including the corresponding dwc:catalogNumber in every filename is highly recommended. For [example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763848), if a specimen's dwc:catalogNumber = `USNMMO647519`, name the corresponding 2D image file "USNMMO647519.jpg" and the label image file "USNMMO647519_label.jpg".
+Consistently naming your media files and including the corresponding catalog number in every filename is highly recommended. For [example](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763848), if a record's dwc:catalogNumber = "USNMMO647519", name the corresponding 2D image file "USNMMO647519.jpg" and the label image file "USNMMO647519_label.jpg".
 
 ## Taxonomy & identifications/determinations
 ### Taxonomic thesaurus
