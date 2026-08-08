@@ -51,8 +51,6 @@ Import one or a very small number of representative records prior to initiating 
 {: .notice--success }
 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
-{% include resource_card filename='georef-for-paleo.yml' %}
-
 ## Direct data entry
 The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the {% include glossary term="Darwin Core" namespace="" %} forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields), and a series of [example records](#example-records) has been created to guide data entry.
 
@@ -86,7 +84,7 @@ GBIF maintains [an additional list](https://www.gbif.org/data-quality-requiremen
  
 | Checklist Item | Recommendation |
 | - | - |
-| **Catalog numbers** | Every occurrence (catalog record) to be imported must have a unique catalog number. <br>**Example:** _catalogNumber_ = `USNMV18414` |
+| **Catalog numbers** | Every occurrence (catalog record) to be imported must have a unique {% include glossary term="catalogNumber" namespace="dwc" %} value. <br>**Example:** _catalogNumber_ = `USNMV18414` |
 | **Basis of record** | Every record corresponding to cataloged fossil material should receive the _basisOfRecord_ value, "FossilSpecimen". <br>**Example:** _basisOfRecord_ = `FossilSpecimen` |
 | **Secondary identifiers** | Parse [secondary identifiers](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/catalog_numbers#tag-name--additional-identifier-values--other-catalog-numbers) into a semicolon-delimited list of `key: value` pairs (i.e., tagName: identifier). <br>**Example:** _otherCatalogNumbers_ = `Old Catalog Number: ASU 3541; Accession Number: WIS-L-001456` |
 | **Delimiters** | Use pipes (`|`) or semicolons to separate values in lists and be consistent with formatting. Doing so will facilitate parsing of data, if ever needed, in the future. Generally avoid using [commas](https://www.hbs.edu/research-computing-services/data-practices/database-best-practices/delimiters.aspx#:~:text=Word%20of%20Caution%20on%20Delimiters&text=Often%2C%20the%20comma%20is%20used,4%20fields%20instead%20of%203!&text=When%20exporting%20data%2C%20you%20should,also%20occur%20within%20your%20data.) as delimiters. <br>**Example:** _element_ = `stem | strobilus | root` |
