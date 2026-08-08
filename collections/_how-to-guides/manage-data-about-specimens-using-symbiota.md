@@ -44,7 +44,7 @@ Import one or a very small number of representative records prior to initiating 
 **3. Once your records are in Symbiota:** <br>
 - Moving forward, make edits to your records and complete other management tasks, like managing loans, directly in Symbiota.
 - Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.
-- Run your portal's [built-in data cleaning tools](https://docs.symbiota.org/Collection_Manager_Guide/Data_Cleaning/) to ingest new taxonomy and clean geographic location details.
+- Run your portal's [built-in data cleaning tools](https://docs.symbiota.org/Collection_Manager_Guide/Data_Cleaning/) to ingest new [taxonomy](/tutorials/pdp-orientation#taxonomy--identificationsdeterminations) and clean geographic location details. (Recommended: When running the Taxonomy Cleaning Tool, only use "Semi-Manual" mode.)
 - Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://docs.symbiota.org/Editor_Guide/data_quality_toolkit).
 - [Georeference](/topics?topic=georeference) your specimen records.
 
