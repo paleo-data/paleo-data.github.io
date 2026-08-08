@@ -27,7 +27,7 @@ A set of [example records](#example-records) has been created to guide the captu
 This section outlines actions you can take to prepare and import (ingest) existing digital catalog records from your fossil collection into a Symbiota portal.
 
 **1. Prepare your records for import:** <br>
-- If you maintain existing catalog records to be imported into Symbiota, perform some data cleaning to align your records to Symbiota's data fields and formatting requirements. The [data formatting checklist](#data-formatting-checklist) and [example records](#example-records) are intended to inform this process, and [OpenRefine](https://openrefine.org) is free software that can be used for this purpose. Additional data cleaning can be performed once your records have been imported into Symbiota.
+- If you maintain existing catalog records to be imported into Symbiota, perform some data cleaning to align your records to Symbiota's data fields and formatting requirements. The [data formatting checklist](#data-formatting-checklist) and [example records](#example-records) are intended to inform this process, and [OpenRefine](/how-to-guides/wrangle-data-openrefine) is free software that can be used for this purpose. Additional data cleaning can be performed once your records have been imported into Symbiota.
 - If you’d like a template to follow, [this spreadsheet](https://docs.google.com/spreadsheets/d/1b1aN6NuoOEN4IlToV3Uk33xpSwrbcn3-uceSnlgf8JI/edit?usp=sharing) is preformatted for use with Symbiota. Your spreadsheet must be converted to CSV format (use UTF-8 character encoding) prior to ingestion into the portal, which can be easily accomplished in a program like [Microsoft Excel](https://support.microsoft.com/en-us/office/save-a-workbook-to-text-format-txt-or-csv-3e9a9d6c-70da-4255-aa28-fcacf1f081e6) or [Google Sheets](https://support.google.com/docs/answer/49114?sjid=17532513690429081890-NC). Your prepared spreadsheet should look similar to this [formatted example](https://docs.google.com/spreadsheets/d/1hLCdCBzV9dsCRNhb4NFedm9fhCFeo-VWX1oRqunvxwY/edit?usp=sharing), which is based on these example [catalog records](/how-to-guides/manage-data-about-specimens-using-symbiota#example-records).
 
 {% include resource_card filename='krimmel-walker-2022.yml' %}
@@ -46,13 +46,15 @@ Import one or a very small number of representative records prior to initiating 
 - Save your import spreadsheets somewhere safe, but you likely will not need them again once the records are ingested into your Symbiota portal.
 - Run your portal's [built-in data cleaning tools](https://docs.symbiota.org/Collection_Manager_Guide/Data_Cleaning/) to ingest new taxonomy and clean geographic location details.
 - Further clean your data using tips in the [Symbiota Data Quality Toolkit](https://docs.symbiota.org/Editor_Guide/data_quality_toolkit).
-- [Georeference](https://tdwg.github.io/esp/georeferencing/workflows.html) your specimen records.
+- [Georeference](/topics?topic=georeference) your specimen records.
 
 {: .notice--success }
 The last two steps can be delegated to users with Editor permissions, such as students or volunteers!
 
+{% include resource_card filename='georef-for-paleo.yml' %}
+
 ## Direct data entry
-The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the [Darwin Core data standard](https://dwc.tdwg.org/terms/) forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields), and a series of [example records](#example-records) has been created to guide data entry.
+The content in this section outlines recommendations for direct data entry using Symbiota's Occurrence Editor interface, which allows users with Administrator and Editor user permissions to add and edit specimen records in Symbiota. As a reminder, the {% include glossary term="Darwin Core" namespace="" %} forms the basis for the majority of [Symbiota’s Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields), and a series of [example records](#example-records) has been created to guide data entry.
 
 <iframe src="https://docs.google.com/presentation/d/1yJFsaCnBC28zW8UtLfl3tnJayk3w-BRDtVzyZYpD1TI/embed?start=false&loop=false&delayms=10000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -63,7 +65,7 @@ Once your records are imported or entered directly into Symbiota, some effort wi
 When training new staff or volunteers on data entry or management, it is **highly** recommended that you point them toward this Knowledge Hub, but more specifically, have them become familiar with the [Symbiota Data Fields](https://docs.symbiota.org/Editor_Guide/Editing_Searching_Records/symbiota_data_fields) and the [data formatting checklist](#data-formatting-checklist).
 
 **Mitigate existing errors** <br>
-Mistakes are likely to happen, even in carefully curated datasets. It is therefore recommended that you routinely assess your data using the [Symbiota Data Quality Toolkit](https://biokic.github.io/symbiota-docs/editor/quality/). This guide is designed to enable users with either Administrator or Editor permissions to your Collection Profile to “clean” your data–i.e. find and correct errors–using the portal’s built-in features wherever possible.
+Mistakes are likely to happen, even in carefully curated datasets. It is therefore recommended that you routinely assess your data using the [Symbiota Data Quality Toolkit](https://docs.symbiota.org/Editor_Guide/data_quality_toolkit). This "toolkit" is designed to enable users with either Administrator or Editor permissions to your Collection Profile to “clean” your data–i.e. find and correct errors–using the portal’s built-in features wherever possible.
 
 **Crowdsource quality control** <br>
 Symbiota maintains several built-in tools to facilitate collaborative data entry and data cleaning when enabled for your collection.  For example, Administrators of a given collection can enable any portal user who is logged in with an account to suggest edits to your records in the portal. Suggestions must be reviewed by an Administrator before they become public. By default, this option is turned **off**, but it can be activated through your Administrator Control Panel. Review [Symbiota Docs](https://docs.symbiota.org/Collection_Manager_Guide/Comments_Feedback/public_edits/) for more information about this feature. 
