@@ -128,6 +128,7 @@ Some of the following records include redacted data (images and locality details
 |VP      |cast and fossil, one individual                                                   |[USNMV6527](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763847)|
 |VP      |cast of another institution specimen                                              |[USNMPAL299545](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763828)|
 |VP      |ichnofossil (coprolite)                                                           |[USNMPAL617525](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763825)|
+|VP      |ichnofossil (trackway)                                                            |[USNMV18414](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=763792)|
 |IP      |slide: one taxon, multiple individuals                                            |[USNMPAL208898](https://paleo.symbiota.org/portal/collections/individual/index.php?occid=792266)|
 
 ### Extending your specimens
