@@ -3,8 +3,8 @@ title: Publish collections metadata on GRSciColl
 description: This page contains detailed instructions for publishing metadata about fossil collections on the Global Registry of Scientific Collections (GRSciColl), and also links out to related resources.
 topics: [grscicoll, inventory]
 status: published
-contributors: ["Erica Krimmel"]
-last_modified_at: 2026-10-07
+contributors: ["Erica Krimmel", "Lindsay Walker"]
+last_modified_at: 2026-10-08
 ---
 
 Collections metadata is an important way for researchers to discover potentially relevant specimens, especially since many fossil collections have large backlogs of unprocessed and yet-to-be-digitized material. Registries for collections metadata are not new–see e.g. {% include resource_link filename='webby-1989.yml' %}–but they have become increasingly accessible in the digital age. The Global Registry of Scientific Collections (GRSciColl) is currently one of the most comprehensive such registries, and publishing collection metadata here can help others discover you.
@@ -13,6 +13,9 @@ Collections metadata is an important way for researchers to discover potentially
 For an example of a well-populated institutional record on GRSciColl, see the [University of Colorado Museum of Natural History](https://scientific-collections.gbif.org/institution/1a81a175-787f-4e26-9139-1b4203b76d8d). For an example of a well-populated collection record, see the [Palaeontology collections at MNHN Luxembourg](https://scientific-collections.gbif.org/collection/855f343c-93d6-4333-95c8-3bdc58d9e95c).
 
 GRSciColl has [detailed video tutorials](https://scientific-collections.gbif.org/how-to) for how to navigate the registry and update its content, including adding a new institution or collection. Their [FAQ page](https://scientific-collections.gbif.org/faq) is also very helpful. The instructions on this page complement GRSciColl's content with recommendations specific to fossil collections.
+
+{: .notice--tip }
+When creating new records or editing existing GRSciColl records, in practice, first you will be _suggesting_ changes to the Registry, which in turn will be reviewed by one of GRSciColl's regional editing teams. You may be contacted by a GRSciColl Editor if they have questions about your changes to the registry before your changes become publicly visible.
 
 ## Check to see if your collection or institution already exists
 
@@ -28,7 +31,7 @@ GRSciColl uses "content type" tags to group collections by discipline. Fossil co
 
 ## Verify or add essential contact information
 
-Contact details are an important bridge between people discovering that your collection exists, and actually being able to reach out if they want to use or learn more about the collection. Contacts also become easily out-of-date with staff turnover.
+Contact details are an important bridge between people discovering that your collection exists, and actually being able to reach out if they want to use or learn more about the collection. Contacts also become easily out-of-date with staff turnover. For this reason, and when feasible, it is helpful to include multiple contacts and/or a generic organizational email (e.g. paleo@yourinstitution.org).
 
 1. Verify any existing contact information at both the institution and collection level.
 1. Add physical location addresses, staff roles, and emails where appropriate. Staff can have metadata about their taxonomic expertise included, if relevant.
