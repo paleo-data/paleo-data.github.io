@@ -15,7 +15,7 @@ For an example of a well-populated institutional record on GRSciColl, see the [U
 GRSciColl has [detailed video tutorials](https://scientific-collections.gbif.org/how-to) for how to navigate the registry and update its content, including adding a new institution or collection. Their [FAQ page](https://scientific-collections.gbif.org/faq) is also very helpful. The instructions on this page complement GRSciColl's content with recommendations specific to fossil collections.
 
 {: .notice--tip }
-When creating new records or editing existing GRSciColl records, in practice, first you will be _suggesting_ changes to the Registry, which in turn will be reviewed by one of GRSciColl's regional editing teams. You may be contacted by a GRSciColl Editor if they have questions about your changes to the registry before your changes become publicly visible.
+When creating new records or editing existing GRSciColl records, in practice, first you will be _suggesting_ changes to the Registry, which in turn will be reviewed by one of GRSciColl's regional editing teams. You may be contacted by a GRSciColl Editor if they have questions about your changes to the registry before they are accepted and made publicly visible.
 
 ## Check to see if your collection or institution already exists
 
