@@ -1,4 +1,16 @@
 - title: "TBD"
+  date: 2026-12-10
+  topics: []
+  notes: https://docs.google.com/document/d/150-4ePYcGHT6MVkf9csEmmVcpcdikzZ7Ik8R3fBpfXo/edit?usp=sharing
+  recording: 
+
+- title: "TBD"
+  date: 2026-11-12
+  topics: []
+  notes: https://docs.google.com/document/d/10Bye_Kx9jWOBNfXC3HAPxaV6-zYtRF3-6CxjniIsIAo/edit?usp=sharing
+  recording: 
+
+- title: "Open Discussion"
   date: 2026-10-29
   topics: []
   notes: https://docs.google.com/document/d/1EKOwIjNVIhz-Y85yFbVjiarQ5G0fKJX3cDbsk2BJcTQ/edit?usp=sharing
@@ -6,9 +18,9 @@
 
 - title: "Georeferencing"
   date: 2026-10-15
-  topics: [workflows]
+  topics: [workflows, georeferencing]
   notes: https://docs.google.com/document/d/1Xd5zFGTZ46Dl-SjR5lQxOBT8Zu7SftJJWhTjBahN38Y/edit?usp=sharing
-  recording: 
+  recording: https://docs.google.com/presentation/d/11plVUhG8qBA-Y-dq_6Zmi0Gzm2Lm0udl/edit?usp=drive_link&ouid=100164307351715870886&rtpof=true&sd=true
 
 - title: "Recap of SPNHC + TDWG"
   date: 2026-10-01
